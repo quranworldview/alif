@@ -1,0 +1,159 @@
+{
+  "id": "huroof-05",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 5,
+  "prerequisite": "huroof-04",
+  "unlocks": [
+    "huroof-06"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ج",
+    "name": {
+      "en": "Jeem",
+      "ur": "جیم",
+      "hi": "जीम"
+    },
+    "transliteration": "j",
+    "sound_description": {
+      "en": "Like 'j' in 'judge' — a strong sound from the middle of the mouth.",
+      "ur": "جیسے 'ج' — منہ کے درمیان سے نکلنے والی مضبوط آواز۔",
+      "hi": "जैसे 'ज' — मुँह के बीच से निकलने वाली मज़बूत आवाज़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ج",
+      "note": {
+        "en": "A curved hook with one dot below.",
+        "ur": "ایک خمدار کانٹا — نیچے ایک نقطہ۔",
+        "hi": "एक घुमावदार कांटा — नीचे एक बिंदु।"
+      }
+    },
+    "initial": {
+      "arabic": "جـ",
+      "note": {
+        "en": "The hook opens forward to connect.",
+        "ur": "کانٹا آگے کھلتا ہے ملنے کے لیے۔",
+        "hi": "कांटा आगे खुलता है जुड़ने के लिए।"
+      }
+    },
+    "medial": {
+      "arabic": "ـجـ",
+      "note": {
+        "en": "Connected on both sides, dot below.",
+        "ur": "دونوں طرف ملا، نیچے نقطہ۔",
+        "hi": "दोनों तरफ़ जुड़ा, नीचे बिंदु।"
+      }
+    },
+    "final": {
+      "arabic": "ـج",
+      "note": {
+        "en": "The hook curls down at the end.",
+        "ur": "آخر میں کانٹا نیچے مڑتا ہے۔",
+        "hi": "अंत में कांटा नीचे मुड़ता है।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّٰتٍ وَنَعِيمٍ",
+    "surah": {
+      "en": "At-Tur 52:17",
+      "ur": "الطور ۵۲:۱۷",
+      "hi": "अत-तूर 52:17"
+    },
+    "translation": {
+      "en": "Indeed the righteous will be in gardens and bliss.",
+      "ur": "بیشک متقی لوگ جنتوں اور نعمتوں میں ہوں گے۔",
+      "hi": "बेशक परहेज़गार लोग जन्नतों और नेमतों में होंगे।"
+    },
+    "hook_word": "جَنَّٰتٍ",
+    "hook_explanation": {
+      "en": "Jannaat — gardens, paradise — begins with Jeem. This word appears 147 times in the Qur'an. Every time you read it, your Jeem is the key to the most beautiful word in the Book.",
+      "ur": "جنّات — باغات، جنّت — جیم سے شروع ہوتا ہے۔ یہ لفظ قرآن میں ۱۴۷ بار آتا ہے۔",
+      "hi": "जन्नात — बाग़, जन्नत — जीम से शुरू। यह लफ़्ज़ क़ुरआन में 147 बार आता है।"
+    }
+  },
+  "root_family": {
+    "root": "ج ن ن",
+    "meaning": {
+      "en": "garden, to cover, to hide",
+      "ur": "باغ، ڈھانپنا، چھپانا",
+      "hi": "बाग़, ढकना, छुपाना"
+    },
+    "words": [
+      {
+        "arabic": "جَنَّة",
+        "meaning": {
+          "en": "paradise/garden",
+          "ur": "جنّت/باغ",
+          "hi": "जन्नत/बाग़"
+        }
+      },
+      {
+        "arabic": "جِنّ",
+        "meaning": {
+          "en": "jinn (hidden beings)",
+          "ur": "جنّ",
+          "hi": "जिन्न"
+        }
+      },
+      {
+        "arabic": "جَنِين",
+        "meaning": {
+          "en": "foetus (hidden in womb)",
+          "ur": "جنین — پیٹ میں بچہ",
+          "hi": "जनीन — गर्भ में बच्चा"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which is Jeem?",
+        "ur": "جیم کون سا ہے؟",
+        "hi": "जीम कौन सा है?"
+      },
+      "choices": [
+        "ح",
+        "خ",
+        "ج",
+        "چ"
+      ],
+      "correct": "ج",
+      "feedback_correct": {
+        "en": "One dot below the hook — Jeem!",
+        "ur": "کانٹے کے نیچے ایک نقطہ — جیم!",
+        "hi": "कांटे के नीचे एक बिंदु — जीम!"
+      }
+    },
+    {
+      "type": "spot_in_word",
+      "order": 2,
+      "prompt": {
+        "en": "Tap the Jeem in this word:",
+        "ur": "اس لفظ میں جیم پر ٹیپ کریں:",
+        "hi": "इस शब्द में जीम पर टैप करें:"
+      },
+      "word": "جَنَّة",
+      "target_index": 0,
+      "highlight_hint": {
+        "en": "Jannah starts with Jeem.",
+        "ur": "جنّت جیم سے شروع ہوتی ہے۔",
+        "hi": "जन्नत जीम से शुरू होती है।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Jannah is described 147 times in the Qur'an. What image comes to your mind when you hear this word?",
+      "ur": "جنّت کا ذکر قرآن میں ۱۴۷ بار آتا ہے۔ یہ لفظ سن کر آپ کے ذہن میں کیا تصویر آتی ہے؟",
+      "hi": "जन्नत का ज़िक्र क़ुरआन में 147 बार आता है। यह लफ़्ज़ सुनकर आपके ज़ेहन में क्या तस्वीर आती है?"
+    },
+    "journal_tag": "huroof-jeem"
+  }
+}

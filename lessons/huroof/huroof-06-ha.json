@@ -1,0 +1,188 @@
+{
+  "id": "huroof-06",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 6,
+  "prerequisite": "huroof-05",
+  "unlocks": [
+    "huroof-07"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ح",
+    "name": {
+      "en": "Ha",
+      "ur": "حا",
+      "hi": "हा"
+    },
+    "transliteration": "h (heavy)",
+    "sound_description": {
+      "en": "A breathy 'h' from deep in the throat — like breathing on cold glass.",
+      "ur": "گہری 'ح' — حلق کی گہرائی سے، جیسے ٹھنڈے شیشے پر سانس پھونکیں۔",
+      "hi": "गहरी 'ह' — गले की गहराई से, जैसे ठंडे शीशे पर सांस फूंकें।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ح",
+      "note": {
+        "en": "Ha stands alone.",
+        "ur": "حا اکیلا۔",
+        "hi": "हा अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "حـ",
+      "note": {
+        "en": "Ha at the start — connects forward.",
+        "ur": "شروع میں — آگے ملتا ہے۔",
+        "hi": "शुरुआत में — आगे जुड़ता है।"
+      }
+    },
+    "medial": {
+      "arabic": "ـحـ",
+      "note": {
+        "en": "Ha in the middle — connected both sides.",
+        "ur": "درمیان میں — دونوں طرف ملا۔",
+        "hi": "बीच में — दोनों तरफ़ जुड़ा।"
+      }
+    },
+    "final": {
+      "arabic": "ـح",
+      "note": {
+        "en": "Ha at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+    "surah": {
+      "en": "Al-Fatiha 1:2",
+      "ur": "الفاتحہ ۱:۲",
+      "hi": "अल-फ़ातिहा 1:2"
+    },
+    "translation": {
+      "en": "All praise is due to Allah, Lord of all the worlds.",
+      "ur": "تمام تعریف اللہ کے لیے جو تمام جہانوں کا رب ہے۔",
+      "hi": "सारी तारीफ़ अल्लाह के लिए जो तमाम जहानों का रब है।"
+    },
+    "hook_word": "ٱلْحَمْدُ",
+    "hook_explanation": {
+      "en": "Al-Hamd — praise — is the very first word after Bismillah in the Qur'an. Ha opens a word you say at least 17 times a day in Salah.",
+      "ur": "الحمد — تعریف — بسم اللہ کے بعد قرآن کا پہلا لفظ ہے۔ نماز میں دن میں کم از کم ۱۷ بار پڑھتے ہیں۔",
+      "hi": "अल-हम्द — तारीफ़ — बिस्मिल्लाह के बाद क़ुरआन का पहला लफ़्ज़। नमाज़ में दिन में कम से कम 17 बार पढ़ते हैं।"
+    }
+  },
+  "root_family": {
+    "root": "ح م د",
+    "meaning": {
+      "en": "to praise, to thank",
+      "ur": "تعریف کرنا، شکر کرنا",
+      "hi": "तारीफ़ करना, शुक्र करना"
+    },
+    "words": [
+      {
+        "arabic": "حَمْد",
+        "meaning": {
+          "en": "praise",
+          "ur": "حمد",
+          "hi": "हम्द"
+        }
+      },
+      {
+        "arabic": "أَحْمَد",
+        "meaning": {
+          "en": "most praiseworthy (name)",
+          "ur": "سب سے زیادہ قابل تعریف",
+          "hi": "सबसे ज़्यादा क़ाबिले-तारीफ़"
+        }
+      },
+      {
+        "arabic": "مَحْمُود",
+        "meaning": {
+          "en": "praised, commended",
+          "ur": "قابل تعریف",
+          "hi": "क़ाबिले-तारीफ़"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Ha?",
+        "ur": "ان میں سے 'ح' کون سا ہے؟",
+        "hi": "इनमें से 'ح' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "ح"
+      ],
+      "correct": "ح",
+      "feedback_correct": {
+        "en": "Yes, that is Ha!",
+        "ur": "بالکل، یہ حا ہے!",
+        "hi": "बिल्कुल, यह हा है!"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form of this letter is shown?",
+        "ur": "یہ حرف کی کون سی شکل ہے؟",
+        "hi": "यह हर्फ़ की कौन सी शकल है?"
+      },
+      "shown_letter": "ـحـ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "medial"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Al-Hamd is on your lips every day in Salah. Now that you know the letter Ha — what does it feel like to say الحمد لله with this awareness?",
+      "ur": "الحمد آپ کی زبان پر ہر روز نماز میں ہے۔ اب جب حا جانتے ہیں — الحمد للہ کہتے وقت کیسا لگتا ہے؟",
+      "hi": "अल-हम्द रोज़ नमाज़ में आपकी ज़बान पर है। अब जब हा जानते हैं — الحمد للہ कहते वक़्त कैसा लगता है?"
+    },
+    "journal_tag": "huroof-ha"
+  }
+}

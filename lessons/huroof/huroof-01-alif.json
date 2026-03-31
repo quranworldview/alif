@@ -1,0 +1,107 @@
+{
+  "id": "huroof-01",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 1,
+  "unlocks": ["huroof-02"],
+  "xp": 20,
+  "letter": {
+    "arabic": "أ",
+    "name": { "en": "Alif", "ur": "الف", "hi": "अलिफ़" },
+    "transliteration": "a / ā",
+    "sound_description": {
+      "en": "Like the 'a' in 'father' — open, clear, from the throat.",
+      "ur": "جیسے 'آ' کی آواز — کھلی، صاف، حلق سے۔",
+      "hi": "जैसे 'आ' की आवाज़ — खुली, साफ़, गले से।"
+    }
+  },
+  "forms": {
+    "isolated": { "arabic": "ا", "note": { "en": "Alif stands alone — a single vertical stroke.", "ur": "الف اکیلا کھڑا ہے — ایک سیدھی لکیر۔", "hi": "अलिफ़ अकेला खड़ा है — एक सीधी रेखा।" } },
+    "initial":  { "arabic": "اَ", "note": { "en": "Alif at the start of a word — always carries a vowel mark.", "ur": "لفظ کے شروع میں — ہمیشہ حرکت کے ساتھ۔", "hi": "शब्द की शुरुआत में — हमेशा हरकत के साथ।" } },
+    "medial":   { "arabic": "ـا", "note": { "en": "Alif in the middle — elongates the previous vowel.", "ur": "درمیان میں — پچھلی حرکت کو لمبا کرتا ہے۔", "hi": "बीच में — पिछली हरकत को लंबा करता है।" } },
+    "final":    { "arabic": "ـا", "note": { "en": "Alif at the end — the long 'aa' sound we hear in 'الله'.", "ur": "آخر میں — وہی لمبی 'آ' آواز جو 'اللہ' میں سنتے ہیں۔", "hi": "अंत में — वही लंबी 'आ' आवाज़ जो 'अल्लाह' में सुनते हैं।" } }
+  },
+  "quranic_hook": {
+    "ayah": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+    "surah": { "en": "Al-Alaq 96:1", "ur": "العلق ۹۶:۱", "hi": "अल-अलक़ 96:1" },
+    "translation": {
+      "en": "Read! In the name of your Lord who created.",
+      "ur": "پڑھو! اپنے رب کے نام سے جس نے پیدا کیا۔",
+      "hi": "पढ़ो! अपने रब के नाम से जिसने पैदा किया।"
+    },
+    "hook_word": "ٱقْرَأْ",
+    "hook_explanation": {
+      "en": "The very first word revealed to the Prophet ﷺ begins with Alif. اقرأ — 'Read!' The first command Allah ever gave to humanity started with our letter.",
+      "ur": "نبی ﷺ پر سب سے پہلے نازل ہونے والا لفظ الف سے شروع ہوتا ہے۔ اقرأ — 'پڑھو!' اللہ کا پہلا حکم ہمارے حرف سے شروع ہوا۔",
+      "hi": "नबी ﷺ पर सबसे पहले नाज़िल होने वाला लफ़्ज़ अलिफ़ से शुरू होता है। اقرأ — 'पढ़ो!' अल्लाह का पहला हुक्म हमारे हर्फ़ से शुरू हुआ।"
+    }
+  },
+  "root_family": {
+    "root": "أ ل ف",
+    "meaning": { "en": "to be familiar, to become accustomed", "ur": "مانوس ہونا، عادی ہونا", "hi": "परिचित होना, अभ्यस्त होना" },
+    "words": [
+      { "arabic": "أَلِفَ", "meaning": { "en": "he became familiar", "ur": "مانوس ہو گیا", "hi": "परिचित हो गया" } },
+      { "arabic": "أُلْفَة", "meaning": { "en": "friendship, familiarity", "ur": "دوستی، مانوسیت", "hi": "दोस्ती, परिचय" } },
+      { "arabic": "إِلَاف", "meaning": { "en": "the covenant of security (Surah Quraysh)", "ur": "امن کا معاہدہ (سورۃ قریش)", "hi": "सुरक्षा का अनुबंध (सूरह क़ुरैश)" } }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is the letter Alif?",
+        "ur": "ان میں سے کون سا حرف الف ہے؟",
+        "hi": "इनमें से कौन सा हर्फ़ अलिफ़ है?"
+      },
+      "choices": ["ا", "ب", "ت", "ث"],
+      "correct": "ا",
+      "feedback_correct": {
+        "en": "Yes! A single vertical stroke — Alif.",
+        "ur": "بالکل! ایک سیدھی لکیر — الف۔",
+        "hi": "बिल्कुल! एक सीधी रेखा — अलिफ़।"
+      }
+    },
+    {
+      "type": "spot_in_word",
+      "order": 2,
+      "prompt": {
+        "en": "Tap the Alif in this word:",
+        "ur": "اس لفظ میں الف پر ٹیپ کریں:",
+        "hi": "इस शब्द में अलिफ़ पर टैप करें:"
+      },
+      "word": "اَللّٰہ",
+      "target_index": 0,
+      "highlight_hint": {
+        "en": "Alif is the first letter of Allah's blessed name.",
+        "ur": "الف اللہ کے بابرکت نام کا پہلا حرف ہے۔",
+        "hi": "अलिफ़ अल्लाह के मुबारक नाम का पहला हर्फ़ है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 3,
+      "prompt": {
+        "en": "Is this Alif isolated, initial, medial, or final?",
+        "ur": "یہ الف منفرد، ابتدائی، درمیانی یا آخری ہے؟",
+        "hi": "यह अलिफ़ अकेला, शुरुआती, बीच का या आखिरी है?"
+      },
+      "shown_letter": "ـا",
+      "choices": [
+        { "label": { "en": "Isolated", "ur": "منفرد", "hi": "अकेला" }, "value": "isolated" },
+        { "label": { "en": "Initial", "ur": "ابتدائی", "hi": "शुरुआती" }, "value": "initial" },
+        { "label": { "en": "Medial", "ur": "درمیانی", "hi": "बीच का" }, "value": "medial" },
+        { "label": { "en": "Final", "ur": "آخری", "hi": "आखिरी" }, "value": "final" }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The first word revealed to the Prophet ﷺ was 'Read'. What does it mean to you that Allah's first command to humanity was about knowledge?",
+      "ur": "نبی ﷺ پر پہلا لفظ 'پڑھو' تھا۔ آپ کے لیے کیا معنی ہے کہ اللہ کا پہلا حکم علم کے بارے میں تھا؟",
+      "hi": "नबी ﷺ पर पहला लफ़्ज़ 'पढ़ो' था। आपके लिए क्या मायने रखता है कि अल्लाह का पहला हुक्म इल्म के बारे में था?"
+    },
+    "journal_tag": "huroof-alif"
+  }
+}

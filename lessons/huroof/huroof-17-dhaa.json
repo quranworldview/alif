@@ -1,0 +1,188 @@
+{
+  "id": "huroof-17",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 17,
+  "prerequisite": "huroof-16",
+  "unlocks": [
+    "huroof-18"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ظ",
+    "name": {
+      "en": "Dhaa",
+      "ur": "ظا",
+      "hi": "ज़ोआ"
+    },
+    "transliteration": "dh (emphatic)",
+    "sound_description": {
+      "en": "Like Dhal but heavier — tongue between teeth with the back raised. The rarest letter in Arabic.",
+      "ur": "ذال جیسا مگر بھاری — دانتوں کے درمیان زبان، پیچھے سے اٹھی ہو۔ عربی کا نایاب ترین حرف۔",
+      "hi": "ज़ाल जैसा मगर भारी — दांतों के बीच ज़बान, पीछे से उठी हो। अरबी का सबसे नादिर हर्फ़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ظ",
+      "note": {
+        "en": "Dhaa stands alone.",
+        "ur": "ظا اکیلا۔",
+        "hi": "ज़ोआ अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "ظـ",
+      "note": {
+        "en": "Dhaa at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـظـ",
+      "note": {
+        "en": "Dhaa in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـظ",
+      "note": {
+        "en": "Dhaa at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+    "surah": {
+      "en": "Al-Hujurat 49:13",
+      "ur": "الحجرات ۴۹:۱۳",
+      "hi": "अल-हुजुरात 49:13"
+    },
+    "translation": {
+      "en": "And Allah is Acquainted with what you do.",
+      "ur": "اور اللہ آپ کے اعمال سے خبردار ہے۔",
+      "hi": "और अल्लाह आपके आमाल से ख़बरदार है।"
+    },
+    "hook_word": "ظَنَّ",
+    "hook_explanation": {
+      "en": "Dhann — assumption, suspicion — begins with Dhaa. The Qur'an warns us repeatedly: avoid bad assumptions about others. This letter opens a concept central to Islamic ethics.",
+      "ur": "ظن — گمان — ظا سے شروع ہوتا ہے۔ قرآن بار بار خبردار کرتا ہے: دوسروں کے بارے میں برا گمان مت رکھو۔",
+      "hi": "ज़न्न — गुमान — ज़ोआ से शुरू। क़ुरआन बार-बार ख़बरदार करता है: दूसरों के बारे में बुरा गुमान मत रखो।"
+    }
+  },
+  "root_family": {
+    "root": "ظ ن ن",
+    "meaning": {
+      "en": "assumption, suspicion",
+      "ur": "گمان، شک",
+      "hi": "गुमान, शक"
+    },
+    "words": [
+      {
+        "arabic": "ظَنّ",
+        "meaning": {
+          "en": "assumption",
+          "ur": "گمان",
+          "hi": "गुमान"
+        }
+      },
+      {
+        "arabic": "ظَلَم",
+        "meaning": {
+          "en": "to oppress, to wrong",
+          "ur": "ظلم کرنا",
+          "hi": "ज़ुल्म करना"
+        }
+      },
+      {
+        "arabic": "ظُلْمَة",
+        "meaning": {
+          "en": "darkness",
+          "ur": "اندھیرا",
+          "hi": "अंधेरा"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Dhaa?",
+        "ur": "ان میں سے 'Dhaa' کون سا ہے؟",
+        "hi": "इनमें से 'Dhaa' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ظ"
+      ],
+      "correct": "ظ",
+      "feedback_correct": {
+        "en": "Yes! That's Dhaa.",
+        "ur": "بالکل! یہ ظا ہے۔",
+        "hi": "बिल्कुल! यह ज़ोआ है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـظ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The Qur'an says: avoid much suspicion. Is there someone you have had a bad assumption about — could there be another explanation?",
+      "ur": "قرآن کہتا ہے: زیادہ گمان سے بچو۔ کیا کوئی ہے جس کے بارے میں آپ کا برا گمان ہو — کوئی اور وجہ بھی ہو سکتی ہے؟",
+      "hi": "क़ुरआन कहता है: ज़्यादा गुमान से बचो। क्या कोई है जिसके बारे में आपका बुरा गुमान हो — कोई और वजह भी हो सकती है?"
+    },
+    "journal_tag": "huroof-dhaa"
+  }
+}

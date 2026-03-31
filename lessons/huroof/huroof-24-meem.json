@@ -1,0 +1,188 @@
+{
+  "id": "huroof-24",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 24,
+  "prerequisite": "huroof-23",
+  "unlocks": [
+    "huroof-25"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "م",
+    "name": {
+      "en": "Meem",
+      "ur": "میم",
+      "hi": "मीम"
+    },
+    "transliteration": "m",
+    "sound_description": {
+      "en": "Like 'm' in 'moon' — lips press together, then open. A warm, resonant sound.",
+      "ur": "جیسے 'م' — ہونٹ ملتے ہیں پھر کھلتے ہیں۔ گرم، گونجدار آواز۔",
+      "hi": "जैसे 'म' — होंठ मिलते हैं फिर खुलते हैं। गर्म, गूंजदार आवाज़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "م",
+      "note": {
+        "en": "Meem stands alone.",
+        "ur": "میم اکیلا۔",
+        "hi": "मीम अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "مـ",
+      "note": {
+        "en": "Meem at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـمـ",
+      "note": {
+        "en": "Meem in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـم",
+      "note": {
+        "en": "Meem at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ",
+    "surah": {
+      "en": "Al-Fath 48:29",
+      "ur": "الفتح ۴۸:۲۹",
+      "hi": "अल-फ़त्ह 48:29"
+    },
+    "translation": {
+      "en": "Muhammad is the Messenger of Allah.",
+      "ur": "محمد اللہ کے رسول ہیں۔",
+      "hi": "मुहम्मद अल्लाह के रसूल हैं।"
+    },
+    "hook_word": "مُّحَمَّدٌ",
+    "hook_explanation": {
+      "en": "Muhammad ﷺ — the most beloved name to Muslims — begins with Meem. The name means 'the praised one.' Meem also opens Muslim, Masjid, Mecca, and Mizan (the scale of justice).",
+      "ur": "محمد ﷺ — مسلمانوں کے لیے سب سے پیارا نام — میم سے شروع ہوتا ہے۔ مسلم، مسجد، مکہ، میزان — سب میم سے۔",
+      "hi": "मुहम्मद ﷺ — मुसलमानों के लिए सबसे प्यारा नाम — मीम से शुरू। मुस्लिम, मस्जिद, मक्का, मीज़ान — सब मीम से।"
+    }
+  },
+  "root_family": {
+    "root": "م ح م د",
+    "meaning": {
+      "en": "to praise",
+      "ur": "تعریف کرنا",
+      "hi": "तारीफ़ करना"
+    },
+    "words": [
+      {
+        "arabic": "مُحَمَّد",
+        "meaning": {
+          "en": "the praised one (Prophet's name)",
+          "ur": "محمد — تعریف کیا گیا",
+          "hi": "मुहम्मद — तारीफ़ किया गया"
+        }
+      },
+      {
+        "arabic": "حَمِيد",
+        "meaning": {
+          "en": "praiseworthy (Allah's name)",
+          "ur": "حمید",
+          "hi": "हमीद"
+        }
+      },
+      {
+        "arabic": "أَحْمَد",
+        "meaning": {
+          "en": "most praiseworthy (Prophet's name)",
+          "ur": "احمد",
+          "hi": "अहमद"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Meem?",
+        "ur": "ان میں سے 'Meem' کون سا ہے؟",
+        "hi": "इनमें से 'Meem' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "م"
+      ],
+      "correct": "م",
+      "feedback_correct": {
+        "en": "Yes! That's Meem.",
+        "ur": "بالکل! یہ میم ہے۔",
+        "hi": "बिल्कुल! यह मीम है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـم",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The Prophet's ﷺ name means 'the praised one.' What is one quality of the Prophet ﷺ that you most admire and try to follow?",
+      "ur": "نبی ﷺ کے نام کا مطلب 'تعریف کیا گیا'۔ نبی ﷺ کی کوئی ایک صفت جو آپ سب سے زیادہ پسند کرتے ہیں اور پیروی کرنا چاہتے ہیں؟",
+      "hi": "नबी ﷺ के नाम का मतलब 'तारीफ़ किया गया'। नबी ﷺ की एक सिफ़त जो आप सबसे ज़्यादा पसंद करते हैं और पालन करना चाहते हैं?"
+    },
+    "journal_tag": "huroof-meem"
+  }
+}

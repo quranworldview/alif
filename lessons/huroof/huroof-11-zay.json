@@ -1,0 +1,188 @@
+{
+  "id": "huroof-11",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 11,
+  "prerequisite": "huroof-10",
+  "unlocks": [
+    "huroof-12"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ز",
+    "name": {
+      "en": "Zay",
+      "ur": "زا",
+      "hi": "ज़ा"
+    },
+    "transliteration": "z",
+    "sound_description": {
+      "en": "Like 'z' in 'zero' — a buzzing sound. Like Ra but with a dot above.",
+      "ur": "جیسے 'ز' — بھنبھناہٹ کی آواز۔ را جیسا لیکن اوپر نقطے کے ساتھ۔",
+      "hi": "जैसे 'ज़' — भनभनाहट की आवाज़। रा जैसा लेकिन ऊपर बिंदु के साथ।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ز",
+      "note": {
+        "en": "Zay stands alone.",
+        "ur": "زا اکیلا۔",
+        "hi": "ज़ा अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "زـ",
+      "note": {
+        "en": "Zay at the start — connects forward.",
+        "ur": "شروع میں — آگے ملتا ہے۔",
+        "hi": "शुरुआत में — आगे जुड़ता है।"
+      }
+    },
+    "medial": {
+      "arabic": "ـزـ",
+      "note": {
+        "en": "Zay in the middle — connected both sides.",
+        "ur": "درمیان میں — دونوں طرف ملا۔",
+        "hi": "बीच में — दोनों तरफ़ जुड़ा।"
+      }
+    },
+    "final": {
+      "arabic": "ـز",
+      "note": {
+        "en": "Zay at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَءَاتُواْ ٱلزَّكَوٰةَ",
+    "surah": {
+      "en": "Al-Baqarah 2:43",
+      "ur": "البقرۃ ۲:۴۳",
+      "hi": "अल-बक़रह 2:43"
+    },
+    "translation": {
+      "en": "And give zakah.",
+      "ur": "اور زکات ادا کرو۔",
+      "hi": "और ज़कात अदा करो।"
+    },
+    "hook_word": "ٱلزَّكَوٰةَ",
+    "hook_explanation": {
+      "en": "Az-Zakah — one of the five pillars of Islam — begins with Zay. Zakah literally means purification. Zay, like Ra, is a non-connector.",
+      "ur": "الزکاۃ — اسلام کے پانچ ارکان میں سے ایک — زا سے شروع ہوتا ہے۔ زکات کا لفظی مطلب پاکیزگی ہے۔",
+      "hi": "अज़-ज़कात — इस्लाम के पांच स्तंभों में से एक — ज़ा से शुरू। ज़कात का शाब्दिक मतलब पाकीज़गी है।"
+    }
+  },
+  "root_family": {
+    "root": "ز ك و",
+    "meaning": {
+      "en": "to purify, to grow",
+      "ur": "پاک کرنا، بڑھنا",
+      "hi": "पाक करना, बढ़ना"
+    },
+    "words": [
+      {
+        "arabic": "زَكَاة",
+        "meaning": {
+          "en": "zakah (purifying alms)",
+          "ur": "زکات",
+          "hi": "ज़कात"
+        }
+      },
+      {
+        "arabic": "زَكِيّ",
+        "meaning": {
+          "en": "pure, righteous",
+          "ur": "پاک، نیک",
+          "hi": "पाक, नेक"
+        }
+      },
+      {
+        "arabic": "تَزَكَّى",
+        "meaning": {
+          "en": "he purified himself",
+          "ur": "اس نے خود کو پاک کیا",
+          "hi": "उसने खुद को पाक किया"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Zay?",
+        "ur": "ان میں سے 'ز' کون سا ہے؟",
+        "hi": "इनमें से 'ز' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "ز"
+      ],
+      "correct": "ز",
+      "feedback_correct": {
+        "en": "Yes, that is Zay!",
+        "ur": "بالکل، یہ زا ہے!",
+        "hi": "बिल्कुल, यह ज़ा है!"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form of this letter is shown?",
+        "ur": "یہ حرف کی کون سی شکل ہے؟",
+        "hi": "यह हर्फ़ की कौन सी शकल है?"
+      },
+      "shown_letter": "ـزـ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "medial"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Zakah purifies your wealth by giving. Has there been a moment when giving something away made you feel richer?",
+      "ur": "زکات دینے سے مال پاک ہوتا ہے۔ کیا آپ نے کبھی کچھ دیا اور پہلے سے زیادہ امیر محسوس کیا؟",
+      "hi": "ज़कात देने से माल पाक होता है। क्या आपने कभी कुछ दिया और पहले से ज़्यादा अमीर महसूस किया?"
+    },
+    "journal_tag": "huroof-zay"
+  }
+}

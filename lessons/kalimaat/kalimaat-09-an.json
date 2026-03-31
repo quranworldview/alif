@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-09",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 9,
+  "prerequisite": "kalimaat-08",
+  "unlocks": ["kalimaat-10"],
+  "xp": 25,
+  "word": {
+    "arabic": "عَنْ",
+    "display": "عَنْ",
+    "transliteration": "'An",
+    "meaning": {
+      "en": "About / From / Away from",
+      "ur": "کے بارے میں / سے / سے دور",
+      "hi": "के बारे में / से / से दूर"
+    },
+    "frequency_rank": 9,
+    "frequency_note": {
+      "en": "Appears 553 times — the preposition of separation and narration.",
+      "ur": "۵۵۳ بار آتا ہے — جدائی اور روایت کا حرف۔",
+      "hi": "553 बار आता है — जुदाई और रिवायत का हर्फ़।"
+    }
+  },
+  "root": {
+    "letters": "ع ن",
+    "note": {
+      "en": "عَنْ has two main feelings: separation ('away from') and narration ('about'). عَفَا عَنْهُمْ — He pardoned them ('away from' their sins). يَسْأَلُونَكَ عَنِ ٱلْأَهِلَّةِ — they ask you about the crescent moons. Same word, two uses.",
+      "ur": "عَنْ کے دو بنیادی مفہوم ہیں: جدائی ('سے دور') اور روایت ('کے بارے میں')۔ عَفَا عَنْهُمْ — اس نے انہیں معاف کیا (ان کے گناہوں 'سے دور')۔ يَسْأَلُونَكَ عَنِ ٱلْأَهِلَّةِ — وہ آپ سے ہلالوں کے بارے میں پوچھتے ہیں۔ ایک ہی لفظ، دو استعمال۔",
+      "hi": "عَنْ के दो बुनियादी मफ़हूम हैं: जुदाई ('से दूर') और रिवायत ('के बारे में')। عَفَا عَنْهُمْ — उसने उन्हें माफ़ किया (उनके गुनाहों 'से दूर')। يَسْأَلُونَكَ عَنِ ٱلْأَهِلَّةِ — वे आपसे हिलालों के बारे में पूछते हैं। एक ही लफ़्ज़, दो इस्तेमाल।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا",
+    "surah": { "en": "Al-Baqarah 2:286", "ur": "البقرہ ۲:۲۸۶", "hi": "अल-बक़रह 2:286" },
+    "translation": {
+      "en": "And pardon us, and forgive us.",
+      "ur": "اور ہمیں معاف کر دے، اور ہماری مغفرت فرما۔",
+      "hi": "और हमें माफ़ कर दे, और हमारी मग़फ़िरत फ़रमा।"
+    },
+    "hook_explanation": {
+      "en": "وَٱعْفُ عَنَّا — 'And pardon us.' عَنَّا means 'from us' — take this sin away from us. This is the dua at the end of Surah Baqarah, one of the most powerful prayers in the Qur'an. And عَنْ is carrying the weight of that plea.",
+      "ur": "وَٱعْفُ عَنَّا — 'اور ہمیں معاف کر دے'۔ عَنَّا کا مطلب ہے 'ہم سے' — یہ گناہ ہم سے دور کر دے۔ یہ سورۃ البقرہ کے آخر میں دعا ہے، قرآن کی سب سے طاقتور دعاؤں میں سے ایک۔ اور عَنْ اس التجا کا بوجھ اٹھا رہا ہے۔",
+      "hi": "وَٱعْفُ عَنَّا — 'और हमें माफ़ कर दे'। عَنَّا का मतलब है 'हम से' — यह गुनाह हम से दूर कर दे। यह सूरह बक़रह के आख़िर में दुआ है, क़ुरआन की सबसे ताक़तवर दुआओं में से एक। और عَنْ उस इल्तिजा का बोझ उठा रहा है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does عَنْ mean?",
+        "ur": "عَنْ کا مطلب کیا ہے؟",
+        "hi": "عَنْ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "About / From / Away from", "ur": "کے بارے میں / سے دور", "hi": "के बारे में / से दूर" }, "value": "correct" },
+        { "label": { "en": "To / Towards", "ur": "کی طرف", "hi": "की तरफ़" }, "value": "wrong" },
+        { "label": { "en": "With / Together", "ur": "کے ساتھ", "hi": "के साथ" }, "value": "wrong" },
+        { "label": { "en": "In / Within", "ur": "میں", "hi": "में" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Right — عَنْ means 'about' or 'away from'. عَفَا عَنَّا — He pardoned us, took our sins away from us.",
+        "ur": "درست — عَنْ کا مطلب 'کے بارے میں' یا 'سے دور' ہے۔ عَفَا عَنَّا — اس نے ہمیں معاف کیا، ہمارے گناہ ہم سے دور کر دیے۔",
+        "hi": "सही — عَنْ का मतलब 'के बारे में' या 'से दूर' है। عَفَا عَنَّا — उसने हमें माफ़ किया, हमारे गुनाह हम से दूर कर दिए।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Find عَنَّا in this ayah:",
+        "ur": "اس آیت میں عَنَّا تلاش کریں:",
+        "hi": "इस आयत में عَنَّا ढूंढें:"
+      },
+      "ayah": "وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا",
+      "target_word": "عَنَّا",
+      "target_position": 2,
+      "feedback_correct": {
+        "en": "عَنَّا — 'from us'. عَنْ + نَا (us). Pardon us — take it away from us.",
+        "ur": "عَنَّا — 'ہم سے'۔ عَنْ + نَا (ہم)۔ ہمیں معاف کر — ہم سے دور کر دے۔",
+        "hi": "عَنَّا — 'हम से'। عَنْ + نَا (हम)। हमें माफ़ कर — हम से दूर कर दे।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَٱعْفُ عَنَّا — 'And pardon us.' This is how the Qur'an ends Surah Baqarah — with a plea using عَنْ. Is there something you want Allah to take 'away from' you? Write your own دُعَاء using عَنْ.",
+      "ur": "وَٱعْفُ عَنَّا — 'اور ہمیں معاف کر دے'۔ قرآن سورۃ البقرہ کو اسی طرح ختم کرتا ہے — عَنْ استعمال کرتے ہوئے ایک التجا کے ساتھ۔ کیا کچھ ہے جو آپ چاہتے ہیں کہ اللہ آپ 'سے دور' کر دے؟ عَنْ استعمال کرتے ہوئے اپنی دعا لکھیں۔",
+      "hi": "وَٱعْفُ عَنَّا — 'और हमें माफ़ कर दे'। क़ुरआन सूरह बक़रह को इसी तरह ख़त्म करता है — عَنْ इस्तेमाल करते हुए एक इल्तिजा के साथ। क्या कुछ है जो आप चाहते हैं कि अल्लाह आपसे 'दूर' कर दे? عَنْ इस्तेमाल करते हुए अपनी दुआ लिखें।"
+    },
+    "journal_tag": "kalimaat-an"
+  }
+}

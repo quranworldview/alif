@@ -1,0 +1,188 @@
+{
+  "id": "huroof-15",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 15,
+  "prerequisite": "huroof-14",
+  "unlocks": [
+    "huroof-16"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ض",
+    "name": {
+      "en": "Dad",
+      "ur": "ضاد",
+      "hi": "दाद"
+    },
+    "transliteration": "d (emphatic)",
+    "sound_description": {
+      "en": "A heavy 'd' — tongue presses broadly at the back. Arabic is called 'the language of Dad'.",
+      "ur": "بھاری 'ض' — زبان پیچھے سے چوڑی دباؤ لیتی ہے۔ عربی کو 'ضاد کی زبان' کہا جاتا ہے۔",
+      "hi": "भारी 'ض' — ज़बान पीछे से चौड़ा दबाव लेती है। अरबी को 'दाद की ज़बान' कहा जाता है।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ض",
+      "note": {
+        "en": "Dad stands alone.",
+        "ur": "ضاد اکیلا۔",
+        "hi": "दाद अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "ضـ",
+      "note": {
+        "en": "Dad at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـضـ",
+      "note": {
+        "en": "Dad in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـض",
+      "note": {
+        "en": "Dad at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَلَا ٱلضَّآلِّينَ",
+    "surah": {
+      "en": "Al-Fatiha 1:7",
+      "ur": "الفاتحہ ۱:۷",
+      "hi": "अल-फ़ातिहा 1:7"
+    },
+    "translation": {
+      "en": "And not of those who have gone astray.",
+      "ur": "اور نہ ان کا جو گمراہ ہو گئے۔",
+      "hi": "और न उनका जो गुमराह हो गए।"
+    },
+    "hook_word": "ٱلضَّآلِّينَ",
+    "hook_explanation": {
+      "en": "Ad-Daaalleen — those who went astray — contains Dad. This is the last word of Al-Fatiha — the surah we recite 17 times a day. We ask Allah to save us from this path every single day.",
+      "ur": "الضالین — گمراہ — میں ضاد ہے۔ یہ الفاتحہ کا آخری لفظ ہے جو ہم دن میں ۱۷ بار پڑھتے ہیں۔",
+      "hi": "अद-दाल्लीन — गुमराह — में दाद है। यह अल-फ़ातिहा का आख़िरी लफ़्ज़ है जो हम दिन में 17 बार पढ़ते हैं।"
+    }
+  },
+  "root_family": {
+    "root": "ض ل ل",
+    "meaning": {
+      "en": "to go astray, to be lost",
+      "ur": "گمراہ ہونا، کھو جانا",
+      "hi": "गुमराह होना, खो जाना"
+    },
+    "words": [
+      {
+        "arabic": "ضَلَّ",
+        "meaning": {
+          "en": "he went astray",
+          "ur": "گمراہ ہوا",
+          "hi": "गुमराह हुआ"
+        }
+      },
+      {
+        "arabic": "ضَلَال",
+        "meaning": {
+          "en": "misguidance",
+          "ur": "گمراہی",
+          "hi": "गुमराही"
+        }
+      },
+      {
+        "arabic": "مُضِلّ",
+        "meaning": {
+          "en": "one who leads astray",
+          "ur": "گمراہ کرنے والا",
+          "hi": "गुमराह करने वाला"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Dad?",
+        "ur": "ان میں سے 'Dad' کون سا ہے؟",
+        "hi": "इनमें से 'Dad' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ض"
+      ],
+      "correct": "ض",
+      "feedback_correct": {
+        "en": "Yes! That's Dad.",
+        "ur": "بالکل! یہ ضاد ہے۔",
+        "hi": "बिल्कुल! यह दाद है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـض",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "We ask Allah every day to keep us from going astray. Is there an area of your life where you feel you need guidance right now?",
+      "ur": "ہم روز اللہ سے گمراہی سے بچانے کی دعا مانگتے ہیں۔ آپ کی زندگی میں کوئی ایسا حصہ ہے جہاں آپ کو ہدایت کی ضرورت ہے؟",
+      "hi": "हम रोज़ अल्लाह से गुमराही से बचाने की दुआ मांगते हैं। आपकी ज़िंदगी में कोई ऐसा हिस्सा है जहाँ आपको हिदायत की ज़रूरत है?"
+    },
+    "journal_tag": "huroof-dad"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "huroof-12",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 12,
+  "prerequisite": "huroof-11",
+  "unlocks": [
+    "huroof-13"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "س",
+    "name": {
+      "en": "Sin",
+      "ur": "سین",
+      "hi": "सीन"
+    },
+    "transliteration": "s",
+    "sound_description": {
+      "en": "Like 's' in 'sun' — a clear, clean hissing sound.",
+      "ur": "جیسے 'س' — صاف، واضح سی کی آواز۔",
+      "hi": "जैसे 'स' — साफ़, स्पष्ट स की आवाज़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "س",
+      "note": {
+        "en": "Sin stands alone.",
+        "ur": "سین اکیلا۔",
+        "hi": "सीन अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "سـ",
+      "note": {
+        "en": "Sin at the start — connects forward.",
+        "ur": "شروع میں — آگے ملتا ہے۔",
+        "hi": "शुरुआत में — आगे जुड़ता है।"
+      }
+    },
+    "medial": {
+      "arabic": "ـسـ",
+      "note": {
+        "en": "Sin in the middle — connected both sides.",
+        "ur": "درمیان میں — دونوں طرف ملا۔",
+        "hi": "बीच में — दोनों तरफ़ जुड़ा।"
+      }
+    },
+    "final": {
+      "arabic": "ـس",
+      "note": {
+        "en": "Sin at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+    "surah": {
+      "en": "Al-Fatiha 1:6",
+      "ur": "الفاتحہ ۱:۶",
+      "hi": "अल-फ़ातिहा 1:6"
+    },
+    "translation": {
+      "en": "Guide us to the straight path.",
+      "ur": "ہمیں سیدھے راستے کی ہدایت دے۔",
+      "hi": "हमें सीधे रास्ते की हिदायत दे।"
+    },
+    "hook_word": "ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+    "hook_explanation": {
+      "en": "Sabeel and Siraat — path — both contain Sin. The straight path (Al-Mustaqeem) is what we ask for every single time we pray Al-Fatiha. Sin carries our most repeated prayer.",
+      "ur": "سبیل اور صراط — راستہ — دونوں میں سین ہے۔ سیدھا راستہ وہی ہے جو ہم ہر بار الفاتحہ میں مانگتے ہیں۔",
+      "hi": "सबील और सिरात — रास्ता — दोनों में सीन है। सीधा रास्ता वही है जो हम हर बार अल-फ़ातिहा में मांगते हैं।"
+    }
+  },
+  "root_family": {
+    "root": "س ب ل",
+    "meaning": {
+      "en": "path, way",
+      "ur": "راستہ، طریقہ",
+      "hi": "रास्ता, तरीक़ा"
+    },
+    "words": [
+      {
+        "arabic": "سَبِيل",
+        "meaning": {
+          "en": "path / way",
+          "ur": "سبیل / راستہ",
+          "hi": "सबील / रास्ता"
+        }
+      },
+      {
+        "arabic": "سَلَام",
+        "meaning": {
+          "en": "peace",
+          "ur": "سلام",
+          "hi": "सलाम"
+        }
+      },
+      {
+        "arabic": "سَلِيم",
+        "meaning": {
+          "en": "sound, whole",
+          "ur": "سالم، صحیح",
+          "hi": "सालिम, सही"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Sin?",
+        "ur": "ان میں سے 'س' کون سا ہے؟",
+        "hi": "इनमें से 'س' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "س"
+      ],
+      "correct": "س",
+      "feedback_correct": {
+        "en": "Yes, that is Sin!",
+        "ur": "بالکل، یہ سین ہے!",
+        "hi": "बिल्कुल, यह सीन है!"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form of this letter is shown?",
+        "ur": "یہ حرف کی کون سی شکل ہے؟",
+        "hi": "यह हर्फ़ की कौन सी शकल है?"
+      },
+      "shown_letter": "ـسـ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "medial"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "We ask for the straight path at least 17 times a day in Salah. Are you on a path you feel is right? What would the straight path look like for you today?",
+      "ur": "ہم دن میں کم از کم ۱۷ بار سیدھے راستے کی دعا مانگتے ہیں۔ آج آپ کے لیے سیدھا راستہ کیسا لگے گا؟",
+      "hi": "हम दिन में कम से कम 17 बार सीधे रास्ते की दुआ मांगते हैं। आज आपके लिए सीधा रास्ता कैसा होगा?"
+    },
+    "journal_tag": "huroof-sin"
+  }
+}

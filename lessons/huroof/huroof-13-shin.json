@@ -1,0 +1,188 @@
+{
+  "id": "huroof-13",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 13,
+  "prerequisite": "huroof-12",
+  "unlocks": [
+    "huroof-14"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ش",
+    "name": {
+      "en": "Shin",
+      "ur": "شین",
+      "hi": "शीन"
+    },
+    "transliteration": "sh",
+    "sound_description": {
+      "en": "Like 'sh' in 'shine' — a hushing sound. Sin's sibling with three dots above.",
+      "ur": "جیسے 'ش' — سش کی آواز۔ سین کا بھائی، اوپر تین نقطے۔",
+      "hi": "जैसे 'श' — शश की आवाज़। सीन का भाई, ऊपर तीन बिंदु।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ش",
+      "note": {
+        "en": "Shin stands alone.",
+        "ur": "شین اکیلا۔",
+        "hi": "शीन अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "شـ",
+      "note": {
+        "en": "Shin at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـشـ",
+      "note": {
+        "en": "Shin in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـش",
+      "note": {
+        "en": "Shin at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ",
+    "surah": {
+      "en": "Al-Baqarah 2:158",
+      "ur": "البقرۃ ۲:۱۵۸",
+      "hi": "अल-बक़रह 2:158"
+    },
+    "translation": {
+      "en": "Indeed Allah is appreciative and knowing.",
+      "ur": "بیشک اللہ قدردان اور جاننے والا ہے۔",
+      "hi": "बेशक अल्लाह क़दردान और जानने वाला है।"
+    },
+    "hook_word": "شَاكِرٌ",
+    "hook_explanation": {
+      "en": "Shaakir — appreciative, grateful — is one of Allah's names. Shin opens the word for gratitude. شُكْر (shukr) also begins with Shin — and the Qur'an commands it constantly.",
+      "ur": "شاکر — قدردان — اللہ کے ناموں میں سے ایک۔ شین شکر کے لفظ کو کھولتا ہے۔",
+      "hi": "शाकिर — क़दردान — अल्लाह के नामों में से एक। शीन शुक्र के लफ़्ज़ को खोलता है।"
+    }
+  },
+  "root_family": {
+    "root": "ش ك ر",
+    "meaning": {
+      "en": "to thank, to be grateful",
+      "ur": "شکر کرنا، ممنون ہونا",
+      "hi": "शुक्र करना, ममनून होना"
+    },
+    "words": [
+      {
+        "arabic": "شُكْر",
+        "meaning": {
+          "en": "gratitude",
+          "ur": "شکر",
+          "hi": "शुक्र"
+        }
+      },
+      {
+        "arabic": "شَكَرَ",
+        "meaning": {
+          "en": "he was grateful",
+          "ur": "اس نے شکر ادا کیا",
+          "hi": "उसने शुक्र किया"
+        }
+      },
+      {
+        "arabic": "شَكُور",
+        "meaning": {
+          "en": "very grateful",
+          "ur": "بہت شکرگزار",
+          "hi": "बहुत शुक्रगुज़ार"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Shin?",
+        "ur": "ان میں سے 'Shin' کون سا ہے؟",
+        "hi": "इनमें से 'Shin' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ش"
+      ],
+      "correct": "ش",
+      "feedback_correct": {
+        "en": "Yes! That's Shin.",
+        "ur": "بالکل! یہ شین ہے۔",
+        "hi": "बिल्कुल! यह शीन है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـش",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "What is one thing you are genuinely grateful for today — something small that you usually overlook?",
+      "ur": "آج کوئی ایک چیز بتائیں جس کا آپ واقعی شکر ادا کرتے ہیں — کوئی چھوٹی سی بات جسے عام طور پر نظرانداز کرتے ہیں؟",
+      "hi": "आज एक चीज़ बताएं जिसका आप सच में शुक्र करते हैं — कोई छोटी सी बात जिसे आमतौर पर नज़रअंदाज़ करते हैं?"
+    },
+    "journal_tag": "huroof-shin"
+  }
+}

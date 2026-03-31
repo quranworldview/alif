@@ -1,0 +1,188 @@
+{
+  "id": "huroof-07",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 7,
+  "prerequisite": "huroof-06",
+  "unlocks": [
+    "huroof-08"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "خ",
+    "name": {
+      "en": "Kha",
+      "ur": "خا",
+      "hi": "ख़ा"
+    },
+    "transliteration": "kh",
+    "sound_description": {
+      "en": "Like 'ch' in the Scottish 'loch' — a rasping sound from the back of the throat.",
+      "ur": "جیسے 'خ' — حلق کی گہرائی سے رگڑنے والی آواز۔",
+      "hi": "जैसे 'ख़' — गले की गहराई से रगड़ने वाली आवाज़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "خ",
+      "note": {
+        "en": "Kha stands alone.",
+        "ur": "خا اکیلا۔",
+        "hi": "ख़ा अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "خـ",
+      "note": {
+        "en": "Kha at the start — connects forward.",
+        "ur": "شروع میں — آگے ملتا ہے۔",
+        "hi": "शुरुआत में — आगे जुड़ता है।"
+      }
+    },
+    "medial": {
+      "arabic": "ـخـ",
+      "note": {
+        "en": "Kha in the middle — connected both sides.",
+        "ur": "درمیان میں — دونوں طرف ملا۔",
+        "hi": "बीच में — दोनों तरफ़ जुड़ा।"
+      }
+    },
+    "final": {
+      "arabic": "ـخ",
+      "note": {
+        "en": "Kha at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+    "surah": {
+      "en": "Al-Alaq 96:2",
+      "ur": "العلق ۹۶:۲",
+      "hi": "अल-अलक़ 96:2"
+    },
+    "translation": {
+      "en": "He created man from a clinging clot.",
+      "ur": "اس نے انسان کو خون کے لوتھڑے سے پیدا کیا۔",
+      "hi": "उसने इंसान को ख़ून के लोथड़े से पैदा किया।"
+    },
+    "hook_word": "خَلَقَ",
+    "hook_explanation": {
+      "en": "Khalaqa — He created. This is the second word ever revealed to the Prophet ﷺ — right after Iqra. Kha opens the word for creation itself.",
+      "ur": "خلق — اس نے پیدا کیا۔ نبی ﷺ پر دوسرا نازل ہونے والا لفظ — اقرأ کے بالکل بعد۔ خا تخلیق کے لفظ کو کھولتا ہے۔",
+      "hi": "ख़लक़ — उसने पैदा किया। नबी ﷺ पर दूसरा नाज़िल होने वाला लफ़्ज़ — اقرأ के बिल्कुल बाद। खा तख़लीक़ के लफ़्ज़ को खोलता है।"
+    }
+  },
+  "root_family": {
+    "root": "خ ل ق",
+    "meaning": {
+      "en": "to create",
+      "ur": "پیدا کرنا",
+      "hi": "पैदा करना"
+    },
+    "words": [
+      {
+        "arabic": "خَلَقَ",
+        "meaning": {
+          "en": "he created",
+          "ur": "اس نے پیدا کیا",
+          "hi": "उसने पैदा किया"
+        }
+      },
+      {
+        "arabic": "خَلْق",
+        "meaning": {
+          "en": "creation",
+          "ur": "تخلیق",
+          "hi": "तख़लीक़"
+        }
+      },
+      {
+        "arabic": "خَالِق",
+        "meaning": {
+          "en": "Creator",
+          "ur": "خالق",
+          "hi": "ख़ालिक़"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Kha?",
+        "ur": "ان میں سے 'خ' کون سا ہے؟",
+        "hi": "इनमें से 'خ' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "خ"
+      ],
+      "correct": "خ",
+      "feedback_correct": {
+        "en": "Yes, that is Kha!",
+        "ur": "بالکل، یہ خا ہے!",
+        "hi": "बिल्कुल, यह ख़ा है!"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form of this letter is shown?",
+        "ur": "یہ حرف کی کون سی شکل ہے؟",
+        "hi": "यह हर्फ़ की कौन सी शकल है?"
+      },
+      "shown_letter": "ـخـ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "medial"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Allah created you. Khalaqa — He created — was the second word in the first revelation. What does it mean to you that your Creator's first message was 'Read'?",
+      "ur": "اللہ نے آپ کو پیدا کیا۔ خلق پہلی وحی کا دوسرا لفظ تھا۔ کیا معنی ہے کہ آپ کے خالق کا پہلا پیغام 'پڑھو' تھا؟",
+      "hi": "अल्लाह ने आपको पैदा किया। ख़लक़ पहली वही का दूसरा लफ़्ज़ था। क्या मायने है कि आपके ख़ालिक़ का पहला पैग़ाम 'पढ़ो' था?"
+    },
+    "journal_tag": "huroof-kha"
+  }
+}

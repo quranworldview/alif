@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-10",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 10,
+  "prerequisite": "kalimaat-09",
+  "unlocks": ["kalimaat-11"],
+  "xp": 30,
+  "word": {
+    "arabic": "لَا",
+    "display": "لَا",
+    "transliteration": "Lā",
+    "meaning": {
+      "en": "No / Not",
+      "ur": "نہیں / نہ",
+      "hi": "नहीं / न"
+    },
+    "frequency_rank": 10,
+    "frequency_note": {
+      "en": "Appears over 2,000 times — the word of negation and the word of Tawheed.",
+      "ur": "۲۰۰۰ سے زیادہ بار — نفی کا لفظ اور توحید کا لفظ۔",
+      "hi": "2,000 से ज़्यादा बार — नफ़ी का लफ़्ज़ और तौहीद का लफ़्ज़।"
+    }
+  },
+  "root": {
+    "letters": "ل ا",
+    "note": {
+      "en": "لَا is the most important two-letter word in Islam. لَا إِلَهَ إِلَّا ٱللَّهُ — 'There is no god except Allah.' The entire Shahadah begins with لَا. Before you can affirm anything, you must first negate everything else. That is لَا.",
+      "ur": "لَا اسلام میں سب سے اہم دو حرفی لفظ ہے۔ لَا إِلَهَ إِلَّا ٱللَّهُ — 'اللہ کے سوا کوئی معبود نہیں'۔ پوری شہادت لَا سے شروع ہوتی ہے۔ کسی چیز کی تصدیق سے پہلے، آپ کو پہلے سب کچھ اور نفی کرنا ہوگا۔ یہی لَا ہے۔",
+      "hi": "لَا اسلام में सबसे अहम दो-हर्फ़ी लफ़्ज़ है। لَا إِلَهَ إِلَّا ٱللَّهُ — 'अल्लाह के सिवा कोई माबूद नहीं'। पूरी शहादत لَا से शुरू होती है। किसी चीज़ की तस्दीक़ से पहले, आपको पहले सब कुछ और नफ़ी करना होगा। यही لَا है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "لَا إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ",
+    "surah": { "en": "Ayatul Kursi — Al-Baqarah 2:255", "ur": "آیة الکرسی — البقرہ ۲:۲۵۵", "hi": "आयतुल कुर्सी — अल-बक़रह 2:255" },
+    "translation": {
+      "en": "There is no god except Him — the Ever-Living, the Sustainer.",
+      "ur": "اس کے سوا کوئی معبود نہیں — زندہ، قائم رکھنے والا۔",
+      "hi": "उसके सिवा कोई माबूद नहीं — ज़िंदा, क़ायम रखने वाला।"
+    },
+    "hook_explanation": {
+      "en": "Ayatul Kursi — the greatest ayah in the Qur'an according to the Prophet ﷺ — begins with لَا. The most powerful statement about Allah begins by saying what He is not. لَا إِلَـٰهَ — no god. Then: إِلَّا هُوَ — except Him. لَا clears the space before the truth enters.",
+      "ur": "آیة الکرسی — نبی ﷺ کے مطابق قرآن کی سب سے عظیم آیت — لَا سے شروع ہوتی ہے۔ اللہ کے بارے میں سب سے طاقتور بیان پہلے یہ کہہ کر شروع ہوتا ہے کہ وہ کیا نہیں ہے۔ لَا إِلَـٰهَ — کوئی معبود نہیں۔ پھر: إِلَّا هُوَ — سوائے اس کے۔ لَا سچ کے داخل ہونے سے پہلے جگہ صاف کرتا ہے۔",
+      "hi": "आयतुल कुर्सी — नबी ﷺ के मुताबिक़ क़ुरआन की सबसे अज़ीम आयत — لَا से शुरू होती है। अल्लाह के बारे में सबसे ताक़तवर बयान पहले यह कह कर शुरू होता है कि वह क्या नहीं है। لَا إِلَـٰهَ — कोई माबूद नहीं। फिर: إِلَّا هُوَ — सिवाय उसके। لَا सच के दाख़िल होने से पहले जगह साफ़ करता है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does لَا mean?",
+        "ur": "لَا کا مطلب کیا ہے؟",
+        "hi": "لَا का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "No / Not", "ur": "نہیں / نہ", "hi": "नहीं / न" }, "value": "correct" },
+        { "label": { "en": "Yes / Indeed", "ur": "ہاں / بالکل", "hi": "हाँ / बिल्कुल" }, "value": "wrong" },
+        { "label": { "en": "He / It", "ur": "وہ", "hi": "वह" }, "value": "wrong" },
+        { "label": { "en": "And / Also", "ur": "اور / بھی", "hi": "और / भी" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — لَا means 'no' or 'not'. لَا إِلَهَ — no god. The first word of Shahadah.",
+        "ur": "ہاں — لَا کا مطلب 'نہیں' یا 'نہ' ہے۔ لَا إِلَهَ — کوئی معبود نہیں۔ شہادت کا پہلا لفظ۔",
+        "hi": "हाँ — لَا का मतलब 'नहीं' या 'न' है। لَا إِلَهَ — कोئی माबूद नहीं। शहादत का पहला लफ़्ज़।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap لَا in Ayatul Kursi:",
+        "ur": "آیة الکرسی میں لَا کو چھوئیں:",
+        "hi": "आयतुल कुर्सी में لَا को छुएं:"
+      },
+      "ayah": "لَا إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ",
+      "target_word": "لَا",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "لَا — the very first word. Before all greatness, the negation. No god — except Him.",
+        "ur": "لَا — سب سے پہلا لفظ۔ تمام عظمت سے پہلے، نفی۔ کوئی معبود نہیں — سوائے اس کے۔",
+        "hi": "لَا — सबसे पहला लफ़्ज़। तमाम अज़मत से पहले, नफ़ी। कोई माबूद नहीं — सिवाय उसके।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "لَا إِلَهَ إِلَّا ٱللَّهُ — you say this many times a day. Now that you know لَا means 'no', does the Shahadah land differently? The declaration of Tawheed begins with a rejection. Why do you think that is?",
+      "ur": "لَا إِلَهَ إِلَّا ٱللَّهُ — آپ یہ دن میں کئی بار کہتے ہیں۔ اب جب آپ جانتے ہیں کہ لَا کا مطلب 'نہیں' ہے، کیا شہادت آپ پر مختلف انداز میں اثر کرتی ہے؟ توحید کا اعلان انکار سے شروع ہوتا ہے۔ آپ کے خیال میں ایسا کیوں ہے؟",
+      "hi": "لَا إِلَهَ إِلَّا ٱللَّهُ — आप यह दिन में कई बार कहते हैं। अब जब आप जानते हैं कि لَا का मतलब 'नहीं' है, क्या शहादत आप पर अलग तरह से असर करती है? तौहीद का एलान इनकार से शुरू होता है। आपके ख़याल में ऐसा क्यों है?"
+    },
+    "journal_tag": "kalimaat-la"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "huroof-25",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 25,
+  "prerequisite": "huroof-24",
+  "unlocks": [
+    "huroof-26"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ن",
+    "name": {
+      "en": "Nun",
+      "ur": "نون",
+      "hi": "नून"
+    },
+    "transliteration": "n",
+    "sound_description": {
+      "en": "Like 'n' in 'noon' — tongue touches the roof of the mouth, air comes through the nose.",
+      "ur": "جیسے 'ن' — زبان تالو کو چھوتی ہے، ہوا ناک سے گزرتی ہے۔",
+      "hi": "जैसे 'न' — ज़बान तालू को छूती है, हवा नाक से गुज़रती है।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ن",
+      "note": {
+        "en": "Nun stands alone.",
+        "ur": "نون اکیلا۔",
+        "hi": "नून अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "نـ",
+      "note": {
+        "en": "Nun at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـنـ",
+      "note": {
+        "en": "Nun in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـن",
+      "note": {
+        "en": "Nun at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+    "surah": {
+      "en": "An-Nur 24:35",
+      "ur": "النور ۲۴:۳۵",
+      "hi": "अन-नूर 24:35"
+    },
+    "translation": {
+      "en": "Allah is the Light of the heavens and the earth.",
+      "ur": "اللہ آسمانوں اور زمین کا نور ہے۔",
+      "hi": "अल्लाह आसमानों और ज़मीन का नूर है।"
+    },
+    "hook_word": "نُورُ",
+    "hook_explanation": {
+      "en": "Noor — light — is one of the most beautiful words in the Qur'an. It begins with Nun. Surah An-Nur contains the famous Light Verse. Nun is also a letter of the alphabet that begins an entire surah (Surah Al-Qalam 68:1).",
+      "ur": "نور — روشنی — قرآن کے خوبصورت ترین الفاظ میں سے ایک ہے۔ نون سے شروع ہوتا ہے۔ نون ایک ایسا حرف بھی ہے جو پوری سورہ شروع کرتا ہے (القلم ۶۸:۱)۔",
+      "hi": "नूर — रोशनी — क़ुरआन के सबसे ख़ूबसूरत लफ़्ज़ों में से एक। नून से शुरू। नून एक ऐसा हर्फ़ भी है जो पूरी सूरह शुरू करता है (अल-क़लम 68:1)।"
+    }
+  },
+  "root_family": {
+    "root": "ن و ر",
+    "meaning": {
+      "en": "light, illumination",
+      "ur": "روشنی، نور",
+      "hi": "रोशनी, नूर"
+    },
+    "words": [
+      {
+        "arabic": "نُور",
+        "meaning": {
+          "en": "light",
+          "ur": "نور",
+          "hi": "नूर"
+        }
+      },
+      {
+        "arabic": "نَوَّرَ",
+        "meaning": {
+          "en": "he illuminated",
+          "ur": "اس نے روشن کیا",
+          "hi": "उसने रोशन किया"
+        }
+      },
+      {
+        "arabic": "مُنِير",
+        "meaning": {
+          "en": "luminous, radiant",
+          "ur": "روشن",
+          "hi": "रोशन"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Nun?",
+        "ur": "ان میں سے 'Nun' کون سا ہے؟",
+        "hi": "इनमें से 'Nun' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ن"
+      ],
+      "correct": "ن",
+      "feedback_correct": {
+        "en": "Yes! That's Nun.",
+        "ur": "بالکل! یہ نون ہے۔",
+        "hi": "बिल्कुल! यह नून है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـن",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Allah is described as the Light of the heavens and earth. Where in your life do you feel the need for more light — clarity, guidance, or hope?",
+      "ur": "اللہ کو آسمانوں اور زمین کا نور کہا گیا ہے۔ آپ کی زندگی میں کہاں زیادہ روشنی کی ضرورت ہے — وضاحت، ہدایت، یا امید؟",
+      "hi": "अल्लाह को आसमानों और ज़मीन का नूर कहा गया है। आपकी ज़िंदगी में कहाँ ज़्यादा रोशनी की ज़रूरत है — वज़ाहत, हिदायत, या उम्मीद?"
+    },
+    "journal_tag": "huroof-nun"
+  }
+}

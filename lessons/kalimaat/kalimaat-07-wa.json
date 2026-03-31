@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-07",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 7,
+  "prerequisite": "kalimaat-06",
+  "unlocks": ["kalimaat-08"],
+  "xp": 20,
+  "word": {
+    "arabic": "وَ",
+    "display": "وَ",
+    "transliteration": "Wa",
+    "meaning": {
+      "en": "And",
+      "ur": "اور",
+      "hi": "और"
+    },
+    "frequency_rank": 7,
+    "frequency_note": {
+      "en": "Appears over 6,000 times — the most common word in the Qur'an by far.",
+      "ur": "۶۰۰۰ سے زیادہ بار آتا ہے — قرآن کا سب سے زیادہ استعمال ہونے والا لفظ۔",
+      "hi": "6,000 से ज़्यादा बार آता है — अब तक क़ुरआन का सबसे ज़्यादा इस्तेमाल होने वाला लफ़्ज़।"
+    }
+  },
+  "root": {
+    "letters": "و",
+    "note": {
+      "en": "وَ is a single letter — the simplest word in Arabic. It attaches directly to the next word. وَاللَّهُ — 'and Allah'. وَهُوَ — 'and He'. One letter, but it connects everything in the Qur'an.",
+      "ur": "وَ صرف ایک حرف ہے — عربی کا سب سے سادہ لفظ۔ یہ براہ راست اگلے لفظ سے جڑتا ہے۔ وَاللَّهُ — 'اور اللہ'۔ وَهُوَ — 'اور وہ'۔ ایک حرف، لیکن قرآن میں سب کچھ جوڑتا ہے۔",
+      "hi": "وَ सिर्फ़ एक हर्फ़ है — अरबी का सबसे सादा लफ़्ज़। यह सीधे अगले लफ़्ज़ से जुड़ता है। وَاللَّهُ — 'और अल्लाह'। وَهُوَ — 'और वह'। एक हर्फ़, लेकिन क़ुरआन में सब कुछ जोड़ता है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
+    "surah": { "en": "Al-Baqarah 2:282", "ur": "البقرہ ۲:۲۸۲", "hi": "अल-बक़रह 2:282" },
+    "translation": {
+      "en": "And Allah is knowing of all things.",
+      "ur": "اور اللہ ہر چیز کو جاننے والا ہے۔",
+      "hi": "और अल्लाह हर चीज़ को जानने वाला है।"
+    },
+    "hook_explanation": {
+      "en": "وَ is everywhere in the Qur'an — over 6,000 times. It links sentence to sentence, truth to truth. وَٱللَّهُ — 'and Allah'. Every time you see a word beginning with وَ in the Qur'an, you now know: 'and'.",
+      "ur": "وَ قرآن میں ہر جگہ ہے — ۶۰۰۰ سے زیادہ بار۔ یہ جملے سے جملے کو، سچ سے سچ کو جوڑتا ہے۔ وَٱللَّهُ — 'اور اللہ'۔ جب بھی قرآن میں کوئی لفظ وَ سے شروع ہو، آپ جانتے ہیں: 'اور'۔",
+      "hi": "وَ क़ुरआन में हर जगह है — 6,000 से ज़्यादा बार। यह जुमले से जुमले को, सच से सच को जोड़ता है। وَٱللَّهُ — 'और अल्लाह'। जब भी क़ुरआन में कोई लफ़्ज़ وَ से शुरू हो, आप जानते हैं: 'और'।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does وَ mean?",
+        "ur": "وَ کا مطلب کیا ہے؟",
+        "hi": "وَ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "And", "ur": "اور", "hi": "और" }, "value": "correct" },
+        { "label": { "en": "But", "ur": "لیکن", "hi": "लेकिन" }, "value": "wrong" },
+        { "label": { "en": "Or", "ur": "یا", "hi": "या" }, "value": "wrong" },
+        { "label": { "en": "So / Then", "ur": "پس / پھر", "hi": "तो / फिर" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — وَ means 'and'. The most common word in the Qur'an. One letter.",
+        "ur": "بالکل — وَ کا مطلب 'اور' ہے۔ قرآن کا سب سے عام لفظ۔ صرف ایک حرف۔",
+        "hi": "बिल्कुल — وَ का मतलब 'और' है। क़ुरआन का सबसे आम लफ़्ज़। सिर्फ़ एक हर्फ़।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap the word that starts with وَ:",
+        "ur": "وَ سے شروع ہونے والے لفظ کو چھوئیں:",
+        "hi": "وَ से शुरू होने वाले लफ़्ज़ को छुएं:"
+      },
+      "ayah": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
+      "target_word": "وَٱللَّهُ",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "وَٱللَّهُ — 'and Allah'. وَ attached right to the front.",
+        "ur": "وَٱللَّهُ — 'اور اللہ'۔ وَ سیدھا آگے جڑا ہوا۔",
+        "hi": "وَٱللَّهُ — 'और अल्लाह'। وَ सीधे आगे जुड़ा हुआ।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَ appears over 6,000 times. The Qur'an is full of 'and' — connecting mercy and justice, warning and promise, this world and the next. What does this rhythm of connection tell you about how Allah speaks?",
+      "ur": "وَ ۶۰۰۰ سے زیادہ بار آتا ہے۔ قرآن 'اور' سے بھرا ہوا ہے — رحمت اور انصاف کو جوڑتا ہے، تنبیہ اور وعدے کو، دنیا اور آخرت کو۔ رابطے کی یہ تال آپ کو اللہ کے بولنے کے انداز کے بارے میں کیا بتاتی ہے؟",
+      "hi": "وَ 6,000 से ज़्यादा बार आता है। क़ुरआन 'और' से भरा हुआ है — रहमत और इंसाफ़ को जोड़ता है, तंबीह और वादे को, दुनिया और आख़िरत को। जुड़ाव का यह अंदाज़ आपको अल्लाह के बोलने के तरीक़े के बारे में क्या बताता है?"
+    },
+    "journal_tag": "kalimaat-wa"
+  }
+}

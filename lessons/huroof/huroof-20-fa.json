@@ -1,0 +1,188 @@
+{
+  "id": "huroof-20",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 20,
+  "prerequisite": "huroof-19",
+  "unlocks": [
+    "huroof-21"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ف",
+    "name": {
+      "en": "Fa",
+      "ur": "فا",
+      "hi": "फ़ा"
+    },
+    "transliteration": "f",
+    "sound_description": {
+      "en": "Like 'f' in 'falcon' — upper teeth touch the lower lip, light breath out.",
+      "ur": "جیسے 'ف' — اوپر کے دانت نچلے ہونٹ کو چھوتے ہیں، ہلکی سانس۔",
+      "hi": "जैसे 'फ़' — ऊपर के दांत नीचले होंठ को छूते हैं, हल्की सांस।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ف",
+      "note": {
+        "en": "Fa stands alone.",
+        "ur": "فا اکیلا۔",
+        "hi": "फ़ा अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "فـ",
+      "note": {
+        "en": "Fa at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـفـ",
+      "note": {
+        "en": "Fa in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـف",
+      "note": {
+        "en": "Fa at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ",
+    "surah": {
+      "en": "Al-Mu'minun 23:1",
+      "ur": "المؤمنون ۲۳:۱",
+      "hi": "अल-मोमिनून 23:1"
+    },
+    "translation": {
+      "en": "Certainly the believers have succeeded.",
+      "ur": "بیشک ایمان والے کامیاب ہو گئے۔",
+      "hi": "बेशक ईमान वाले कामयाब हो गए।"
+    },
+    "hook_word": "أَفْلَحَ",
+    "hook_explanation": {
+      "en": "Aflaha — they succeeded — begins with Fa (via Alif). Falah means true success — not just worldly success but success in this life and the next. Fa opens the word that opens this powerful surah.",
+      "ur": "أفلح — وہ کامیاب ہوئے — فا سے شروع ہوتا ہے۔ فلاح مطلب حقیقی کامیابی — دنیا اور آخرت دونوں میں۔",
+      "hi": "अफ़लह — वे कामयाब हुए — फ़ा से शुरू। फ़लाह मतलब हक़ीक़ी कामयाबी — दुनिया और आख़िरत दोनों में।"
+    }
+  },
+  "root_family": {
+    "root": "ف ل ح",
+    "meaning": {
+      "en": "success, prosperity, to thrive",
+      "ur": "کامیابی، فلاح",
+      "hi": "कामयाबी, फ़लाह"
+    },
+    "words": [
+      {
+        "arabic": "فَلَاح",
+        "meaning": {
+          "en": "success / flourishing",
+          "ur": "فلاح",
+          "hi": "फ़लाह"
+        }
+      },
+      {
+        "arabic": "مُفْلِح",
+        "meaning": {
+          "en": "one who succeeds",
+          "ur": "کامیاب",
+          "hi": "कामयाब"
+        }
+      },
+      {
+        "arabic": "فَلَح",
+        "meaning": {
+          "en": "he succeeded",
+          "ur": "وہ کامیاب ہوا",
+          "hi": "वह कामयाब हुआ"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Fa?",
+        "ur": "ان میں سے 'Fa' کون سا ہے؟",
+        "hi": "इनमें से 'Fa' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ف"
+      ],
+      "correct": "ف",
+      "feedback_correct": {
+        "en": "Yes! That's Fa.",
+        "ur": "بالکل! یہ فا ہے۔",
+        "hi": "बिल्कुल! यह फ़ा है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـف",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Falah is success in both worlds. By what measure do you judge your own success? Does that measure align with what the Qur'an describes?",
+      "ur": "فلاح دونوں جہانوں کی کامیابی ہے۔ آپ کے نزدیک کامیابی کا پیمانہ کیا ہے؟ کیا یہ قرآن کے بیان سے ملتا ہے؟",
+      "hi": "फ़लाह दोनों जहानों की कामयाबी है। आपके नज़दीक कामयाबी का पैमाना क्या है? क्या यह क़ुरआन के बयान से मिलता है?"
+    },
+    "journal_tag": "huroof-fa"
+  }
+}

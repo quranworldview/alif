@@ -1,0 +1,88 @@
+{
+  "id": "huroof-03",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 3,
+  "prerequisite": "huroof-02",
+  "unlocks": ["huroof-04"],
+  "xp": 20,
+  "letter": {
+    "arabic": "ت",
+    "name": { "en": "Ta", "ur": "تا", "hi": "ता" },
+    "transliteration": "t",
+    "sound_description": {
+      "en": "Like 't' in 'top' — tongue touches just behind upper teeth.",
+      "ur": "جیسے 'ت' کی آواز — زبان اوپر کے دانتوں کے پیچھے لگتی ہے۔",
+      "hi": "जैसे 'त' की आवाज़ — ज़बान ऊपर के दांतों के पीछे लगती है।"
+    }
+  },
+  "forms": {
+    "isolated": { "arabic": "ت", "note": { "en": "Same boat as Ba — but with two dots above.", "ur": "با جیسی کشتی — مگر اوپر دو نقطے۔", "hi": "बा जैसी नाव — मगर ऊपर दो बिंदु।" } },
+    "initial":  { "arabic": "تـ", "note": { "en": "At the start — two dots above, tooth reaching forward.", "ur": "شروع میں — اوپر دو نقطے، دانت آگے۔", "hi": "शुरुआत में — ऊपर दो बिंदु, दांत आगे।" } },
+    "medial":   { "arabic": "ـتـ", "note": { "en": "In the middle — two dots above, connected both sides.", "ur": "درمیان میں — اوپر دو نقطے، دونوں طرف ملا۔", "hi": "बीच में — ऊपर दो बिंदु, दोनों तरफ़ जुड़ा।" } },
+    "final":    { "arabic": "ـت", "note": { "en": "At the end — two dots above, boat settled.", "ur": "آخر میں — اوپر دو نقطے، کشتی ٹھہری۔", "hi": "अंत में — ऊपर दो बिंदु, नाव टिकी।" } }
+  },
+  "quranic_hook": {
+    "ayah": "وَهُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+    "surah": { "en": "Al-Baqarah 2:54", "ur": "البقرۃ ۲:۵۴", "hi": "अल-बक़रह 2:54" },
+    "translation": {
+      "en": "And He is the Accepter of Repentance, the Most Merciful.",
+      "ur": "اور وہی توبہ قبول کرنے والا، بہت مہربان ہے۔",
+      "hi": "और वही तौबा क़बूल करने वाला, बहुत मेहरबान है।"
+    },
+    "hook_word": "ٱلتَّوَّابُ",
+    "hook_explanation": {
+      "en": "At-Tawwab — one of Allah's most beautiful names. It begins with Ta. Tawwab means 'the One who keeps accepting repentance, again and again.' Ta opens the door to Allah's mercy.",
+      "ur": "التوّاب — اللہ کے خوبصورت ناموں میں سے ایک، تا سے شروع ہوتا ہے۔ توّاب مطلب جو باربار توبہ قبول کرتا ہے۔ تا اللہ کی رحمت کا دروازہ کھولتا ہے۔",
+      "hi": "अत-तव्वाब — अल्लाह के सबसे ख़ूबसूरत नामों में से एक, ता से शुरू। तव्वाब मतलब जो बार-बार तौबा क़बूल करता है। ता अल्लाह की रहमत का दरवाज़ा खोलता है।"
+    }
+  },
+  "root_family": {
+    "root": "ت و ب",
+    "meaning": { "en": "to return, to repent", "ur": "واپس آنا، توبہ کرنا", "hi": "वापस आना, तौबा करना" },
+    "words": [
+      { "arabic": "تَوْبَة", "meaning": { "en": "repentance", "ur": "توبہ", "hi": "तौबा" } },
+      { "arabic": "تَابَ", "meaning": { "en": "he repented", "ur": "اس نے توبہ کی", "hi": "उसने तौबा की" } },
+      { "arabic": "مَتَاب", "meaning": { "en": "place of return (to Allah)", "ur": "واپسی کی جگہ", "hi": "वापसी की जगह" } }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": { "en": "Which of these is Ta?", "ur": "ان میں سے 'ت' کون سا ہے؟", "hi": "इनمें से 'त' कौन सा है?" },
+      "choices": ["ب", "ث", "ت", "ن"],
+      "correct": "ت",
+      "feedback_correct": { "en": "Yes! Two dots above — that's Ta.", "ur": "بالکل! اوپر دو نقطے — یہ ہے تا۔", "hi": "बिल्कुल! ऊपर दो बिंदु — यही है ता।" }
+    },
+    {
+      "type": "spot_in_word",
+      "order": 2,
+      "prompt": { "en": "Tap the Ta in this word:", "ur": "اس لفظ میں 'ت' پر ٹیپ کریں:", "hi": "इस शब्द में 'त' पर टैप करें:" },
+      "word": "تَوْبَة",
+      "target_index": 0,
+      "highlight_hint": { "en": "Tawbah begins with Ta — the letter of return.", "ur": "توبہ تا سے شروع ہوتی ہے۔", "hi": "तौबा ता से शुरू होती है।" }
+    },
+    {
+      "type": "identify_form",
+      "order": 3,
+      "prompt": { "en": "What form of Ta is this?", "ur": "یہ تا کی کون سی شکل ہے؟", "hi": "यह ता की कौन सी शकल है?" },
+      "shown_letter": "ـتـ",
+      "choices": [
+        { "label": { "en": "Isolated", "ur": "منفرد", "hi": "अकेला" }, "value": "isolated" },
+        { "label": { "en": "Initial", "ur": "ابتدائی", "hi": "शुरुआती" }, "value": "initial" },
+        { "label": { "en": "Medial", "ur": "درمیانی", "hi": "बीच का" }, "value": "medial" },
+        { "label": { "en": "Final", "ur": "آخری", "hi": "आखिरी" }, "value": "final" }
+      ],
+      "correct": "medial"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Allah is called At-Tawwab — the One who keeps accepting repentance. What does it mean to you that this door is always open?",
+      "ur": "اللہ کو التوّاب کہا جاتا ہے — جو باربار توبہ قبول کرتا ہے۔ آپ کے لیے کیا معنی ہے کہ یہ دروازہ ہمیشہ کھلا ہے؟",
+      "hi": "अल्लाह को अत-तव्वाब कहा जाता है — जो बार-बार तौबा क़बूल करता है। आपके लिए क्या मायने रखता है कि यह दरवाज़ा हमेशा खुला है?"
+    },
+    "journal_tag": "huroof-ta"
+  }
+}

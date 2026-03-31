@@ -1,0 +1,188 @@
+{
+  "id": "huroof-14",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 14,
+  "prerequisite": "huroof-13",
+  "unlocks": [
+    "huroof-15"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ص",
+    "name": {
+      "en": "Sad",
+      "ur": "صاد",
+      "hi": "साद"
+    },
+    "transliteration": "s (emphatic)",
+    "sound_description": {
+      "en": "A heavy 's' — like 's' in 'saw' but with the back of your tongue raised. Deep and full.",
+      "ur": "بھاری 'ص' — جیسے 'ص' کی آواز مگر زبان کی جڑ اٹھی ہو۔ گہری اور بھری آواز۔",
+      "hi": "भारी 'ص' — جیسे 'ص' की आवाज़ लेकिन ज़बान की जड़ उठी हो। गहरी और भरी आवाज़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ص",
+      "note": {
+        "en": "Sad stands alone.",
+        "ur": "صاد اکیلا۔",
+        "hi": "साद अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "صـ",
+      "note": {
+        "en": "Sad at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـصـ",
+      "note": {
+        "en": "Sad in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـص",
+      "note": {
+        "en": "Sad at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ",
+    "surah": {
+      "en": "Al-Baqarah 2:238",
+      "ur": "البقرۃ ۲:۲۳۸",
+      "hi": "अल-बक़रह 2:238"
+    },
+    "translation": {
+      "en": "Guard strictly the prayers.",
+      "ur": "نمازوں کی پابندی کرو۔",
+      "hi": "नमाज़ों की पाबंदी करो।"
+    },
+    "hook_word": "ٱلصَّلَوَٰتِ",
+    "hook_explanation": {
+      "en": "As-Salah — prayer — begins with Sad. This is the pillar of Islam we perform five times a day. Sad is an emphatic letter — its heaviness reflects the weight of Salah in our lives.",
+      "ur": "الصلاۃ — نماز — صاد سے شروع ہوتی ہے۔ صاد ایک مفخم حرف ہے — اس کی بھاری آواز نماز کی اہمیت کو ظاہر کرتی ہے۔",
+      "hi": "अस-सलात — नमाज़ — साद से शुरू। साद एक मुफ़ख़्ख़म हर्फ़ है — इसकी भारी आवाज़ नमाज़ की अहमियत को ज़ाहिर करती है।"
+    }
+  },
+  "root_family": {
+    "root": "ص ل و",
+    "meaning": {
+      "en": "prayer, connection",
+      "ur": "نماز، تعلق",
+      "hi": "नमाज़, कनेक्शन"
+    },
+    "words": [
+      {
+        "arabic": "صَلَاة",
+        "meaning": {
+          "en": "prayer",
+          "ur": "نماز",
+          "hi": "नमाज़"
+        }
+      },
+      {
+        "arabic": "صَلَّى",
+        "meaning": {
+          "en": "he prayed",
+          "ur": "اس نے نماز پڑھی",
+          "hi": "उसने नमाज़ पढ़ी"
+        }
+      },
+      {
+        "arabic": "مُصَلَّى",
+        "meaning": {
+          "en": "place of prayer",
+          "ur": "نماز پڑھنے کی جگہ",
+          "hi": "नमाज़ पढ़ने की जगह"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Sad?",
+        "ur": "ان میں سے 'Sad' کون سا ہے؟",
+        "hi": "इनमें से 'Sad' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ص"
+      ],
+      "correct": "ص",
+      "feedback_correct": {
+        "en": "Yes! That's Sad.",
+        "ur": "بالکل! یہ صاد ہے۔",
+        "hi": "बिल्कुल! यह साद है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـص",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Salah literally means connection. When you pray — do you feel connected? What would make that connection stronger?",
+      "ur": "صلاۃ کا مطلب ہے تعلق۔ جب آپ نماز پڑھتے ہیں — کیا آپ کو تعلق محسوس ہوتا ہے؟",
+      "hi": "सलात का मतलब है कनेक्शन। जब आप नमाज़ पढ़ते हैं — क्या आपको कनेक्शन महसूस होता है?"
+    },
+    "journal_tag": "huroof-sad"
+  }
+}

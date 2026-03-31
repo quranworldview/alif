@@ -1,0 +1,180 @@
+{
+  "id": "huroof-04",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 4,
+  "prerequisite": "huroof-03",
+  "unlocks": [
+    "huroof-05"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ث",
+    "name": {
+      "en": "Tha",
+      "ur": "ثا",
+      "hi": "सा"
+    },
+    "transliteration": "th",
+    "sound_description": {
+      "en": "Like 'th' in 'think' — tongue gently between teeth, soft breath out.",
+      "ur": "جیسے 'ث' — زبان دانتوں کے درمیان، ہلکی سانس باہر۔",
+      "hi": "जैसे 'थ' — ज़बान दांतों के बीच, हल्की सांस बाहर।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ث",
+      "note": {
+        "en": "Same boat, three dots above — like a crown.",
+        "ur": "وہی کشتی، اوپر تین نقطے — تاج کی طرح۔",
+        "hi": "वही नाव, ऊपर तीन बिंदु — ताज जैसे।"
+      }
+    },
+    "initial": {
+      "arabic": "ثـ",
+      "note": {
+        "en": "Three dots above, tooth forward.",
+        "ur": "اوپر تین نقطے، دانت آگے۔",
+        "hi": "ऊपर तीन बिंदु, दांत आगे।"
+      }
+    },
+    "medial": {
+      "arabic": "ـثـ",
+      "note": {
+        "en": "Three dots above, connected both sides.",
+        "ur": "اوپر تین نقطے، دونوں طرف ملا۔",
+        "hi": "ऊपर तीन बिंदु, दोनों तरफ़ जुड़ा।"
+      }
+    },
+    "final": {
+      "arabic": "ـث",
+      "note": {
+        "en": "Three dots above at the end.",
+        "ur": "آخر میں اوپر تین نقطے۔",
+        "hi": "अंत में ऊपर तीन बिंदु।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَلَكُمْ فِى ٱلْقِصَاصِ حَيَوٰةٌ",
+    "surah": {
+      "en": "Al-Baqarah 2:179",
+      "ur": "البقرۃ ۲:۱۷۹",
+      "hi": "अल-बक़रह 2:179"
+    },
+    "translation": {
+      "en": "And in retribution there is life for you.",
+      "ur": "اور قصاص میں تمہارے لیے زندگی ہے۔",
+      "hi": "और क़िसास में तुम्हारے लिए ज़िंदगी है।"
+    },
+    "hook_word": "حَيَوٰةٌ",
+    "hook_explanation": {
+      "en": "Hayaat — life — contains Tha in the middle (حياة). This word appears throughout the Qur'an. Every letter of it matters — including our letter Tha.",
+      "ur": "حیاۃ — زندگی — درمیان میں ثا ہے۔ یہ لفظ پورے قرآن میں آتا ہے۔ اس کا ہر حرف اہم ہے۔",
+      "hi": "हयात — ज़िंदगी — बीच में ثا है। यह लफ़्ज़ पूरे क़ुरआन में आता है।"
+    }
+  },
+  "root_family": {
+    "root": "ث و ب",
+    "meaning": {
+      "en": "reward, recompense",
+      "ur": "ثواب، بدلہ",
+      "hi": "सवाब, बदला"
+    },
+    "words": [
+      {
+        "arabic": "ثَوَاب",
+        "meaning": {
+          "en": "reward",
+          "ur": "ثواب",
+          "hi": "सवाब"
+        }
+      },
+      {
+        "arabic": "ثَابَ",
+        "meaning": {
+          "en": "he returned / was rewarded",
+          "ur": "واپس آیا",
+          "hi": "वापस आया"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which is Tha — three dots above?",
+        "ur": "ثا کون سا ہے — اوپر تین نقطے؟",
+        "hi": "सा कौन सा है — ऊपर तीन बिंदु?"
+      },
+      "choices": [
+        "ت",
+        "ب",
+        "ث",
+        "ن"
+      ],
+      "correct": "ث",
+      "feedback_correct": {
+        "en": "Three dots — that's Tha!",
+        "ur": "تین نقطے — یہ ہے ثا!",
+        "hi": "तीन बिंदु — यही है सा!"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form of Tha is this?",
+        "ur": "یہ ثا کی کون سی شکل ہے؟",
+        "hi": "यह सा की कौन सी शकल है?"
+      },
+      "shown_letter": "ثـ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "initial"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Thawaab means reward from Allah. What small action in your day do you hope earns reward?",
+      "ur": "ثواب مطلب اللہ کی طرف سے انعام۔ آپ کے دن کا کونسا چھوٹا عمل ثواب کی امید رکھتا ہے؟",
+      "hi": "सवाब मतलब अल्लाह की तरफ़ से इनाम। आपके दिन का कौन सा छोटा काम सवाब की उम्मीद रखता है?"
+    },
+    "journal_tag": "huroof-tha"
+  }
+}

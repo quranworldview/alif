@@ -1,0 +1,188 @@
+{
+  "id": "huroof-22",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 22,
+  "prerequisite": "huroof-21",
+  "unlocks": [
+    "huroof-23"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ك",
+    "name": {
+      "en": "Kaf",
+      "ur": "کاف",
+      "hi": "काफ़"
+    },
+    "transliteration": "k",
+    "sound_description": {
+      "en": "Like 'k' in 'kind' — a clear, clean sound from the back of the mouth.",
+      "ur": "جیسے 'ک' — منہ کے پیچھے سے صاف، واضح آواز۔",
+      "hi": "जैसे 'क' — मुँह के पीछे से साफ़, स्पष्ट आवाज़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ك",
+      "note": {
+        "en": "Kaf stands alone.",
+        "ur": "کاف اکیلا۔",
+        "hi": "काफ़ अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "كـ",
+      "note": {
+        "en": "Kaf at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـكـ",
+      "note": {
+        "en": "Kaf in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـك",
+      "note": {
+        "en": "Kaf at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَٱللَّهُ ٱلْكَرِيمُ",
+    "surah": {
+      "en": "Al-Infitar 82:6",
+      "ur": "الانفطار ۸۲:۶",
+      "hi": "अल-इन्फ़ितार 82:6"
+    },
+    "translation": {
+      "en": "And Allah is the Most Generous.",
+      "ur": "اور اللہ بہت کریم ہے۔",
+      "hi": "और अल्लाह बहुत करीम है।"
+    },
+    "hook_word": "ٱلْكَرِيمُ",
+    "hook_explanation": {
+      "en": "Al-Kareem — the Most Generous — is one of Allah's beautiful names. Kaf opens Kareem, Kitab (Book), and Kalimah (word). It is one of the most commonly seen letters in Qur'anic text.",
+      "ur": "الکریم — بہت فیاض — اللہ کے خوبصورت ناموں میں سے ایک۔ کاف کریم، کتاب، اور کلمہ کو کھولتا ہے۔",
+      "hi": "अल-करीम — बहुत करम करने वाला — अल्लाह के ख़ूबसूरत नामों में से एक। काफ़ करीम, किताब और कलिमा को खोलता है।"
+    }
+  },
+  "root_family": {
+    "root": "ك ر م",
+    "meaning": {
+      "en": "generosity, nobility, honor",
+      "ur": "سخاوت، شرافت",
+      "hi": "करम, शराफ़त"
+    },
+    "words": [
+      {
+        "arabic": "كَرِيم",
+        "meaning": {
+          "en": "generous, noble",
+          "ur": "کریم",
+          "hi": "करीम"
+        }
+      },
+      {
+        "arabic": "كَرَم",
+        "meaning": {
+          "en": "generosity",
+          "ur": "کرم، سخاوت",
+          "hi": "करम"
+        }
+      },
+      {
+        "arabic": "أَكْرَمَ",
+        "meaning": {
+          "en": "he honoured",
+          "ur": "اس نے عزت دی",
+          "hi": "उसने इज़्ज़त दी"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Kaf?",
+        "ur": "ان میں سے 'Kaf' کون سا ہے؟",
+        "hi": "इनमें से 'Kaf' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ك"
+      ],
+      "correct": "ك",
+      "feedback_correct": {
+        "en": "Yes! That's Kaf.",
+        "ur": "بالکل! یہ کاف ہے۔",
+        "hi": "बिल्कुल! यह काफ़ है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـك",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Al-Kareem — Allah is generous beyond measure. When was the last time someone was unexpectedly generous with you? How did it feel?",
+      "ur": "الکریم — اللہ بے حساب فیاض ہے۔ آخری بار کب کسی نے آپ کے ساتھ غیر متوقع سخاوت کی؟ کیسا لگا؟",
+      "hi": "अल-करीम — अल्लाह बेहिसाब करम करने वाला है। आख़िरी बार कब किसी ने आपके साथ अप्रत्याशित करम किया? कैसा लगा?"
+    },
+    "journal_tag": "huroof-kaf"
+  }
+}

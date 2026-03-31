@@ -1,0 +1,188 @@
+{
+  "id": "huroof-10",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 10,
+  "prerequisite": "huroof-09",
+  "unlocks": [
+    "huroof-11"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "ر",
+    "name": {
+      "en": "Ra",
+      "ur": "را",
+      "hi": "रा"
+    },
+    "transliteration": "r",
+    "sound_description": {
+      "en": "A rolled 'r' — like the Spanish 'r'. Tongue flicks quickly.",
+      "ur": "لپکتا 'ر' — جیسے ہسپانوی 'r'۔ زبان تیزی سے ہلتی ہے۔",
+      "hi": "लपकता 'र' — जैसे स्पेनिश 'r'। ज़बान तेज़ी से हिलती है।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ر",
+      "note": {
+        "en": "Ra stands alone.",
+        "ur": "را اکیلا۔",
+        "hi": "रा अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "رـ",
+      "note": {
+        "en": "Ra at the start — connects forward.",
+        "ur": "شروع میں — آگے ملتا ہے۔",
+        "hi": "शुरुआत में — आगे जुड़ता है।"
+      }
+    },
+    "medial": {
+      "arabic": "ـرـ",
+      "note": {
+        "en": "Ra in the middle — connected both sides.",
+        "ur": "درمیان میں — دونوں طرف ملا۔",
+        "hi": "बीच में — दोनों तरफ़ जुड़ा।"
+      }
+    },
+    "final": {
+      "arabic": "ـر",
+      "note": {
+        "en": "Ra at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةً لِّلْعَٰلَمِينَ",
+    "surah": {
+      "en": "Al-Anbiya 21:107",
+      "ur": "الأنبياء ۲۱:۱۰۷",
+      "hi": "अल-अंबिया 21:107"
+    },
+    "translation": {
+      "en": "And We have not sent you except as a mercy to all the worlds.",
+      "ur": "اور ہم نے آپ کو تمام جہانوں کے لیے رحمت بنا کر بھیجا۔",
+      "hi": "और हमने आपको तमाम जहानों के लिए रहमत बनाकर भेजा।"
+    },
+    "hook_word": "رَحْمَةً",
+    "hook_explanation": {
+      "en": "Rahmah — mercy — appears over 114 times in the Qur'an. Ra opens the most beautiful quality Allah attributes to His final Prophet ﷺ. Ra, like Dal, is a non-connector.",
+      "ur": "رحمۃ — رحمت — قرآن میں ۱۱۴ سے زائد مرتبہ آتا ہے۔ را غیر واصل حرف ہے۔",
+      "hi": "रहमत — रहमत — क़ुरआन में 114 से ज़्यादा बार आता है। रा ग़ैर-वासिल हर्फ़ है।"
+    }
+  },
+  "root_family": {
+    "root": "ر ح م",
+    "meaning": {
+      "en": "mercy, compassion",
+      "ur": "رحمت، مہربانی",
+      "hi": "रहमत, मेहरबानी"
+    },
+    "words": [
+      {
+        "arabic": "رَحْمَة",
+        "meaning": {
+          "en": "mercy",
+          "ur": "رحمت",
+          "hi": "रहमत"
+        }
+      },
+      {
+        "arabic": "رَحِيم",
+        "meaning": {
+          "en": "Most Merciful (Allah's name)",
+          "ur": "رحیم",
+          "hi": "रहीम"
+        }
+      },
+      {
+        "arabic": "رَحْمَٰن",
+        "meaning": {
+          "en": "Most Gracious (Allah's name)",
+          "ur": "رحمان",
+          "hi": "रहमान"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Ra?",
+        "ur": "ان میں سے 'ر' کون سا ہے؟",
+        "hi": "इनमें से 'ر' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "ر"
+      ],
+      "correct": "ر",
+      "feedback_correct": {
+        "en": "Yes, that is Ra!",
+        "ur": "بالکل، یہ را ہے!",
+        "hi": "बिल्कुल, यह रा है!"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form of this letter is shown?",
+        "ur": "یہ حرف کی کون سی شکل ہے؟",
+        "hi": "यह हर्फ़ की कौन सी शकल है?"
+      },
+      "shown_letter": "ـرـ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "medial"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The Prophet ﷺ is described as a mercy to all worlds — not just Muslims. What does this say about how we should treat all people?",
+      "ur": "نبی ﷺ کو تمام جہانوں کی رحمت کہا گیا — صرف مسلمانوں کے لیے نہیں۔ یہ ہمیں سب لوگوں کے ساتھ کیسا سلوک سکھاتا ہے؟",
+      "hi": "नबी ﷺ को तमाम जहानों की रहमत कहा गया — सिर्फ़ मुसलमानों के लिए नहीं। यह हमें सब लोगों के साथ कैसा सुलूक सिखाता है?"
+    },
+    "journal_tag": "huroof-ra"
+  }
+}

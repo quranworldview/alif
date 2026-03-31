@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-04",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 4,
+  "prerequisite": "kalimaat-03",
+  "unlocks": ["kalimaat-05"],
+  "xp": 25,
+  "word": {
+    "arabic": "فِي",
+    "display": "فِي",
+    "transliteration": "Fī",
+    "meaning": {
+      "en": "In / Inside / Within",
+      "ur": "میں / اندر",
+      "hi": "में / अंदर"
+    },
+    "frequency_rank": 4,
+    "frequency_note": {
+      "en": "Appears 1,712 times — even more frequent than مِنْ.",
+      "ur": "۱۷۱۲ بار آتا ہے — مِنْ سے بھی زیادہ۔",
+      "hi": "1,712 बार आता है — مِنْ से भी ज़्यादा।"
+    }
+  },
+  "root": {
+    "letters": "ف ي",
+    "note": {
+      "en": "فِي is a harf (particle) — no root, never changes. It always means 'in' or 'within'. Watch how it connects things: فِي ٱلْقُرْآنِ — 'in the Qur'an'. فِي ٱلسَّمَـٰوَاتِ — 'in the heavens'.",
+      "ur": "فِي ایک حرف ہے — کوئی جڑ نہیں، کبھی نہیں بدلتا۔ یہ ہمیشہ 'میں' یا 'اندر' کا مطلب دیتا ہے۔ دیکھیں یہ چیزوں کو کیسے جوڑتا ہے: فِي ٱلْقُرْآنِ — 'قرآن میں'۔ فِي ٱلسَّمَـٰوَاتِ — 'آسمانوں میں'۔",
+      "hi": "فِي एक हर्फ़ है — कोई जड़ नहीं, कभी नहीं बदलता। यह हमेशा 'में' या 'अंदर' का मतलब देता है। देखें यह चीज़ों को कैसे जोड़ता है: فِي ٱلْقُرْآنِ — 'क़ुरआन में'। فِي ٱلسَّمَـٰوَاتِ — 'आसमानों में'।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+    "surah": { "en": "Al-Fatiha 1:2", "ur": "الفاتحہ ۱:۲", "hi": "अल-फ़ातिहा 1:2" },
+    "translation": {
+      "en": "All praise is for Allah, Lord of all the worlds.",
+      "ur": "تمام تعریف اللہ کے لیے ہے جو تمام جہانوں کا رب ہے۔",
+      "hi": "तमाम तारीफ़ अल्लाह के लिए है जो तमाम जहानों का रब है।"
+    },
+    "hook_explanation": {
+      "en": "You recite Al-Fatiha at least 17 times a day. فِي doesn't appear in this ayah — but it appears 1,712 times across the Qur'an you recite. فِي ٱلْجَنَّةِ — in paradise. فِي ٱلنَّارِ — in the fire. فِي قُلُوبِهِمْ — in their hearts. One small word. Enormous reach.",
+      "ur": "آپ روزانہ کم از کم ۱۷ بار الفاتحہ پڑھتے ہیں۔ فِي اس آیت میں نہیں آتا — لیکن آپ کے پڑھے ہوئے قرآن میں ۱۷۱۲ بار آتا ہے۔ فِي ٱلْجَنَّةِ — جنت میں۔ فِي ٱلنَّارِ — آگ میں۔ فِي قُلُوبِهِمْ — ان کے دلوں میں۔ ایک چھوٹا لفظ۔ بے حد وسیع۔",
+      "hi": "आप रोज़ाना कम से कम 17 बार अल-फ़ातिहा पढ़ते हैं। فِي इस आयत में नहीं आता — लेकिन आपके पढ़े हुए क़ुरआन में 1,712 बार आता है। فِي ٱلْجَنَّةِ — जन्नत में। فِي ٱلنَّارِ — आग में। فِي قُلُوبِهِمْ — उनके दिलों में। एक छोटा लफ़्ज़। बेहद वसी।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does فِي mean?",
+        "ur": "فِي کا مطلب کیا ہے؟",
+        "hi": "فِي का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "In / Within", "ur": "میں / اندر", "hi": "में / अंदर" }, "value": "correct" },
+        { "label": { "en": "From / Of", "ur": "سے", "hi": "से" }, "value": "wrong" },
+        { "label": { "en": "On / Upon", "ur": "پر / اوپر", "hi": "पर / ऊपर" }, "value": "wrong" },
+        { "label": { "en": "And / Then", "ur": "اور / پھر", "hi": "और / फिर" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Exactly — فِي means 'in'. فِي قُلُوبِهِمْ — 'in their hearts'.",
+        "ur": "بالکل — فِي کا مطلب 'میں' ہے۔ فِي قُلُوبِهِمْ — 'ان کے دلوں میں'۔",
+        "hi": "बिल्कुल — فِي का मतलब 'में' है। فِي قُلُوبِهِمْ — 'उनके दिलों में'।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap فِي in this ayah:",
+        "ur": "اس آیت میں فِي کو چھوئیں:",
+        "hi": "इस आयत में فِي को छुएं:"
+      },
+      "ayah": "وَجَعَلْنَا فِي ٱلسَّمَآءِ بُرُوجًا",
+      "target_word": "فِي",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "Yes — فِي ٱلسَّمَآءِ — 'in the sky'. One small word, placing everything.",
+        "ur": "ہاں — فِي ٱلسَّمَآءِ — 'آسمان میں'۔ ایک چھوٹا لفظ، سب کچھ اپنی جگہ رکھتا ہے۔",
+        "hi": "हाँ — فِي ٱلسَّمَآءِ — 'आसमान में'। एक छोटा लफ़्ज़, सब कुछ अपनी जगह रखता है।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "فِي ٱلْجَنَّةِ — in paradise. فِي ٱلنَّارِ — in the fire. فِي قُلُوبِهِمْ — in their hearts. Which of these three will you think of next time you hear فِي in the Qur'an?",
+      "ur": "فِي ٱلْجَنَّةِ — جنت میں۔ فِي ٱلنَّارِ — آگ میں۔ فِي قُلُوبِهِمْ — ان کے دلوں میں۔ اگلی بار جب آپ قرآن میں فِي سنیں گے تو ان تینوں میں سے کون سا آپ کے ذہن میں آئے گا؟",
+      "hi": "فِي ٱلْجَنَّةِ — जन्नत में। فِي ٱلنَّارِ — आग में। فِي قُلُوبِهِمْ — उनके दिलों में। अगली बार जब आप क़ुरआन में فِي सुनें तो इन तीनों में से कौन सा आपके ज़हन में आएगा?"
+    },
+    "journal_tag": "kalimaat-fi"
+  }
+}

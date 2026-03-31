@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-11",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 11,
+  "prerequisite": "kalimaat-10",
+  "unlocks": ["kalimaat-12"],
+  "xp": 25,
+  "word": {
+    "arabic": "بِ",
+    "display": "بِ",
+    "transliteration": "Bi",
+    "meaning": {
+      "en": "With / By / In",
+      "ur": "کے ساتھ / سے / میں",
+      "hi": "के साथ / से / में"
+    },
+    "frequency_rank": 11,
+    "frequency_note": {
+      "en": "Appears over 2,200 times — and you already know it from Bismillah.",
+      "ur": "۲۲۰۰ سے زیادہ بار — اور آپ اسے بسم اللہ سے پہلے سے جانتے ہیں۔",
+      "hi": "2,200 से ज़्यादा बार — और आप इसे बिस्मिल्लाह से पहले से जानते हैं।"
+    }
+  },
+  "root": {
+    "letters": "ب",
+    "note": {
+      "en": "بِ is a single letter that attaches directly to the next word — just like وَ. بِٱسْمِ — 'by the name'. بِٱللَّهِ — 'by Allah'. You have said بِسْمِ ٱللَّهِ thousands of times. Now you know: the بِ means 'in the name of'.",
+      "ur": "بِ ایک حرف ہے جو براہ راست اگلے لفظ سے جڑتا ہے — بالکل وَ کی طرح۔ بِٱسْمِ — 'نام سے'۔ بِٱللَّهِ — 'اللہ سے'۔ آپ نے ہزاروں بار بِسْمِ ٱللَّهِ کہا ہے۔ اب آپ جانتے ہیں: بِ کا مطلب ہے 'کے نام سے'۔",
+      "hi": "بِ एक हर्फ़ है जो सीधे अगले लफ़्ज़ से जुड़ता है — बिल्कुल وَ की तरह। بِٱسْمِ — 'नाम से'। بِٱللَّهِ — 'अल्लाह से'। आपने हज़ारों बार بِسْمِ ٱللَّهِ कहा है। अब आप जानते हैं: بِ का मतलब है 'के नाम से'।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+    "surah": { "en": "Al-Fatiha 1:1", "ur": "الفاتحہ ۱:۱", "hi": "अल-फ़ातिहा 1:1" },
+    "translation": {
+      "en": "In the name of Allah, the Most Compassionate, the Most Merciful.",
+      "ur": "اللہ کے نام سے، جو بہت مہربان، نہایت رحم والا ہے۔",
+      "hi": "अल्लाह के नाम से, जो बहुत मेहरबान, निहायत रहम वाला है।"
+    },
+    "hook_explanation": {
+      "en": "بِسْمِ ٱللَّهِ. You have said these words your entire life before eating, before starting anything. The very first word is بِسْمِ — and the بِ is the word you are now learning. 'In the name of.' You have been saying it. Now you understand it.",
+      "ur": "بِسْمِ ٱللَّهِ۔ آپ نے یہ الفاظ پوری زندگی کھانے سے پہلے، کچھ بھی شروع کرنے سے پہلے کہے ہیں۔ سب سے پہلا لفظ ہے بِسْمِ — اور بِ وہ لفظ ہے جو آپ ابھی سیکھ رہے ہیں۔ 'کے نام سے'۔ آپ یہ کہتے رہے ہیں۔ اب آپ سمجھتے ہیں۔",
+      "hi": "بِسْمِ ٱللَّهِ। आपने यह अल्फ़ाज़ पूरी ज़िंदगी खाने से पहले, कुछ भी शुरू करने से पहले कहे हैं। सबसे पहला लफ़्ज़ है بِسْمِ — और بِ वह लफ़्ज़ है जो आप अभी सीख रहे हैं। 'के नाम से'। आप यह कहते रहे हैं। अब आप समझते हैं।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does بِ mean?",
+        "ur": "بِ کا مطلب کیا ہے؟",
+        "hi": "بِ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "With / By / In", "ur": "کے ساتھ / سے / میں", "hi": "के साथ / से / में" }, "value": "correct" },
+        { "label": { "en": "No / Not", "ur": "نہیں / نہ", "hi": "नहीं / न" }, "value": "wrong" },
+        { "label": { "en": "And", "ur": "اور", "hi": "और" }, "value": "wrong" },
+        { "label": { "en": "From / Of", "ur": "سے", "hi": "से" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — بِ means 'with', 'by', or 'in'. بِسْمِ ٱللَّهِ — 'in the name of Allah'.",
+        "ur": "ہاں — بِ کا مطلب 'کے ساتھ'، 'سے'، یا 'میں' ہے۔ بِسْمِ ٱللَّهِ — 'اللہ کے نام سے'۔",
+        "hi": "हاँ — بِ का मतलب 'के साथ', 'से', या 'में' है। بِسْمِ ٱللَّهِ — 'अल्लाह के नाम से'।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap the word starting with بِ:",
+        "ur": "بِ سے شروع ہونے والے لفظ کو چھوئیں:",
+        "hi": "بِ से शुरू होने वाले लफ़्ज़ को छुएं:"
+      },
+      "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+      "target_word": "بِسْمِ",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "بِسْمِ — 'in the name of'. بِ + اسم (name). The بِ you've said all your life.",
+        "ur": "بِسْمِ — 'کے نام سے'۔ بِ + اسم (نام)۔ وہ بِ جو آپ نے ساری زندگی کہا ہے۔",
+        "hi": "بِسْمِ — 'के नाम से'। بِ + اسم (नाम)। वह بِ जो आपने पूरी ज़िंदगी कहा है।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "بِسْمِ ٱللَّهِ — 'in the name of Allah'. You say this before every act. Now you know the بِ means 'in the name of'. Does knowing the Arabic change how you feel when you say it before your next meal or action?",
+      "ur": "بِسْمِ ٱللَّهِ — 'اللہ کے نام سے'۔ آپ یہ ہر کام سے پہلے کہتے ہیں۔ اب آپ جانتے ہیں کہ بِ کا مطلب 'کے نام سے' ہے۔ کیا عربی جاننے سے آپ کے اگلے کھانے یا کام سے پہلے جب آپ یہ کہتے ہیں تو آپ کو کچھ مختلف محسوس ہوتا ہے؟",
+      "hi": "بِسْمِ ٱللَّهِ — 'अल्लाह के नाम से'। आप यह हर काम से पहले कहते हैं। अब आप जानते हैं कि بِ का मतलब 'के नाम से' है। क्या अरबी जानने से आपके अगले खाने या काम से पहले जब आप यह कहते हैं तो आपको कुछ अलग महसूस होता है?"
+    },
+    "journal_tag": "kalimaat-bi"
+  }
+}

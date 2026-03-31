@@ -1,0 +1,188 @@
+{
+  "id": "huroof-19",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 19,
+  "prerequisite": "huroof-18",
+  "unlocks": [
+    "huroof-20"
+  ],
+  "xp": 20,
+  "letter": {
+    "arabic": "غ",
+    "name": {
+      "en": "Ghayn",
+      "ur": "غین",
+      "hi": "ग़ैन"
+    },
+    "transliteration": "gh",
+    "sound_description": {
+      "en": "Like the French 'r' or gargling — a soft rasping from the back of the throat.",
+      "ur": "جیسے فرانسیسی 'r' یا غرارہ — حلق کی گہرائی سے نرم رگڑ۔",
+      "hi": "जैसे फ्रांसीसी 'r' या ग़रग़रा — गले की गहराई से नर्म रगड़।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "غ",
+      "note": {
+        "en": "Ghayn stands alone.",
+        "ur": "غین اکیلا۔",
+        "hi": "ग़ैन अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "غـ",
+      "note": {
+        "en": "Ghayn at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـغـ",
+      "note": {
+        "en": "Ghayn in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـغ",
+      "note": {
+        "en": "Ghayn at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+    "surah": {
+      "en": "Al-Baqarah 2:173",
+      "ur": "البقرۃ ۲:۱۷۳",
+      "hi": "अल-बक़रह 2:173"
+    },
+    "translation": {
+      "en": "Indeed Allah is Forgiving and Merciful.",
+      "ur": "بیشک اللہ بخشنے والا، مہربان ہے۔",
+      "hi": "बेशक अल्लाह बख़्शने वाला, मेहरबान है।"
+    },
+    "hook_word": "غَفُورٌ",
+    "hook_explanation": {
+      "en": "Ghafoor — the Forgiving — is one of Allah's most beloved names. It begins with Ghayn. Allah describes Himself as Ghafoor over 90 times in the Qur'an.",
+      "ur": "غفور — بخشنے والا — اللہ کے پیارے ناموں میں سے ایک ہے۔ غین سے شروع ہوتا ہے۔ قرآن میں ۹۰ سے زائد بار آتا ہے۔",
+      "hi": "ग़फ़ूर — बख़्शने वाला — अल्लाह के प्यारे नामों में से एक। ग़ैन से शुरू। क़ुरआन में 90 से ज़्यादा बार आता है।"
+    }
+  },
+  "root_family": {
+    "root": "غ ف ر",
+    "meaning": {
+      "en": "to forgive, to cover",
+      "ur": "معاف کرنا، ڈھانپنا",
+      "hi": "माफ़ करना, ढकना"
+    },
+    "words": [
+      {
+        "arabic": "غَفُور",
+        "meaning": {
+          "en": "Most Forgiving",
+          "ur": "غفور",
+          "hi": "ग़फ़ूर"
+        }
+      },
+      {
+        "arabic": "مَغْفِرَة",
+        "meaning": {
+          "en": "forgiveness",
+          "ur": "مغفرت",
+          "hi": "मग़फ़िरत"
+        }
+      },
+      {
+        "arabic": "غَفَرَ",
+        "meaning": {
+          "en": "he forgave",
+          "ur": "اس نے معاف کیا",
+          "hi": "उसने माफ़ किया"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Ghayn?",
+        "ur": "ان میں سے 'Ghayn' کون سا ہے؟",
+        "hi": "इनमें से 'Ghayn' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "غ"
+      ],
+      "correct": "غ",
+      "feedback_correct": {
+        "en": "Yes! That's Ghayn.",
+        "ur": "بالکل! یہ غین ہے۔",
+        "hi": "बिल्कुल! यह ग़ैन है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـغ",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Ghafoor — Allah covers your sins as if they never existed. Is there something you have been carrying guilt about that you need to let go of?",
+      "ur": "غفور — اللہ آپ کے گناہوں کو ڈھانپ دیتا ہے جیسے وہ کبھی تھے ہی نہیں۔ کوئی گناہ ہے جس کا بوجھ آپ اٹھائے ہوئے ہیں؟",
+      "hi": "ग़फ़ूर — अल्लाह आपके गुनाहों को ढक देता है जैसे वे कभी थे ही नहीं। कोई गुनाह है जिसका बोझ आप उठाए हुए हैं?"
+    },
+    "journal_tag": "huroof-ghayn"
+  }
+}

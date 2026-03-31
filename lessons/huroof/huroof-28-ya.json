@@ -1,0 +1,186 @@
+{
+  "id": "huroof-28",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 28,
+  "prerequisite": "huroof-27",
+  "unlocks": [],
+  "xp": 20,
+  "letter": {
+    "arabic": "ي",
+    "name": {
+      "en": "Ya",
+      "ur": "یا",
+      "hi": "या"
+    },
+    "transliteration": "y / ee",
+    "sound_description": {
+      "en": "Two sounds: 'y' as in 'yes' when consonant, 'ee' as in 'see' when vowel.",
+      "ur": "دو آوازیں: حرف ہو تو 'ی' جیسے 'yes'، حرکت ہو تو 'ای' جیسے 'see'۔",
+      "hi": "दो आवाज़ें: हर्फ़ हो तो 'य' जैसे 'yes', हरकत हो तो 'ई' जैसे 'see'।"
+    }
+  },
+  "forms": {
+    "isolated": {
+      "arabic": "ي",
+      "note": {
+        "en": "Ya stands alone.",
+        "ur": "یا اکیلا۔",
+        "hi": "या अकेला।"
+      }
+    },
+    "initial": {
+      "arabic": "يـ",
+      "note": {
+        "en": "Ya at the start.",
+        "ur": "شروع میں۔",
+        "hi": "शुरुआत में।"
+      }
+    },
+    "medial": {
+      "arabic": "ـيـ",
+      "note": {
+        "en": "Ya in the middle.",
+        "ur": "درمیان میں۔",
+        "hi": "बीच में।"
+      }
+    },
+    "final": {
+      "arabic": "ـي",
+      "note": {
+        "en": "Ya at the end.",
+        "ur": "آخر میں۔",
+        "hi": "अंत में।"
+      }
+    }
+  },
+  "quranic_hook": {
+    "ayah": "يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَٰكُم مِّن ذَكَرٍ وَأُنثَىٰ",
+    "surah": {
+      "en": "Al-Hujurat 49:13",
+      "ur": "الحجرات ۴۹:۱۳",
+      "hi": "अल-हुजुरात 49:13"
+    },
+    "translation": {
+      "en": "O people! We created you from a male and a female.",
+      "ur": "اے لوگو! ہم نے تمہیں ایک مرد اور عورت سے پیدا کیا۔",
+      "hi": "ऐ लोगो! हमने तुम्हें एक मर्द और औरत से पैदा किया।"
+    },
+    "hook_word": "يَٰٓأَيُّهَا",
+    "hook_explanation": {
+      "en": "Yaa ayyuha — O you! — is how Allah addresses us directly in the Qur'an. It begins with Ya. The word Yawm (day يَوم) also begins with Ya — and Yaum al-Din (Day of Judgment) is the last phrase of Al-Fatiha.",
+      "ur": "یا أیّہا — اے آپ! — یہی وہ طریقہ ہے جس سے اللہ قرآن میں ہم سے براہ راست بات کرتا ہے۔ یوم الدین — آخری یوم — بھی یا سے شروع ہوتا ہے۔",
+      "hi": "या अय्युहा — ऐ आप! — यही वह तरीक़ा है जिससे अल्लाह क़ुरआन में हमसे सीधे बात करता है। यौमुद्दीन — आख़िरी दिन — भी या से शुरू होता है।"
+    }
+  },
+  "root_family": {
+    "root": "ي و م",
+    "meaning": {
+      "en": "day",
+      "ur": "دن",
+      "hi": "दिन"
+    },
+    "words": [
+      {
+        "arabic": "يَوْم",
+        "meaning": {
+          "en": "day",
+          "ur": "دن",
+          "hi": "दिन"
+        }
+      },
+      {
+        "arabic": "يَوْمُ ٱلدِّين",
+        "meaning": {
+          "en": "Day of Judgment",
+          "ur": "یوم الدین",
+          "hi": "यौमुद्दीन"
+        }
+      },
+      {
+        "arabic": "يَقِين",
+        "meaning": {
+          "en": "certainty",
+          "ur": "یقین",
+          "hi": "यक़ीन"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Ya?",
+        "ur": "ان میں سے 'Ya' کون سا ہے؟",
+        "hi": "इनमें से 'Ya' कौन सा है?"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ل",
+        "ي"
+      ],
+      "correct": "ي",
+      "feedback_correct": {
+        "en": "Yes! That's Ya.",
+        "ur": "بالکل! یہ یا ہے۔",
+        "hi": "बिल्कुल! यह या है।"
+      }
+    },
+    {
+      "type": "identify_form",
+      "order": 2,
+      "prompt": {
+        "en": "What form is shown?",
+        "ur": "کون سی شکل ہے؟",
+        "hi": "कौन सी शकल है?"
+      },
+      "shown_letter": "ـي",
+      "choices": [
+        {
+          "label": {
+            "en": "Isolated",
+            "ur": "منفرد",
+            "hi": "अकेला"
+          },
+          "value": "isolated"
+        },
+        {
+          "label": {
+            "en": "Initial",
+            "ur": "ابتدائی",
+            "hi": "शुरुआती"
+          },
+          "value": "initial"
+        },
+        {
+          "label": {
+            "en": "Medial",
+            "ur": "درمیانی",
+            "hi": "बीच का"
+          },
+          "value": "medial"
+        },
+        {
+          "label": {
+            "en": "Final",
+            "ur": "آخری",
+            "hi": "आखिरी"
+          },
+          "value": "final"
+        }
+      ],
+      "correct": "final"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "You have completed all 28 letters of the Arabic alphabet. الحمد لله! Every time you open the Qur'an now, you can read. What does this moment feel like?",
+      "ur": "آپ نے عربی حروف تہجی کے سارے ۲۸ حروف مکمل کر لیے۔ الحمد للہ! اب جب بھی آپ قرآن کھولیں گے، آپ پڑھ سکتے ہیں۔ یہ لمحہ کیسا لگ رہا ہے؟",
+      "hi": "आपने अरबी हर्फ़ तहज्जी के सारे 28 हर्फ़ मुकम्मल कर लिए। الحمد لله! अब जब भी आप क़ुरआन खोलेंगे, आप पढ़ सकते हैं। यह लम्हा कैसा लग रहा है?"
+    },
+    "journal_tag": "huroof-ya"
+  }
+}

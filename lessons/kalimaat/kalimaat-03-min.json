@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-03",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 3,
+  "prerequisite": "kalimaat-02",
+  "unlocks": ["kalimaat-04"],
+  "xp": 25,
+  "word": {
+    "arabic": "مِنْ",
+    "display": "مِنْ",
+    "transliteration": "Min",
+    "meaning": {
+      "en": "From / Of / Some of",
+      "ur": "سے / میں سے / کچھ",
+      "hi": "से / में से / कुछ"
+    },
+    "frequency_rank": 3,
+    "frequency_note": {
+      "en": "Appears 1,595 times — the most common preposition in the Qur'an.",
+      "ur": "۱۵۹۵ بار آتا ہے — قرآن کا سب سے زیادہ استعمال ہونے والا حرف جر۔",
+      "hi": "1,595 बार आता है — क़ुरआन का सबसे ज़्यादा इस्तेमाल होने वाला हर्फ़-ए-जर।"
+    }
+  },
+  "root": {
+    "letters": "م ن",
+    "note": {
+      "en": "مِنْ is a particle (harf) — it has no root. It never changes its form. Wherever you see مِنْ, it always means 'from' or 'of'.",
+      "ur": "مِنْ ایک حرف ہے — اس کی کوئی جڑ نہیں۔ یہ کبھی نہیں بدلتا۔ جہاں بھی مِنْ دیکھیں، یہ ہمیشہ 'سے' یا 'میں سے' کا مطلب دیتا ہے۔",
+      "hi": "مِنْ एक हर्फ़ है — इसकी कोई जड़ नहीं। यह कभी नहीं बदलता। जहाँ भी مِنْ देखें, यह हमेशा 'से' या 'में से' का मतलब देता है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+    "surah": { "en": "Al-Alaq 96:2", "ur": "العلق ۹۶:۲", "hi": "अल-अलक़ 96:2" },
+    "translation": {
+      "en": "He created man from a clinging clot.",
+      "ur": "اس نے انسان کو خون کے لوتھڑے سے پیدا کیا۔",
+      "hi": "उसने इंसान को ख़ून के लोथड़े से पैदा किया।"
+    },
+    "hook_explanation": {
+      "en": "The second ayah ever revealed. مِنْ — 'from'. Allah telling us our very origin. From a clot of blood. That same مِنْ connects creation to its Creator 1,595 times across the Qur'an.",
+      "ur": "کبھی نازل ہونے والی دوسری آیت۔ مِنْ — 'سے'۔ اللہ ہمیں ہماری اصل بتا رہا ہے۔ خون کے لوتھڑے سے۔ وہی مِنْ قرآن میں ۱۵۹۵ بار مخلوق کو خالق سے جوڑتا ہے۔",
+      "hi": "कभी नाज़िल होने वाली दूसरी आयत। مِنْ — 'से'। अल्लाह हमें हमारी असल बता रहा है। ख़ून के लोथड़े से। वही مِنْ क़ुरआन में 1,595 बार मख़लूक़ को ख़ालिक़ से जोड़ता है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does مِنْ mean?",
+        "ur": "مِنْ کا مطلب کیا ہے؟",
+        "hi": "مِنْ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "From / Of", "ur": "سے / میں سے", "hi": "से / में से" }, "value": "correct" },
+        { "label": { "en": "To / Towards", "ur": "کی طرف", "hi": "की तरफ़" }, "value": "wrong" },
+        { "label": { "en": "In / Inside", "ur": "میں", "hi": "में" }, "value": "wrong" },
+        { "label": { "en": "With / Together", "ur": "کے ساتھ", "hi": "के साथ" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Right — مِنْ means 'from'. مِنْ عَلَقٍ — 'from a clot'.",
+        "ur": "درست — مِنْ کا مطلب 'سے' ہے۔ مِنْ عَلَقٍ — 'خون کے لوتھڑے سے'۔",
+        "hi": "सही — مِنْ का मतलب 'से' है। مِنْ عَلَقٍ — 'लोथड़े से'।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Find مِنْ in this ayah:",
+        "ur": "اس آیت میں مِنْ تلاش کریں:",
+        "hi": "इस आयत में مِنْ ढूंढें:"
+      },
+      "ayah": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+      "target_word": "مِنْ",
+      "target_position": 2,
+      "feedback_correct": {
+        "en": "Yes — مِنْ. 'From'. The bridge between creation and its source.",
+        "ur": "ہاں — مِنْ۔ 'سے'۔ مخلوق اور اس کے خالق کے درمیان پل۔",
+        "hi": "हाँ — مِنْ۔ 'से'। मख़लूक़ और उसके ख़ालिक़ के बीच पुल।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "مِنْ عَلَقٍ — 'from a clot'. This is how the Qur'an describes your beginning. Does knowing the Arabic word مِنْ change how you hear this ayah?",
+      "ur": "مِنْ عَلَقٍ — 'خون کے لوتھڑے سے'۔ قرآن آپ کی ابتداء کو اس طرح بیان کرتا ہے۔ کیا عربی لفظ مِنْ جاننے سے یہ آیت آپ کو مختلف انداز میں سنائی دیتی ہے؟",
+      "hi": "مِنْ عَلَقٍ — 'लोथड़े से'। क़ुरआन आपकी शुरुआत को इस तरह बयान करता है। क्या अरबी लफ़्ज़ مِنْ जानने से यह आयत आपको अलग तरह से सुनाई देती है?"
+    },
+    "journal_tag": "kalimaat-min"
+  }
+}

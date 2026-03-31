@@ -1,0 +1,14 @@
+{
+  "name": "Alif — Arabic Learning App",
+  "short_name": "Alif",
+  "description": "Learn Qur'anic Arabic — word by word.",
+  "start_url": "/alif/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07090F",
+  "theme_color": "#07090F",
+  "icons": [
+    { "src": "assets/images/Alif-Dark.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/images/Alif-Dark.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

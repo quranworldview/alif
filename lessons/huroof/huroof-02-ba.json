@@ -1,0 +1,107 @@
+{
+  "id": "huroof-02",
+  "type": "huroof",
+  "track": "huroof",
+  "order": 2,
+  "prerequisite": "huroof-01",
+  "unlocks": ["huroof-03"],
+  "xp": 20,
+  "letter": {
+    "arabic": "ب",
+    "name": { "en": "Ba", "ur": "با", "hi": "बा" },
+    "transliteration": "b",
+    "sound_description": {
+      "en": "Like the 'b' in 'book' — lips together, then open.",
+      "ur": "جیسے 'ب' کی آواز — ہونٹ بند، پھر کھلیں۔",
+      "hi": "जैसे 'ब' की आवाज़ — होंठ बंद, फिर खुलें।"
+    }
+  },
+  "forms": {
+    "isolated": { "arabic": "ب", "note": { "en": "A boat shape with one dot below.", "ur": "کشتی کی شکل — نیچے ایک نقطہ۔", "hi": "नाव जैसी शक्ल — नीचे एक बिंदु।" } },
+    "initial":  { "arabic": "بـ", "note": { "en": "At the start — the tooth comes out to connect.", "ur": "شروع میں — دانت نکلتا ہے آگے ملنے کے لیے۔", "hi": "शुरुआत में — दांत निकलता है आगे जुड़ने के लिए।" } },
+    "medial":   { "arabic": "ـبـ", "note": { "en": "In the middle — connected on both sides, one dot below.", "ur": "درمیان میں — دونوں طرف سے ملا ہوا، نیچے ایک نقطہ۔", "hi": "बीच में — दोनों तरफ़ से जुड़ा, नीचे एक बिंदु।" } },
+    "final":    { "arabic": "ـب", "note": { "en": "At the end — the boat settles, one dot below.", "ur": "آخر میں — کشتی ٹھہر جاتی ہے، نیچے ایک نقطہ۔", "hi": "अंत में — नाव टिक जाती है, नीचे एक बिंदु।" } }
+  },
+  "quranic_hook": {
+    "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+    "surah": { "en": "Al-Fatiha 1:1 — the Bismillah", "ur": "الفاتحہ ۱:۱ — بسم اللہ", "hi": "अल-फ़ातिहा 1:1 — बिस्मिल्लाह" },
+    "translation": {
+      "en": "In the name of Allah, the Most Gracious, the Most Merciful.",
+      "ur": "اللہ کے نام سے جو بڑا مہربان، نہایت رحم والا ہے۔",
+      "hi": "अल्लाह के नाम से जो बड़ा मेहरबान, निहायत रहम वाला है।"
+    },
+    "hook_word": "بِسْمِ",
+    "hook_explanation": {
+      "en": "The Bismillah — the most recited phrase in human history — begins with Ba. بِسْمِ means 'in the name of'. Every surah (except At-Tawbah), every meal, every journey begins with this Ba.",
+      "ur": "بسم اللہ — انسانی تاریخ کا سب سے زیادہ پڑھا جانے والا جملہ — با سے شروع ہوتا ہے۔ بِسمِ مطلب 'نام سے'۔ ہر سورہ، ہر کھانا، ہر سفر اس با سے شروع ہوتا ہے۔",
+      "hi": "बिस्मिल्लाह — इंसानी तारीख़ का सबसे ज़्यादा पढ़ा जाने वाला जुमला — बा से शुरू होता है। بِسمِ मतलब 'नाम से'। हर सूरह, हर खाना, हर सफ़र इस बा से शुरू होता है।"
+    }
+  },
+  "root_family": {
+    "root": "ب س م",
+    "meaning": { "en": "to name, to mention a name", "ur": "نام لینا", "hi": "नाम लेना" },
+    "words": [
+      { "arabic": "ٱسْم", "meaning": { "en": "name", "ur": "نام", "hi": "नाम" } },
+      { "arabic": "تَسْمِيَة", "meaning": { "en": "naming", "ur": "نام رکھنا", "hi": "नाम रखना" } },
+      { "arabic": "مُسَمَّى", "meaning": { "en": "the named one, the thing named", "ur": "جس کا نام رکھا گیا", "hi": "जिसका नाम रखा गया" } }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "recognize",
+      "order": 1,
+      "prompt": {
+        "en": "Which of these is Ba?",
+        "ur": "ان میں سے کون سا حرف 'ب' ہے؟",
+        "hi": "इनमें से 'ब' कौन सा है?"
+      },
+      "choices": ["ن", "ب", "ي", "ت"],
+      "correct": "ب",
+      "feedback_correct": {
+        "en": "That's Ba — one dot below the boat!",
+        "ur": "یہ ہے با — کشتی کے نیچے ایک نقطہ!",
+        "hi": "यही है बा — नाव के नीचे एक बिंदु!"
+      }
+    },
+    {
+      "type": "spot_in_word",
+      "order": 2,
+      "prompt": {
+        "en": "Tap the Ba in the Bismillah:",
+        "ur": "بسم اللہ میں با پر ٹیپ کریں:",
+        "hi": "बिस्मिल्लाह में बा पर टैप करें:"
+      },
+      "word": "بِسْمِ",
+      "target_index": 0,
+      "highlight_hint": {
+        "en": "The first letter of Bismillah — the letter you now know.",
+        "ur": "بسم اللہ کا پہلا حرف — وہ حرف جو آپ نے سیکھ لیا۔",
+        "hi": "बिस्मिल्लाह का पहला हर्फ़ — वह हर्फ़ जो आपने सीख लिया।"
+      }
+    },
+    {
+      "type": "mcq_meaning",
+      "order": 3,
+      "prompt": {
+        "en": "What does بِسْمِ mean?",
+        "ur": "بِسمِ کا مطلب کیا ہے؟",
+        "hi": "بِسمِ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "In the name of", "ur": "نام سے", "hi": "नाम से" }, "value": "correct" },
+        { "label": { "en": "By the grace of", "ur": "فضل سے", "hi": "फ़ज़ल से" }, "value": "wrong" },
+        { "label": { "en": "For the sake of", "ur": "خاطر", "hi": "ख़ातिर" }, "value": "wrong" },
+        { "label": { "en": "With the help of", "ur": "مدد سے", "hi": "मदद से" }, "value": "wrong" }
+      ],
+      "correct": "correct"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "You say Bismillah many times a day without thinking. Now that you know what Ba and ism mean — what changes when you say it consciously?",
+      "ur": "آپ روز کئی بار بغیر سوچے بسم اللہ کہتے ہیں۔ اب جب با اور اسم کا مطلب جانتے ہیں — شعوری طور پر کہنے سے کیا فرق پڑتا ہے؟",
+      "hi": "आप रोज़ कई बार बिना सोचे बिस्मिल्लाह कहते हैं। अब जब बा और اسم का मतलब जानते हैं — होशपूर्वक कहने से क्या फ़र्क़ पड़ता है?"
+    },
+    "journal_tag": "huroof-ba"
+  }
+}
