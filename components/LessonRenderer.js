@@ -181,26 +181,70 @@ function renderLearn(lesson, lang, body) {
     `;
 
   } else if (lesson.type === 'qawaid') {
-    const blocks = lesson.blocks;
-    body.innerHTML = `
-      <div class="label-accent" style="margin-bottom:20px;">${t('stepLearn', lang)}</div>
+    // explanation_blocks schema: { term:{arabic,en,ur,hi}, definition:{en,ur,hi}, quick_test:{en,ur,hi}, examples:[{arabic, meaning:{en,ur,hi}}] }
+    const blocks = lesson.explanation_blocks || [];
+    const concept = lesson.concept || {};
 
+    body.innerHTML = `
+      <div class="label-accent" style="margin-bottom:16px;">${t('stepLearn', lang)}</div>
+
+      <!-- Concept header -->
+      <div style="text-align:center; margin-bottom:20px;">
+        <div style="font-family:'Amiri',serif; font-size:2.25em; direction:rtl; color:var(--crimson); margin-bottom:6px; line-height:1.3;">
+          ${(concept.arabic_terms || []).join(' · ')}
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:1.25em; font-weight:600; color:var(--text-primary); margin-bottom:4px;">
+          ${concept.name?.[lang] || concept.name?.en || ''}
+        </div>
+        <div style="font-size:0.8125em; color:var(--text-muted); line-height:1.5;">
+          ${concept.subtitle?.[lang] || concept.subtitle?.en || ''}
+        </div>
+      </div>
+
+      <!-- Explanation blocks -->
       ${blocks.map(b => `
-        <div style="background:var(--bg-card); border:1px solid var(--border-gold); border-radius:16px; padding:20px; margin-bottom:14px; box-shadow:var(--shadow);">
-          <div style="font-family:'Amiri',serif; font-size:40px; direction:rtl; color:var(--crimson); text-align:center; margin-bottom:8px;">${b.arabic}</div>
-          <div style="font-family:'Cormorant Garamond',serif; font-size:1.375em; font-weight:600; color:var(--text-primary); text-align:center; margin-bottom:10px;">${b.name[lang] || b.name.en}</div>
-          <div style="font-size:0.875em; color:var(--text-secondary); line-height:1.7; margin-bottom:14px;">${b.def[lang] || b.def.en}</div>
-          <div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
-            ${b.examples.map(e => `
-              <span style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:50px; padding:4px 14px; font-family:'Amiri',serif; font-size:1.125em; direction:rtl; color:var(--text-arabic);">${e}</span>
-            `).join('')}
+        <div style="background:var(--bg-card); border:1px solid var(--border-gold); border-radius:18px; padding:20px 18px; margin-bottom:14px; box-shadow:var(--shadow);">
+
+          <!-- Term -->
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:14px;">
+            <div style="font-family:'Amiri',serif; font-size:2em; direction:rtl; color:var(--crimson); line-height:1; flex-shrink:0;">
+              ${b.term?.arabic || ''}
+            </div>
+            <div>
+              <div style="font-family:'Cormorant Garamond',serif; font-size:1.125em; font-weight:600; color:var(--text-primary);">
+                ${b.term?.[lang] || b.term?.en || ''}
+              </div>
+              ${lang !== 'en' ? `<div style="font-size:0.6875em; color:var(--text-muted); font-style:italic;">${b.term?.en || ''}</div>` : ''}
+            </div>
           </div>
+
+          <!-- Definition -->
+          <div style="font-size:0.875em; color:var(--text-secondary); line-height:1.75; margin-bottom:12px;">
+            ${b.definition?.[lang] || b.definition?.en || ''}
+          </div>
+
+          <!-- Quick test tip -->
+          ${b.quick_test ? `
+            <div style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:10px; padding:10px 14px; font-size:0.8125em; color:var(--gold-dim); line-height:1.6; margin-bottom:14px;">
+              💡 ${b.quick_test[lang] || b.quick_test.en}
+            </div>
+          ` : ''}
+
+          <!-- Examples -->
+          ${b.examples?.length ? `
+            <div style="display:flex; flex-wrap:wrap; gap:8px;">
+              ${b.examples.map(e => `
+                <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:10px; padding:8px 14px; text-align:center;">
+                  <div style="font-family:'Amiri',serif; font-size:1.25em; direction:rtl; color:var(--text-arabic); margin-bottom:2px;">${e.arabic}</div>
+                  <div style="font-size:0.6875em; color:var(--text-muted);">${e.meaning?.[lang] || e.meaning?.en || ''}</div>
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
         </div>
       `).join('')}
 
-      <div style="margin-top:8px;">
-        <button class="btn btn-primary" onclick="nextStep()">${t('practiceBtn', lang)}</button>
-      </div>
+      <button class="btn btn-primary" onclick="nextStep()" style="margin-top:8px;">${t('practiceBtn', lang)}</button>
     `;
   }
 }

@@ -3,13 +3,14 @@
 // localStorage now — Firebase slot-in when auth is wired.
 
 const KEYS = {
-  progress: 'alif_progress',
-  xp:       'alif_xp',
-  streak:   'alif_streak',
-  lastDate: 'alif_last_date',
-  journal:  'alif_journal',
-  level:    'alif_level',
-  placement:'alif_placement',
+  progress:   'alif_progress',
+  xp:         'alif_xp',
+  streak:     'alif_streak',
+  lastDate:   'alif_last_date',
+  journal:    'alif_journal',
+  level:      'alif_level',
+  placement:  'alif_placement',
+  lastLesson: 'alif_last_lesson',  // track of last lesson the student touched
 };
 
 function load(key, fallback) {
@@ -87,6 +88,16 @@ export function setPlacementDone(score, assigned, actual) {
   localStorage.setItem(KEYS.placement, JSON.stringify({ score, assigned, actual, date: new Date().toISOString() }));
 }
 export function getPlacement() { return load(KEYS.placement, null); }
+
+// ── LAST LESSON ──
+// Written whenever a lesson is started. Used by the Track screen to
+// know which track to expand and which lesson to scroll to.
+export function setLastLesson(lessonId) {
+  localStorage.setItem(KEYS.lastLesson, lessonId);
+}
+export function getLastLesson() {
+  return localStorage.getItem(KEYS.lastLesson) || null;
+}
 
 // ── UNLOCK LOGIC ──
 // A lesson is unlocked if: it has no prerequisite, OR its prerequisite is complete

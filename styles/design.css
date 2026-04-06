@@ -4,7 +4,7 @@
    Dark mode:  Night sky / celestial
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@300;400;500;600&display=swap');
 
 /* ── LIGHT MODE (default) — Manuscript / warm parchment ── */
 :root {
@@ -56,7 +56,8 @@
   --font-heading:   'Cormorant Garamond', Georgia, serif;
   --font-body:      'DM Sans', system-ui, sans-serif;
   --font-arabic:    'Amiri', 'Traditional Arabic', serif;
-  --font-urdu:      'Noto Nastaliq Urdu', 'Amiri', serif;
+  --font-urdu:      'Noto Nastaliq Urdu', 'Urdu Typesetting', serif;
+  --font-hindi:     'Noto Sans Devanagari', system-ui, sans-serif;
 
   --r-sm: 8px;
   --r-md: 14px;
@@ -179,6 +180,58 @@ html, body {
   flex: 1;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+/* ── LANGUAGE-SPECIFIC FONTS ──
+   Set via data-lang attribute on <html> by app.js on boot and lang change.
+   Urdu: Nastaliq script — needs larger size and RTL direction.
+   Hindi: Devanagari — clean sans-serif, reads well at body size.
+   ─────────────────────────────────────────────────────────── */
+
+/* Urdu — apply Nastaliq to all body text */
+html[data-lang="ur"] body,
+html[data-lang="ur"] .screen,
+html[data-lang="ur"] button,
+html[data-lang="ur"] input,
+html[data-lang="ur"] textarea {
+  font-family: var(--font-urdu);
+  direction: rtl;
+}
+
+/* Urdu — increase base size (Nastaliq reads small at 16px) */
+html[data-lang="ur"] {
+  font-size: 18px;
+}
+html[data-lang="ur"][data-text-size="large"] {
+  font-size: 21px;
+}
+html[data-lang="ur"][data-text-size="xlarge"] {
+  font-size: 24px;
+}
+
+/* Urdu — Arabic text stays its own font and size */
+html[data-lang="ur"] .arabic,
+html[data-lang="ur"] [style*="font-family:'Amiri'"],
+html[data-lang="ur"] [style*='font-family:'Amiri''] {
+  font-family: var(--font-arabic) !important;
+  direction: rtl;
+}
+
+/* Urdu — labels, badges, buttons that are LTR content stay LTR */
+html[data-lang="ur"] .xp-badge,
+html[data-lang="ur"] .label-accent,
+html[data-lang="ur"] .progress-bar,
+html[data-lang="ur"] .bottom-nav {
+  direction: ltr;
+}
+
+/* Hindi — Devanagari font */
+html[data-lang="hi"] body,
+html[data-lang="hi"] .screen,
+html[data-lang="hi"] button,
+html[data-lang="hi"] input,
+html[data-lang="hi"] textarea {
+  font-family: var(--font-hindi);
 }
 
 /* ── TYPOGRAPHY ── */

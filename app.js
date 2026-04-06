@@ -24,7 +24,7 @@ import {
 } from './components/LessonRenderer.js';
 import {
   isComplete, isPlacementDone, setPlacementDone, setLevel, getLevel,
-  getProgress, isUnlocked
+  getProgress, isUnlocked, setLastLesson, getLastLesson
 } from './components/ProgressTracker.js';
 
 // ── GLOBAL STATE ──
@@ -34,6 +34,8 @@ window.APP_STATE = {
   userName: '',
   allLessons: [],
 };
+// Drive CSS font/direction switching via data-lang on <html>
+document.documentElement.setAttribute('data-lang', window.APP_STATE.lang);
 
 // ── LESSON REGISTRY ──
 // Lessons are loaded lazily. Add new lessons here as they're authored.
@@ -80,8 +82,90 @@ const LESSON_FILES = [
   './lessons/kalimaat/kalimaat-10-la.json',
   './lessons/kalimaat/kalimaat-11-bi.json',
   './lessons/kalimaat/kalimaat-12-li.json',
+  './lessons/kalimaat/kalimaat-13-ma.json',
+  './lessons/kalimaat/kalimaat-14-qala.json',
+  './lessons/kalimaat/kalimaat-15-kana.json',
+  './lessons/kalimaat/kalimaat-16-rabb.json',
+  './lessons/kalimaat/kalimaat-17-kull.json',
+  './lessons/kalimaat/kalimaat-18-alladhi.json',
+  './lessons/kalimaat/kalimaat-19-yawm.json',
+  './lessons/kalimaat/kalimaat-20-nafs.json',
+  './lessons/kalimaat/kalimaat-21-rahman.json',
+  './lessons/kalimaat/kalimaat-22-rahim.json',
+  './lessons/kalimaat/kalimaat-23-alim.json',
+  './lessons/kalimaat/kalimaat-24-nur.json',
+  './lessons/kalimaat/kalimaat-25-iman.json',
+  './lessons/kalimaat/kalimaat-26-qalb.json',
+  './lessons/kalimaat/kalimaat-27-ard.json',
+  './lessons/kalimaat/kalimaat-28-nas.json',
+  './lessons/kalimaat/kalimaat-29-amal.json',
+  './lessons/kalimaat/kalimaat-30-sabr.json',
+  './lessons/kalimaat/kalimaat-31-khalaqa.json',
+  './lessons/kalimaat/kalimaat-32-abada.json',
+  './lessons/kalimaat/kalimaat-33-amana.json',
+  './lessons/kalimaat/kalimaat-34-arsala.json',
+  './lessons/kalimaat/kalimaat-35-hada.json',
+  './lessons/kalimaat/kalimaat-36-taba.json',
+  './lessons/kalimaat/kalimaat-37-daa.json',
+  './lessons/kalimaat/kalimaat-38-alima.json',
+  './lessons/kalimaat/kalimaat-39-razaqa.json',
+  './lessons/kalimaat/kalimaat-40-shakara.json',
+  './lessons/kalimaat/kalimaat-41-haqq.json',
+  './lessons/kalimaat/kalimaat-42-kitab.json',
+  './lessons/kalimaat/kalimaat-43-amr.json',
+  './lessons/kalimaat/kalimaat-44-qawm.json',
+  './lessons/kalimaat/kalimaat-45-sabil.json',
+  './lessons/kalimaat/kalimaat-46-aya.json',
+  './lessons/kalimaat/kalimaat-47-dhikr.json',
+  './lessons/kalimaat/kalimaat-48-hamd.json',
+  './lessons/kalimaat/kalimaat-49-dunya.json',
+  './lessons/kalimaat/kalimaat-50-akhira.json',
+  './lessons/kalimaat/kalimaat-51-rasul.json',
+  './lessons/kalimaat/kalimaat-52-adhab.json',
+  './lessons/kalimaat/kalimaat-53-rahma.json',
+  './lessons/kalimaat/kalimaat-54-janna.json',
+  './lessons/kalimaat/kalimaat-55-naar.json',
+  './lessons/kalimaat/kalimaat-56-salat.json',
+  './lessons/kalimaat/kalimaat-57-din.json',
+  './lessons/kalimaat/kalimaat-58-malak.json',
+  './lessons/kalimaat/kalimaat-59-khayr.json',
+  './lessons/kalimaat/kalimaat-60-shay.json',
+  './lessons/kalimaat/kalimaat-61-nabi.json',
+  './lessons/kalimaat/kalimaat-62-quran.json',
+  './lessons/kalimaat/kalimaat-63-hayat.json',
+  './lessons/kalimaat/kalimaat-64-mawt.json',
+  './lessons/kalimaat/kalimaat-65-wajh.json',
+  './lessons/kalimaat/kalimaat-66-yad.json',
+  './lessons/kalimaat/kalimaat-67-maa.json',
+  './lessons/kalimaat/kalimaat-68-umma.json',
+  './lessons/kalimaat/kalimaat-69-ab.json',
+  './lessons/kalimaat/kalimaat-70-ruh.json',
+  './lessons/kalimaat/kalimaat-71-ilm.json',
+  './lessons/kalimaat/kalimaat-72-nima.json',
+  './lessons/kalimaat/kalimaat-73-umm.json',
+  './lessons/kalimaat/kalimaat-74-akh.json',
+  './lessons/kalimaat/kalimaat-75-ayn.json',
+  './lessons/kalimaat/kalimaat-76-lisan.json',
+  './lessons/kalimaat/kalimaat-77-sama.json',
+  './lessons/kalimaat/kalimaat-78-shams.json',
+  './lessons/kalimaat/kalimaat-79-qamar.json',
+  './lessons/kalimaat/kalimaat-80-layl.json',
+  './lessons/kalimaat/kalimaat-81-nahar.json',
+  './lessons/kalimaat/kalimaat-82-qarya.json',
+  './lessons/kalimaat/kalimaat-83-insan.json',
+  './lessons/kalimaat/kalimaat-84-sirat.json',
+  './lessons/kalimaat/kalimaat-85-hakim.json',
+  './lessons/kalimaat/kalimaat-86-ghafur.json',
+  './lessons/kalimaat/kalimaat-87-tawba.json',
+  './lessons/kalimaat/kalimaat-88-dua.json',
+  './lessons/kalimaat/kalimaat-89-jihad.json',
+  './lessons/kalimaat/kalimaat-90-fitna.json',
   // Qawaid — grammar
   './lessons/qawaid/qawaid-01-ism-fil-harf.json',
+  './lessons/qawaid/qawaid-02-mudhakkar-muannath.json',
+  './lessons/qawaid/qawaid-03-mufrad-muthanna-jama.json',
+  './lessons/qawaid/qawaid-04-marifah-nakirah.json',
+  './lessons/qawaid/qawaid-05-idafa.json',
 ];
 
 async function loadAllLessons() {
@@ -139,6 +223,7 @@ window.showScreen = function(screen) {
         main.innerHTML = renderTrack(lang, lessons);
         updateSidebarStats();
         updateSidebarNav('track');
+        scrollTrackToActive();
       })();
       break;
 
@@ -268,6 +353,9 @@ window.loadAndStartLesson = async function(lessonId) {
     return;
   }
 
+  // Persist last touched lesson — used by Track screen to restore state
+  setLastLesson(lessonId);
+
   const main = document.getElementById('app-main');
   const lang = window.APP_STATE.lang;
 
@@ -324,6 +412,7 @@ window.setLangFromDrawer = function(lang) {
   window.closeProfile();           // close drawer first
   window.APP_STATE.lang = lang;    // update global state
   localStorage.setItem('qwv_lang', lang);
+  document.documentElement.setAttribute('data-lang', lang);
   // If inside a lesson, update lesson state and re-render current step instantly
   const current = document.querySelector('#app-main .screen');
   const screenId = current?.id?.replace('-screen', '');
@@ -404,10 +493,40 @@ window.toggleTrack = function(collapseId, arrowId) {
   if (arrow) arrow.style.transform = isOpen ? 'rotate(-90deg)' : 'rotate(0deg)';
 };
 
+// ── LEVEL 1 CELEBRATION ──
+window.dismissL1Celebration = function(goToL2) {
+  localStorage.setItem('alif_kalimaat_l1_celebrated', '1');
+  const modal = document.getElementById('l1-celebration-modal');
+  if (modal) {
+    modal.style.opacity = '0';
+    modal.style.transition = 'opacity 0.3s ease';
+    setTimeout(() => modal.remove(), 300);
+  }
+  // Award the 500 bonus XP once
+  const bonusKey = 'alif_kalimaat_l1_bonus_xp';
+  if (!localStorage.getItem(bonusKey)) {
+    const xp = parseInt(localStorage.getItem('alif_xp') || '0') + 500;
+    localStorage.setItem('alif_xp', xp);
+    localStorage.setItem(bonusKey, '1');
+  }
+  if (goToL2) showScreen('track'); // re-render with L2 unlocked at top
+};
+
+// ── SCROLL TRACK TO ACTIVE LESSON ──
+function scrollTrackToActive() {
+  setTimeout(() => {
+    const activeNode = document.querySelector('[data-active-lesson="true"]');
+    if (activeNode) {
+      activeNode.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, 200);
+}
+
 // ── LANG & THEME ──
 window.setLang = function(lang) {
   window.APP_STATE.lang = lang;
   localStorage.setItem('qwv_lang', lang);
+  document.documentElement.setAttribute('data-lang', lang);
   // If inside a lesson, update lesson state and re-render current step instantly
   const current = document.querySelector('#app-main .screen');
   const screenId = current?.id?.replace('-screen', '');

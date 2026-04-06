@@ -1,6 +1,6 @@
 // AppScreens.js — Home, Track, Journal screens + Profile drawer + Desktop panels
 import { t } from '../i18n/strings.js';
-import { getXP, getStreak, countComplete, isComplete, isUnlocked } from '../components/ProgressTracker.js';
+import { getXP, getStreak, countComplete, isComplete, isUnlocked, getLastLesson } from '../components/ProgressTracker.js';
 import { getTheme, getTextSize } from '../components/theme.js';
 
 // ── THEME TOGGLE BUTTON ──
@@ -137,8 +137,35 @@ export function renderTrack(lang, allLessons) {
     { key: 'qawaid',   icon: 'ق', label: t('trackQawaid', lang),   arabic: 'قَوَاعِد' },
   ];
 
+  // ── Detect Level 1 completion for celebration modal ──
+  const kalimaatL1 = allLessons.filter(l => l.track === 'kalimaat' && l.order <= 50);
+  const kalimaatL1Complete = kalimaatL1.length >= 50 && kalimaatL1.every(l => isComplete(l.id));
+  const celebrationShown   = localStorage.getItem('alif_kalimaat_l1_celebrated');
+  const showCelebration    = kalimaatL1Complete && !celebrationShown;
+
+  // ── Find the active track ──
+  // Source of truth: the last lesson the student actually touched (persisted in localStorage).
+  // This is set in app.js every time loadAndStartLesson() is called.
+  // Fallback for brand-new students: first track (huroof).
+  function getActiveTrackKey() {
+    const lastId = getLastLesson();
+    if (lastId) {
+      const lastLesson = allLessons.find(l => l.id === lastId);
+      if (lastLesson) return lastLesson.track;
+    }
+    // Brand-new student: open the first track that has an unlocked lesson
+    for (const track of tracks) {
+      const tl = allLessons.filter(l => l.track === track.key);
+      if (tl.some(l => isUnlocked(l, allLessons))) return track.key;
+    }
+    return tracks[0].key;
+  }
+  const activeTrackKey = getActiveTrackKey();
+
   return `
     <div id="track-screen" class="screen active" style="display:flex; flex-direction:column; min-height:100vh;">
+
+      ${showCelebration ? renderKalimaatL1Modal(lang) : ''}
 
       <div class="topbar">
         <span style="font-family:'Cormorant Garamond',serif; font-size:1.25em; font-weight:600; color:var(--crimson);">${t('trackTitle', lang)}</span>
@@ -148,16 +175,18 @@ export function renderTrack(lang, allLessons) {
         </div>
       </div>
 
-      <div class="scroll-content" style="padding:16px 20px 100px;">
+      <div class="scroll-content" id="track-scroll" style="padding:16px 20px 100px;">
         ${tracks.map((track, tIdx) => {
           const trackLessons = allLessons.filter(l => l.track === track.key);
           const doneCount = trackLessons.filter(l => isComplete(l.id)).length;
           const pct = trackLessons.length ? Math.round((doneCount / trackLessons.length) * 100) : 0;
-          // Auto-expand the first track that has an unlocked lesson; collapse the rest
-          const hasActive = trackLessons.some(l => !isComplete(l.id) && isUnlocked(l, trackLessons));
-          const isExpanded = tIdx === 0 || hasActive;
+          const isExpanded = track.key === activeTrackKey;
           const collapseId = `track-collapse-${track.key}`;
           const arrowId    = `track-arrow-${track.key}`;
+
+          // Find the active lesson ID within this track (for scroll targeting)
+          const activeLessonInTrack = trackLessons.find(l => !isComplete(l.id) && isUnlocked(l, allLessons));
+          const activeLessonId = activeLessonInTrack ? activeLessonInTrack.id : null;
 
           return `
             <div class="anim-fadeUp" style="animation-delay:${tIdx * 0.08}s; margin-bottom:16px; background:var(--bg-card); border:1px solid var(--border); border-radius:18px; overflow:hidden; box-shadow:var(--shadow);">
@@ -191,6 +220,7 @@ export function renderTrack(lang, allLessons) {
                 ${trackLessons.map((lesson, lIdx) => {
                   const complete = isComplete(lesson.id);
                   const unlocked = isUnlocked(lesson, allLessons);
+                  const isActiveLesson = lesson.id === activeLessonId;
                   const nodeTitle = lesson.type === 'huroof'
                     ? `${lesson.letter?.name?.en || lesson.id} · ${lesson.letter?.arabic || ''}`
                     : lesson.type === 'kalimaat'
@@ -198,14 +228,16 @@ export function renderTrack(lang, allLessons) {
                       : lesson.title?.en || lesson.id;
 
                   return `
-                    <div class="${unlocked && !complete ? 'lift' : ''}"
-                      style="display:flex; align-items:center; gap:12px; background:var(--bg-secondary); border:1px solid ${complete ? 'var(--border-gold)' : 'var(--border)'}; border-radius:12px; padding:12px 14px; margin-bottom:6px; cursor:${unlocked ? 'pointer' : 'default'}; opacity:${unlocked ? '1' : '0.38'}; transition:all 0.15s;"
+                    <div id="lesson-node-${lesson.id}"
+                      data-active-lesson="${isActiveLesson ? 'true' : 'false'}"
+                      class="${unlocked && !complete ? 'lift' : ''}"
+                      style="display:flex; align-items:center; gap:12px; background:var(--bg-secondary); border:1px solid ${isActiveLesson ? 'var(--crimson)' : complete ? 'var(--border-gold)' : 'var(--border)'}; border-radius:12px; padding:12px 14px; margin-bottom:6px; cursor:${unlocked ? 'pointer' : 'default'}; opacity:${unlocked ? '1' : '0.38'}; transition:all 0.15s; ${isActiveLesson ? 'box-shadow:0 0 0 2px rgba(120,15,0,0.15);' : ''}"
                       onclick="${unlocked ? `loadAndStartLesson('${lesson.id}')` : ''}">
 
                       <!-- Status circle -->
                       <div style="width:38px; height:38px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:'Amiri',serif; font-size:1.125em; transition:all 0.2s;
                         background:${complete ? 'rgba(201,168,76,0.15)' : unlocked ? 'rgba(120,15,0,0.08)' : 'var(--bg-card)'};
-                        color:${complete ? 'var(--gold)' : unlocked ? 'var(--crimson)' : 'var(--text-muted)'};">
+                        color:${complete ? 'var(--gold)' : unlocked ? 'var(--crimson)' : 'var(--text-muted)'}">
                         ${complete ? '✓' : unlocked ? (lesson.letter?.arabic || lesson.word?.arabic || lesson.order || '?') : '🔒'}
                       </div>
 
@@ -219,7 +251,7 @@ export function renderTrack(lang, allLessons) {
                       <div style="font-size:0.6875em; font-weight:600; padding:3px 10px; border-radius:20px; flex-shrink:0; white-space:nowrap;
                         background:${complete ? 'rgba(201,168,76,0.15)' : unlocked ? 'var(--crimson)' : 'transparent'};
                         color:${complete ? 'var(--gold)' : unlocked ? 'white' : 'var(--text-muted)'};
-                        border:1px solid ${complete ? 'var(--border-gold)' : unlocked ? 'transparent' : 'var(--border)'};">
+                        border:1px solid ${complete ? 'var(--border-gold)' : unlocked ? 'transparent' : 'var(--border)'}">
                         ${complete ? '✓ Done' : unlocked ? (lang === 'ur' ? 'شروع' : lang === 'hi' ? 'शुरू' : 'Start') : '🔒'}
                       </div>
                     </div>`;
@@ -232,6 +264,57 @@ export function renderTrack(lang, allLessons) {
       ${renderBottomNav('track', lang)}
     </div>
   `;
+}
+
+
+// ── KALIMAAT LEVEL 1 CELEBRATION MODAL ──
+function renderKalimaatL1Modal(lang) {
+  const lines = {
+    title:   { en: 'Level 1 Complete', ur: 'لیول ۱ مکمل', hi: 'लेवल 1 मुकम्मल' },
+    sub:     { en: '50 Words of the Qur\'an', ur: 'قرآن کے ۵۰ الفاظ', hi: 'क़ुरआन के 50 लफ़्ज़' },
+    stat:    { en: 'These 50 words appear over 30,000 times in the Qur\'an — covering roughly 50% of everything you will ever read.', ur: 'یہ ۵۰ الفاظ قرآن میں ۳۰,۰۰۰ سے زیادہ بار آئے ہیں — تقریباً ۵۰٪ جو آپ کبھی پڑھیں گے۔', hi: 'ये 50 लफ़्ज़ क़ुरआन में 30,000 से ज़्यादा बार आए हैं — तक़रीबन 50% जो आप कभी पढ़ेंगे।' },
+    body:    { en: 'You started with اللَّه and ended with آخِرَة. Between them: the language of your prayer, your faith, your Book. Alhamdulillah.', ur: 'آپ نے اللَّه سے شروع کیا اور آخِرَة پر ختم کیا۔ درمیان میں: آپ کی نماز، آپ کے ایمان، آپ کی کتاب کی زبان۔ الحمد للہ۔', hi: 'आपने اللَّه से शुरू किया और آخِرَة पर ख़त्म किया। दरमियान में: आपकी नमाज़, आपके ईमान, आपकी किताब की ज़बान। अलहमदुलिल्लाह।' },
+    cta:     { en: 'Continue to Level 2', ur: 'لیول ۲ کی طرف جائیں', hi: 'लेवल 2 की तरफ़ जाएँ' },
+    dismiss: { en: 'Stay in Level 1', ur: 'لیول ۱ میں رہیں', hi: 'लेवल 1 में रहें' },
+  };
+  const L = (key) => lines[key][lang] || lines[key].en;
+
+  return `
+    <!-- Celebration overlay -->
+    <div id="l1-celebration-modal"
+      style="position:fixed; inset:0; z-index:1000; background:rgba(7,9,15,0.92); display:flex; align-items:center; justify-content:center; padding:20px;">
+      <div style="background:var(--bg-card); border:1px solid var(--border-gold); border-radius:24px; max-width:380px; width:100%; padding:32px 28px; text-align:center; box-shadow:0 24px 64px rgba(0,0,0,0.5);">
+
+        <!-- Stars -->
+        <div style="font-size:2.5em; margin-bottom:8px; letter-spacing:6px;">⭐⭐⭐</div>
+
+        <!-- Arabic -->
+        <div style="font-family:'Amiri',serif; font-size:2em; color:var(--crimson); margin-bottom:4px; direction:rtl;">الحمد للہ</div>
+
+        <!-- Title -->
+        <div style="font-family:'Cormorant Garamond',serif; font-size:1.625em; font-weight:600; color:var(--text-primary); margin-bottom:4px;">${L('title')}</div>
+        <div style="font-size:0.8125em; color:var(--gold); font-weight:600; letter-spacing:0.04em; margin-bottom:20px;">${L('sub')}</div>
+
+        <!-- Stat card -->
+        <div style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:14px; padding:14px 16px; margin-bottom:16px;">
+          <div style="font-size:0.8125em; color:var(--text-muted); line-height:1.6;">${L('stat')}</div>
+        </div>
+
+        <!-- Message -->
+        <div style="font-size:0.875em; color:var(--text-primary); line-height:1.65; margin-bottom:28px;">${L('body')}</div>
+
+        <!-- XP badge -->
+        <div class="xp-badge xp-pop" style="font-size:1em; padding:8px 24px; margin:0 auto 24px; display:inline-flex;">
+          ✦ +500 XP · Level 1 Complete
+        </div>
+
+        <!-- CTAs -->
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <button class="btn btn-primary" onclick="dismissL1Celebration(true)">${L('cta')}</button>
+          <button class="btn btn-secondary" onclick="dismissL1Celebration(false)">${L('dismiss')}</button>
+        </div>
+      </div>
+    </div>`;
 }
 
 // ── JOURNAL SCREEN ──
