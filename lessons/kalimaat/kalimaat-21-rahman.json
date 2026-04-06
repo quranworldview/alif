@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-21",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 21,
+  "prerequisite": "kalimaat-20",
+  "unlocks": ["kalimaat-22"],
+  "xp": 35,
+  "word": {
+    "arabic": "ٱلرَّحْمَـٰن",
+    "display": "ٱلرَّحْمَـٰن",
+    "transliteration": "Ar-Raḥmān",
+    "meaning": {
+      "en": "The Most Compassionate / The Entirely Merciful",
+      "ur": "رحمان / بہت مہربان",
+      "hi": "रहमान / बहुत मेहरबान"
+    },
+    "frequency_rank": 21,
+    "frequency_note": {
+      "en": "Appears 57 times — one of Allah's most majestic names. An entire surah bears this name.",
+      "ur": "۵۷ بار آتا ہے — اللہ کے سب سے عظیم ناموں میں سے ایک۔ ایک پوری سورت اس نام کی ہے۔",
+      "hi": "57 बار आता है — अल्लाह के सबसे अज़ीम नामों में से एक। एक पूरी सूरत इस नाम की है।"
+    }
+  },
+  "root": {
+    "letters": "ر ح م",
+    "note": {
+      "en": "The root ر-ح-م is the root of mercy, compassion, and the womb. رَحِم — womb. رَحْمَة — mercy. رَحْمَٰن and رَحِيم both come from it. Scholars say رَحْمَٰن is the vast, encompassing mercy — the ocean. رَحِيم is the specific, personal mercy — the drop that reaches you. Both are in Bismillah.",
+      "ur": "جڑ ر-ح-م رحمت، محبت، اور رحم (بچہ دانی) کی جڑ ہے۔ رَحِم — بچہ دانی۔ رَحْمَة — رحمت۔ رَحْمَٰن اور رَحِيم دونوں اس سے آتے ہیں۔ علماء کہتے ہیں رَحْمَٰن وسیع، محیط رحمت ہے — سمندر۔ رَحِيم مخصوص، ذاتی رحمت ہے — وہ قطرہ جو آپ تک پہنچتا ہے۔ دونوں بسم اللہ میں ہیں۔",
+      "hi": "जड़ ر-ح-م रहमत, मुहब्बत, और रहम (बच्चादानी) की जड़ है। رَحِم — बच्चादानी। رَحْمَة — रहमत। رَحْمَٰن और رَحِيم دोनों इससे आते हैं। उलमा कहते हैं रَحْمَٰن वसी, महीत रहमत है — समंदर। رَحِيم मख़सूस, निजी रहमत है — वह क़तरा जो आप तक पहुँचता है। दोनों बिस्मिल्लाह में हैं।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+    "surah": { "en": "Al-Fatiha 1:1", "ur": "الفاتحہ ۱:۱", "hi": "अल-फ़ातिहा 1:1" },
+    "translation": {
+      "en": "In the name of Allah, the Most Compassionate, the Most Merciful.",
+      "ur": "اللہ کے نام سے، جو بہت مہربان، نہایت رحم والا ہے۔",
+      "hi": "अल्लाह के नाम से, जो बहुत मेहरबान, निहायत रहम वाला है।"
+    },
+    "hook_explanation": {
+      "en": "Every surah of the Qur'an except one begins with this. ٱلرَّحْمَـٰنِ — the vast mercy that covers all creation without exception. Before any command, any story, any warning — Allah introduces Himself with mercy. That is who He is first.",
+      "ur": "قرآن کی ہر سورت — ایک کو چھوڑ کر — اسی سے شروع ہوتی ہے۔ ٱلرَّحْمَـٰنِ — وہ وسیع رحمت جو بغیر کسی استثناء کے پوری کائنات کو ڈھانپتی ہے۔ کسی بھی حکم، کسی کہانی، کسی تنبیہ سے پہلے — اللہ خود کو رحمت کے ساتھ متعارف کراتا ہے۔ وہ پہلے یہی ہے۔",
+      "hi": "क़ुरआن की हर सूरत — एक को छोड़ कर — इसी से शुरू होती है। ٱلرَّحْمَـٰنِ — वह वसी रहमत जो बिना किसी इस्तिसना के पूरी कायनात को ढाँपती है। किसी भी हुक्म, किसी कहानी, किसी तंबीह से पहले — अल्लाह ख़ुद को रहमत के साथ मिलवाता है। वह पहले यही है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does ٱلرَّحْمَـٰن mean?",
+        "ur": "ٱلرَّحْمَـٰن کا مطلب کیا ہے؟",
+        "hi": "ٱلرَّحْمَـٰن का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "The Most Compassionate", "ur": "بہت مہربان", "hi": "बहुत मेहरबान" }, "value": "correct" },
+        { "label": { "en": "The Most Powerful", "ur": "سب سے طاقتور", "hi": "सबसे ताक़तवर" }, "value": "wrong" },
+        { "label": { "en": "The All-Knowing", "ur": "سب کو جاننے والا", "hi": "सबको जानने वाला" }, "value": "wrong" },
+        { "label": { "en": "The Creator", "ur": "پیدا کرنے والا", "hi": "पैदा करने वाला" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — ٱلرَّحْمَـٰن is the vast, encompassing mercy. The ocean of compassion that reaches all creation.",
+        "ur": "ہاں — ٱلرَّحْمَـٰن وسیع، محیط رحمت ہے۔ رحمت کا سمندر جو پوری مخلوق تک پہنچتا ہے۔",
+        "hi": "हाँ — ٱلرَّحْمَـٰن वसी, महीत रहमत है। رحمत का समंदर जो पूरी मख़लूक़ तक पहुँचता है।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap ٱلرَّحْمَـٰنِ in Bismillah:",
+        "ur": "بسم اللہ میں ٱلرَّحْمَـٰنِ کو چھوئیں:",
+        "hi": "बिस्मिल्लाह में ٱلرَّحْمَـٰنِ को छुएं:"
+      },
+      "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+      "target_word": "ٱلرَّحْمَـٰنِ",
+      "target_position": 2,
+      "feedback_correct": {
+        "en": "ٱلرَّحْمَـٰنِ — the third word of Bismillah. The vast mercy. You've said it thousands of times.",
+        "ur": "ٱلرَّحْمَـٰنِ — بسم اللہ کا تیسرا لفظ۔ وسیع رحمت۔ آپ نے یہ ہزاروں بار کہا ہے۔",
+        "hi": "ٱلرَّحْمَـٰنِ — बिस्मिल्लाह का तीसरा लफ़्ज़। वसी رहمت। आपने यह हज़ारों बार کहا ہے۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Allah chose to begin every surah with His mercy — not His power, not His judgment. ٱلرَّحْمَـٰن comes before everything else. What does it mean to you that the God of the universe introduces Himself to you first through compassion?",
+      "ur": "اللہ نے ہر سورت کو اپنی رحمت سے شروع کرنا چنا — اپنی قدرت سے نہیں، اپنے انصاف سے نہیں۔ ٱلرَّحْمَـٰن ہر چیز سے پہلے آتا ہے۔ آپ کے لیے کیا معنی ہے کہ کائنات کا خدا آپ سے پہلے اپنے آپ کو محبت کے ذریعے متعارف کراتا ہے؟",
+      "hi": "अल्लाह ने हर सूरत को अपनी रहمत से शुरू करना चुना — अपनी क़ुदरत से नहीं, अपने इंसाफ़ से नहीं। ٱلرَّحْمَـٰن हर चीज़ से पहले आता है। आपके लिए क्या माने रखता है कि कायनात का ख़ुदा आपसे पहले ख़ुद को मुहब्बत के ज़रिए मिलवाता है?"
+    },
+    "journal_tag": "kalimaat-rahman"
+  }
+}

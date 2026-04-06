@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-80",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 80,
+  "prerequisite": "kalimaat-79",
+  "unlocks": ["kalimaat-81"],
+  "xp": 30,
+  "word": {
+    "arabic": "لَيْل",
+    "display": "لَيْلٌ",
+    "transliteration": "Layl",
+    "meaning": {
+      "en": "Night",
+      "ur": "رات",
+      "hi": "रात"
+    },
+    "frequency_rank": 80,
+    "frequency_note": {
+      "en": "Appears 80 times. لَيْل is paired constantly with نَهَار (day) — the alternation is one of Allah's greatest signs. An entire surah is named after it: وَاللَّيْلِ إِذَا يَغْشَى — 'By the night when it covers'. The night in the Qur'an is not emptiness — it is a time of Tahajjud, reflection, and divine descent.",
+      "ur": "۸۰ بار آیا ہے۔ لَيْل مسلسل نَهَار (دن) کے ساتھ جوڑا جاتا ہے — یہ تبادل اللہ کی سب سے بڑی نشانیوں میں سے ایک ہے۔ پوری ایک سورت اس کے نام پر ہے: وَاللَّيْلِ إِذَا يَغْشَى — 'رات کی قسم جب وہ چھا جائے'۔ قرآن میں رات خالی پن نہیں — یہ تہجد، غور و فکر، اور نزولِ الٰہی کا وقت ہے۔",
+      "hi": "80 بار آیا ہے۔ لَيْل مسلسل نَهَار (دن) کے ساتھ جوڑا جاتا ہے — یہ تبادل اللہ کی سب سے بڑی نشانیوں میں سے ایک ہے۔ پوری ایک سورت اس کے نام پر ہے: وَاللَّيْلِ إِذَا يَغْشَى — 'رات کی قسم جب وه چھا جائے'۔ قرآن میں رات ख़ाली پن نہیں — یہ تہجد، غور و فکر، اور نزولِ إلٰہی کا وقت ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ل ي ل",
+    "note": {
+      "en": "Root: ل-ي-ل (l-y-l) — night, darkness. لَيْل is the night itself. لَيْلَة means 'one night' (single night). لَيْلَةُ الْقَدْرِ — the Night of Decree — is better than a thousand months. One night from this root outweighs 83 years of days. The Qur'an revealed this so that you would not waste your nights.",
+      "ur": "جڑ: ل-ي-ل — رات، اندھیرا۔ لَيْل رات ہے۔ لَيْلَة کا مطلب 'ایک رات'۔ لَيْلَةُ الْقَدْرِ — شبِ قدر — ہزار مہینوں سے بہتر۔ اس جڑ کی ایک رات ۸۳ سال کے دنوں سے بھاری ہے۔ قرآن نے یہ اس لیے بتایا کہ آپ اپنی راتیں ضائع نہ کریں۔",
+      "hi": "جড़: ل-ي-ل — رات، اندهیرا۔ لَيْل رات ہے۔ لَيْلَة کا متلب 'ایک رات'۔ لَيْلَةُ الْقَدْرِ — شبِ قدر — ہزار مهینوں سے بهتر۔ اس جड़ کی ایک رات 83 سال کے دنوں سے بھاری ہے۔ قرآن نے یہ اس لیے بتایا کہ آپ اپنی راتیں ضائع نہ کریں۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةً لَّكَ",
+    "surah": { "en": "Al-Isra 17:79", "ur": "الاسراء ۱۷:۷۹", "hi": "अल-इसरा 17:79" },
+    "translation": {
+      "en": "And from the night — pray with it as an additional prayer for you.",
+      "ur": "اور رات کے کچھ حصے میں تہجد پڑھیں، یہ آپ کے لیے نفل ہے۔",
+      "hi": "اور رات کے کچھ حصے میں تہجد پڑھیں، یہ آپ کے لیے نفل ہے۔"
+    },
+    "hook_explanation": {
+      "en": "وَمِنَ ٱلَّيْلِ — 'And from the night'. مِنَ (lesson 3) + ٱلَّيْلِ (night in jar, with ال). فَتَهَجَّدْ — 'so pray Tahajjud' (command form from تَهَجَّدَ). بِهِۦ — 'with it' (reciting Quran in the night prayer). نَافِلَةً لَّكَ — 'as an additional gift for you'. This command was specifically for the Prophet ﷺ — but Tahajjud is open for all. The night is when the divine draws closest.",
+      "ur": "وَمِنَ ٱلَّيْلِ — 'اور رات میں سے'۔ مِنَ (سبق ۳) + ٱلَّيْلِ (رات جر میں، ال کے ساتھ)۔ فَتَهَجَّدْ — 'پس تہجد پڑھو' (أَمر)۔ بِهِۦ — 'اس کے ساتھ' (رات کی نماز میں قرآن پڑھنا)۔ نَافِلَةً لَّكَ — 'آپ کے لیے نفل کے طور پر'۔ یہ حکم خاص طور پر نبی ﷺ کے لیے تھا — لیکن تہجد سب کے لیے کھلا ہے۔ رات وہ وقت ہے جب الٰہی سب سے قریب آتا ہے۔",
+      "hi": "وَمِنَ ٱلَّيْلِ — 'اور رات میں سے'۔ مِنَ (سبک़ 3) + ٱلَّيْلِ (رات جر میں، ال کے ساتھ)۔ فَتَهَجَّدْ — 'پس تہجد پڑھو' (امر)۔ بِهِۦ — 'اس کے ساتھ'۔ نَافِلَةً لَّكَ — 'آپ کے لیے نفل کے طور پر'۔ یہ حکم خاص طور پر نبی ﷺ کے لیے تھا — لیکن تہجد سب کے لیے کھلا ہے۔ رات وه وقت ہے جب إلٰہی سب سے قریب آتا ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does لَيْل mean?", "ur": "لَيْل کا مطلب کیا ہے؟", "hi": "لَيْل کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Night", "ur": "رات", "hi": "रात" }, "value": "correct" },
+        { "label": { "en": "Day", "ur": "دن", "hi": "دن" }, "value": "wrong" },
+        { "label": { "en": "Dawn / Morning", "ur": "فجر / صبح", "hi": "فجر / صبح" }, "value": "wrong" },
+        { "label": { "en": "Evening / Sunset", "ur": "شام / غروب", "hi": "شام / غروب" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! لَيْل — night. لَيْلَةُ الْقَدْرِ — the Night of Decree — is better than 1000 months.", "ur": "ہاں! لَيْل — رات۔ لَيْلَةُ الْقَدْرِ — شبِ قدر — ہزار مہینوں سے بہتر۔", "hi": "هاँ! لَيْل — رات۔ لَيْلَةُ الْقَدْرِ — شبِ قدر — ہزار مهینوں سے بهتر۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap لَيْل in this ayah:", "ur": "اس آیت میں لَيْل کو چھوئیں:", "hi": "इस آयت میں لَيْل کو छुएँ:" },
+      "ayah": "وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةً لَّكَ",
+      "target_word": "ٱلَّيْلِ",
+      "target_position": 1,
+      "feedback_correct": { "en": "Right! ٱلَّيْلِ — the night in jar, after مِنَ. And from the night — the Tahajjud call.", "ur": "درست! ٱلَّيْلِ — رات جر میں، مِنَ کے بعد۔ اور رات میں سے — تہجد کی پکار۔", "hi": "سہی! ٱلَّيْلِ — رات جر میں، مِنَ کے بعد۔ اور رات میں سے — تہجد کی پکار۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَمِنَ اللَّيْلِ فَتَهَجَّدْ — and from the night, pray. The Prophet ﷺ called لَيْل the time when دُعَاء is most accepted, when Allah descends to the lowest heaven and calls: 'Who is asking? I will give. Who is repenting? I will forgive.' When did you last use your لَيْل this way?",
+      "ur": "وَمِنَ اللَّيْلِ فَتَهَجَّدْ — اور رات میں سے نماز پڑھو۔ نبی ﷺ نے لَيْل کو وہ وقت بتایا جب دُعَاء سب سے زیادہ قبول ہوتی ہے، جب اللہ سب سے نچلے آسمان پر آتا ہے اور پکارتا ہے: 'کون مانگ رہا ہے؟ دوں گا۔ کون توبہ کر رہا ہے؟ معاف کروں گا۔' آپ نے آخری بار اپنی لَيْل اس طرح کب استعمال کی؟",
+      "hi": "وَمِنَ اللَّيْلِ فَتَهَجَّدْ — اور رات میں سے نماز پڑھو۔ نبی ﷺ نے لَيْل کو وه وقت بتایا جب دُعَاء سب سے ز़یادہ قبول ہوتی ہے، جب اللہ سب سے نچلے آسمان پر آتا ہے اور پکارتا ہے: 'کون مانگ رها ہے؟ دوں گا۔ کون توبہ کر رها ہے؟ معاف کروں گا۔' آپ نے آخری بار اپنی لَيْل اس طرح کب استعمال کی؟"
+    },
+    "journal_tag": "kalimaat-layl"
+  }
+}

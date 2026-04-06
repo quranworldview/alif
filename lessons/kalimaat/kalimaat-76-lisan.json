@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-76",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 76,
+  "prerequisite": "kalimaat-75",
+  "unlocks": ["kalimaat-77"],
+  "xp": 28,
+  "word": {
+    "arabic": "لِسَان",
+    "display": "لِسَانٌ",
+    "transliteration": "Lisaan",
+    "meaning": {
+      "en": "Tongue / Language",
+      "ur": "زبان / لسان",
+      "hi": "ज़बान / लिसान"
+    },
+    "frequency_rank": 76,
+    "frequency_note": {
+      "en": "Appears 25 times. لِسَان means tongue — the organ — but also language. بِلِسَانٍ عَرَبِيٍّ مُبِينٍ means 'in a clear Arabic tongue/language'. You are learning this لِسَان right now.",
+      "ur": "۲۵ بار آیا ہے۔ لِسَان کا مطلب زبان — عضو — لیکن ساتھ ہی زبان بطور بولی بھی۔ بِلِسَانٍ عَرَبِيٍّ مُبِينٍ کا مطلب 'واضح عربی زبان میں'۔ آپ یہی لِسَان ابھی سیکھ رہے ہیں۔",
+      "hi": "25 بار آیا ہے۔ لِسَان کا مطلب ز़بान — عضو — لیکن ساتھ ہی ز़بان بطور بولی بھی۔ بِلِسَانٍ عَرَبِيٍّ مُبِينٍ کا مطلب 'واضح عربی زبان میں'۔ آپ یہی لِسَان ابھی سیکھ رہے ہیں۔"
+    }
+  },
+  "root": {
+    "letters": "ل س ن",
+    "note": {
+      "en": "Root: ل-س-ن (l-s-n) — tongue, to speak. لِسَان is the tongue. مُلَسَّن means 'made tongue-shaped'. In the Qur'an, لِسَان is used both literally (the organ) and metaphorically (the language a people speak). The Qur'an was revealed بِلِسَانٍ عَرَبِيٍّ — so that it could be understood. Language is not accidental.",
+      "ur": "جڑ: ل-س-ن — زبان، بولنا۔ لِسَان زبان ہے۔ مُلَسَّن کا مطلب 'زبان کی شکل کا'۔ قرآن میں لِسَان لفظی (عضو) اور مجازی (کسی قوم کی بولی) دونوں طرح استعمال ہوتا ہے۔ قرآن بِلِسَانٍ عَرَبِيٍّ نازل ہوا — تاکہ سمجھا جا سکے۔ زبان اتفاقی نہیں ہے۔",
+      "hi": "جড़: ل-س-ن — ज़بان، بولنا۔ لِسَان ज़बان ہے۔ قرآن میں لِسَان لفظی (عضو) اور مجازی (کسی قوم کی بولی) دونوں طرح استعمال ہوتا ہے۔ قرآن بِلِسَانٍ عَرَبِيٍّ نازل ہوا — تاکہ سمجھا جا سکے۔ ज़بان इत्तिफ़ाक़ی नहیں ہے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "بِلِسَانٍ عَرَبِىٍّ مُّبِينٍ",
+    "surah": { "en": "Ash-Shu'ara 26:195", "ur": "الشعراء ۲۶:۱۹۵", "hi": "अश-शुअरा 26:195" },
+    "translation": {
+      "en": "In a clear Arabic tongue.",
+      "ur": "واضح عربی زبان میں۔",
+      "hi": "واضح عربی ज़बान میں۔"
+    },
+    "hook_explanation": {
+      "en": "بِلِسَانٍ — 'in a tongue/language'. بِ (lesson 11) + لِسَانٍ (tanween, نَكِرَة — any clear Arabic tongue). عَرَبِيٍّ — 'Arabic' (adjective agreeing with لِسَان in tanween). مُّبِينٍ — 'clear, self-evident' (from أَبَانَ — to make clear). The Qur'an describes itself as نازل in a tongue that is both عَرَبِيّ and مُبِين. Every lesson you complete makes that مُبِين more real for you.",
+      "ur": "بِلِسَانٍ — 'ایک زبان میں'۔ بِ (سبق ۱۱) + لِسَانٍ (تنوین، نکرہ)۔ عَرَبِيٍّ — 'عربی' (صفت، لِسَان سے تنوین میں مطابقت)۔ مُّبِينٍ — 'واضح، روشن' (أَبَانَ سے — واضح کرنا)۔ قرآن خود کو ایسی زبان میں نازل بتاتا ہے جو عَرَبِيّ بھی ہے اور مُبِين بھی۔ آپ کا ہر سبق اس مُبِين کو آپ کے لیے زیادہ حقیقی بناتا ہے۔",
+      "hi": "بِلِسَانٍ — 'ایک ز़بان میں'۔ بِ (سبك़ 11) + لِسَانٍ (تنوین، نکرہ)۔ عَرَبِيٍّ — 'عربی' (صفت، لِسَان سے تنوین میں مطابقت)۔ مُّبِينٍ — 'واضح، روشن' (أَبَانَ سے)۔ قرآن ख़ुद کو ایسی ز़بان میں نازل بتاتا ہے جو عَرَبِيّ بھی ہے اور مُبِين بھی۔ آپ کا ہر سبق اس مُبِين کو آپ کے لیے ز़یادہ حقیقی بناتا ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does لِسَان mean?", "ur": "لِسَان کا مطلب کیا ہے؟", "hi": "لِسَان کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Tongue / Language", "ur": "زبان / لسان", "hi": "ज़बान / लिसान" }, "value": "correct" },
+        { "label": { "en": "Ear / Hearing", "ur": "کان / سماعت", "hi": "कान / समाअत" }, "value": "wrong" },
+        { "label": { "en": "Eye / Sight", "ur": "آنکھ / نظر", "hi": "आँख / नज़र" }, "value": "wrong" },
+        { "label": { "en": "Heart / Mind", "ur": "دل / ذہن", "hi": "दिल / ज़ेहन" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! لِسَان — tongue and language. The Qur'an came in لِسَان عَرَبِيّ — which you are now learning.", "ur": "ہاں! لِسَان — زبان اور بولی۔ قرآن لِسَان عَرَبِيّ میں آیا — جو آپ ابھی سیکھ رہے ہیں۔", "hi": "هاँ! لِسَان — ز़بان اور بولی۔ قرآن لِسَان عَرَبِيّ میں آیا — جو آپ ابھی سیکھ رهے ہیں۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap لِسَان in this ayah:", "ur": "اس آیت میں لِسَان کو چھوئیں:", "hi": "इस आयत में لِسَان کو छुएँ:" },
+      "ayah": "بِلِسَانٍ عَرَبِىٍّ مُّبِينٍ",
+      "target_word": "بِلِسَانٍ",
+      "target_position": 0,
+      "feedback_correct": { "en": "Right! بِلِسَانٍ — 'in a tongue'. بِ + لِسَانٍ. The tongue you are learning right now.", "ur": "درست! بِلِسَانٍ — 'ایک زبان میں'۔ بِ + لِسَانٍ۔ وہ زبان جو آپ ابھی سیکھ رہے ہیں۔", "hi": "سही! بِلِسَانٍ — 'ایک ز़بان میں'۔ بِ + لِسَانٍ۔ وه ز़بان جو آپ ابھی سیکھ رهے ہیں۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "بِلِسَانٍ عَرَبِيٍّ مُبِينٍ — in a clear Arabic tongue. Allah chose Arabic. Not because Arabic is better than other languages — but because this لِسَان can carry the Qur'an's meanings with a precision no translation fully captures. You are now, word by word, gaining access to that precision. How does it feel?",
+      "ur": "بِلِسَانٍ عَرَبِيٍّ مُبِينٍ — واضح عربی زبان میں۔ اللہ نے عربی کا انتخاب کیا۔ اس لیے نہیں کہ عربی دوسری زبانوں سے بہتر ہے — بلکہ اس لیے کہ یہ لِسَان قرآن کے معانی ایسی درستگی سے اٹھا سکتا ہے جسے کوئی ترجمہ پوری طرح نہیں پکڑتا۔ آپ ابھی، لفظ بلفظ، اس درستگی تک رسائی حاصل کر رہے ہیں۔ کیسا لگتا ہے؟",
+      "hi": "بِلِسَانٍ عَرَبِيٍّ مُبِينٍ — واضح عربی ز़بان میں۔ اللہ نے عربی کا انتخاب کیا۔ اس لیے نہیں کہ عربی دوسری ز़بانوں سے بهتر ہے — بلکہ اس لیے کہ یہ لِسَان قرآن کے معانی ایسی درستگی سے اٹھا سکتا ہے جسے کوئی ترجمہ پوری طرح نہیں پکڑتا۔ آپ ابھی، لفظ بلفظ، اس درستگی تک رسائی حاصل کر رهے ہیں۔ کیسا لگتا ہے؟"
+    },
+    "journal_tag": "kalimaat-lisan"
+  }
+}

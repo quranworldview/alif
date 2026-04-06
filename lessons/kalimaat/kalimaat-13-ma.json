@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-13",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 13,
+  "prerequisite": "kalimaat-12",
+  "unlocks": ["kalimaat-14"],
+  "xp": 30,
+  "word": {
+    "arabic": "مَا",
+    "display": "مَا",
+    "transliteration": "Mā",
+    "meaning": {
+      "en": "What / That which / Not",
+      "ur": "کیا / جو / نہیں",
+      "hi": "क्या / जो / नहीं"
+    },
+    "frequency_rank": 13,
+    "frequency_note": {
+      "en": "Appears over 2,000 times with three different meanings depending on context.",
+      "ur": "۲۰۰۰ سے زیادہ بار — سیاق کے مطابق تین مختلف معنی کے ساتھ۔",
+      "hi": "2,000 से ज़्यादा बار — संदर्भ के अनुसार तीन अलग-अलग मतलब के साथ।"
+    }
+  },
+  "root": {
+    "letters": "م ا",
+    "note": {
+      "en": "مَا is one word with three jobs. (1) Question: مَا هَذَا — 'What is this?' (2) Relative: مَا عِندَكُمْ — 'that which is with you'. (3) Negation: مَا كَانَ — 'it was not'. Context tells you which one. You will learn to feel the difference.",
+      "ur": "مَا ایک لفظ ہے جس کے تین کام ہیں۔ (۱) سوال: مَا هَذَا — 'یہ کیا ہے؟' (۲) موصولہ: مَا عِندَكُمْ — 'جو تمہارے پاس ہے'۔ (۳) نفی: مَا كَانَ — 'نہیں تھا'۔ سیاق بتاتا ہے کون سا ہے۔ آپ فرق محسوس کرنا سیکھیں گے۔",
+      "hi": "مَا एक लफ़्ज़ है जिसके तीन काम हैं। (1) सवाल: مَا هَذَا — 'यह क्या है?' (2) मौसूलह: مَا عِندَكُمْ — 'जो तुम्हारे पास है'। (3) नफ़ी: مَا كَانَ — 'नहीं था'। संदर्भ बताता है कौन सा है। आप फ़र्क़ महसूस करना सीखेंगे।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "مَا عِندَكُمْ يَنفَدُ وَمَا عِندَ ٱللَّهِ بَاقٍ",
+    "surah": { "en": "An-Nahl 16:96", "ur": "النحل ۱۶:۹۶", "hi": "अन-नह्ल 16:96" },
+    "translation": {
+      "en": "What is with you will run out — and what is with Allah will remain.",
+      "ur": "جو تمہارے پاس ہے ختم ہو جائے گا — اور جو اللہ کے پاس ہے وہ باقی رہے گا۔",
+      "hi": "जो तुम्हारे पास है ख़त्म हो जाएगा — और जो अल्लाह के पास है वह बाक़ी रहेगा।"
+    },
+    "hook_explanation": {
+      "en": "مَا عِندَكُمْ — 'that which is with you'. مَا عِندَ ٱللَّهِ — 'that which is with Allah'. Here مَا means 'that which' — a relative pronoun. Everything you own will run out. Everything with Allah will remain. مَا carries the weight of both.",
+      "ur": "مَا عِندَكُمْ — 'جو تمہارے پاس ہے'۔ مَا عِندَ ٱللَّهِ — 'جو اللہ کے پاس ہے'۔ یہاں مَا کا مطلب ہے 'جو' — موصولہ ضمیر۔ آپ کے پاس جو کچھ ہے وہ ختم ہو جائے گا۔ اللہ کے پاس جو ہے وہ باقی رہے گا۔ مَا دونوں کا بوجھ اٹھاتا ہے۔",
+      "hi": "مَا عِندَكُمْ — 'जो तुम्हारे पास है'। مَا عِندَ ٱللَّهِ — 'जो अल्लाह के पास है'। यहाँ مَا का मतलब है 'जो' — मौसूलह ज़मीर। आपके पास जो कुछ है वह ख़त्म हो जाएगा। अल्लाह के पास जो है वह बाक़ी रहेगा। مَا दोनों का बोझ उठाता है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "In this phrase — مَا عِندَ ٱللَّهِ — what does مَا mean?",
+        "ur": "اس جملے میں — مَا عِندَ ٱللَّهِ — مَا کا مطلب کیا ہے؟",
+        "hi": "इस जुमले में — مَا عِندَ ٱللَّهِ — مَا का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "That which / What", "ur": "جو / کیا", "hi": "जो / क्या" }, "value": "correct" },
+        { "label": { "en": "Not / Never", "ur": "نہیں / کبھی نہیں", "hi": "नहीं / कभी नहीं" }, "value": "wrong" },
+        { "label": { "en": "He / It", "ur": "وہ", "hi": "वह" }, "value": "wrong" },
+        { "label": { "en": "And / Also", "ur": "اور / بھی", "hi": "और / भी" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — here مَا means 'that which'. مَا عِندَ ٱللَّهِ — that which is with Allah.",
+        "ur": "ہاں — یہاں مَا کا مطلب 'جو' ہے۔ مَا عِندَ ٱللَّهِ — جو اللہ کے پاس ہے۔",
+        "hi": "हाँ — यहाँ مَا का मतलब 'जो' है। مَا عِندَ ٱللَّهِ — जो अल्लाह के पास है।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap the first مَا in this ayah:",
+        "ur": "اس آیت میں پہلے مَا کو چھوئیں:",
+        "hi": "इस आयत में पहले مَا को छुएं:"
+      },
+      "ayah": "مَا عِندَكُمْ يَنفَدُ وَمَا عِندَ ٱللَّهِ بَاقٍ",
+      "target_word": "مَا",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "مَا عِندَكُمْ — 'That which is with you.' Everything you hold will end.",
+        "ur": "مَا عِندَكُمْ — 'جو تمہارے پاس ہے'۔ آپ کے پاس جو کچھ ہے وہ ختم ہو جائے گا۔",
+        "hi": "مَا عِندَكُمْ — 'जो तुम्हारे पास है'। आपके पास जो कुछ है वह ख़त्म हो जाएगा।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "مَا عِندَكُمْ يَنفَدُ وَمَا عِندَ ٱللَّهِ بَاقٍ — What is with you will run out. What is with Allah will remain. What are you holding on to that will run out? What are you investing in that will remain?",
+      "ur": "مَا عِندَكُمْ يَنفَدُ وَمَا عِندَ ٱللَّهِ بَاقٍ — جو تمہارے پاس ہے ختم ہو جائے گا۔ جو اللہ کے پاس ہے باقی رہے گا۔ آپ کس چیز کو تھامے ہوئے ہیں جو ختم ہو جائے گی؟ آپ کس چیز میں لگا رہے ہیں جو باقی رہے گی؟",
+      "hi": "مَا عِندَكُمْ يَنفَدُ وَمَا عِندَ ٱللَّهِ بَاقٍ — جو تुम्हारे پास ہے ख़त्म हو جाएगا۔ جो अल्लाह के पاس है بाقی रहेगा۔ आप किस चीज़ को थामे हुए हैं जो ख़त्म हो जाएगी? आप किस चीज़ में लगा رहے هیں जو باقی رहेगी?"
+    },
+    "journal_tag": "kalimaat-ma"
+  }
+}

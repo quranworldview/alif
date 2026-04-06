@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-50",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 50,
+  "prerequisite": "kalimaat-49",
+  "unlocks": [],
+  "xp": 50,
+  "word": {
+    "arabic": "آخِرَة",
+    "display": "آخِرَة",
+    "transliteration": "Ākhira",
+    "meaning": {
+      "en": "The Hereafter / The Last / The Next world",
+      "ur": "آخرت / آنے والی دنیا / ابدی زندگی",
+      "hi": "आख़िरत / आने वाली दुनिया / अबदी ज़िंदगी"
+    },
+    "frequency_rank": 50,
+    "frequency_note": {
+      "en": "Appears 115 times — the same as دُنْيَا. The Qur'an mentions them equally. Neither is forgotten.",
+      "ur": "۱۱۵ بار آتا ہے — دُنْيَا جتنا ہی۔ قرآن دونوں کو یکساں ذکر کرتا ہے۔ کوئی بھولا نہیں۔",
+      "hi": "115 بار آتا ہے — دُنْيَا جتنا ہی۔ قرآن دونوں کو یکساں ذکر کرتا ہے۔ کوئی بھولا نہیں۔"
+    }
+  },
+  "root": {
+    "letters": "أ خ ر",
+    "note": {
+      "en": "The root أ-خ-ر means what comes last, what comes after. آخِر — the last, the end. ٱلْآخِرُ — the Last (one of Allah's names). آخِرَة — the last abode, the final world. If دُنْيَا is the near, آخِرَة is the after. And in the Qur'an — the after is longer, deeper, and more real than the near. This is the destination.",
+      "ur": "جڑ أ-خ-ر کا مطلب ہے جو آخر میں آئے، جو بعد میں آئے۔ آخِر — آخری، انت۔ ٱلْآخِرُ — آخری (اللہ کے ناموں میں سے ایک)۔ آخِرَة — آخری ٹھکانہ، آخری دنیا۔ اگر دُنْيَا قریبی ہے، تو آخِرَة بعد کی ہے۔ اور قرآن میں — بعد قریبی سے زیادہ لمبا، گہرا، اور زیادہ حقیقی ہے۔ یہی منزل ہے۔",
+      "hi": "جڑ أ-خ-ر کا مطلب ہے جو آخر میں آئے، جو بعد میں آئے۔ آخِر — آخری، انت۔ ٱلْآخِرُ — آخری (اللہ کے نامون میں سے ایک)۔ آخِرَة — آخری ٹھکانہ، آخری دنیا۔ اگر دُنْيَا قریبی ہے، تو آخِرَة بعد کی ہے۔ اور قرآن میں — بعد قریبی سے زیادہ لمبا، گہرا، اور زیادہ حقیقی ہے۔ یہی منزل ہے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ",
+    "surah": { "en": "Al-Ala 87:17", "ur": "الاعلیٰ ۸۷:۱۷", "hi": "अल-आला 87:17" },
+    "translation": {
+      "en": "And the Hereafter is better and more lasting.",
+      "ur": "اور آخرت بہتر اور زیادہ باقی رہنے والی ہے۔",
+      "hi": "और आख़िरत بेहتर और ज़्यादा बाक़ी रहने वाली ہے۔"
+    },
+    "hook_explanation": {
+      "en": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ — the آخِرَة is خَيْر (better) and أَبْقَىٰ (more lasting). دُنْيَا was lesson 49. آخِرَة is lesson 50. The Qur'an pairs them equally — 115 times each. But it always points the same direction: وَٱلْـَٔاخِرَةُ خَيْرٌ. This is where Level 1 ends. And it ends with the destination.",
+      "ur": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ — آخِرَة خَيْر (بہتر) اور أَبْقَىٰ (زیادہ باقی رہنے والی) ہے۔ دُنْيَا سبق ۴۹ تھا۔ آخِرَة سبق ۵۰ ہے۔ قرآن دونوں کو یکساں جوڑتا ہے — ۱۱۵ بار ہر ایک۔ لیکن یہ ہمیشہ ایک ہی سمت کی طرف اشارہ کرتا ہے: وَٱلْـَٔاخِرَةُ خَيْرٌ۔ یہیں لیول ۱ ختم ہوتا ہے۔ اور یہ منزل کے ساتھ ختم ہوتا ہے۔",
+      "hi": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ — آخِرَة خَيْر (بہتر) اور أَبْقَىٰ (زیادہ باقی رہنے والی) ہے۔ دُنْيَا سبق 49 تھا۔ آخِرَة سبق 50 ہے۔ قرآن دونوں کو یکساں جوڑتا ہے — 115 بار ہر ایک۔ لیکن یہ ہمیشہ ایک ہی سمت کی طرف اشارہ کرتا ہے: وَٱلْـَٔاخِرَةُ خَيْرٌ۔ یہیں لیول 1 ختم ہوتا ہے۔ اور یہ منزل کے ساتھ ختم ہوتا ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does آخِرَة mean?",
+        "ur": "آخِرَة کا مطلب کیا ہے؟",
+        "hi": "آخِرَة का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "The Hereafter / The Next world", "ur": "آخرت / آنے والی دنیا", "hi": "آख़رت / आने वाली दुنिया" }, "value": "correct" },
+        { "label": { "en": "The end of time / Apocalypse", "ur": "وقت کا انت / قیامت", "hi": "وقت کا انت / قیامت" }, "value": "wrong" },
+        { "label": { "en": "Heaven / Paradise", "ur": "جنت / فردوس", "hi": "जन्नत / फ़िरदौस" }, "value": "wrong" },
+        { "label": { "en": "Death / The grave", "ur": "موت / قبر", "hi": "موت / قبر" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — آخِرَة is the Hereafter, the next world, the final abode. Better and more lasting than دُنْيَا.",
+        "ur": "ہاں — آخِرَة آخرت ہے، اگلی دنیا، آخری ٹھکانہ۔ دُنْيَا سے بہتر اور زیادہ باقی رہنے والی۔",
+        "hi": "هاँ — آخِرَة آخرت ہے، اگلی دنیا، آخری ٹھکانہ۔ دُنْيَا سے بہتر اور زیادہ باقی رہنے والی۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap ٱلْـَٔاخِرَةُ in this ayah:",
+        "ur": "اس آیت میں ٱلْـَٔاخِرَةُ کو چھوئیں:",
+        "hi": "इस आयत में ٱلْـَٔاخِرَةُ को छुएं:"
+      },
+      "ayah": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ",
+      "target_word": "وَٱلْـَٔاخِرَةُ",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "وَٱلْـَٔاخِرَةُ — 'and the Hereafter'. خَيْرٌ — better. أَبْقَىٰ — more lasting. This is the destination. You made it.",
+        "ur": "وَٱلْـَٔاخِرَةُ — 'اور آخرت'۔ خَيْرٌ — بہتر۔ أَبْقَىٰ — زیادہ باقی۔ یہی منزل ہے۔ آپ پہنچ گئے۔",
+        "hi": "وَٱلْـَٔاخِرَةُ — 'اور آخرت'۔ خَيْرٌ — بہتر۔ أَبْقَىٰ — زیادہ باقی۔ یہی منزل ہے۔ آپ پہنچ گئے۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ — the Hereafter is better and more lasting. You began Level 1 with اللَّه — lesson 1. You end it with آخِرَة — lesson 50. You have learned 50 words of the Qur'an. These 50 words cover over 40% of everything in it. You began this journey not knowing. Now you know. الحمد لله. Write what this means to you — and what you want to build on from here.",
+      "ur": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ — آخرت بہتر اور زیادہ باقی ہے۔ آپ نے لیول ۱ اللَّه سے شروع کیا — سبق ۱۔ آپ اسے آخِرَة کے ساتھ ختم کرتے ہیں — سبق ۵۰۔ آپ نے قرآن کے ۵۰ الفاظ سیکھے۔ یہ ۵۰ الفاظ اس میں موجود ہر چیز کا ۴۰ فیصد سے زیادہ احاطہ کرتے ہیں۔ آپ نے یہ سفر نہ جانتے ہوئے شروع کیا تھا۔ اب آپ جانتے ہیں۔ الحمد لله۔ لکھیں کہ یہ آپ کے لیے کیا معنی رکھتا ہے — اور آپ یہاں سے کیا بنانا چاہتے ہیں۔",
+      "hi": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ — آخرت بہتر اور زیادہ باقی ہے۔ آپ نے لیول 1 اللَّه سے شروع کیا — سبق 1۔ آپ اسے آخِرَة کے ساتھ ختم کرتے ہیں — سبق 50۔ آپ نے قرآن کے 50 الفاظ سیکھے۔ یہ 50 الفاظ اس میں موجود ہر چیز کا 40 فیصد سے زیادہ احاطہ کرتے ہیں۔ آپ نے یہ سفر نہ جانتے ہوئے شروع کیا تھا۔ اب آپ جانتے ہیں۔ الحمد لله۔ لکھیں کہ یہ آپ کے لیے کیا معنی رکھتا ہے — اور آپ یہاں سے کیا بنانا چاہتے ہیں۔"
+    },
+    "journal_tag": "kalimaat-akhira"
+  }
+}

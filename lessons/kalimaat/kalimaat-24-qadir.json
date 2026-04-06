@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-24",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 24,
+  "prerequisite": "kalimaat-23",
+  "unlocks": ["kalimaat-25"],
+  "xp": 30,
+  "word": {
+    "arabic": "قَدِير",
+    "display": "قَدِير",
+    "transliteration": "Qadīr",
+    "meaning": {
+      "en": "The All-Powerful / All-Capable",
+      "ur": "ہر چیز پر قادر / قدرت والا",
+      "hi": "हर चीज़ पर क़ादिर / क़ुदरत वाला"
+    },
+    "frequency_rank": 24,
+    "frequency_note": {
+      "en": "Appears 45 times. Always follows عَلَى كُلِّ شَيْءٍ — capable over all things.",
+      "ur": "۴۵ بار۔ ہمیشہ عَلَى كُلِّ شَيْءٍ کے بعد — ہر چیز پر قادر۔",
+      "hi": "45 بار۔ हमेशा عَلَى كُلِّ شَيْءٍ के बाद — हر चीज़ पर क़ادिर।"
+    }
+  },
+  "root": {
+    "letters": "ق د ر",
+    "note": {
+      "en": "The root ق-د-ر carries three meanings at once: power, measure, and decree. قُدْرَة — power. قَدَر — divine measure/destiny. قَدِير — the one whose power is total. Allah's power is not random — it is precise. He doesn't just do anything; He does exactly the right thing. قَدِير and قَدَر come from the same root for a reason.",
+      "ur": "جڑ ق-د-ر تین مفہوم ایک ساتھ رکھتی ہے: قدرت، پیمائش، اور تقدیر۔ قُدْرَة — قدرت۔ قَدَر — الٰہی پیمائش / تقدیر۔ قَدِير — وہ جس کی قدرت کامل ہے۔ اللہ کی قدرت اتفاقی نہیں — یہ درست ہے۔ وہ بس کچھ بھی نہیں کرتا؛ وہ بالکل صحیح چیز کرتا ہے۔ قَدِير اور قَدَر ایک جڑ سے آنے کی وجہ ہے۔",
+      "hi": "जड़ ق-د-ر तीन मफ़हूम एक साथ रखती है: क़ुदरत, पैमाइश, और तक़दीर। قُدْرَة — क़ुदरत। قَدَر — इलाही पैमाइश / तक़दीर। قَدِير — वह जिसकी क़ुदरत मुकम्मल है। अल्लाह की क़ुदरत इत्तिफ़ाक़ी नहीं — यह दुरुस्त है। वह बस कुछ भी नहीं करता; वह बिल्कुल सही चीज़ करता है। قَدِير और قَدَر एक जड़ से आने की वजह है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+    "surah": { "en": "Al-Baqarah 2:20", "ur": "البقرہ ۲:۲۰", "hi": "अल-बक़रह 2:20" },
+    "translation": {
+      "en": "Indeed Allah is All-Powerful over all things.",
+      "ur": "بے شک اللہ ہر چیز پر قادر ہے۔",
+      "hi": "बेशक अल्लाह हर चीज़ पर क़ादिर है।"
+    },
+    "hook_explanation": {
+      "en": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ. Count the words you already know: إِنَّ (verily), ٱللَّهَ (Allah), عَلَى (over), كُلِّ (every), شَيْءٍ (thing). Five words you know. One new word: قَدِيرٌ. You just understood an entire Qur'anic ayah. This is why you learn vocabulary first.",
+      "ur": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ۔ جانے ہوئے الفاظ گنیں: إِنَّ (یقیناً)، ٱللَّهَ (اللہ)، عَلَى (پر)، كُلِّ (ہر)، شَيْءٍ (چیز)۔ پانچ الفاظ جانتے ہیں۔ ایک نیا لفظ: قَدِيرٌ۔ آپ نے ابھی ایک پوری قرآنی آیت سمجھ لی۔ یہی وجہ ہے کہ پہلے ذخیرہ الفاظ سیکھتے ہیں۔",
+      "hi": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ۔ जाने हुए अल्फ़ाज़ गिनें: إِنَّ (यक़ीनन), ٱللَّهَ (अल्लाह), عَلَى (पर), كُلِّ (हर), شَيْءٍ (चीज़)। پانच अल्फ़ाज़ जानते हैं। एक नया लफ़्ज़: قَدِيرٌ۔ आपने अभी एक पूरी क़ुरआनी آयत समझ ली। यही वजह है कि पहले ज़ख़ीरा अल्फ़ाज़ सीखते हैं।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does قَدِير mean?",
+        "ur": "قَدِير کا مطلب کیا ہے؟",
+        "hi": "قَدِير का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "All-Powerful / All-Capable", "ur": "ہر چیز پر قادر", "hi": "हर चीज़ पर क़ादिर" }, "value": "correct" },
+        { "label": { "en": "All-Knowing", "ur": "سب کچھ جاننے والا", "hi": "सब कुछ जानने वाला" }, "value": "wrong" },
+        { "label": { "en": "Most Forgiving", "ur": "بہت معاف کرنے والا", "hi": "बहुत माफ़ करने वाला" }, "value": "wrong" },
+        { "label": { "en": "Most Merciful", "ur": "رحم کرنے والا", "hi": "रहम करने वाला" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — قَدِير means All-Powerful. عَلَى كُلِّ شَيْءٍ قَدِيرٌ — over all things, capable.",
+        "ur": "ہاں — قَدِير کا مطلب ہے ہر چیز پر قادر۔ عَلَى كُلِّ شَيْءٍ قَدِيرٌ — ہر چیز پر قادر۔",
+        "hi": "हाँ — قَدِير का मतलب है हر चीज़ पर क़ادिर۔ عَلَى كُلِّ شَيْءٍ قَدِيرٌ — हर चीज़ पر क़ादिर।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap قَدِيرٌ — the one new word in this ayah:",
+        "ur": "قَدِيرٌ کو چھوئیں — اس آیت کا واحد نیا لفظ:",
+        "hi": "قَدِيرٌ کو छुएं — इس آयत का एकमात्र नया लफ़्ज़:"
+      },
+      "ayah": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "target_word": "قَدِيرٌ",
+      "target_position": 5,
+      "feedback_correct": {
+        "en": "قَدِيرٌ — All-Powerful. You knew 5 words already. You understood the whole ayah.",
+        "ur": "قَدِيرٌ — ہر چیز پر قادر۔ آپ ۵ الفاظ پہلے سے جانتے تھے۔ آپ نے پوری آیت سمجھ لی۔",
+        "hi": "قَدِيرٌ — हर چीज़ پر क़ادिर। आप 5 अल्फ़ाज़ पहले से जानते थे। आपने پوری آयत समझ ली।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ — Allah is capable over all things. Is there something in your life right now that feels impossible? كُلِّ شَيْءٍ — every thing. Including that. What would change if you truly believed this ayah?",
+      "ur": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ — اللہ ہر چیز پر قادر ہے۔ کیا آپ کی زندگی میں ابھی کچھ ایسا ہے جو ناممکن لگتا ہے؟ كُلِّ شَيْءٍ — ہر چیز۔ وہ بھی۔ اگر آپ واقعی اس آیت پر یقین رکھتے تو کیا بدل جاتا؟",
+      "hi": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ — अल्लाह हر चीज़ پر क़ादिर है। क्या آپ کی ज़िंदگी में अभी कुछ ऐसा है जो नामुमकिन लगता है? كُلِّ شَيْءٍ — हर चीज़। वह भी। अगर आप واقعی इस आयत पर यक़ीन रखते तो क्या बदल जाता?"
+    },
+    "journal_tag": "kalimaat-qadir"
+  }
+}

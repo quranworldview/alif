@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-16",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 16,
+  "prerequisite": "kalimaat-15",
+  "unlocks": ["kalimaat-17"],
+  "xp": 30,
+  "word": {
+    "arabic": "رَبّ",
+    "display": "رَبّ",
+    "transliteration": "Rabb",
+    "meaning": {
+      "en": "Lord / Sustainer / Nurturer",
+      "ur": "رب / پالنے والا / پروردگار",
+      "hi": "रब / पालने वाला / परवरदिगार"
+    },
+    "frequency_rank": 16,
+    "frequency_note": {
+      "en": "Appears 971 times — Allah's most-used attribute in the Qur'an.",
+      "ur": "۹۷۱ بار آتا ہے — قرآن میں اللہ کی سب سے زیادہ استعمال ہونے والی صفت۔",
+      "hi": "971 बار आता है — क़ुरआन में अल्लाह की सबसे ज़्यादा इस्तेमाल होने वाली सिफ़त।"
+    }
+  },
+  "root": {
+    "letters": "ر ب ب",
+    "note": {
+      "en": "رَبّ doesn't just mean 'Lord' as in ruler. The root ر-ب-ب carries the meaning of nurturing, raising, tending — like a gardener who doesn't just own the garden but carefully tends every plant. رَبُّ ٱلْعَـٰلَمِينَ — Lord of all the worlds — means He is actively sustaining every world, every creature, every moment.",
+      "ur": "رَبّ کا مطلب صرف 'رب' بطور حاکم نہیں ہے۔ جڑ ر-ب-ب پرورش، پالنے، سنبھالنے کا مفہوم رکھتی ہے — جیسے ایک باغبان جو نہ صرف باغ کا مالک ہے بلکہ ہر پودے کی احتیاط سے دیکھ بھال کرتا ہے۔ رَبُّ ٱلْعَـٰلَمِينَ — تمام جہانوں کا رب — مطلب ہے وہ ہر جہان، ہر مخلوق، ہر لمحے کو فعال طور پر برقرار رکھ رہا ہے۔",
+      "hi": "رَبّ का मतलब सिर्फ़ 'रब' बतौर हाकिम नहीं है। जड़ ر-ب-ب परवरिश, पालने, सँभालने का मफ़हूम रखती है — जैसे एक बाग़बान जो न सिर्फ़ बाग़ का मालिक है बल्कि हर पौधे की एहतियात से देख-भाल करता है। رَبُّ ٱلْعَـٰلَمِينَ — तमाम जहानों का रब — मतलब है वह हर जहान, हर मख़लूक़, हर लम्हे को फ़आल तौर पर बरक़रार रख रहा है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+    "surah": { "en": "Al-Fatiha 1:2", "ur": "الفاتحہ ۱:۲", "hi": "अल-फ़ातिहा 1:2" },
+    "translation": {
+      "en": "All praise is for Allah, Lord of all the worlds.",
+      "ur": "تمام تعریف اللہ کے لیے ہے، تمام جہانوں کے پالنے والے۔",
+      "hi": "तमाम तारीफ़ अल्लाह के लिए है, तमाम जहानों के पालने वाले।"
+    },
+    "hook_explanation": {
+      "en": "رَبِّ ٱلْعَـٰلَمِينَ — you say this 17 times a day in Fatiha. Now you know رَبّ isn't just 'Lord' — it's the one who actively nurtures and sustains. He is not just the owner of all worlds. He is tending to them. Including yours. Including you. Right now.",
+      "ur": "رَبِّ ٱلْعَـٰلَمِينَ — آپ یہ الفاتحہ میں روزانہ ۱۷ بار کہتے ہیں۔ اب آپ جانتے ہیں کہ رَبّ صرف 'رب' نہیں — یہ وہ ہے جو فعال طور پر پرورش کرتا اور برقرار رکھتا ہے۔ وہ صرف تمام جہانوں کا مالک نہیں۔ وہ ان کی دیکھ بھال کر رہا ہے۔ آپ کی بھی۔ آپ کی۔ ابھی۔",
+      "hi": "رَبِّ ٱلْعَـٰلَمِينَ — आप यह अल-फ़ातिहा में रोज़ाना 17 बार कहते हैं। अब आप जानते हैं कि رَبّ सिर्फ़ 'रब' नहीं — यह वह है जो फ़आल तौर पर परवरिश करता और बरक़रार रखता है। वह सिर्फ़ तमाम जहानों का मालिक नहीं। वह उनकी देख-भाल कर रहा है। आपकी भी। आपकी। अभी।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does رَبّ mean?",
+        "ur": "رَبّ کا مطلب کیا ہے؟",
+        "hi": "رَبّ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Lord / Sustainer / Nurturer", "ur": "رب / پالنے والا", "hi": "रब / पालने वाला" }, "value": "correct" },
+        { "label": { "en": "King / Ruler", "ur": "بادشاہ / حاکم", "hi": "बादशाह / हाकिम" }, "value": "wrong" },
+        { "label": { "en": "Creator / Maker", "ur": "خالق / بنانے والا", "hi": "ख़ालिक़ / बनाने वाला" }, "value": "wrong" },
+        { "label": { "en": "Guide / Teacher", "ur": "رہنما / استاد", "hi": "राहनुमा / उस्ताद" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — رَبّ means Lord, but also Nurturer. He doesn't just own — He tends and sustains.",
+        "ur": "ہاں — رَبّ کا مطلب رب ہے، لیکن پالنے والا بھی۔ وہ صرف مالک نہیں — وہ دیکھ بھال اور برقرار رکھتا ہے۔",
+        "hi": "हाँ — رَبّ का मतलब रब है, लेकिन पालने वाला भी। वह सिर्फ़ मालिक नहीं — वह देख-भाल और बरक़रार रखता है।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap رَبِّ in Al-Fatiha:",
+        "ur": "الفاتحہ میں رَبِّ کو چھوئیں:",
+        "hi": "अल-फ़ातिहा में رَبِّ को छुएं:"
+      },
+      "ayah": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+      "target_word": "رَبِّ",
+      "target_position": 2,
+      "feedback_correct": {
+        "en": "رَبِّ ٱلْعَـٰلَمِينَ — Lord and Nurturer of all the worlds. Not just owner. Actively sustaining.",
+        "ur": "رَبِّ ٱلْعَـٰلَمِينَ — تمام جہانوں کا رب اور پالنے والا۔ صرف مالک نہیں۔ فعال طور پر برقرار رکھنے والا۔",
+        "hi": "رَبِّ ٱلْعَـٰلَمِينَ — तमाम जहानों का रब और पालने वाला। सिर्फ़ मालिक नहीं। फ़आल तौर पर बरक़रार रखने वाला।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "رَبّ carries the meaning of someone who tends and nurtures — not just owns. Think of one way Allah has been your رَبّ this week — not just as Creator, but as the one actively tending to your life. What did He provide, remove, or arrange that you may not have noticed?",
+      "ur": "رَبّ ایسے شخص کا مفہوم رکھتا ہے جو دیکھ بھال اور پرورش کرتا ہے — صرف مالک نہیں۔ اس ہفتے ایک طریقہ سوچیں جس میں اللہ آپ کا رَبّ رہا ہے — صرف خالق کے طور پر نہیں، بلکہ وہ جو فعال طور پر آپ کی زندگی کی دیکھ بھال کر رہا ہے۔ اس نے کیا فراہم کیا، کیا ہٹایا، یا کیا ترتیب دیا جو آپ نے شاید نہیں دیکھا؟",
+      "hi": "رَبّ ऐसे शख़्स का मफ़हूम रखता है जो देख-भाल और परवरिश करता है — सिर्फ़ मालिक नहीं। इस हफ़्ते एक तरीक़ा सोचें जिसमें अल्लाह आपका رَبّ रहा है — सिर्फ़ ख़ालिक़ के तौर पर नहीं, बल्कि वह जो फ़आल तौर पर आपकी ज़िंदगी की देख-भाल कर रहा है। उसने क्या फ़राहम किया, क्या हटाया, या क्या तरतीब दिया जो आपने शायद नहीं देखा?"
+    },
+    "journal_tag": "kalimaat-rabb"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-63",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 63,
+  "prerequisite": "kalimaat-62",
+  "unlocks": ["kalimaat-64"],
+  "xp": 30,
+  "word": {
+    "arabic": "حَيَاة",
+    "display": "حَيَاةٌ",
+    "transliteration": "Hayah",
+    "meaning": {
+      "en": "Life",
+      "ur": "زندگی",
+      "hi": "ज़िंदगी"
+    },
+    "frequency_rank": 63,
+    "frequency_note": {
+      "en": "Appears 76 times in various forms. Almost always paired with دُنْيَا — الْحَيَاةُ الدُّنْيَا (this worldly life). You learned دُنْيَا in lesson 49 and آخِرَة in lesson 50 — now حَيَاة completes that picture.",
+      "ur": "مختلف شکلوں میں ۷۶ بار آیا ہے۔ تقریباً ہمیشہ دُنْيَا کے ساتھ — الْحَيَاةُ الدُّنْيَا (یہ دنیاوی زندگی)۔ آپ نے دُنْيَا سبق ۴۹ میں اور آخِرَة سبق ۵۰ میں سیکھی — اب حَيَاة اس تصویر کو مکمل کرتی ہے۔",
+      "hi": "मुख़्तलिफ़ शकलों में 76 بار آیا ہے۔ تقریباً ہمیشہ دُنْيَا के साथ — الْحَيَاةُ الدُّنْيَا (यह दुनियावी ज़िंदगी)। आपने دُنْيَا सबक़ 49 में और آخِرَة सबक़ 50 में सीखी — अब حَيَاة वह तस्वीर मुकम्मल करती है।"
+    }
+  },
+  "root": {
+    "letters": "ح ي و",
+    "note": {
+      "en": "Root: ح-ي-و (h-y-w) — life, to live, to be alive. حَيَاة is life itself. حَيّ means 'alive' — one of Allah's names الْحَيُّ (The Ever-Living). يَحْيَى is 'he lives' and also the name of Prophet Yahya (John). Life and vitality all come from this root.",
+      "ur": "جڑ: ح-ي-و — زندگی، جینا، زندہ ہونا۔ حَيَاة خود زندگی ہے۔ حَيّ کا مطلب 'زندہ' — اللہ کے ناموں میں سے الْحَيُّ (ہمیشہ زندہ)۔ يَحْيَى کا مطلب 'وہ جیتا ہے' اور یہ نبی یحییٰ کا نام بھی ہے۔ زندگی اور توانائی سب اسی جڑ سے۔",
+      "hi": "جड़: ح-ي-و — ज़िंदगी, जीना, ज़िंदा होना। حَيَاة ख़ुद ज़िंदगी है। حَيّ का मतलब 'ज़िंदा' — अल्लाह के नामों में से الْحَيُّ (हमेशा ज़िंदा)। يَحْيَى का मतलब 'वह जीता है' और यह नबी यहया का नाम भी है। ज़िंदगी और तवानाई सब इसी जड़ से।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+    "surah": { "en": "Al-Hadid 57:20", "ur": "الحدید ۵۷:۲۰", "hi": "अल-हदीद 57:20" },
+    "translation": {
+      "en": "And the life of this world is nothing but the enjoyment of delusion.",
+      "ur": "اور دنیا کی زندگی دھوکے کے سامان کے سوا کچھ نہیں۔",
+      "hi": "और दुनिया की ज़िंदगी धोखे के सामान के सिवा कुछ नहीं।"
+    },
+    "hook_explanation": {
+      "en": "ٱلْحَيَوٰةُ ٱلدُّنْيَآ — 'the worldly life'. This is not an إضافة — both words have ال, making them a مَوْصُوف (described) + صِفَة (descriptor) pair. الدُّنْيَا you know from lesson 49 — it means 'the near/lower one'. إِلَّا — 'except/nothing but' (lesson 13 family). The Qur'an is not anti-life — it is reminding you not to confuse this life with the permanent one.",
+      "ur": "ٱلْحَيَوٰةُ ٱلدُّنْيَآ — 'دنیاوی زندگی'۔ یہ اضافہ نہیں — دونوں الفاظ پر ال ہے، یہ موصوف + صفت کا جوڑا ہے۔ الدُّنْيَا آپ سبق ۴۹ سے جانتے ہیں — مطلب 'قریب/نیچے والی'۔ إِلَّا — 'سوائے/بس' (سبق ۱۳ خاندان)۔ قرآن زندگی کا مخالف نہیں — یہ یاد دلاتا ہے کہ اس زندگی کو ہمیشہ والی سے نہ گڈمڈ کریں۔",
+      "hi": "ٱلْحَيَوٰةُ ٱلدُّنْيَآ — 'दुनियावी ज़िंदगी'। यह इज़ाफ़ा नहीं — दोनों लफ़्ज़ों पर ال है, यह मौसूफ़ + सिफ़त का जोड़ा है। الدُّنْيَا आप सबक़ 49 से जानते हैं — मतलब 'क़रीब/नीचे वाली'। إِلَّا — 'सिवाए/बस' (सबक़ 13 ख़ानदान)। क़ुरआन ज़िंदगी का मुख़ालिफ़ नहीं — यह याद दिलाता है कि इस ज़िंदगी को हमेशा वाली से न गड्डमड्ड करें।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does حَيَاة mean?", "ur": "حَيَاة کا مطلب کیا ہے؟", "hi": "حَيَاة का मतलब क्या है?" },
+      "choices": [
+        { "label": { "en": "Life", "ur": "زندگی", "hi": "ज़िंदगी" }, "value": "correct" },
+        { "label": { "en": "Death", "ur": "موت", "hi": "मौत" }, "value": "wrong" },
+        { "label": { "en": "Time / Age", "ur": "وقت / زمانہ", "hi": "वक़्त / ज़माना" }, "value": "wrong" },
+        { "label": { "en": "World / Earth", "ur": "دنیا / زمین", "hi": "दुनिया / ज़मीन" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! حَيَاة — life. From the same root as الْحَيُّ (The Ever-Living).", "ur": "ہاں! حَيَاة — زندگی۔ الْحَيُّ (ہمیشہ زندہ) جیسی ہی جڑ سے۔", "hi": "हाँ! حَيَاة — ज़िंदगी। الْحَيُّ (हमेशा ज़िंदा) जैसी ही जड़ से।" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap حَيَاة in this ayah:", "ur": "اس آیت میں حَيَاة کو چھوئیں:", "hi": "इस आयत में حَيَاة को छुएँ:" },
+      "ayah": "وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "target_word": "ٱلْحَيَوٰةُ",
+      "target_position": 1,
+      "feedback_correct": { "en": "Right! ٱلْحَيَوٰةُ — life with ال. And ٱلدُّنْيَآ right after — 'the worldly life'. Two words you now know.", "ur": "درست! ٱلْحَيَوٰةُ — ال کے ساتھ زندگی۔ اور فوراً بعد ٱلدُّنْيَآ — 'دنیاوی زندگی'۔ دو الفاظ جو آپ اب جانتے ہیں۔", "hi": "सही! ٱلْحَيَوٰةُ — ال के साथ ज़िंदगी। और फ़ौरन बाद ٱلدُّنْيَآ — 'दुनियावी ज़िंदगी'। दो लफ़्ज़ जो आप अब जानते हैं।" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "الْحَيَاةُ الدُّنْيَا — the near life, the lower life. The Qur'an gave this world a name that means 'small' or 'near' — not to make you despise it, but to help you keep it in proportion. What in your life have you been treating as if it were الآخِرَة-sized?",
+      "ur": "الْحَيَاةُ الدُّنْيَا — قریب کی زندگی، چھوٹی زندگی۔ قرآن نے اس دنیا کو ایک نام دیا جس کا مطلب 'چھوٹا' یا 'قریب' ہے — آپ کو اس سے نفرت دلانے کے لیے نہیں، بلکہ اسے تناسب میں رکھنے میں مدد کے لیے۔ آپ کی زندگی میں کیا ایسی چیز ہے جسے آپ آخرت کی بڑائی کا درجہ دے رہے ہیں؟",
+      "hi": "الْحَيَاةُ الدُّنْيَا — क़रीब की ज़िंदگी, छोटी ज़िंदगी। क़ुरआन ने इस दुनिया को एक नाम दिया जिसका मतलब 'छोटा' या 'क़रीब' है — आपको इससे नफ़रत दिलाने के लिए नहीं, बल्कि इसे तनासुब में रखने में मदद के लिए। आपकी ज़िंदगी में क्या ऐसी चीज़ है जिसे आप आख़िरत की बड़ाई का दर्जा दे रहे हैं?"
+    },
+    "journal_tag": "kalimaat-hayat"
+  }
+}

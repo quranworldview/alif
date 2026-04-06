@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-23",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 23,
+  "prerequisite": "kalimaat-22",
+  "unlocks": ["kalimaat-24"],
+  "xp": 30,
+  "word": {
+    "arabic": "عَلِيم",
+    "display": "عَلِيم",
+    "transliteration": "'Alīm",
+    "meaning": {
+      "en": "All-Knowing / The Omniscient",
+      "ur": "سب کچھ جاننے والا / علیم",
+      "hi": "सब कुछ जानने वाला / अलीम"
+    },
+    "frequency_rank": 23,
+    "frequency_note": {
+      "en": "Appears 163 times — almost always paired with another name of Allah. Knowledge is His most referenced attribute.",
+      "ur": "۱۶۳ بار آتا ہے — تقریباً ہمیشہ اللہ کے کسی اور نام کے ساتھ۔ علم اس کی سب سے زیادہ ذکر ہونے والی صفت ہے۔",
+      "hi": "163 بار آتا ہے — لगभग هमेशا अल्लाह के किसी दूसरे नाम के साथ। इल्म उसकी सबसे ज़्यादा ज़िक्र होने वाली सिफ़त है।"
+    }
+  },
+  "root": {
+    "letters": "ع ل م",
+    "note": {
+      "en": "The root ع-ل-م is one of the most powerful in Arabic. عِلْم — knowledge. عَالِم — scholar (one who knows). عَلِيم — the intensely knowing one (only used for Allah). مَعْلُوم — that which is known. عَلَّمَ — He taught. This root produced Islam's entire intellectual tradition.",
+      "ur": "جڑ ع-ل-م عربی کی سب سے طاقتور جڑوں میں سے ایک ہے۔ عِلْم — علم۔ عَالِم — عالم (جو جانتا ہے)۔ عَلِيم — شدت سے جاننے والا (صرف اللہ کے لیے)۔ مَعْلُوم — جو جانا جائے۔ عَلَّمَ — اس نے سکھایا۔ اس جڑ نے اسلام کی پوری علمی روایت پیدا کی۔",
+      "hi": "जड़ ع-ل-م अरबी की सबसे ताक़तवर जड़ों में से एक है। عِلْم — इल्म। عَالِم — आलिम (جो जानتا ہے)। عَلِيم — शिद्दत से जानने वाला (सिर्फ़ अल्लाह के लिए)। مَعْلُوم — जो जाना जाए। عَلَّمَ — उसने सिखाया। इस जड़ ने इस्लाम की पूरी इल्मी रिवायत पैदा की।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
+    "surah": { "en": "Al-Baqarah 2:282", "ur": "البقرہ ۲:۲۸۲", "hi": "अल-बक़रह 2:282" },
+    "translation": {
+      "en": "And Allah is All-Knowing of every thing.",
+      "ur": "اور اللہ ہر چیز کو جاننے والا ہے۔",
+      "hi": "और अल्लाह हर चीज़ को जानने वाला है।"
+    },
+    "hook_explanation": {
+      "en": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — 'And Allah is عَلِيم of every شَيْء.' كُلِّ شَيْءٍ — every thing (you learned كُلّ and شَيْء is on its way). عَلِيم doesn't just mean He knows facts. He knows your thoughts before you think them. Your worry before you name it. Your need before you ask.",
+      "ur": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — 'اور اللہ ہر شَيْء کا عَلِيم ہے'۔ كُلِّ شَيْءٍ — ہر چیز (آپ نے كُلّ سیکھ لیا ہے)۔ عَلِيم کا مطلب صرف یہ نہیں کہ وہ حقائق جانتا ہے۔ وہ آپ کے خیالات سوچنے سے پہلے جانتا ہے۔ آپ کی پریشانی کا نام رکھنے سے پہلے۔ آپ کی ضرورت مانگنے سے پہلے۔",
+      "hi": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — 'और अल्लाह हर شَيْء का عَلِيم है'۔ كُلِّ شَيْءٍ — हर चीज़ (आपने كُلّ सीख लिया है)۔ عَلِيم का मतलब सिर्फ़ यह नहीं कि वह हक़ाइक़ جانता ہے। वह آपके ख़यालात सोचने से पहले جानता है। आपकी परेशानी का नाम रखने से पहले। آपکी ज़रूरत माँगने से पहले।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does عَلِيم mean?",
+        "ur": "عَلِيم کا مطلب کیا ہے؟",
+        "hi": "عَلِيم का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "All-Knowing", "ur": "سب کچھ جاننے والا", "hi": "सब कुछ जानने वाला" }, "value": "correct" },
+        { "label": { "en": "All-Powerful", "ur": "سب سے طاقتور", "hi": "सबसे ताक़तवर" }, "value": "wrong" },
+        { "label": { "en": "All-Seeing", "ur": "سب کچھ دیکھنے والا", "hi": "सब कुछ देखने वाला" }, "value": "wrong" },
+        { "label": { "en": "All-Hearing", "ur": "سب کچھ سننے والا", "hi": "सब कुछ सुनने वाला" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — عَلِيم means All-Knowing. وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — and Allah knows every thing.",
+        "ur": "ہاں — عَلِيم کا مطلب سب کچھ جاننے والا ہے۔ وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — اور اللہ ہر چیز کو جانتا ہے۔",
+        "hi": "हाँ — عَلِيم का मतलب سب کچھ جاننے والا ہے۔ وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — और अल्लाह हर چیز को जانता ہے۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap عَلِيمٌ in this ayah:",
+        "ur": "اس آیت میں عَلِيمٌ کو چھوئیں:",
+        "hi": "इस آयत में عَلِيمٌ को छुएं:"
+      },
+      "ayah": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
+      "target_word": "عَلِيمٌ",
+      "target_position": 4,
+      "feedback_correct": {
+        "en": "عَلِيمٌ — the last word, the most important word. Everything else was leading to this: He knows.",
+        "ur": "عَلِيمٌ — آخری لفظ، سب سے اہم لفظ۔ باقی سب کچھ اسی کی طرف لے جا رہا تھا: وہ جانتا ہے۔",
+        "hi": "عَلِيمٌ — آخری لফ़्ज़, सबसे अहम लफ़्ज़। बाक़ी सब कुछ इसी की तरफ़ ले जा रहा था: वह جानता है।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — Allah knows every thing. Every hidden worry. Every private struggle. Every unsaid prayer. Does knowing He already knows everything make you want to speak to Him more, or less? Why?",
+      "ur": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — اللہ ہر چیز جانتا ہے۔ ہر چھپی ہوئی پریشانی۔ ہر نجی جدوجہد۔ ہر ان کہی دعا۔ کیا یہ جاننا کہ وہ پہلے سے سب جانتا ہے، آپ کو اس سے زیادہ بات کرنے پر اکساتا ہے یا کم؟ کیوں؟",
+      "hi": "وَٱللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ — अल्लाह हر चीज़ जانता है। हर छुपी हुई परेशानी। हर निजी जदोजेहद। هर अनकही दुआ। क्या यह जानना कि वह पहले से सब जानता है, आपको उससे ज़्यादा बात करने पर उकसाता है या कम? क्यों?"
+    },
+    "journal_tag": "kalimaat-alim"
+  }
+}

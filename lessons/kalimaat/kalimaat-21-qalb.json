@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-21",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 21,
+  "prerequisite": "kalimaat-20",
+  "unlocks": ["kalimaat-22"],
+  "xp": 30,
+  "word": {
+    "arabic": "قَلْب",
+    "display": "قَلْب",
+    "transliteration": "Qalb",
+    "meaning": {
+      "en": "Heart",
+      "ur": "دل",
+      "hi": "दिल"
+    },
+    "frequency_rank": 21,
+    "frequency_note": {
+      "en": "Appears 132 times. The Qur'an speaks to the heart more than any other organ.",
+      "ur": "۱۳۲ بار آتا ہے۔ قرآن کسی بھی اور عضو سے زیادہ دل سے بات کرتا ہے۔",
+      "hi": "132 بار آتا ہے۔ क़ुरआन किसी भी और उضو से ज़्यादा दिल से बात करता है।"
+    }
+  },
+  "root": {
+    "letters": "ق ل ب",
+    "note": {
+      "en": "The root ق-ل-ب means to turn, to flip. Your قَلْب is called that because it turns — it changes states, it wavers, it can go hard or soft. يُقَلِّبُ ٱللَّهُ ٱلْقُلُوبَ — Allah turns the hearts. The Qur'an's most urgent address is always to the قَلْب.",
+      "ur": "جڑ ق-ل-ب کا مطلب ہے پلٹنا، الٹنا۔ آپ کے قَلْب کو اس لیے یہ نام دیا گیا کیونکہ یہ پلٹتا ہے — اس کی حالتیں بدلتی ہیں، یہ ڈگمگاتا ہے، سخت یا نرم ہو سکتا ہے۔ يُقَلِّبُ ٱللَّهُ ٱلْقُلُوبَ — اللہ دلوں کو پلٹتا ہے۔ قرآن کا سب سے فوری خطاب ہمیشہ قَلْب سے ہوتا ہے۔",
+      "hi": "जड़ ق-ل-ب का मतलب है पलटना, उलटना। आपके قَلْب को इसलिए यह नाम दिया गया क्योंकि यह पलटता है — इसकी हालतें बदलती हैं, यह डगमगाता है, सख़्त या नर्म हो सकता है। يُقَلِّبُ ٱللَّهُ ٱلْقُلُوبَ — अल्लाह दिलों को पलटता है। क़ुरआन का सबसे फ़ौरी ख़िताब हमेशा قَلْب से होता है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+    "surah": { "en": "Ar-Ra'd 13:28", "ur": "الرعد ۱۳:۲۸", "hi": "अर-रअद 13:28" },
+    "translation": {
+      "en": "Verily, in the remembrance of Allah do hearts find rest.",
+      "ur": "آگاہ رہو، اللہ کی یاد سے ہی دلوں کو سکون ملتا ہے۔",
+      "hi": "आगाह रहो, अल्लाह की याद से ही दिलों को सुकून मिलता है।"
+    },
+    "hook_explanation": {
+      "en": "ٱلْقُلُوبُ — the hearts (plural of قَلْب). This is arguably the most quoted ayah about the human condition. Every person — believer or not — knows the feeling of a restless heart. The Qur'an names the cure: ذِكْر — remembrance of Allah. And the heart — قَلْب — is the one that finds rest.",
+      "ur": "ٱلْقُلُوبُ — دل (قَلْب کی جمع)۔ یہ شاید انسانی حالت کے بارے میں سب سے زیادہ حوالہ دی جانے والی آیت ہے۔ ہر شخص — مومن ہو یا نہ ہو — بے چین دل کے احساس کو جانتا ہے۔ قرآن علاج بتاتا ہے: ذِكْر — اللہ کی یاد۔ اور دل — قَلْب — وہی ہے جسے سکون ملتا ہے۔",
+      "hi": "ٱلْقُلُوبُ — دل (قَلْب کی جمع)۔ یह शायद इंसानी हालत के बारे में सबसे ज़्यादा हवाला दी जाने वाली آयत ہے۔ हर शख़्स — मोमिन हो या न हो — बेचैन दिल के एहसास को जानता है। क़ुरआन इलाज बताता है: ذِكْر — अल्लाह की याद। और दिल — قَلْب — वही है जिसे सुकून मिलता है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does قَلْب mean?",
+        "ur": "قَلْب کا مطلب کیا ہے؟",
+        "hi": "قَلْب का मतलب क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Heart", "ur": "دل", "hi": "दिल" }, "value": "correct" },
+        { "label": { "en": "Mind / Intellect", "ur": "عقل / دماغ", "hi": "अक़्ल / दिमाग़" }, "value": "wrong" },
+        { "label": { "en": "Soul / Spirit", "ur": "روح / نفس", "hi": "रूह / नफ़्स" }, "value": "wrong" },
+        { "label": { "en": "Eye / Vision", "ur": "آنکھ / نظر", "hi": "आँख / नज़र" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — قَلْب is the heart. ٱلْقُلُوبُ is its plural. The organ the Qur'an addresses most.",
+        "ur": "ہاں — قَلْب دل ہے۔ ٱلْقُلُوبُ اس کی جمع ہے۔ وہ عضو جسے قرآن سب سے زیادہ مخاطب کرتا ہے۔",
+        "hi": "हाँ — قَلْب دिل है۔ ٱلْقُلُوبُ اس کی جمع ہے۔ وہ उضو जिसे क़ुرآन سب سے زیادہ مخاطब کرتا ہے۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Find ٱلْقُلُوبُ in this ayah:",
+        "ur": "اس آیت میں ٱلْقُلُوبُ تلاش کریں:",
+        "hi": "इस آयत में ٱلْقُلُوبُ ढूंढें:"
+      },
+      "ayah": "أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+      "target_word": "ٱلْقُلُوبُ",
+      "target_position": 4,
+      "feedback_correct": {
+        "en": "ٱلْقُلُوبُ — the hearts. The last word. The whole ayah leads to this.",
+        "ur": "ٱلْقُلُوبُ — دل۔ آخری لفظ۔ پوری آیت اسی کی طرف لے جاتی ہے۔",
+        "hi": "ٱلْقُلُوبُ — دل۔ آخری لفظ۔ پوری آयت इसی की तरफ़ ले जाती है।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ — In the remembrance of Allah do hearts find rest. When does your قَلْب feel most restless? And when does it feel most at rest? Is there a pattern?",
+      "ur": "أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ — اللہ کی یاد سے دلوں کو سکون ملتا ہے۔ آپ کا قَلْب کب سب سے زیادہ بے چین ہوتا ہے؟ اور کب سب سے زیادہ سکون میں؟ کیا کوئی نمونہ ہے؟",
+      "hi": "أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ — اللہ کی یاد سے دلوں کو سکون ملتا ہے۔ آپ کا قَلْب کب سب سے ज़्यादا बेچैन होता है? और کب सب سے ज़्यादा सुकून में? कोई पैटर्न है?"
+    },
+    "journal_tag": "kalimaat-qalb"
+  }
+}

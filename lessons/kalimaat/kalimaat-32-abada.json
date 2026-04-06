@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-32",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 32,
+  "prerequisite": "kalimaat-31",
+  "unlocks": ["kalimaat-33"],
+  "xp": 35,
+  "word": {
+    "arabic": "عَبَدَ",
+    "display": "عَبَدَ / يَعْبُدُ",
+    "transliteration": "'Abada / Ya'budu",
+    "meaning": {
+      "en": "He worshipped / To worship",
+      "ur": "اس نے عبادت کی / عبادت کرنا",
+      "hi": "उसने इबादत की / इबादत करना"
+    },
+    "frequency_rank": 32,
+    "frequency_note": {
+      "en": "Appears 275 times across its forms. إِيَّاكَ نَعْبُدُ — You alone we worship. The central covenant of every prayer.",
+      "ur": "اپنی مختلف شکلوں میں ۲۷۵ بار آتا ہے۔ إِيَّاكَ نَعْبُدُ — ہم صرف تیری عبادت کرتے ہیں۔ ہر نماز کا مرکزی عہد۔",
+      "hi": "अपनी मुख़्तलिफ़ शकलों में 275 بار آتا ہے۔ إِيَّاكَ نَعْبُدُ — ہم صرف تیری عبادت کرتے ہیں۔ ہر نماز کا مرکزی عہد۔"
+    }
+  },
+  "root": {
+    "letters": "ع ب د",
+    "note": {
+      "en": "The root ع-ب-د means to serve, to worship. عَبْد — servant, slave (a title of honour in Islam). عِبَادَة — worship, service. عِبَاد ٱللَّهِ — servants of Allah. The highest title in the Qur'an: the Prophet ﷺ is called عَبْدُهُۥ — His servant — at the moment of Isra. Servitude to Allah is liberation from servitude to everything else.",
+      "ur": "جڑ ع-ب-د کا مطلب ہے خدمت کرنا، عبادت کرنا۔ عَبْد — بندہ، خادم (اسلام میں عزت کا لقب)۔ عِبَادَة — عبادت، خدمت۔ عِبَاد ٱللَّهِ — اللہ کے بندے۔ قرآن میں سب سے اعلیٰ لقب: معراج کے لمحے میں نبی ﷺ کو عَبْدُهُۥ — اس کا بندہ — کہا جاتا ہے۔ اللہ کی بندگی ہر چیز کی بندگی سے آزادی ہے۔",
+      "hi": "جڑ ع-ب-د کا مطلب ہے خدمت کرنا، عبادت کرنا۔ عَبْد — بندہ، خادم (اسلام میں عزت کا لقب)۔ عِبَادَة — عبادت، خدمت۔ عِبَاد ٱللَّهِ — اللہ کے بندے۔ قرآن میں سب سے اعلیٰ لقب: معراج کے لمحے میں نبی ﷺ کو عَبْدُهُۥ — اس کا بندہ — کہا جاتا ہے۔ اللہ کی بندگی ہر چیز کی بندگی سے آزادی ہے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+    "surah": { "en": "Al-Fatiha 1:5", "ur": "الفاتحہ ۱:۵", "hi": "अल-फ़ातिहा 1:5" },
+    "translation": {
+      "en": "You alone we worship, and You alone we ask for help.",
+      "ur": "ہم صرف تیری عبادت کرتے ہیں اور صرف تجھ سے مدد مانگتے ہیں۔",
+      "hi": "हम सिर्फ़ तेरी इबादत करते हैं और सिर्फ़ तुझसे मदद माँगते हैं।"
+    },
+    "hook_explanation": {
+      "en": "إِيَّاكَ نَعْبُدُ — 'You alone we worship.' نَعْبُدُ is from عَبَدَ — 'we worship'. You say this at least 17 times every day. Now you know نَعْبُدُ means 'we worship'. The entire relationship between the human and Allah is in this one verb.",
+      "ur": "إِيَّاكَ نَعْبُدُ — 'ہم صرف تیری عبادت کرتے ہیں'۔ نَعْبُدُ عَبَدَ سے ہے — 'ہم عبادت کرتے ہیں'۔ آپ یہ روزانہ کم از کم ۱۷ بار کہتے ہیں۔ اب آپ جانتے ہیں کہ نَعْبُدُ کا مطلب ہے 'ہم عبادت کرتے ہیں'۔ انسان اور اللہ کے درمیان پورا رشتہ اس ایک فعل میں ہے۔",
+      "hi": "إِيَّاكَ نَعْبُدُ — 'ہم صرف تیری عبادت کرتے ہیں'۔ نَعْبُدُ عَبَدَ سے ہے — 'ہم عبادت کرتے ہیں'۔ آپ یہ روزانہ کم از کم 17 بار کہتے ہیں۔ اب آپ جانتے ہیں کہ نَعْبُدُ کا مطلب ہے 'ہم عبادت کرتے ہیں'۔ انسان اور اللہ کے درمیان پورا رشتہ اس ایک فعل میں ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does عَبَدَ mean?",
+        "ur": "عَبَدَ کا مطلب کیا ہے؟",
+        "hi": "عَبَدَ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "He worshipped", "ur": "اس نے عبادت کی", "hi": "उसने इबादत की" }, "value": "correct" },
+        { "label": { "en": "He believed", "ur": "وہ ایمان لایا", "hi": "वह ईमान लाया" }, "value": "wrong" },
+        { "label": { "en": "He created", "ur": "اس نے پیدا کیا", "hi": "उसने पैदा किया" }, "value": "wrong" },
+        { "label": { "en": "He praised", "ur": "اس نے تعریف کی", "hi": "उसने तारीफ़ की" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — عَبَدَ means 'he worshipped'. نَعْبُدُ — 'we worship'. You say this in every rak'ah.",
+        "ur": "ہاں — عَبَدَ کا مطلب 'اس نے عبادت کی' ہے۔ نَعْبُدُ — 'ہم عبادت کرتے ہیں'۔ آپ یہ ہر رکعت میں کہتے ہیں۔",
+        "hi": "हाँ — عَبَدَ کا مطلب 'اس نے عبادت کی' ہے۔ نَعْبُدُ — 'ہم عبادت کرتے ہیں'۔ آپ یہ ہر رکعت میں کہتے ہیں۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap نَعْبُدُ in Al-Fatiha:",
+        "ur": "الفاتحہ میں نَعْبُدُ کو چھوئیں:",
+        "hi": "अल-फ़ातिहा में نَعْبُدُ کو چھوئیں:"
+      },
+      "ayah": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "target_word": "نَعْبُدُ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "نَعْبُدُ — 'we worship'. From عَبَدَ. You say this to Allah directly, face to face, every prayer.",
+        "ur": "نَعْبُدُ — 'ہم عبادت کرتے ہیں'۔ عَبَدَ سے۔ آپ یہ ہر نماز میں اللہ سے براہ راست کہتے ہیں۔",
+        "hi": "نَعْبُدُ — 'ہم عبادت کرتے ہیں'۔ عَبَدَ سے۔ آپ یہ ہر نماز میں اللہ سے سیدھے کہتے ہیں۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "إِيَّاكَ نَعْبُدُ — You alone we worship. This is a declaration AND a promise. You say it at least 17 times a day. Thinking of your life this past week — were your actions consistent with this declaration? What is one area where your عِبَادَة could go deeper?",
+      "ur": "إِيَّاكَ نَعْبُدُ — ہم صرف تیری عبادت کرتے ہیں۔ یہ ایک اعلان بھی ہے اور ایک وعدہ بھی۔ آپ یہ روزانہ کم از کم ۱۷ بار کہتے ہیں۔ گزشتہ ہفتے اپنی زندگی کے بارے میں سوچتے ہوئے — کیا آپ کے اعمال اس اعلان سے مطابقت رکھتے تھے؟ ایک ایسا شعبہ کون سا ہے جہاں آپ کی عِبَادَة مزید گہری ہو سکتی ہے؟",
+      "hi": "إِيَّاكَ نَعْبُدُ — ہم صرف تیری عبادت کرتے ہیں۔ یہ ایک اعلان بھی ہے اور ایک وعدہ بھی۔ آپ یہ روزانہ کم از کم 17 بار کہتے ہیں۔ گزشتہ ہفتے اپنی ز ندگی کے بارے میں سوچتے ہوئے — کیا آپ کے اعمال اس اعلان سے مطابقت رکھتے تھے؟ ایک ایسا شعبہ کون سا ہے جہاں آپ کی عِبَادَة اور گہری ہو سکتی ہے؟"
+    },
+    "journal_tag": "kalimaat-abada"
+  }
+}

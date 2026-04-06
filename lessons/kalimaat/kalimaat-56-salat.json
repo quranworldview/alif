@@ -1,0 +1,99 @@
+{
+  "id": "kalimaat-56",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 56,
+  "prerequisite": "kalimaat-55",
+  "unlocks": ["kalimaat-57"],
+  "xp": 30,
+  "word": {
+    "arabic": "صَلَاة",
+    "display": "صَلَاةٌ",
+    "transliteration": "Salah",
+    "meaning": {
+      "en": "Prayer / Salah / Connection",
+      "ur": "نماز / صلاة / تعلق",
+      "hi": "नमाज़ / सलाह / तअल्लुक़"
+    },
+    "frequency_rank": 56,
+    "frequency_note": {
+      "en": "Appears 83 times. You do this 5 times a day. The word itself means a connection — from a root meaning to connect, to follow closely. Every time you pray, you are connecting.",
+      "ur": "۸۳ بار آیا ہے۔ آپ یہ دن میں ۵ بار کرتے ہیں۔ لفظ کا مطلب خود ہی تعلق ہے — ایک جڑ سے جس کا مطلب ہے جوڑنا، قریب سے پیروی کرنا۔ ہر بار جب آپ نماز پڑھتے ہیں، آپ جڑ رہے ہیں۔",
+      "hi": "83 بار آया है। आप यह दिन में 5 बार करते हैं। लफ़्ज़ का मतलब ख़ुद ही तअल्लुक़ है — एक जड़ से जिसका मतलब है जोड़ना, क़रीब से पैरवी करना। हर बार जब आप नमाज़ पढ़ते हैं, आप जुड़ रहे हैं।"
+    }
+  },
+  "root": {
+    "letters": "ص ل و",
+    "note": {
+      "en": "Root: ص-ل-و (s-l-w) — to connect, to follow closely. صَلَاة is the prayer — the connection itself. When Allah and His angels make صَلَاة on the Prophet ﷺ (إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ), it means sending blessings and mercy. Same root, different dimensions of connection.",
+      "ur": "جڑ: ص-ل-و — جوڑنا، قریب سے پیروی کرنا۔ صَلَاة نماز ہے — تعلق خود۔ جب اللہ اور اس کے فرشتے نبی ﷺ پر صَلَاة بھیجتے ہیں (إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ)، اس کا مطلب دعا اور رحمت بھیجنا ہے۔ ایک ہی جڑ، تعلق کے مختلف رنگ۔",
+      "hi": "जड़: ص-ل-و — जोड़ना, क़रीब से पैरवी करना। صَلَاة नमाज़ है — तअल्लुक़ ख़ुद। जब अल्लाह और उसके फ़रिश्ते नबी ﷺ पर صَلَاة भेजते हैं (إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ), इसका मतलब दुआ और रहमत भेजना है। एक ही जड़, तअल्लुक़ के मुख़्तलिफ़ रंग।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ",
+    "surah": {
+      "en": "Al-Baqarah 2:43",
+      "ur": "البقرہ ۲:۴۳",
+      "hi": "अल-बक़रह 2:43"
+    },
+    "translation": {
+      "en": "And establish the prayer and give the zakah.",
+      "ur": "اور نماز قائم کرو اور زکاة دو۔",
+      "hi": "और नमाज़ क़ाइम करो और ज़कात दो।"
+    },
+    "hook_explanation": {
+      "en": "أَقِيمُوا — 'establish, set upright'. Not just 'pray' — establish. The word demands uprightness, consistency, structure. ٱلصَّلَوٰةَ has ال — definite, THE prayer — a specific, known institution. This command appears over 80 times in the Qur'an. It is the pillar.",
+      "ur": "أَقِيمُوا — 'قائم کرو، سیدھا کھڑا کرو'۔ صرف 'پڑھو' نہیں — قائم کرو۔ لفظ استقامت، مستقل مزاجی، ڈھانچے کا تقاضہ کرتا ہے۔ ٱلصَّلَوٰةَ پر ال ہے — معرفہ، وہ نماز — ایک مخصوص، معروف ادارہ۔ یہ حکم قرآن میں ۸۰ سے زیادہ بار آیا ہے۔ یہ ستون ہے۔",
+      "hi": "أَقِيمُوا — 'क़ाइम करो, सीधा खड़ा करो'। सिर्फ़ 'पढ़ो' नहीं — क़ाइम करो। लफ़्ज़ इस्तिक़ामत, मुस्तक़िल मिज़ाजी, ढाँचे का तक़ाज़ा करता है। ٱلصَّلَوٰةَ पर ال है — मारिफ़ा, वह नमाज़ — एक मख़सूस, मारूफ़ इदारा। यह हुक्म क़ुरआन में 80 से ज़्यादा बार आया है। यह सुतून है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does صَلَاة mean?",
+        "ur": "صَلَاة کا مطلب کیا ہے؟",
+        "hi": "صَلَاة का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Prayer / Connection", "ur": "نماز / تعلق", "hi": "नमाज़ / तअल्लुक़" }, "value": "correct" },
+        { "label": { "en": "Fasting", "ur": "روزہ", "hi": "रोज़ा" }, "value": "wrong" },
+        { "label": { "en": "Charity / Zakah", "ur": "زکاة / صدقہ", "hi": "ज़कात / सदक़ा" }, "value": "wrong" },
+        { "label": { "en": "Pilgrimage / Hajj", "ur": "حج", "hi": "हज" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes! صَلَاة — prayer, connection. The root means to connect. Every prayer is a connection to Allah.",
+        "ur": "ہاں! صَلَاة — نماز، تعلق۔ جڑ کا مطلب جوڑنا ہے۔ ہر نماز اللہ سے تعلق ہے۔",
+        "hi": "हाँ! صَلَاة — नमाज़, तअल्लुक़। जड़ का मतलब जोड़ना है। हर नमाज़ अल्लाह से तअल्लुक़ है।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap صَلَاة in this ayah:",
+        "ur": "اس آیت میں صَلَاة کو چھوئیں:",
+        "hi": "इस आयत में صَلَاة को छुएँ:"
+      },
+      "ayah": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ",
+      "target_word": "ٱلصَّلَوٰةَ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "Right! ٱلصَّلَوٰةَ — the second word. With ال, definite. THE prayer.",
+        "ur": "درست! ٱلصَّلَوٰةَ — دوسرا لفظ۔ ال کے ساتھ، معرفہ۔ وہ نماز۔",
+        "hi": "सही! ٱلصَّلَوٰةَ — दूसरा लफ़्ज़। ال के साथ, मारिफ़ा। वह नमाज़।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The Qur'an doesn't say 'do prayer' — it says أَقِيمُوا — establish it, set it upright, make it a structure in your life. What would it mean for your prayers to be truly established — not just done, but upright, present, alive? What's one thing that would change?",
+      "ur": "قرآن 'نماز کرو' نہیں کہتا — کہتا ہے أَقِيمُوا — اسے قائم کرو، سیدھا کھڑا کرو، اپنی زندگی میں ڈھانچہ بناؤ۔ آپ کی نمازوں کے واقعی قائم ہونے کا کیا مطلب ہوگا — صرف ادا نہیں، بلکہ سیدھی، حاضر، زندہ؟ ایک چیز کیا بدلے گی؟",
+      "hi": "क़ुरआन 'نمाز़ करो' नहीं कहता — कहता है أَقِيمُوا — इसे क़ाइम करो, सीधा खड़ा करो, अपनी ज़िंदगी में ढाँचा बनाओ। आपकी नमाज़ों के सच में क़ाइम होने का क्या मतलब होगा — सिर्फ़ अदा नहीं, बल्कि सीधी, हाज़िर, ज़िंदा? एक चीज़ क्या बदलेगी?"
+    },
+    "journal_tag": "kalimaat-salat"
+  }
+}

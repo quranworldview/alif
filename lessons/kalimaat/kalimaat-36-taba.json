@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-36",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 36,
+  "prerequisite": "kalimaat-35",
+  "unlocks": ["kalimaat-37"],
+  "xp": 30,
+  "word": {
+    "arabic": "تَابَ",
+    "display": "تَابَ",
+    "transliteration": "Tāba",
+    "meaning": {
+      "en": "He repented / He turned back",
+      "ur": "اس نے توبہ کی / وہ لوٹا",
+      "hi": "उसने तौबा की / वह लौटा"
+    },
+    "frequency_rank": 36,
+    "frequency_note": {
+      "en": "Appears 87 times. تَوَّاب — the Ever-Accepting of repentance (one of Allah's names). He accepts it every time.",
+      "ur": "۸۷ بار آتا ہے۔ تَوَّاب — توبہ قبول کرنے والا (اللہ کے ناموں میں سے ایک)۔ وہ ہر بار قبول کرتا ہے۔",
+      "hi": "87 بار آتا ہے۔ تَوَّاب — توبہ قبول کرنے والا (اللہ کے نامों میں سے ایک)۔ وہ ہر بار قبول کرتا ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ت و ب",
+    "note": {
+      "en": "The root ت-و-ب means to return, to turn back. تَوْبَة — repentance (a return to Allah). تَائِب — one who repents. And crucially: تَوَّاب — the one who accepts repentance — is one of Allah's names. The human turns. Allah accepts. Both uses of the root work together.",
+      "ur": "جڑ ت-و-ب کا مطلب ہے واپس آنا، لوٹنا۔ تَوْبَة — توبہ (اللہ کی طرف واپسی)۔ تَائِب — توبہ کرنے والا۔ اور اہم بات: تَوَّاب — توبہ قبول کرنے والا — اللہ کے ناموں میں سے ایک ہے۔ انسان لوٹتا ہے۔ اللہ قبول کرتا ہے۔ جڑ کے دونوں استعمال مل کر کام کرتے ہیں۔",
+      "hi": "جڑ ت-و-ب کا مطلب ہے واپس آنا، لوٹنا۔ تَوْبَة — توبہ (اللہ کی طرف واپسی)۔ تَائِب — توبہ کرنے والا۔ اور اہم بات: تَوَّاب — توبہ قبول کرنے والا — اللہ کے نامों میں سے ایک ہے۔ انسان لوٹتا ہے۔ اللہ قبول کرتا ہے۔ جڑ کے دونوں استعمال مل کر کام کرتے ہیں۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ",
+    "surah": { "en": "Al-Baqarah 2:222", "ur": "البقرہ ۲:۲۲۲", "hi": "अल-बक़रह 2:222" },
+    "translation": {
+      "en": "Indeed, Allah loves those who constantly repent.",
+      "ur": "بے شک اللہ بار بار توبہ کرنے والوں سے محبت کرتا ہے۔",
+      "hi": "बेशक अल्लाह बार-बार तौबा करने वालों से मुहब्बत करता है।"
+    },
+    "hook_explanation": {
+      "en": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ — 'Verily Allah loves those who constantly return to Him.' إِنَّ (lesson 6). يُحِبُّ — He loves. ٱلتَّوَّٰبِينَ — those who keep turning back. Not once. Constantly. Allah doesn't want perfection. He wants return.",
+      "ur": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ — 'بے شک اللہ ان لوگوں سے محبت کرتا ہے جو بار بار اس کی طرف لوٹتے ہیں'۔ إِنَّ (سبق ۶)۔ يُحِبُّ — وہ محبت کرتا ہے۔ ٱلتَّوَّٰبِينَ — جو بار بار لوٹتے رہتے ہیں۔ ایک بار نہیں۔ بار بار۔ اللہ کمال نہیں چاہتا۔ وہ واپسی چاہتا ہے۔",
+      "hi": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ — 'بے شک اللہ ان لوگوں سے مُحبت کرتا ہے جو بار بار اس کی طرف لوٹتے ہیں'۔ إِنَّ (سبق 6)۔ يُحِبُّ — وہ مُحبت کرتا ہے۔ ٱلتَّوَّٰبِينَ — جو بار بار لوٹتے رہتے ہیں۔ ایک بار نہیں۔ بار بار۔ اللہ کمال نہیں چاہتا۔ وہ واپسی چاہتا ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does تَابَ mean?",
+        "ur": "تَابَ کا مطلب کیا ہے؟",
+        "hi": "تَابَ का मतलب क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "He repented / turned back", "ur": "اس نے توبہ کی / لوٹا", "hi": "उसने तौबा की / लौटा" }, "value": "correct" },
+        { "label": { "en": "He prayed", "ur": "اس نے نماز پڑھی", "hi": "उसने नमाज़ पढ़ी" }, "value": "wrong" },
+        { "label": { "en": "He was forgiven", "ur": "اسے معاف کیا گیا", "hi": "उसे माफ़ किया गया" }, "value": "wrong" },
+        { "label": { "en": "He remembered", "ur": "اسے یاد آیا", "hi": "उसे याद आया" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — تَابَ means 'he repented, he turned back'. And Allah يُحِبُّ — loves — those who keep returning.",
+        "ur": "ہاں — تَابَ کا مطلب 'اس نے توبہ کی، وہ لوٹا' ہے۔ اور اللہ يُحِبُّ — محبت کرتا ہے — ان لوگوں سے جو بار بار واپس آتے ہیں۔",
+        "hi": "هاँ — تَابَ کا مطلب 'اس نے توبہ کی، وہ لوٹا' ہے۔ اور اللہ يُحِبُّ — محبت کرتا ہے — ان لوگوں سے جو بار بار واپس آتے ہیں۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap ٱلتَّوَّٰبِينَ in this ayah:",
+        "ur": "اس آیت میں ٱلتَّوَّٰبِينَ کو چھوئیں:",
+        "hi": "इस आयत में ٱلتَّوَّٰبِينَ کو چھوئیں:"
+      },
+      "ayah": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ",
+      "target_word": "ٱلتَّوَّٰبِينَ",
+      "target_position": 3,
+      "feedback_correct": {
+        "en": "ٱلتَّوَّٰبِينَ — 'those who keep returning'. Allah loves them. Not perfection — return.",
+        "ur": "ٱلتَّوَّٰبِينَ — 'جو بار بار لوٹتے رہتے ہیں'۔ اللہ ان سے محبت کرتا ہے۔ کمال نہیں — واپسی۔",
+        "hi": "ٱلتَّوَّٰبِينَ — 'جو بار بار لوٹتے رہتے ہیں'۔ اللہ ان سے محبت کرتا ہے۔ کمال نہیں — واپسی۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ — Allah loves those who keep returning. Not those who never sin. Not those who are perfect. Those who return. Is there something you've been carrying, thinking you've gone too far? تَابَ means you can always return. Today.",
+      "ur": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ — اللہ ان لوگوں سے محبت کرتا ہے جو بار بار لوٹتے ہیں۔ وہ نہیں جو کبھی گناہ نہیں کرتے۔ وہ نہیں جو کامل ہیں۔ وہ جو واپس آتے ہیں۔ کوئی چیز ہے جو آپ اٹھائے ہوئے ہیں، یہ سوچ کر کہ آپ بہت دور چلے گئے؟ تَابَ کا مطلب ہے آپ ہمیشہ واپس آ سکتے ہیں۔ آج۔",
+      "hi": "إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ — اللہ ان لوگوں سے محبت کرتا ہے جو بار بار لوٹتے ہیں۔ وہ نہیں جو کبھی گناہ نہیں کرتے۔ وہ نہیں جو کامل ہیں۔ وہ جو واپس آتے ہیں۔ کوئی چیز ہے جو آپ اٹھائے ہوئے ہیں، یہ سوچ کر کہ آپ بہت دور چلے گئے؟ تَابَ کا مطلب ہے آپ ہمیشہ واپس آ سکتے ہیں۔ آج۔"
+    },
+    "journal_tag": "kalimaat-taba"
+  }
+}

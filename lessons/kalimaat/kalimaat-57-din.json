@@ -1,0 +1,99 @@
+{
+  "id": "kalimaat-57",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 57,
+  "prerequisite": "kalimaat-56",
+  "unlocks": ["kalimaat-58"],
+  "xp": 30,
+  "word": {
+    "arabic": "دِين",
+    "display": "دِينٌ",
+    "transliteration": "Deen",
+    "meaning": {
+      "en": "Religion / Way of life / Judgement",
+      "ur": "دین / طرزِ زندگی / جزا",
+      "hi": "दीन / तर्ज़-ए-ज़िंदगी / जज़ा"
+    },
+    "frequency_rank": 57,
+    "frequency_note": {
+      "en": "Appears 92 times. دِين is richer than the English word 'religion'. It covers the complete way of life, the system, and also judgement — يَوْمُ الدِّينِ means the Day of Judgement, the Day of Reckoning.",
+      "ur": "۹۲ بار آیا ہے۔ دِين انگریزی لفظ 'religion' سے زیادہ بھرپور ہے۔ اس میں زندگی کا پورا طریقہ، نظام، اور جزا بھی شامل ہے — يَوْمُ الدِّينِ کا مطلب روزِ جزا، روزِ حساب ہے۔",
+      "hi": "92 بار آया है। دِين अंग्रेज़ी लफ़्ज़ 'religion' से ज़्यादा भरपूर है। इसमें ज़िंदगी का पूरा तरीक़ा, निज़ाम, और जज़ा भी शामिल है — يَوْمُ الدِّينِ का मतलब रोज़-ए-जज़ा, रोज़-ए-हिसाब है।"
+    }
+  },
+  "root": {
+    "letters": "د ي ن",
+    "note": {
+      "en": "Root: د-ي-ن (d-y-n) — to owe, to be indebted, to judge. دِين is the system of life AND the judgement that comes from it. يَدِين means 'he judges' or 'he follows a religion'. The connection between living rightly and being judged is built into the very word.",
+      "ur": "جڑ: د-ي-ن — مقروض ہونا، قرض ہونا، فیصلہ کرنا۔ دِين زندگی کا نظام ہے اور اس سے آنے والا فیصلہ بھی۔ يَدِين کا مطلب 'وہ فیصلہ کرتا ہے' یا 'وہ دین پر چلتا ہے'۔ صحیح زندگی اور جزا کا تعلق اس لفظ میں ہی بنا ہوا ہے۔",
+      "hi": "جड़: د-ي-ن — मक़रूज़ होना, क़र्ज़ होना, फ़ैसला करना। دِين ज़िंदगी का निज़ाम है और उससे आने वाला फ़ैसला भी। يَدِين का मतलब 'वह फ़ैसला करता है' या 'वह दीन पर चलता है'। सही ज़िंदगी और जज़ा का तअल्लुक़ इस लफ़्ज़ में ही बना हुआ है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "مَالِكِ يَوْمِ ٱلدِّينِ",
+    "surah": {
+      "en": "Al-Fatiha 1:4",
+      "ur": "الفاتحہ ۱:۴",
+      "hi": "अल-फ़ातिहा 1:4"
+    },
+    "translation": {
+      "en": "Master of the Day of Judgement.",
+      "ur": "روزِ جزا کے مالک۔",
+      "hi": "रोज़-ए-जज़ा के मालिक।"
+    },
+    "hook_explanation": {
+      "en": "You've recited مَالِكِ يَوْمِ ٱلدِّينِ thousands of times. Now look: it's an إضافة chain. مَالِكِ (light, no ال) → يَوْمِ (light, no ال — both مضاف and مضاف إليه) → ٱلدِّينِ (in jar, with ال — the end of the chain). يَوْم you know from lesson 19. دِين you now know. The chain in Fatiha unlocks completely.",
+      "ur": "آپ مَالِكِ يَوْمِ ٱلدِّينِ ہزاروں بار پڑھ چکے ہیں۔ اب دیکھیں: یہ اضافہ کی زنجیر ہے۔ مَالِكِ (ہلکا، بلا ال) → يَوْمِ (ہلکا، بلا ال — مضاف بھی اور مضاف إلیہ بھی) → ٱلدِّينِ (جر میں، ال کے ساتھ — زنجیر کا آخر)۔ يَوْم آپ سبق ۱۹ سے جانتے ہیں۔ دِين آپ نے ابھی جانا۔ فاتحہ کی زنجیر مکمل کھل گئی۔",
+      "hi": "आपने مَالِكِ يَوْمِ ٱلدِّينِ हज़ारों बार पढ़ा है। अब देखें: यह इज़ाफ़ा की ज़ंजीर है। مَالِكِ (हल्का, बिना ال) → يَوْمِ (हल्का, बिना ال — मुज़ाफ़ भी और मुज़ाफ़ इलैह भी) → ٱلدِّينِ (जर में, ال के साथ — ज़ंजीर का आख़िर)। يَوْم आप सबक़ 19 से जानते हैं। دِين आपने अभी जाना। फ़ातिहा की ज़ंजीर मुकम्मल खुल गई।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does دِين mean?",
+        "ur": "دِين کا مطلب کیا ہے؟",
+        "hi": "دِين का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Religion / Way of life / Judgement", "ur": "دین / طرزِ زندگی / جزا", "hi": "दीन / तर्ज़-ए-ज़िंदगी / जज़ा" }, "value": "correct" },
+        { "label": { "en": "Prayer / Worship", "ur": "نماز / عبادت", "hi": "नमाज़ / इबादत" }, "value": "wrong" },
+        { "label": { "en": "Truth / Right", "ur": "حق / سچ", "hi": "हक़ / सच" }, "value": "wrong" },
+        { "label": { "en": "Book / Scripture", "ur": "کتاب / صحیفہ", "hi": "किताब / सहीफ़ा" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes! دِين — religion, way of life, and judgement. All three meanings live in one word.",
+        "ur": "ہاں! دِين — دین، طرزِ زندگی، اور جزا۔ تینوں معانی ایک لفظ میں۔",
+        "hi": "हाँ! دِين — दीन, तर्ज़-ए-ज़िंदगی, और जज़ा। तीनों मायने एक लफ़्ज़ में।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap دِين in this ayah from Al-Fatiha:",
+        "ur": "الفاتحہ کی اس آیت میں دِين کو چھوئیں:",
+        "hi": "अल-फ़ातिहा की इस आयत में دِين को छुएँ:"
+      },
+      "ayah": "مَالِكِ يَوْمِ ٱلدِّينِ",
+      "target_word": "ٱلدِّينِ",
+      "target_position": 2,
+      "feedback_correct": {
+        "en": "Yes! ٱلدِّينِ — the last word in the chain. In jar status, with ال. The Day of THE Deen.",
+        "ur": "ہاں! ٱلدِّينِ — زنجیر کا آخری لفظ۔ جر کی حالت میں، ال کے ساتھ۔ الدین کا دن۔",
+        "hi": "हाँ! ٱلدِّينِ — ज़ंजीर का آख़िरी लफ़्ज़। जर की हालत में, ال के साथ। अद-दीन का दिन।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "دِين means both 'the way you live' and 'the judgement you face'. In Arabic, these are not separate — how you live IS what you are judged on. يَوْمُ الدِّينِ is the day when the دِين is fully realised. Does seeing this connection change how you think about your daily choices?",
+      "ur": "دِين کا مطلب 'آپ کیسے جیتے ہیں' اور 'جو فیصلہ آپ کو ملے گا' دونوں ہے۔ عربی میں یہ الگ نہیں — آپ کیسے جیتے ہیں، اسی پر آپ کا فیصلہ ہوتا ہے۔ يَوْمُ الدِّينِ وہ دن ہے جب دِين مکمل طور پر ظاہر ہو جاتا ہے۔ کیا اس تعلق کو دیکھنا آپ کے روزمرہ کے فیصلوں کے بارے میں سوچنے کا طریقہ بدلتا ہے؟",
+      "hi": "دِين کا مतلب 'आप कैसे जीते हैं' और 'जो फ़ैसला आपको मिलेगा' दोनों है। अरबी में यह अलग नहीं — आप कैसे जीते हैं, उसी पर आपका फ़ैसला होता है। يَوْمُ الدِّينِ वह दिन है जब دِين मुकम्मल तौर पर ज़ाहिर हो जाता है। क्या इस तअल्लुक़ को देखना आपके रोज़मर्रा के फ़ैसलों के बारे में सोचने का तरीक़ा बदलता है?"
+    },
+    "journal_tag": "kalimaat-din"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-28",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 28,
+  "prerequisite": "kalimaat-27",
+  "unlocks": ["kalimaat-29"],
+  "xp": 25,
+  "word": {
+    "arabic": "نَاس",
+    "display": "نَاس",
+    "transliteration": "Nās",
+    "meaning": {
+      "en": "People / Mankind / Humanity",
+      "ur": "لوگ / انسان / بنی نوع انسان",
+      "hi": "लोग / इंसान / बनी-नौ-इंसान"
+    },
+    "frequency_rank": 28,
+    "frequency_note": {
+      "en": "Appears 241 times. The last surah of the Qur'an is named after this word. The Qur'an ends by speaking to all of humanity.",
+      "ur": "۲۴۱ بار آتا ہے۔ قرآن کی آخری سورت اسی لفظ کے نام پر ہے۔ قرآن پوری انسانیت سے بات کرتے ہوئے ختم ہوتا ہے۔",
+      "hi": "241 بار آتا ہے۔ قرآن کی آخری سورت اسی لفظ کے نام پر ہے۔ قرآن پوری انسانیت سے بات کرتے ہوئے ختم ہوتا ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ن و س",
+    "note": {
+      "en": "نَاس is humanity — all people together. The Qur'an addresses يَا أَيُّهَا ٱلنَّاسُ — 'O mankind!' — directly 20 times. Not just Muslims. Not just Arabs. All people. The Qur'an considers itself a message for everyone on this أَرْض.",
+      "ur": "نَاس انسانیت ہے — سب لوگ مل کر۔ قرآن يَا أَيُّهَا ٱلنَّاسُ — 'اے لوگو!' — ۲۰ بار براہ راست مخاطب کرتا ہے۔ صرف مسلمانوں کو نہیں۔ صرف عربوں کو نہیں۔ سب لوگوں کو۔ قرآن خود کو اس أَرْض پر سب کے لیے پیغام سمجھتا ہے۔",
+      "hi": "نَاس انسانیت ہے — سب لوگ مل کر۔ قرآن يَا أَيُّهَا ٱلنَّاسُ — 'اے لوگو!' — 20 بار سیدھے مخاطب کرتا ہے۔ صرف مسلمانوں کو نہیں۔ صرف عربوں کو نہیں۔ سب لوگوں کو۔ قرآن ख़ुद کو اس أَرْض پر سب کے لیے پیغام سمجھتا ہے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ",
+    "surah": { "en": "Al-Baqarah 2:21", "ur": "البقرہ ۲:۲۱", "hi": "अल-बक़रह 2:21" },
+    "translation": {
+      "en": "O mankind! Worship your Lord.",
+      "ur": "اے لوگو! اپنے رب کی عبادت کرو۔",
+      "hi": "ऐ लोगो! अपने रब की इबादत करो।"
+    },
+    "hook_explanation": {
+      "en": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ — 'O mankind, worship your Lord.' ٱلنَّاسُ — the people, all of humanity. رَبَّكُمُ — your Lord (رَبّ + كُمُ, 'your' plural). The command is universal. Not for one group. For ٱلنَّاسُ — which includes you.",
+      "ur": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ — 'اے لوگو، اپنے رب کی عبادت کرو'۔ ٱلنَّاسُ — لوگ، پوری انسانیت۔ رَبَّكُمُ — آپ کا رب (رَبّ + كُمُ، 'آپ کا' جمع)۔ یہ حکم آفاقی ہے۔ ایک گروہ کے لیے نہیں۔ ٱلنَّاسُ کے لیے — جس میں آپ شامل ہیں۔",
+      "hi": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ — 'ऐ لوگो, اپنے رب کی عبادت کرو'۔ ٱلنَّاسُ — لوگ، پوری انسانیت۔ رَبَّكُمُ — آپ کا رب (رَبّ + كُمُ، 'آپ کا' جمع)۔ یہ حکم آفاقی ہے۔ ایک گروہ کے لیے نہیں۔ ٱلنَّاسُ کے لیے — जिसमें आप शामिل हैं۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does نَاس mean?",
+        "ur": "نَاس کا مطلب کیا ہے؟",
+        "hi": "نَاس का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "People / Mankind", "ur": "لوگ / انسان", "hi": "لوگ / इंसान" }, "value": "correct" },
+        { "label": { "en": "Muslims specifically", "ur": "خاص طور پر مسلمان", "hi": "ख़ास तौर पر मुसलमान" }, "value": "wrong" },
+        { "label": { "en": "Men only", "ur": "صرف مرد", "hi": "सिर्फ़ मर्द" }, "value": "wrong" },
+        { "label": { "en": "Believers only", "ur": "صرف مؤمن", "hi": "सिर्फ़ मोमिन" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — نَاس means all people, all of humanity. The Qur'an speaks to everyone.",
+        "ur": "ہاں — نَاس تمام لوگوں، پوری انسانیت کا مطلب ہے۔ قرآن سب سے بات کرتا ہے۔",
+        "hi": "هاँ — نَاس تمام لوگوں، پوری انسانیت کا مطلب ہے۔ قرآن سب سے بات کرتا ہے۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap ٱلنَّاسُ in this ayah:",
+        "ur": "اس آیت میں ٱلنَّاسُ کو چھوئیں:",
+        "hi": "इस आयत में ٱلنَّاسُ کو چھوئیں:"
+      },
+      "ayah": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ",
+      "target_word": "ٱلنَّاسُ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "ٱلنَّاسُ — 'the people'. And the call: ٱعْبُدُوا رَبَّكُمُ — worship your Lord. Universal.",
+        "ur": "ٱلنَّاسُ — 'لوگ'۔ اور حکم: ٱعْبُدُوا رَبَّكُمُ — اپنے رب کی عبادت کرو۔ آفاقی۔",
+        "hi": "ٱلنَّاسُ — 'لوگ'۔ اور حکم: ٱعْبُدُوا رَبَّكُمُ — اپنے رب کی عبادت کرو۔ آفاقی۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The last surah of the Qur'an is called An-Nās — the People. The Qur'an ends by addressing all of humanity. You are learning Arabic so you can understand this message. When you understand it, part of your role becomes making it accessible to others. How does that responsibility sit with you?",
+      "ur": "قرآن کی آخری سورت کا نام ہے النَّاس — لوگ۔ قرآن پوری انسانیت کو مخاطب کرتے ہوئے ختم ہوتا ہے۔ آپ عربی اس لیے سیکھ رہے ہیں تاکہ اس پیغام کو سمجھ سکیں۔ جب آپ اسے سمجھ لیں، تو آپ کی ذمہ داری کا ایک حصہ یہ بن جاتا ہے کہ اسے دوسروں تک پہنچائیں۔ یہ ذمہ داری آپ کو کیسی لگتی ہے؟",
+      "hi": "قرآن کی آخری سورت کا نام ہے النَّاس — لوگ۔ قرآن پوری انسانیت کو مخاطب کرتے ہوئے ختم ہوتا ہے۔ آپ عربی اس لیے سیکھ رہے ہیں تاکہ اس پیغام کو سمجھ سکیں۔ جب آپ اسے سمجھ لیں تو آپ کی ذمہ داری کا ایک حصہ یہ بن جاتا ہے کہ اسے دوسروں تک پہنچائیں۔ यह ज़िम्मेदारी आपको कैसी लगती ہے؟"
+    },
+    "journal_tag": "kalimaat-nas"
+  }
+}

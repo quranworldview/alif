@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-20",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 20,
+  "prerequisite": "kalimaat-19",
+  "unlocks": ["kalimaat-21"],
+  "xp": 35,
+  "word": {
+    "arabic": "نَفْس",
+    "display": "نَفْس",
+    "transliteration": "Nafs",
+    "meaning": {
+      "en": "Soul / Self / Person",
+      "ur": "نفس / روح / ذات / شخص",
+      "hi": "नफ़्स / रूह / ज़ात / शख़्स"
+    },
+    "frequency_rank": 20,
+    "frequency_note": {
+      "en": "Appears 293 times. كُلُّ نَفْسٍ — every soul. The most personal word in the Qur'an.",
+      "ur": "۲۹۳ بار آتا ہے۔ كُلُّ نَفْسٍ — ہر نفس۔ قرآن کا سب سے ذاتی لفظ۔",
+      "hi": "293 بार آتا ہے۔ كُلُّ نَفْسٍ — हर नफ़्स। क़ुरआन का सबसे निजी लफ़्ज़।"
+    }
+  },
+  "root": {
+    "letters": "ن ف س",
+    "note": {
+      "en": "نَفْس is one of the richest words in Arabic. It means soul, self, breath, and person all at once. نَفْسِي — 'my own self'. نَفْسَهُ — 'Himself' (used for Allah). The root carries breath — نَفَس means a single breath. Your soul is your breathing self. The Qur'an addresses it directly, repeatedly.",
+      "ur": "نَفْس عربی کے امیر ترین الفاظ میں سے ایک ہے۔ اس کا مطلب ایک ساتھ روح، ذات، سانس، اور شخص ہے۔ نَفْسِي — 'میری اپنی ذات'۔ نَفْسَهُ — 'خود اللہ'۔ جڑ میں سانس ہے — نَفَس کا مطلب ایک سانس ہے۔ آپ کی روح آپ کی سانس لیتی ہوئی ذات ہے۔ قرآن اسے براہ راست، بار بار مخاطب کرتا ہے۔",
+      "hi": "نَفْس अरबी के सबसे अमीर अल्फ़ाज़ में से एक है। इसका मतलब एक साथ रूह, ज़ात, साँस, और शख़्स है। نَفْسِي — 'मेरी अपनी ज़ात'। نَفْسَهُ — 'ख़ुद अल्लाह'। जड़ में साँस है — نَفَس का मतलब एक साँस है। आपकी रूह आपकी साँस लेती हुई ज़ात है। क़ुरआन उसे सीधे, बार-बار मुख़ातब करता है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+    "surah": { "en": "Al-Fajr 89:27", "ur": "الفجر ۸۹:۲۷", "hi": "अल-फ़ज्र 89:27" },
+    "translation": {
+      "en": "O tranquil soul!",
+      "ur": "اے اطمینان پانے والی روح!",
+      "hi": "ऐ मुतमइन नफ़्स!"
+    },
+    "hook_explanation": {
+      "en": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ — 'O tranquil soul!' This is Allah speaking directly to a soul at the moment of death — calling it home. ٱلنَّفْسُ — the soul. And the description: ٱلْمُطْمَئِنَّةُ — at peace, at rest, settled. This is the goal. This is what Alif is helping build towards. A نَفْس that knows its Lord.",
+      "ur": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ — 'اے اطمینان پانے والی روح!'۔ یہ اللہ موت کے لمحے میں براہ راست روح سے بات کر رہا ہے — اسے گھر بلا رہا ہے۔ ٱلنَّفْسُ — روح۔ اور وصف: ٱلْمُطْمَئِنَّةُ — سکون میں، آرام میں، ٹھکانے پر۔ یہ ہدف ہے۔ یہی وہ ہے جس کی طرف الف مدد کر رہا ہے۔ ایک نَفْس جو اپنے رب کو جانتی ہے۔",
+      "hi": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ — 'ऐ मुतमइन नफ़्स!'۔ یہ اللہ مौत के लम्हे में सीधे रूह से बात कर رहा है — उसे घर बुला रहा है। ٱلنَّفْسُ — रूह। और वस्फ़: ٱلْمُطْمَئِنَّةُ — सुकून में, आराम में, ठिकाने पर। यही मक़सद है। यही वह है जिसकी तरफ़ अलिफ़ मदद कर रहा है। एक نَفْس जो अपने रब को जानती है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does نَفْس mean?",
+        "ur": "نَفْس کا مطلب کیا ہے؟",
+        "hi": "نَفْس का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Soul / Self", "ur": "نفس / روح / ذات", "hi": "नफ़्स / रूह / ज़ात" }, "value": "correct" },
+        { "label": { "en": "Heart / Mind", "ur": "دل / دماغ", "hi": "दिल / दिमाग़" }, "value": "wrong" },
+        { "label": { "en": "Body / Form", "ur": "جسم / شکل", "hi": "जिस्म / शकल" }, "value": "wrong" },
+        { "label": { "en": "Life / Living", "ur": "زندگی / جینا", "hi": "ज़िंदगी / जीना" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — نَفْس means soul, self, person. كُلُّ نَفْسٍ — every soul. Including yours.",
+        "ur": "ہاں — نَفْس کا مطلب نفس، روح، ذات ہے۔ كُلُّ نَفْسٍ — ہر نفس۔ آپ کا بھی۔",
+        "hi": "हाँ — نَفْس का मतलब नफ़्स, रूह, ज़ात है। كُلُّ نَفْسٍ — हر नफ़्स। आपका भी।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap ٱلنَّفْسُ in this ayah:",
+        "ur": "اس آیت میں ٱلنَّفْسُ کو چھوئیں:",
+        "hi": "इस आयत में ٱلنَّفْسُ को छुएं:"
+      },
+      "ayah": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+      "target_word": "ٱلنَّفْسُ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "ٱلنَّفْسُ — the soul. Allah calls it directly. O tranquil soul — come home.",
+        "ur": "ٱلنَّفْسُ — روح۔ اللہ اسے براہ راست پکارتا ہے۔ اے مطمئن روح — گھر آ جا۔",
+        "hi": "ٱلنَّفْسُ — رूح۔ اللہ اسے सीधे پکارتا ہے۔ ऐ मुतमइन रूह — घर आ जा।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ — 'O tranquil soul!' This is Allah's call to a soul at peace. ٱلْمُطْمَئِنَّة means at rest, settled, at peace. Is your نَفْس مُطْمَئِنَّة right now? What would bring it closer to that peace?",
+      "ur": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ — 'اے مطمئن روح!'۔ یہ ایک پرسکون روح کو اللہ کی پکار ہے۔ ٱلْمُطْمَئِنَّة کا مطلب ہے آرام میں، ٹھکانے پر، سکون میں۔ کیا آپ کی نَفْس ابھی مُطْمَئِنَّة ہے؟ اسے اس سکون کے قریب کیا لائے گا؟",
+      "hi": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ — 'ऐ मुतमइन नफ़्स!'۔ यह एक साकून नफ़्स को अल्लाह की पुकार है। ٱلْمُطْمَئِنَّة का मतलب है आराम में, ठिकाने पर, सुकून में। क्या आपकी نَفْس अभी مُطْمَئِنَّة है? उसे उस सुकून के क़रीब क्या लाएगा?"
+    },
+    "journal_tag": "kalimaat-nafs"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-68",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 68,
+  "prerequisite": "kalimaat-67",
+  "unlocks": ["kalimaat-69"],
+  "xp": 30,
+  "word": {
+    "arabic": "أُمَّة",
+    "display": "أُمَّةٌ",
+    "transliteration": "Ummah",
+    "meaning": {
+      "en": "Community / Nation / People",
+      "ur": "امت / قوم / برادری",
+      "hi": "उम्मत / क़ौम / बिरादरी"
+    },
+    "frequency_rank": 68,
+    "frequency_note": {
+      "en": "Appears 64 times. أُمَّة is different from قَوْم (lesson 44) — قَوْم is a people bound by tribe or ancestry, while أُمَّة is a community bound by shared purpose, faith, and direction. The Muslim Ummah is defined by قِبْلَة and دِين, not by blood.",
+      "ur": "۶۴ بار آیا ہے۔ أُمَّة قَوْم (سبق ۴۴) سے مختلف ہے — قَوْم قبیلے یا نسل سے جڑے لوگ ہیں، جبکہ أُمَّة مشترک مقصد، ایمان، اور سمت سے جڑی برادری ہے۔ مسلم امت کی پہچان قِبْلَة اور دِين سے ہے، خون سے نہیں۔",
+      "hi": "64 بار آیا ہے۔ أُمَّة قَوْم (سبك़ 44) سے مुख़्तलिफ़ है — قَوْم क़बीले يا नसल سے जुड़े لोग हैं, जबकि أُمَّة مुश्तरक مक़सद, ईमान, और सिम्त से जुड़ी बिरादरी है। मुस्लिम उम्मत की पहचान قِبْلَة و دِين से है, ख़ून से नहीं।"
+    }
+  },
+  "root": {
+    "letters": "أ م م",
+    "note": {
+      "en": "Root: أ-م-م (a-m-m) — mother, origin, to lead toward. أُمَّة shares a root with أُمّ (mother, lesson 69) — a community has a common mother, a common origin. إِمَام (the one who leads) is from the same root. The أُمَّة faces one direction, toward one إِمَام, from one origin.",
+      "ur": "جڑ: أ-م-م — ماں، اصل، کسی طرف لے جانا۔ أُمَّة اور أُمّ (ماں، سبق ۶۹) ایک جڑ سے ہیں — ایک برادری کی مشترک ماں ہوتی ہے، مشترک اصل۔ إِمَام (قائد) بھی اسی جڑ سے ہے۔ أُمَّة ایک سمت، ایک إِمَام کی طرف، ایک اصل سے منہ کیے ہوئے ہے۔",
+      "hi": "جड़: أ-م-م — माँ, असل, किसी تरफ़ ले جाना۔ أُمَّة और أُمّ (माँ, سبك़ 69) एक जड़ से हैं — एक بिरादरी की मुश्तरक माँ होती है, मुश्तरक असल۔ إِمَام (क़ाइद) भी इसी جड़ से है۔ أُمَّة एक سिम्त, एक إِمَام की तरफ़, एक असल से मुँह किए हुए है۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ",
+    "surah": { "en": "Aal Imran 3:110", "ur": "آل عمران ۳:۱۱۰", "hi": "آल इमरान 3:110" },
+    "translation": {
+      "en": "You are the best community ever brought forth for humanity.",
+      "ur": "تم بہترین امت ہو جو انسانوں کے لیے نکالی گئی۔",
+      "hi": "तुम बेहतरीन امت هو जो इंसानों के लिए निकाली گئی۔"
+    },
+    "hook_explanation": {
+      "en": "خَيْرَ أُمَّةٍ — 'best community'. خَيْر (lesson 59) + أُمَّة in jar (إضافة). أُخْرِجَتْ — 'was brought forth' (passive, feminine — agreeing with أُمَّة which is feminine). لِلنَّاسِ — 'for the people/mankind'. لِ (lesson 12) + نَاس (lesson 28). The title خَيْرَ أُمَّةٍ is earned, not inherited — the ayah continues: 'you command good and forbid evil'.",
+      "ur": "خَيْرَ أُمَّةٍ — 'بہترین امت'۔ خَيْر (سبق ۵۹) + أُمَّة جر میں (اضافہ)۔ أُخْرِجَتْ — 'نکالی گئی' (مجہول، مؤنث — أُمَّة سے مطابقت جو مؤنث ہے)۔ لِلنَّاسِ — 'لوگوں کے لیے'۔ لِ (سبق ۱۲) + نَاس (سبق ۲۸)۔ خَيْرَ أُمَّةٍ کا خطاب ورثے میں نہیں ملتا — آیت جاری ہے: 'تم نیکی کا حکم دیتے ہو اور برائی سے روکتے ہو'۔",
+      "hi": "خَيْرَ أُمَّةٍ — 'بہترीن उम्मत'۔ خَيْر (سبك़ 59) + أُمَّة جر میں (إضافة)۔ أُخْرِجَتْ — 'نکالی گئی' (مجهول, مुअन्नस — أُمَّة سے मुताबिक़त जो مुअन्नस है)۔ لِلنَّاسِ — 'लोगों के लिए'۔ لِ (सबक़ 12) + نَاس (سबक़ 28)۔ خَيْرَ أُمَّةٍ کا خطاब विरासत में नहीं मिलता — آयت जारी है: 'तुम نेकी का हुक्म देते हो और बुराई से रोकते हो'۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does أُمَّة mean?", "ur": "أُمَّة کا مطلب کیا ہے؟", "hi": "أُمَّة کا मतलब क्या है?" },
+      "choices": [
+        { "label": { "en": "Community / Nation bound by faith", "ur": "ایمان سے جڑی امت / قوم", "hi": "ईमान से جुड़ी उम्मत / क़ौम" }, "value": "correct" },
+        { "label": { "en": "Mother / Origin", "ur": "ماں / اصل", "hi": "माँ / असल" }, "value": "wrong" },
+        { "label": { "en": "Leader / Imam", "ur": "قائد / امام", "hi": "क़ाइद / इमाम" }, "value": "wrong" },
+        { "label": { "en": "Generation / Era", "ur": "نسل / دور", "hi": "नस्ल / दौर" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! أُمَّة — community bound by shared faith and purpose, not blood or tribe.", "ur": "ہاں! أُمَّة — مشترک ایمان اور مقصد سے جڑی برادری، خون یا قبیلے سے نہیں۔", "hi": "हاँ! أُمَّة — मुश्तरक ईमान و مक़सद से جुड़ी بिرादरी, ख़ून या क़बीले سے نहीं۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap أُمَّة in this ayah:", "ur": "اس آیت میں أُمَّة کو چھوئیں:", "hi": "इस آयत में أُمَّة کو छुएँ:" },
+      "ayah": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ",
+      "target_word": "أُمَّةٍ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! أُمَّةٍ — with tanween, in jar. Part of the إضافة with خَيْرَ — 'best community'.", "ur": "درست! أُمَّةٍ — تنوین کے ساتھ، جر میں۔ خَيْرَ کے ساتھ اضافہ کا حصہ — 'بہترین امت'۔", "hi": "سही! أُمَّةٍ — تنوین کے ساتھ، جر میں۔ خَيْرَ کے ساتھ إضافة کا حصہ — 'بہترین امت'۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "كُنتُمْ خَيْرَ أُمَّةٍ — you WERE the best community. Past tense — when you were commanding good and forbidding evil. The title is conditional. The Ummah you are part of spans 1.8 billion people, every continent, every language. What does being part of this أُمَّة mean to you in your daily life?",
+      "ur": "كُنتُمْ خَيْرَ أُمَّةٍ — تم بہترین امت تھے۔ ماضی — جب نیکی کا حکم دیتے اور برائی سے روکتے تھے۔ یہ لقب مشروط ہے۔ آپ جس امت کا حصہ ہیں وہ ۱.۸ ارب لوگوں پر پھیلی ہے، ہر براعظم، ہر زبان۔ اس أُمَّة کا حصہ ہونے کے کیا معنی ہیں آپ کی روزمرہ زندگی میں؟",
+      "hi": "كُنتُمْ خَيْرَ أُمَّةٍ — تم بেहترین امت تھے۔ माज़ी — जब नेकी का हुक्म देते और बुराई से रोकते थे۔ यह لقب مشروط है۔ आप जिस أُمَّة का हिस्सा हैं वह 1.8 अरब لوگوں पर फ़ैली है، हर براعظम, हर ज़बان۔ इस أُمَّة का हिस्सा होने के क्या मायने हैं आपकी रोज़मर्रा ज़िंदगी में?"
+    },
+    "journal_tag": "kalimaat-umma"
+  }
+}

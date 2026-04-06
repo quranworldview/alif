@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-79",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 79,
+  "prerequisite": "kalimaat-78",
+  "unlocks": ["kalimaat-80"],
+  "xp": 26,
+  "word": {
+    "arabic": "قَمَر",
+    "display": "قَمَرٌ",
+    "transliteration": "Qamar",
+    "meaning": {
+      "en": "Moon",
+      "ur": "چاند",
+      "hi": "चाँद"
+    },
+    "frequency_rank": 79,
+    "frequency_note": {
+      "en": "Appears 27 times. قَمَر is masculine — while شَمْس (the sun) is feminine. The Qur'an pairs them: شَمْس gives light of its own (ضِيَاء), while قَمَر only reflects (نُور). Two very different kinds of light from the same sky.",
+      "ur": "۲۷ بار آیا ہے۔ قَمَر مذکر ہے — جبکہ شَمْس (سورج) مؤنث ہے۔ قرآن انہیں جوڑتا ہے: شَمْس اپنی روشنی دیتا ہے (ضِيَاء)، جبکہ قَمَر صرف عکس دکھاتا ہے (نُور)۔ ایک ہی آسمان سے دو بالکل مختلف قسم کی روشنیاں۔",
+      "hi": "27 بار آیا ہے۔ قَمَر مذکر ہے — جبکہ شَمْس (سورج) مؤنث ہے۔ قرآن انہیں جوڑتا ہے: شَمْس اپنی روشنی دیتا ہے (ضِيَاء)، جبکہ قَمَر صرف عکس دکھاتا ہے (نُور)۔ ایک ہی آسمان سے دو بالکل مختلف قسم کی روشنیاں۔"
+    }
+  },
+  "root": {
+    "letters": "ق م ر",
+    "note": {
+      "en": "Root: ق-م-ر (q-m-r) — moonlight, to be moonlit. قَمَر is the moon itself. قَمَرِيّ means 'lunar' — as in the Islamic Hijri calendar (التقويم القمري). The Islamic months are قَمَرِيَّة — lunar months. Your Ramadan, your Eid, your Hajj — all governed by قَمَر.",
+      "ur": "جڑ: ق-م-ر — چاندنی، چاند کی روشنی میں ہونا۔ قَمَر چاند ہے۔ قَمَرِيّ کا مطلب 'قمری' — جیسے اسلامی ہجری کیلنڈر (التقويم القمري)۔ اسلامی مہینے قَمَرِيَّة ہیں — چاند کے مہینے۔ آپ کا رمضان، عید، حج — سب قَمَر سے جڑے ہیں۔",
+      "hi": "جड़: ق-م-ر — چاندنی، چاند کی روشنی میں ہونا۔ قَمَر چاند ہے۔ قَمَرِيّ کا متلب 'قمری' — جیسے اسلامی ہجری کیلنڈر۔ اسلامی مہینے قَمَرِيَّة ہیں — چاند کے مهینے۔ آپ کا رمضان، عید، حج — سب قَمَر سے جڑے ہیں۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا",
+    "surah": { "en": "Yunus 10:5", "ur": "یونس ۱۰:۵", "hi": "यूनुस 10:5" },
+    "translation": {
+      "en": "He is the One who made the sun a radiance and the moon a light.",
+      "ur": "وہی ہے جس نے سورج کو روشنی اور چاند کو نور بنایا۔",
+      "hi": "وہی ہے جس نے سورج کو روشنی اور چاند کو نور بنایا۔"
+    },
+    "hook_explanation": {
+      "en": "هُوَ — 'He' (lesson 2). ٱلَّذِى — 'who' (lesson 18). جَعَلَ — 'made' (from جَعَلَ — one of the most common Qur'anic verbs). ٱلشَّمْسَ — sun (lesson 78), in nasb. ضِيَآءً — 'a radiance/blaze' — its own generated light. وَٱلْقَمَرَ — 'and the moon', in nasb. نُورًا — 'a light' (lesson 24) — reflected light. Science confirmed 1,400 years later: the sun generates light, the moon only reflects. One word told the difference.",
+      "ur": "هُوَ — 'وہ' (سبق ۲)۔ ٱلَّذِى — 'جو' (سبق ۱۸)۔ جَعَلَ — 'بنایا'۔ ٱلشَّمْسَ — سورج (سبق ۷۸)، نصب میں۔ ضِيَآءً — 'چمک' — اپنی پیدا کردہ روشنی۔ وَٱلْقَمَرَ — 'اور چاند'، نصب میں۔ نُورًا — 'روشنی' (سبق ۲۴) — عکس کی روشنی۔ سائنس نے ۱۴۰۰ سال بعد ثابت کیا: سورج روشنی پیدا کرتا ہے، چاند صرف عکس دکھاتا ہے۔ ایک لفظ نے فرق بتا دیا۔",
+      "hi": "هُوَ — 'وه' (سبک़ 2)۔ ٱلَّذِى — 'جو' (سبك़ 18)۔ جَعَلَ — 'بنایا'۔ ٱلشَّمْسَ — سورج (سبك़ 78)، نسب میں۔ ضِيَآءً — 'چمک' — اپنی پیدا کردہ روشنی۔ وَٱلْقَمَرَ — 'اور چاند'، نسب میں۔ نُورًا — 'روشنی' (سبك़ 24) — عکس کی روشنی۔ سائنس نے 1400 سال بعد ثابت کیا: سورج روشنی پیدا کرتا ہے، چاند صرف عکس دکھاتا ہے۔ ایک لفظ نے فرق بتا دیا۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does قَمَر mean?", "ur": "قَمَر کا مطلب کیا ہے؟", "hi": "قَمَر کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Moon", "ur": "چاند", "hi": "چاند" }, "value": "correct" },
+        { "label": { "en": "Sun", "ur": "سورج", "hi": "سورج" }, "value": "wrong" },
+        { "label": { "en": "Star / Planet", "ur": "ستارہ / سیارہ", "hi": "सितारا / سیारہ" }, "value": "wrong" },
+        { "label": { "en": "Night / Darkness", "ur": "رات / اندھیرا", "hi": "रات / اندهیرا" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! قَمَر — moon. Masculine. Reflects نُور — but doesn't generate it.", "ur": "ہاں! قَمَر — چاند۔ مذکر۔ نُور کا عکس دکھاتا ہے — پیدا نہیں کرتا۔", "hi": "هاँ! قَمَر — چاند۔ مذکر۔ نُور کا عکس دکھاتا ہے — پیدا نہیں کرتا۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap قَمَر in this ayah:", "ur": "اس آیت میں قَمَر کو چھوئیں:", "hi": "इस आयت में قَمَر کو چھوئیں:" },
+      "ayah": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا",
+      "target_word": "وَٱلْقَمَرَ",
+      "target_position": 4,
+      "feedback_correct": { "en": "Right! وَٱلْقَمَرَ — 'and the moon', in nasb. After شَمْس (lesson 78) comes قَمَر — the pair.", "ur": "درست! وَٱلْقَمَرَ — 'اور چاند'، نصب میں۔ شَمْس (سبق ۷۸) کے بعد قَمَر — جوڑا۔", "hi": "سही! وَٱلْقَمَرَ — 'اور چاند'، نسب میں۔ شَمْس (سبك़ 78) کے بعد قَمَر — جوڑا۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The Qur'an says the sun is ضِيَاء (its own blazing radiance) and the moon is نُور (reflected light). The believer is described as نُور — reflected light. We don't generate our own light. We reflect the light of Allah. Are you reflecting it, or blocking it?",
+      "ur": "قرآن کہتا ہے سورج ضِيَاء ہے (اپنی چمک) اور چاند نُور ہے (عکس کی روشنی)۔ مؤمن کو نُور بتایا گیا ہے — عکس کی روشنی۔ ہم اپنی روشنی پیدا نہیں کرتے۔ ہم اللہ کی روشنی کا عکس دکھاتے ہیں۔ کیا آپ اسے عکس کر رہے ہیں، یا روک رہے ہیں؟",
+      "hi": "قرآن کہتا ہے سورج ضِيَاء ہے (اپنی چمک) اور چاند نُور ہے (عکس کی روشنی)۔ مؤمن کو نُور بتایا گیا ہے — عکس کی روشنی۔ ہم اپنی روشنی پیدا نہیں کرتے۔ ہم اللہ کی روشنی کا عکس دکھاتے ہیں۔ کیا آپ اسے عکس کر رہے ہیں، یا روک رهے ہیں؟"
+    },
+    "journal_tag": "kalimaat-qamar"
+  }
+}

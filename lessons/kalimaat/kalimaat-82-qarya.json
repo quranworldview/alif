@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-82",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 82,
+  "prerequisite": "kalimaat-81",
+  "unlocks": ["kalimaat-83"],
+  "xp": 26,
+  "word": {
+    "arabic": "قَرْيَة",
+    "display": "قَرْيَةٌ",
+    "transliteration": "Qaryah",
+    "meaning": {
+      "en": "Town / Village / Settlement",
+      "ur": "بستی / گاؤں / شہر",
+      "hi": "बस्ती / गाँव / शहर"
+    },
+    "frequency_rank": 82,
+    "frequency_note": {
+      "en": "Appears 57 times. قَرْيَة is any human settlement — from a village to a city. The Qur'an uses it for towns that received prophets, towns that believed, and towns that were destroyed. أُمُّ الْقُرَى — 'Mother of Towns' — is one of the names of Makkah.",
+      "ur": "۵۷ بار آیا ہے۔ قَرْيَة کوئی بھی انسانی بستی ہے — گاؤں سے شہر تک۔ قرآن اسے ان بستیوں کے لیے استعمال کرتا ہے جنہیں انبیاء ملے، جو ایمان لائیں، اور جو تباہ ہوئیں۔ أُمُّ الْقُرَى — 'بستیوں کی ماں' — مکہ کے ناموں میں سے ایک ہے۔",
+      "hi": "57 بار آیا ہے۔ قَرْيَة کوئی بھی انسانی بستی ہے — گاؤں سے شہر تک۔ قرآن اسے ان بستیوں کے لیے استعمال کرتا ہے جنہیں انبیاء ملے، جو ایمان لائیں، اور جو تباہ ہوئیں۔ أُمُّ الْقُرَى — 'بستیوں کی ماں' — مکہ کے ناموں میں سے ایک ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ق ر ي",
+    "note": {
+      "en": "Root: ق-ر-ي (q-r-y) — to gather, to settle together. A قَرْيَة is where people gather and settle. قِرَى means hospitality — offering food to a guest who has come to your settlement. The root ties community, gathering, and welcome all together.",
+      "ur": "جڑ: ق-ر-ي — اکٹھا ہونا، مل کر رہنا۔ قَرْيَة وہ جگہ ہے جہاں لوگ اکٹھے ہوں اور رہیں۔ قِرَى مہمان نوازی کا مطلب ہے — آنے والے مہمان کو کھانا پیش کرنا۔ جڑ برادری، اجتماع، اور خوش آمدید کو ایک ساتھ باندھتی ہے۔",
+      "hi": "جड़: ق-ر-ي — اکٹھا ہونا، مل کر رہنا۔ قَرْيَة وه جگہ ہے جہاں لوگ اکٹھے ہوں اور رہیں۔ جڑ برادری، اجتماع، اور خوش آمدید کو ایک ساتھ باندھتی ہے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَكَأَيِّن مِّن قَرْيَةٍ أَمْلَيْتُ لَهَا وَهِىَ ظَالِمَةٌ",
+    "surah": { "en": "Al-Hajj 22:48", "ur": "الحج ۲۲:۴۸", "hi": "अल-हज 22:48" },
+    "translation": {
+      "en": "And how many a town did I give respite to while it was doing wrong.",
+      "ur": "اور کتنی ہی بستیوں کو میں نے مہلت دی جبکہ وہ ظالم تھیں۔",
+      "hi": "اور کتنی ہی بستیوں کو میں نے مہلت دی جبکہ وه ظالم تھیں۔"
+    },
+    "hook_explanation": {
+      "en": "مِّن قَرْيَةٍ — 'from a town' — مِنْ (lesson 3) + قَرْيَةٍ (tanween, نَكِرَة — any town). أَمْلَيْتُ — 'I gave respite to' (first person, Allah speaking). لَهَا — 'for it/her' (feminine — قَرْيَة is feminine). ظَالِمَةٌ — 'wrongdoing' (feminine adjective matching قَرْيَة). This is a sobering warning — communities can go wrong and still be given time. The time is not approval. It is mercy before accountability.",
+      "ur": "مِّن قَرْيَةٍ — 'ایک بستی میں سے' — مِنْ (سبق ۳) + قَرْيَةٍ (تنوین، نکرہ — کوئی بھی بستی)۔ أَمْلَيْتُ — 'میں نے مہلت دی' (پہلا شخص، اللہ بول رہا ہے)۔ لَهَا — 'اس کے لیے' (مؤنث — قَرْيَة مؤنث ہے)۔ ظَالِمَةٌ — 'ظالم' (مؤنث صفت قَرْيَة سے مطابقت)۔ یہ ایک سنجیدہ تنبیہ ہے — برادریاں غلط ہو سکتی ہیں اور پھر بھی وقت دی جا سکتی ہیں۔ وقت منظوری نہیں ہے۔ یہ احتساب سے پہلے رحمت ہے۔",
+      "hi": "مِّن قَرْيَةٍ — 'ایک بستی میں سے' — مِنْ (سبک़ 3) + قَرْيَةٍ (تنوین، نکرہ)۔ أَمْلَيْتُ — 'میں نے مہلت دی' (اللہ بول رہا ہے)۔ لَهَا — 'اس کے لیے' (مؤنث)۔ ظَالِمَةٌ — 'ظالم' (مؤنث صفت)۔ یہ ایک سنجیدہ تنبیہ ہے — برادریاں غلط ہو سکتی ہیں اور پھر بھی وقت دی جا سکتی ہیں۔ وقت منظوری نہیں، احتساب سے پہلے رحمت ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does قَرْيَة mean?", "ur": "قَرْيَة کا مطلب کیا ہے؟", "hi": "قَرْيَة کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Town / Village / Settlement", "ur": "بستی / گاؤں / شہر", "hi": "बस्ती / گاؤں / شهر" }, "value": "correct" },
+        { "label": { "en": "Desert / Wilderness", "ur": "صحرا / جنگل", "hi": "صحرا / जंगل" }, "value": "wrong" },
+        { "label": { "en": "Mountain / Valley", "ur": "پہاڑ / وادی", "hi": "پہاڑ / वादी" }, "value": "wrong" },
+        { "label": { "en": "Sea / River", "ur": "سمندر / دریا", "hi": "समंدर / دریا" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! قَرْيَة — town, village, any human settlement. أُمُّ الْقُرَى is Makkah.", "ur": "ہاں! قَرْيَة — بستی، گاؤں، کوئی بھی انسانی آبادی۔ أُمُّ الْقُرَى مکہ ہے۔", "hi": "हाँ! قَرْيَة — بستی، گاؤں، کوئی بھی انسانی آبادی۔ أُمُّ الْقُرَى مکہ ہے۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap قَرْيَة in this ayah:", "ur": "اس آیت میں قَرْيَة کو چھوئیں:", "hi": "इस आयत में قَرْيَة کو چھوئیں:" },
+      "ayah": "وَكَأَيِّن مِّن قَرْيَةٍ أَمْلَيْتُ لَهَا وَهِىَ ظَالِمَةٌ",
+      "target_word": "قَرْيَةٍ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! قَرْيَةٍ — town with tanween, نَكِرَة. Any town. Including ours.", "ur": "درست! قَرْيَةٍ — بستی تنوین کے ساتھ، نکرہ۔ کوئی بھی بستی۔ ہماری بھی۔", "hi": "سہی! قَرْيَةٍ — بستی تنوین کے ساتھ، نکرہ۔ کوئی بھی بستی۔ ہماری بھی۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Allah gave respite to towns that were ظَالِمَة — and they had time to turn back but didn't. The Qur'an is full of these قَرْيَة stories — 'Ad, Thamud, the people of Lut, the people of Shu'aib. What do you think the lesson is for us, living in our own قَرْيَة today?",
+      "ur": "اللہ نے ظالم بستیوں کو مہلت دی — اور ان کے پاس واپس آنے کا وقت تھا لیکن وہ نہیں آئیں۔ قرآن ان قَرْيَة کہانیوں سے بھرا ہے — عاد، ثمود، قوم لوط، قوم شعیب۔ آپ کے خیال میں ہمارے لیے کیا سبق ہے، اپنی قَرْيَة میں رہتے ہوئے آج؟",
+      "hi": "اللہ نے ظالم بستیوں کو مہلت دی — اور ان کے پاس واپس آنے کا وقت تھا لیکن وه نہیں آئیں۔ قرآن ان قَرْيَة کہانیوں سے بھرا ہے — عاد، ثمود، قوم لوط، قوم شعیب۔ آپ کے خیال میں ہمارے لیے کیا سبق ہے، اپنی قَرْيَة میں رہتے ہوئے آج؟"
+    },
+    "journal_tag": "kalimaat-qarya"
+  }
+}

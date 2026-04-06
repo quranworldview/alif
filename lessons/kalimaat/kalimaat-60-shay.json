@@ -1,0 +1,99 @@
+{
+  "id": "kalimaat-60",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 60,
+  "prerequisite": "kalimaat-59",
+  "unlocks": ["kalimaat-61"],
+  "xp": 28,
+  "word": {
+    "arabic": "شَيْء",
+    "display": "شَيْءٌ",
+    "transliteration": "Shay'",
+    "meaning": {
+      "en": "Thing / Something / Anything",
+      "ur": "چیز / کچھ / کوئی چیز",
+      "hi": "चीज़ / कुछ / कोई चीज़"
+    },
+    "frequency_rank": 60,
+    "frequency_note": {
+      "en": "Appears over 200 times in various forms. شَيْء is one of the most versatile words in Arabic — it covers anything that exists. كُلَّ شَيْءٍ (every thing) is one of the Qur'an's most powerful phrases, used to describe Allah's absolute power and knowledge.",
+      "ur": "مختلف شکلوں میں ۲۰۰ سے زیادہ بار آیا ہے۔ شَيْء عربی کے سب سے کثیر الاستعمال الفاظ میں سے ایک ہے — یہ ہر اس چیز کو شامل کرتا ہے جو موجود ہے۔ كُلَّ شَيْءٍ (ہر چیز) قرآن کے طاقتور ترین فقروں میں سے ایک ہے، جو اللہ کی مطلق طاقت اور علم کو بیان کرنے کے لیے استعمال ہوتا ہے۔",
+      "hi": "मुख़्तलिफ़ शकलों में 200 से ज़्यादा बار आया है। شَيْء अरबी के सबसे ज़्यादा इस्तेमाल होने वाले लफ़्ज़ों में से एक है — यह हर उस चीज़ को शामिल करता है जो मौजूद है। كُلَّ شَيْءٍ (हर चीज़) क़ुरआन के ताक़तवर तरीन फ़िक़रों में से एक है, जो अल्लाह की मुतलक़ ताक़त और इल्म को बयान करने के लिए इस्तेमाल होता है।"
+    }
+  },
+  "root": {
+    "letters": "ش ي أ",
+    "note": {
+      "en": "Root: ش-ي-أ (sh-y-') — to be, to exist, to become. شَيْء is simply 'a thing that exists'. The root connects to وجود — existence itself. When the Qur'an says اللَّهُ خَالِقُ كُلِّ شَيْءٍ — Allah is the Creator of every thing — شَيْء means literally everything that has existence.",
+      "ur": "جڑ: ش-ي-أ — ہونا، موجود ہونا، بننا۔ شَيْء صرف 'ایک چیز جو موجود ہے' ہے۔ جڑ وجود سے جڑتی ہے۔ جب قرآن کہتا ہے اللَّهُ خَالِقُ كُلِّ شَيْءٍ — اللہ ہر چیز کا خالق ہے — شَيْء کا مطلب لفظی طور پر ہر وہ چیز ہے جسے وجود ہے۔",
+      "hi": "جड़: ش-ي-أ — होना, मौजूद होना, बनना। شَيْء सिर्फ़ 'एक चीज़ जो मौजूद है' है। जड़ वजूद से जुड़ती है। जब क़ुरआन कहता है اللَّهُ خَالِقُ كُلِّ شَيْءٍ — अल्लाह हर चीज़ का ख़ालिक़ है — شَيْء का मतलब लफ़ज़ी तौर पर हर वह चीज़ है जिसे वजूद है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَٱللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+    "surah": {
+      "en": "Al-Baqarah 2:284",
+      "ur": "البقرہ ۲:۲۸۴",
+      "hi": "अल-बक़रह 2:284"
+    },
+    "translation": {
+      "en": "And Allah is over all things All-Powerful.",
+      "ur": "اور اللہ ہر چیز پر قادر ہے۔",
+      "hi": "और अल्लाह हर चीज़ पर क़ादिर है।"
+    },
+    "hook_explanation": {
+      "en": "كُلِّ شَيْءٍ — 'every thing'. كُلّ you know from lesson 17. شَيْءٍ has tanween — نَكِرَة, unspecified. Every single thing. No exceptions. قَدِيرٌ — All-Powerful, from the same root as قَدَر (decree). You learned قَدِير in lesson 24. Now you can read this entire ayah: 'And Allah — over every thing — All-Powerful.' Eleven lessons of yours, one ayah.",
+      "ur": "كُلِّ شَيْءٍ — 'ہر چیز'۔ كُلّ آپ سبق ۱۷ سے جانتے ہیں۔ شَيْءٍ پر تنوین — نکرہ، غیر مخصوص۔ ہر ایک چیز۔ کوئی استثناء نہیں۔ قَدِيرٌ — قادرِ مطلق، اسی جڑ سے جیسے قَدَر (فیصلہ)۔ آپ نے قَدِير سبق ۲۴ میں سیکھا۔ اب آپ یہ پوری آیت پڑھ سکتے ہیں: 'اور اللہ — ہر چیز پر — قادرِ مطلق۔' آپ کے گیارہ سبق، ایک آیت۔",
+      "hi": "كُلِّ شَيْءٍ — 'हर चीज़'। كُلّ آप सबक़ 17 से जानते हैं। شَيْءٍ पर तनवीन — नकिरा, ग़ैर-मख़सूस। हर एक चीज़। कोई अपवाद नहीं। قَدِيرٌ — क़ादिर-ए-मुतलक़, इसी जड़ से जैसे قَدَر (फ़ैसला)। आपने قَدِير सबक़ 24 में सीखा। अब आप यह पूरी आयत पढ़ सकते हैं: 'और अल्लाह — हर चीज़ पर — क़ादिर-ए-मुतलक़।' आपके ग्यारह सबक़, एक आयत।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does شَيْء mean?",
+        "ur": "شَيْء کا مطلب کیا ہے؟",
+        "hi": "شَيْء का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Thing / Something", "ur": "چیز / کچھ", "hi": "चीज़ / कुछ" }, "value": "correct" },
+        { "label": { "en": "Person / Someone", "ur": "شخص / کوئی", "hi": "शख़्स / कोई" }, "value": "wrong" },
+        { "label": { "en": "Place / Somewhere", "ur": "جگہ / کہیں", "hi": "जगह / कहीं" }, "value": "wrong" },
+        { "label": { "en": "Time / Moment", "ur": "وقت / لمحہ", "hi": "वक़्त / लम्हा" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes! شَيْء — thing, something. The most general word for anything that exists.",
+        "ur": "ہاں! شَيْء — چیز، کچھ۔ ہر اس چیز کے لیے سب سے عام لفظ جو موجود ہے۔",
+        "hi": "هाँ! شَيْء — चीज़, कुछ। हर उस चीज़ के लिए सबसे आम लफ़्ज़ जो मौजूद है।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap شَيْء in this ayah:",
+        "ur": "اس آیت میں شَيْء کو چھوئیں:",
+        "hi": "इस आयत में شَيْء को छुएँ:"
+      },
+      "ayah": "وَٱللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "target_word": "شَيْءٍ",
+      "target_position": 3,
+      "feedback_correct": {
+        "en": "Right! شَيْءٍ — with tanween, نَكِرَة. Every single thing. No limits on Allah's power.",
+        "ur": "درست! شَيْءٍ — تنوین کے ساتھ، نکرہ۔ ہر ایک چیز۔ اللہ کی قدرت پر کوئی حد نہیں۔",
+        "hi": "सही! شَيْءٍ — तनवीन के साथ, नكيरा। हर एक चीज़। अल्लाह की क़ुदरत पर कोई हद नहीं।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ — Allah is over every thing, All-Powerful. كُلّ (every), شَيْء (thing), قَدِير (all-powerful) — three words you now fully know. Is there something in your life you have been thinking Allah cannot fix or change? According to this ayah, is that thought accurate?",
+      "ur": "وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ — اللہ ہر چیز پر قادر ہے۔ كُلّ (ہر)، شَيْء (چیز)، قَدِير (قادرِ مطلق) — تین الفاظ جو آپ اب مکمل جانتے ہیں۔ کیا آپ کی زندگی میں کوئی ایسی چیز ہے جس کے بارے میں آپ سوچ رہے ہیں کہ اللہ اسے ٹھیک یا بدل نہیں سکتا؟ اس آیت کے مطابق کیا یہ سوچ درست ہے؟",
+      "hi": "وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ — अल्लाह हर चीज़ पर क़ादिर है। كُلّ (हर), شَيْء (चीज़), قَدِير (क़ादिर-ए-मुतलक़) — तीन लफ़्ज़ जो आप अब मुकम्मल जानते हैं। क्या आपकी ज़िंदगी में कोई ऐसी चीज़ है जिसके बारे में आप सोच रहे हैं कि अल्लाह उसे ठीक या बदल नहीं सकता? इस आयत के मुताबिक़ क्या यह सोच सही है?"
+    },
+    "journal_tag": "kalimaat-shay"
+  }
+}

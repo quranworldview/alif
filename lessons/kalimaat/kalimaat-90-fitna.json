@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-90",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 90,
+  "prerequisite": "kalimaat-89",
+  "unlocks": ["kalimaat-91"],
+  "xp": 28,
+  "word": {
+    "arabic": "فِتْنَة",
+    "display": "فِتْنَةٌ",
+    "transliteration": "Fitnah",
+    "meaning": {
+      "en": "Trial / Tribulation / Discord",
+      "ur": "فتنہ / آزمائش / فساد",
+      "hi": "فتنہ / آزمائش / فساد"
+    },
+    "frequency_rank": 90,
+    "frequency_note": {
+      "en": "Appears 34 times. فِتْنَة comes from a root meaning to melt gold in fire to test its purity. Every فِتْنَة — whether personal, social, or communal — is a fire that reveals what a person is truly made of. The Qur'an says: وَٱلْفِتْنَةُ أَشَدُّ مِنَ ٱلْقَتْلِ — tribulation is more severe than killing.",
+      "ur": "۳۴ بار آیا ہے۔ فِتْنَة ایک ایسی جڑ سے آتا ہے جس کا مطلب ہے پاکیزگی جانچنے کے لیے آگ میں سونا پگھلانا۔ ہر فِتْنَة — چاہے ذاتی، سماجی، یا اجتماعی — وہ آگ ہے جو ظاہر کرتی ہے کہ انسان واقعی کس چیز سے بنا ہے۔ قرآن کہتا ہے: وَٱلْفِتْنَةُ أَشَدُّ مِنَ ٱلْقَتْلِ — فتنہ قتل سے زیادہ سخت ہے۔",
+      "hi": "34 بار آیا ہے۔ فِتْنَة ایک ایسی جڑ سے آتا ہے جس کا متلب ہے پاکیزگی جانچنے کے لیے آگ میں سونا پگھلانا۔ ہر فِتْنَة — چاہے ذاتی، سماجی، یا اجتماعی — وه آگ ہے جو ظاہر کرتی ہے کہ انسان واقعی کس چیز سے بنا ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ف ت ن",
+    "note": {
+      "en": "Root: ف-ت-ن (f-t-n) — to test by fire, to tempt, to try. فَتَنَ means 'to put to trial'. مَفْتُون means 'one who is deluded/tested'. فَتَّان is an intensive form — a great tempter. The image is of a goldsmith's fire: the gold that survives becomes purer. The gold that melts away was never gold. فِتْنَة reveals, it does not destroy what is real.",
+      "ur": "جڑ: ف-ت-ن — آگ سے آزمانا، ورغلانا، آزمائش میں ڈالنا۔ فَتَنَ کا مطلب 'آزمائش میں ڈالنا'۔ مَفْتُون 'دھوکہ کھایا ہوا / آزمایا گیا' ہے۔ فَتَّان مبالغہ کی صیغہ ہے — بہت بڑا آزمانے والا۔ تصویر سنار کی آگ کی ہے: جو سونا بچتا ہے وہ خالص ہو جاتا ہے۔ جو پگھل جاتا ہے وہ کبھی سونا تھا ہی نہیں۔ فِتْنَة ظاہر کرتی ہے، جو حقیقی ہے اسے تباہ نہیں کرتی۔",
+      "hi": "جڑ: ف-ت-ن — آگ سے آزمانا، ورغلانا، آزمائش میں ڈالنا۔ فَتَنَ کا متلب 'آزمائش میں ڈالنا'۔ تصویر سنار کی آگ کی ہے: جو سونا بچتا ہے وه خالص ہو جاتا ہے۔ جو پگھل جاتا ہے وه کبھی سونا تھا ہی نہیں۔ فِتْنَة ظاہر کرتی ہے، جو حقیقی ہے اسے تباہ نہیں کرتی۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "أَحَسِبَ ٱلنَّاسُ أَن يُتْرَكُوا۟ أَن يَقُولُوا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ",
+    "surah": { "en": "Al-Ankabut 29:2", "ur": "العنکبوت ۲۹:۲", "hi": "अल-अंकबूत 29:2" },
+    "translation": {
+      "en": "Do people think they will be left alone because they say 'We believe' and not be put to trial?",
+      "ur": "کیا لوگوں نے سمجھ رکھا ہے کہ وہ بس 'ہم ایمان لائے' کہنے پر چھوڑ دیے جائیں گے اور انہیں آزمایا نہ جائے گا؟",
+      "hi": "کیا لوگوں نے سمجھ رکھا ہے کہ وه بس 'ہم ایمان لائے' کہنے پر چھوڑ دیے جائیں گے اور انہیں آزمایا نہ جائے گا؟"
+    },
+    "hook_explanation": {
+      "en": "أَحَسِبَ — 'Do they think/reckon?' (rhetorical question). ٱلنَّاسُ (lesson 28) — the people. أَن يُتْرَكُوا — 'that they will be left alone'. آمَنَّا — 'We believed' (from آمَنَ, lesson 33). يُفْتَنُونَ — 'they will be tried' (from فَتَنَ). The answer is in the structure of the question: No. Saying آمَنَّا is the beginning, not the end. The فِتْنَة is what transforms declaration into reality.",
+      "ur": "أَحَسِبَ — 'کیا وہ سمجھتے ہیں؟' (سوالِ انکاری)۔ ٱلنَّاسُ (سبق ۲۸) — لوگ۔ أَن يُتْرَكُوا — 'کہ انہیں چھوڑ دیا جائے'۔ آمَنَّا — 'ہم ایمان لائے' (آمَنَ سے، سبق ۳۳)۔ يُفْتَنُونَ — 'آزمائے جائیں گے'۔ جواب سوال کی ساخت میں ہے: نہیں۔ آمَنَّا کہنا آغاز ہے، انجام نہیں۔ فِتْنَة وہ ہے جو اعلان کو حقیقت میں بدلتی ہے۔",
+      "hi": "أَحَسِبَ — 'کیا وه سمجھتے ہیں؟' (سوالِ انکاری)۔ ٱلنَّاسُ (سبک़ 28) — لوگ۔ آمَنَّا — 'ہم ایمان لائے' (آمَنَ سے، سبک़ 33)۔ يُفْتَنُونَ — 'آزمائے جائیں گے'۔ جواب سوال کی ساخت میں ہے: نہیں۔ آمَنَّا کہنا آغاز ہے، انجام نہیں۔ فِتْنَة وه ہے جو اعلان کو حقیقت میں بدلتی ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does فِتْنَة mean?", "ur": "فِتْنَة کا مطلب کیا ہے؟", "hi": "فِتْنَة کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Trial / Tribulation / Testing fire", "ur": "آزمائش / فتنہ / جانچ کی آگ", "hi": "آزمائش / فتنہ / جانچ کی آگ" }, "value": "correct" },
+        { "label": { "en": "Sin / Disobedience", "ur": "گناہ / نافرمانی", "hi": "گناہ / نافرمانی" }, "value": "wrong" },
+        { "label": { "en": "Reward / Blessing", "ur": "انعام / نعمت", "hi": "انعام / نعمت" }, "value": "wrong" },
+        { "label": { "en": "Enemy / Adversary", "ur": "دشمن / مخالف", "hi": "دشمن / مخالف" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! فِتْنَة — trial, tribulation. Like gold tested in fire: it purifies what is real and reveals what is not.", "ur": "ہاں! فِتْنَة — آزمائش، فتنہ۔ آگ میں سونے کی طرح: جو حقیقی ہے اسے خالص کرتی ہے اور جو نہیں ہے اسے ظاہر کرتی ہے۔", "hi": "هاँ! فِتْنَة — آزمائش، فتنہ۔ آگ میں سونے کی طرح: جو حقیقی ہے اسے خالص کرتی ہے۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap the word 'they will be tried' (from the root of فِتْنَة):", "ur": "لفظ 'آزمائے جائیں گے' (فِتْنَة کی جڑ سے) کو چھوئیں:", "hi": "'آزمائے جائیں گے' (فِتْنَة کی جڑ سے) لفظ کو چھوئیں:" },
+      "ayah": "أَن يَقُولُوا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ",
+      "target_word": "يُفْتَنُونَ",
+      "target_position": 4,
+      "feedback_correct": { "en": "Right! يُفْتَنُونَ — 'they will be tried' — from the same root as فِتْنَة. Saying آمَنَّا opens the door to being tested.", "ur": "درست! يُفْتَنُونَ — 'آزمائے جائیں گے' — فِتْنَة کی جڑ سے۔ آمَنَّا کہنا آزمائے جانے کا دروازہ کھولتا ہے۔", "hi": "سہی! يُفْتَنُونَ — 'آزمائے جائیں گے' — فِتْنَة کی جڑ سے۔ آمَنَّا کہنا آزمائے جانے کا دروازہ کھولتا ہے۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "أَحَسِبَ النَّاسُ أَن يُتْرَكُوا أَن يَقُولُوا آمَنَّا وَهُمْ لَا يُفْتَنُونَ — do people think they'll be left untested? Think of the hardest فِتْنَة in your life right now. The goldsmith's image says: this fire is not destroying you. It is revealing what is real in you. What is it revealing?",
+      "ur": "أَحَسِبَ النَّاسُ أَن يُتْرَكُوا أَن يَقُولُوا آمَنَّا وَهُمْ لَا يُفْتَنُونَ — کیا لوگ سمجھتے ہیں کہ بغیر آزمائش چھوڑ دیے جائیں گے؟ ابھی اپنی زندگی کی سب سے مشکل فِتْنَة کے بارے میں سوچیں۔ سنار کی تصویر کہتی ہے: یہ آگ آپ کو تباہ نہیں کر رہی۔ یہ ظاہر کر رہی ہے کہ آپ میں کیا حقیقی ہے۔ کیا ظاہر ہو رہا ہے؟",
+      "hi": "أَحَسِبَ النَّاسُ أَن يُتْرَكُوا أَن يَقُولُوا آمَنَّا وَهُمْ لَا يُفْتَنُونَ — کیا لوگ سمجھتے ہیں کہ بغیر آزمائش چھوڑ دیے جائیں گے؟ ابھی اپنی زندگی کی سب سے مشکل فِتْنَة کے بارے میں سوچیں۔ سنار کی تصویر کہتی ہے: یہ آگ آپ کو تباہ نہیں کر رہی۔ کیا ظاہر ہو رہا ہے؟"
+    },
+    "journal_tag": "kalimaat-fitna"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-24",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 24,
+  "prerequisite": "kalimaat-23",
+  "unlocks": ["kalimaat-25"],
+  "xp": 35,
+  "word": {
+    "arabic": "نُور",
+    "display": "نُور",
+    "transliteration": "Nūr",
+    "meaning": {
+      "en": "Light",
+      "ur": "نور / روشنی",
+      "hi": "नूर / रोशनी"
+    },
+    "frequency_rank": 24,
+    "frequency_note": {
+      "en": "Appears 43 times — but its weight is immeasurable. Allah is the Light of the heavens and the earth.",
+      "ur": "۴۳ بار آتا ہے — لیکن اس کا وزن ناقابل پیمائش ہے۔ اللہ آسمانوں اور زمین کا نور ہے۔",
+      "hi": "43 बار आता है — लेकिन इसका وज़न नाक़ाबिल-ए-पैमाइश है। अल्लाह आसमानों और ज़मीन का नूर है।"
+    }
+  },
+  "root": {
+    "letters": "ن و ر",
+    "note": {
+      "en": "نُور is light — physical and spiritual. مَنَارَة — lighthouse, minaret (place of light). نَار — fire (also from light). The Qur'an uses نُور for guidance, faith, and Allah Himself. ظُلُمَات — darknesses — is always its opposite. The journey from darkness to light is the Qur'an's central story.",
+      "ur": "نُور روشنی ہے — مادی اور روحانی۔ مَنَارَة — مینار (روشنی کی جگہ)۔ نَار — آگ (بھی روشنی سے)۔ قرآن نُور کو ہدایت، ایمان، اور خود اللہ کے لیے استعمال کرتا ہے۔ ظُلُمَات — اندھیرے — ہمیشہ اس کی ضد ہیں۔ اندھیرے سے روشنی کی طرف سفر قرآن کی مرکزی کہانی ہے۔",
+      "hi": "نُور रोशनी है — मादी और रूहानी। مَنَارَة — मीनार (रोशनी की जगह)। نَار — आग (भी रोशनी से)। क़ुरआن نُور को हिदायत, ईमान, और ख़ुद अल्लाह के लिए इस्तेमाल करता है। ظُلُمَات — अंधेरे — हमेशा इसकी ज़िद हैं। अंधेरे से रोशनी की तरफ़ सफ़र क़ुरआन की मरकज़ी कहानी है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ",
+    "surah": { "en": "An-Nur 24:35", "ur": "النور ۲۴:۳۵", "hi": "अन-नूर 24:35" },
+    "translation": {
+      "en": "Allah is the Light of the heavens and the earth.",
+      "ur": "اللہ آسمانوں اور زمین کا نور ہے۔",
+      "hi": "अल्लाह आसमानों और ज़मीन का नूर है।"
+    },
+    "hook_explanation": {
+      "en": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ — possibly the most profound ayah in the Qur'an. Allah doesn't say He has light, or He gives light. He says He IS the نُور of everything that exists. Every photon, every sunrise, every moment of clarity — is Him.",
+      "ur": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ — شاید قرآن کی سب سے گہری آیت۔ اللہ یہ نہیں کہتا کہ اس کے پاس نور ہے، یا وہ نور دیتا ہے۔ وہ کہتا ہے وہ ہر موجود چیز کا نُور ہے۔ ہر فوٹون، ہر طلوع آفتاب، ہر واضح لمحہ — وہی ہے۔",
+      "hi": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ — شायद क़ुरआन की सबसे गहरी آयत। अल्लाह यह नहीं कहता कि उसके पास नूर है, या वह नूर देता है। वह कहता है वह हर मौजूद चीज़ का نُور है। हर फ़ोटॉन, हर तुलू-ए-आफ़ताब, हर वाज़ेह लम्हा — وही है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does نُور mean?",
+        "ur": "نُور کا مطلب کیا ہے؟",
+        "hi": "نُور का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Light", "ur": "روشنی / نور", "hi": "रोशनी / नूर" }, "value": "correct" },
+        { "label": { "en": "Fire", "ur": "آگ", "hi": "आग" }, "value": "wrong" },
+        { "label": { "en": "Water", "ur": "پانی", "hi": "पानी" }, "value": "wrong" },
+        { "label": { "en": "Sky", "ur": "آسمان", "hi": "आसमान" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — نُور means light. And ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ — Allah IS the light of the heavens.",
+        "ur": "ہاں — نُور کا مطلب روشنی ہے۔ اور ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ — اللہ آسمانوں کا نور ہے۔",
+        "hi": "हाँ — نُور का مतलب رोشنी ہے۔ اور ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ — अल्लाह आसमानों का नूर है।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap نُورُ in this ayah:",
+        "ur": "اس آیت میں نُورُ کو چھوئیں:",
+        "hi": "इस آयत में نُورُ को छुएं:"
+      },
+      "ayah": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ",
+      "target_word": "نُورُ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "نُورُ ٱلسَّمَـٰوَاتِ — 'Light of the heavens'. Allah is not a source of light. He is the light itself.",
+        "ur": "نُورُ ٱلسَّمَـٰوَاتِ — 'آسمانوں کا نور'۔ اللہ روشنی کا ذریعہ نہیں ہے۔ وہ خود روشنی ہے۔",
+        "hi": "نُورُ ٱلسَّمَـٰوَاتِ — 'آسمانوں کا نور'۔ अल्लाह रोशनी का ज़रिया नहीं है। वह ख़ुद रोशनी है।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ — Allah is the Light of the heavens and the earth. Not a light. The light. When in your life have you experienced نُور — a moment of clarity, guidance, or peace that felt like it came from beyond you?",
+      "ur": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ — اللہ آسمانوں اور زمین کا نور ہے۔ ایک نور نہیں۔ وہ نور۔ آپ کی زندگی میں کب آپ نے نُور محسوس کیا ہے — وضاحت، ہدایت، یا سکون کا ایک لمحہ جو ایسا لگا کہ آپ سے پرے سے آیا؟",
+      "hi": "ٱللَّهُ نُورُ ٱلسَّمَـٰوَاتِ وَٱلْأَرْضِ — अल्लाह آसमانों और ज़मीन का नूر है। एक नूर نहीं। वह नूर। आपकी ज़िंदगी में कब आपने نُور महसूस किया है — वज़ाहत, هिदायत, या सुकून का एक लम्हा جो ऐसا लगा کि आपसे परे से आया?"
+    },
+    "journal_tag": "kalimaat-nur"
+  }
+}

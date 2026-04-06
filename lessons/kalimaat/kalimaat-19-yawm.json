@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-19",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 19,
+  "prerequisite": "kalimaat-18",
+  "unlocks": ["kalimaat-20"],
+  "xp": 25,
+  "word": {
+    "arabic": "يَوْم",
+    "display": "يَوْم",
+    "transliteration": "Yawm",
+    "meaning": {
+      "en": "Day",
+      "ur": "دن",
+      "hi": "दिन"
+    },
+    "frequency_rank": 19,
+    "frequency_note": {
+      "en": "Appears 405 times. يَوْمَ ٱلْقِيَٰمَةِ — the Day of Resurrection. يَوْمَئِذٍ — on that day.",
+      "ur": "۴۰۵ بار آتا ہے۔ يَوْمَ ٱلْقِيَٰمَةِ — قیامت کا دن۔ يَوْمَئِذٍ — اس دن۔",
+      "hi": "405 बार आता है। يَوْمَ ٱلْقِيَٰمَةِ — क़ियामत का दिन। يَوْمَئِذٍ — उस दिन।"
+    }
+  },
+  "root": {
+    "letters": "ي و م",
+    "note": {
+      "en": "يَوْم means 'day' — but in the Qur'an it has weight. يَوْمَ ٱلدِّينِ — the Day of Judgement (you say this in every Fatiha). يَوْمَ ٱلْقِيَٰمَةِ — the Day of Resurrection. The Qur'an refers to the Day over 70 different ways. يَوْم is the word that anchors all of them.",
+      "ur": "يَوْم کا مطلب 'دن' ہے — لیکن قرآن میں اس کا وزن ہے۔ يَوْمَ ٱلدِّينِ — جزا کا دن (آپ یہ ہر الفاتحہ میں کہتے ہیں)۔ يَوْمَ ٱلْقِيَٰمَةِ — قیامت کا دن۔ قرآن ۷۰ سے زیادہ مختلف طریقوں سے اس دن کا ذکر کرتا ہے۔ يَوْم وہ لفظ ہے جو سب کو ایک جگہ جوڑتا ہے۔",
+      "hi": "يَوْم का मतलب 'दिन' है — लेकिन क़ुरआन में इसका वज़न है। يَوْمَ ٱلدِّينِ — जज़ा का दिन (आप यह हर अल-फ़ातिहा में कहते हैं)। يَوْمَ ٱلْقِيَٰمَةِ — क़ियामत का दिन। क़ुरआन 70 से ज़्यादा मुख़्तलिफ़ तरीक़ों से उस दिन का ज़िक्र करता है। يَوْم वह लफ़्ज़ है जो सब को एक जगह जोड़ता है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+    "surah": { "en": "Al-Fatiha 1:4", "ur": "الفاتحہ ۱:۴", "hi": "अल-फ़ातिहा 1:4" },
+    "translation": {
+      "en": "Master of the Day of Judgement.",
+      "ur": "جزا کے دن کا مالک۔",
+      "hi": "जज़ा के दिन का मालिक।"
+    },
+    "hook_explanation": {
+      "en": "مَـٰلِكِ يَوْمِ ٱلدِّينِ — you say this in every single rak'ah of every prayer. يَوْمِ — 'of the day'. يَوْم is the word. The Day of Deen — of accounting, of repayment, of truth. Every يَوْم you live now is moving towards that يَوْم.",
+      "ur": "مَـٰلِكِ يَوْمِ ٱلدِّينِ — آپ یہ ہر نماز کی ہر رکعت میں کہتے ہیں۔ يَوْمِ — 'دن کا'۔ يَوْم وہ لفظ ہے۔ دین کا دن — حساب کا، بدلے کا، سچ کا۔ ہر يَوْم جو آپ ابھی جی رہے ہیں وہ اس يَوْم کی طرف بڑھ رہا ہے۔",
+      "hi": "مَـٰلِكِ يَوْمِ ٱلدِّينِ — آپ یہ ہر نماز کی ہر رکعت میں کہتے ہیں۔ يَوْمِ — 'उस दिन का'۔ يَوْم वह لफ़्ज़ है। दीन का दिन — हिसाब का, बदले का, सच्चाई का। हर يَوْم जो आप अभी जी रहे हैं वह उस يَوْم की तरफ़ बढ़ रहा है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does يَوْم mean?",
+        "ur": "يَوْم کا مطلب کیا ہے؟",
+        "hi": "يَوْم का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "Day", "ur": "دن", "hi": "दिन" }, "value": "correct" },
+        { "label": { "en": "Night", "ur": "رات", "hi": "रात" }, "value": "wrong" },
+        { "label": { "en": "Time / Hour", "ur": "وقت / گھنٹہ", "hi": "वक़्त / घंटा" }, "value": "wrong" },
+        { "label": { "en": "Year", "ur": "سال", "hi": "साल" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — يَوْم means 'day'. يَوْمَ ٱلدِّينِ — the Day of Judgement. You say this in every prayer.",
+        "ur": "ہاں — يَوْم کا مطلب 'دن' ہے۔ يَوْمَ ٱلدِّينِ — جزا کا دن۔ آپ یہ ہر نماز میں کہتے ہیں۔",
+        "hi": "हाँ — يَوْم का मतलب 'दिन' है। يَوْمَ ٱلدِّينِ — जज़ा का दिन। آप یہ ہر نماز میں کہتے ہیں۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap يَوْمِ in Al-Fatiha:",
+        "ur": "الفاتحہ میں يَوْمِ کو چھوئیں:",
+        "hi": "अल-फ़ातिहा में يَوْمِ को छुएं:"
+      },
+      "ayah": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+      "target_word": "يَوْمِ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "يَوْمِ ٱلدِّينِ — 'of the Day of Judgement'. The يَوْم you prepare for every يَوْم.",
+        "ur": "يَوْمِ ٱلدِّينِ — 'جزا کے دن کا'۔ وہ يَوْم جس کے لیے آپ ہر يَوْم تیاری کرتے ہیں۔",
+        "hi": "يَوْمِ ٱلدِّينِ — 'जज़ा के दिन का'। وह يَوْم جिसके लिए आप हर يَوْم तैयारी करते हैं।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "مَـٰلِكِ يَوْمِ ٱلدِّينِ — Master of the Day of Judgement. You say this phrase at least 17 times every day. Now that you know يَوْم means 'day' — does this phrase land differently when you say it in prayer? What يَوْم are you preparing for?",
+      "ur": "مَـٰلِكِ يَوْمِ ٱلدِّينِ — جزا کے دن کا مالک۔ آپ یہ جملہ روزانہ کم از کم ۱۷ بار کہتے ہیں۔ اب جب آپ جانتے ہیں کہ يَوْم کا مطلب 'دن' ہے — نماز میں یہ جملہ کہتے وقت کیا یہ مختلف لگتا ہے؟ آپ کس يَوْم کی تیاری کر رہے ہیں؟",
+      "hi": "مَـٰلِكِ يَوْمِ ٱلدِّينِ — जज़ा के दिन का मालिक। आप यह जुमला रोज़ाना कम से कम 17 बार कहते हैं। अब जब आप जانते हैं कि يَوْم का मतलब 'दिन' है — नमाज़ में यह जुमला कहते वक़्त क्या यह अलग लगता है? आप किस يَوْم की तैयारी कर रहे हैं?"
+    },
+    "journal_tag": "kalimaat-yawm"
+  }
+}

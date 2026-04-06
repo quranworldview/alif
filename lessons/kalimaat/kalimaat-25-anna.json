@@ -1,0 +1,49 @@
+{
+  "id": "kalimaat-25",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 25,
+  "prerequisite": "kalimaat-24",
+  "unlocks": ["kalimaat-26"],
+  "xp": 25,
+  "word": {
+    "arabic": "أَنَّ",
+    "display": "أَنَّ",
+    "transliteration": "Anna",
+    "meaning": { "en": "That / Indeed that", "ur": "کہ / بے شک کہ", "hi": "कि / बेशक कि" },
+    "frequency_rank": 25,
+    "frequency_note": { "en": "Appears 547 times — introduces reported speech and divine certainties.", "ur": "۵۴۷ بار — رپورٹ شدہ گفتگو اور الٰہی یقین بیان کرتا ہے۔", "hi": "547 بار — رپورٹ شدہ گفتگو اور الٰہی یقین بیان کرتا ہے۔" }
+  },
+  "root": { "letters": "أ ن ن", "note": { "en": "أَنَّ introduces a clause meaning 'that'. It is the link between a statement and its content. شَهِدَ ٱللَّهُ أَنَّهُۥ — 'Allah witnesses that He...' The شَهِدَ is the act, the أَنَّ opens the content of what is witnessed.", "ur": "أَنَّ ایک جملہ شروع کرتا ہے جس کا مطلب 'کہ' ہے۔ یہ ایک بیان اور اس کے مضمون کے درمیان ربط ہے۔ شَهِدَ ٱللَّهُ أَنَّهُۥ — 'اللہ گواہی دیتا ہے کہ وہ...' شَهِدَ عمل ہے، أَنَّ گواہی کا مضمون کھولتا ہے۔", "hi": "أَنَّ ایک جملہ شروع کرتا ہے جس کا مطلب 'کہ' ہے۔ شَهِدَ ٱللَّهُ أَنَّهُۥ — 'اللہ گواہی دیتا ہے کہ وہ...' أَنَّ گواہی کا مضمون کھولتا ہے۔" } },
+  "quranic_hook": {
+    "ayah": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ",
+    "surah": { "en": "Aal-Imran 3:18", "ur": "آل عمران ۳:۱۸", "hi": "आल-इमरान 3:18" },
+    "translation": { "en": "Allah witnesses that there is no god except Him.", "ur": "اللہ گواہی دیتا ہے کہ اس کے سوا کوئی معبود نہیں۔", "hi": "अल्लाह गवाही देता है कि उसके सिवा कोई माबूद نहीं।" },
+    "hook_explanation": { "en": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَا إِلَهَ إِلَّا هُوَ — 'Allah witnesses that there is no god except Him.' أَنَّ opens the content of the testimony. Allah is not just declaring — He is bearing witness. The word that bridges His witnessing to the truth is أَنَّ.", "ur": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَا إِلَهَ إِلَّا هُوَ — 'اللہ گواہی دیتا ہے کہ اس کے سوا کوئی معبود نہیں'۔ أَنَّ گواہی کا مضمون کھولتا ہے۔ اللہ صرف اعلان نہیں کر رہا — وہ گواہی دے رہا ہے۔", "hi": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَا إِلَهَ إِلَّا هُوَ — 'اللہ گواہی دیتا ہے کہ اس کے سوا کوئی معبود نہیں'۔ أَنَّ گواہی کا مضمون کھولتا ہے۔" }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning", "order": 1,
+      "prompt": { "en": "What does أَنَّ mean?", "ur": "أَنَّ کا مطلب کیا ہے؟", "hi": "أَنَّ का मतलब क्या है?" },
+      "choices": [
+        { "label": { "en": "That / Indeed that", "ur": "کہ / بے شک کہ", "hi": "कि" }, "value": "correct" },
+        { "label": { "en": "And / Then", "ur": "اور / پھر", "hi": "और / फिर" }, "value": "wrong" },
+        { "label": { "en": "If / When", "ur": "اگر / جب", "hi": "अगर / जब" }, "value": "wrong" },
+        { "label": { "en": "But / However", "ur": "لیکن / مگر", "hi": "लेकिन / मगर" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes — أَنَّ means 'that'. أَنَّهُۥ لَا إِلَهَ إِلَّا هُوَ — 'that there is no god except Him.'", "ur": "ہاں — أَنَّ کا مطلب 'کہ' ہے۔ أَنَّهُۥ لَا إِلَهَ إِلَّا هُوَ — 'کہ اس کے سوا کوئی معبود نہیں'۔", "hi": "हाँ — أَنَّ کا مطلب 'کہ' ہے۔" }
+    },
+    {
+      "type": "spot_in_ayah", "order": 2,
+      "prompt": { "en": "Tap أَنَّهُۥ in this ayah:", "ur": "اس آیت میں أَنَّهُۥ کو چھوئیں:", "hi": "इस आयत में أَنَّهُۥ को छुएं:" },
+      "ayah": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ",
+      "target_word": "أَنَّهُۥ", "target_position": 2,
+      "feedback_correct": { "en": "أَنَّهُۥ — 'that He'. أَنَّ + هُ (him/He). The bridge between witnessing and truth.", "ur": "أَنَّهُۥ — 'کہ وہ'۔ أَنَّ + هُ۔ گواہی اور سچائی کے درمیان پل۔", "hi": "أَنَّهُۥ — 'کہ وہ'۔ گواہی اور سچائی کے درمیان پل۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": { "en": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَا إِلَهَ إِلَّا هُوَ — Allah is the first witness. Then the angels witness it. Then those with knowledge. You are studying today — you are moving towards being a witness with knowledge. What does it mean to you to bear witness to Tawheed with understanding, not just repetition?", "ur": "شَهِدَ ٱللَّهُ — اللہ پہلا گواہ ہے۔ پھر فرشتے گواہی دیتے ہیں۔ پھر علم والے۔ آپ آج پڑھ رہے ہیں — آپ علم کے ساتھ گواہ بننے کی طرف بڑھ رہے ہیں۔ آپ کے لیے توحید کی گواہی دینے کا کیا مطلب ہے — صرف دہرانے سے نہیں، سمجھ کر؟", "hi": "شَهِدَ ٱللَّهُ — اللہ پہلا گواہ ہے۔ پھر فرشتے۔ پھر علم والے۔ آپ آج پڑھ رہے ہیں۔ آپ کے لیے تôہید کی گواہی دینے کا کیا مطلب ہے — صرف دہرانے سے نہیں، سمجھ کر؟" },
+    "journal_tag": "kalimaat-anna"
+  }
+}

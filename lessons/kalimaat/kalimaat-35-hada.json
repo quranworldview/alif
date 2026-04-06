@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-35",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 35,
+  "prerequisite": "kalimaat-34",
+  "unlocks": ["kalimaat-36"],
+  "xp": 35,
+  "word": {
+    "arabic": "هَدَى",
+    "display": "هَدَى",
+    "transliteration": "Hadā",
+    "meaning": {
+      "en": "He guided / He showed the way",
+      "ur": "اس نے ہدایت دی / راہ دکھائی",
+      "hi": "उसने हिदायत दी / राह दिखाई"
+    },
+    "frequency_rank": 35,
+    "frequency_note": {
+      "en": "Appears 316 times. ٱهْدِنَا ٱلصِّرَاطَ — guide us to the path. The most repeated prayer in human history.",
+      "ur": "۳۱۶ بار آتا ہے۔ ٱهْدِنَا ٱلصِّرَاطَ — ہمیں راستے کی ہدایت دے۔ انسانی تاریخ کی سب سے زیادہ دہرائی جانے والی دعا۔",
+      "hi": "316 بار آتا ہے۔ ٱهْدِنَا ٱلصِّرَاطَ — ہمیں راستے کی ہدایت دے۔ انسانی تاریخ کی سب سے زیادہ دہرائی جانے والی دعا۔"
+    }
+  },
+  "root": {
+    "letters": "ه د ي",
+    "note": {
+      "en": "The root ه-د-ي means guidance, showing the way. هِدَايَة — guidance. هَادِي — the guide. مُهْتَدِي — the one who is guided. ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ — the straight path. Every prayer you say includes ٱهْدِنَا — 'guide us'. You ask for هِدَايَة at least 17 times every day.",
+      "ur": "جڑ ه-د-ي کا مطلب ہے رہنمائی، راہ دکھانا۔ هِدَايَة — ہدایت۔ هَادِي — رہنما۔ مُهْتَدِي — ہدایت یافتہ۔ ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ — سیدھا راستہ۔ ہر نماز میں آپ ٱهْدِنَا کہتے ہیں — 'ہمیں ہدایت دے'۔ آپ روزانہ کم از کم ۱۷ بار هِدَايَة مانگتے ہیں۔",
+      "hi": "جڑ ه-د-ي کا مطلب ہے رہنمائی، راہ دکھانا۔ هِدَايَة — ہدایت۔ هَادِي — رہنما۔ مُهْتَدِي — ہدایت یافتہ۔ ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ — سیدھا راستہ۔ ہر نماز میں آپ ٱهْدِنَا کہتے ہیں — 'ہمیں ہدایت دے'۔ آپ روزانہ کم از کم 17 بار هِدَايَة مانگتے ہیں۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ",
+    "surah": { "en": "Al-Fatiha 1:6", "ur": "الفاتحہ ۱:۶", "hi": "अल-फ़ातिहा 1:6" },
+    "translation": {
+      "en": "Guide us to the straight path.",
+      "ur": "ہمیں سیدھے راستے کی ہدایت دے۔",
+      "hi": "हमें सीधे रास्ते की हिदायत दे।"
+    },
+    "hook_explanation": {
+      "en": "ٱهْدِنَا — 'guide us' — is هَدَى in imperative form, plural. You are asking Allah to هَدَى you — to show you the way — every single prayer. This may be the most repeated prayer in human history. And the verb is هَدَى.",
+      "ur": "ٱهْدِنَا — 'ہمیں ہدایت دے' — هَدَى کا امری صیغہ ہے، جمع۔ آپ اللہ سے ہر نماز میں هَدَى کی درخواست کر رہے ہیں — راہ دکھانے کی۔ یہ شاید انسانی تاریخ کی سب سے زیادہ دہرائی جانے والی دعا ہے۔ اور فعل هَدَى ہے۔",
+      "hi": "ٱهْدِنَا — 'ہمیں ہدایت دے' — هَدَى کا امری صیغہ ہے، جمع۔ آپ اللہ سے ہر نماز میں هَدَى کی درخواست کر رہے ہیں — راہ دکھانے کی۔ یہ شاید انسانی تاریخ کی سب سے زیادہ دہرائی جانے والی دعا ہے۔ اور فعل هَدَى ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does هَدَى mean?",
+        "ur": "هَدَى کا مطلب کیا ہے؟",
+        "hi": "هَدَى का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "He guided / showed the way", "ur": "اس نے ہدایت دی", "hi": "उसने हिदायत دी" }, "value": "correct" },
+        { "label": { "en": "He sent", "ur": "اس نے بھیجا", "hi": "उसने भेजا" }, "value": "wrong" },
+        { "label": { "en": "He helped", "ur": "اس نے مدد کی", "hi": "उसने मदद की" }, "value": "wrong" },
+        { "label": { "en": "He forgave", "ur": "اس نے معاف کیا", "hi": "उसने माफ़ किया" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — هَدَى means 'He guided'. ٱهْدِنَا — 'guide us'. The prayer of every rakah.",
+        "ur": "ہاں — هَدَى کا مطلب 'اس نے ہدایت دی' ہے۔ ٱهْدِنَا — 'ہمیں ہدایت دے'۔ ہر رکعت کی دعا۔",
+        "hi": "هاँ — هَدَى کا مطلب 'اس نے ہدایت دی' ہے۔ ٱهْدِنَا — 'ہمیں ہدایت دے'۔ ہر رکعت کی دعا۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap ٱهْدِنَا in Al-Fatiha:",
+        "ur": "الفاتحہ میں ٱهْدِنَا کو چھوئیں:",
+        "hi": "अल-फ़ातिहा में ٱهْدِنَا کو چھوئیں:"
+      },
+      "ayah": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ",
+      "target_word": "ٱهْدِنَا",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "ٱهْدِنَا — 'guide us'. From هَدَى. You say this to Allah 17 times a day. The most repeated request in history.",
+        "ur": "ٱهْدِنَا — 'ہمیں ہدایت دے'۔ هَدَى سے۔ آپ یہ اللہ سے دن میں ۱۷ بار کہتے ہیں۔ تاریخ کی سب سے زیادہ دہرائی جانے والی درخواست۔",
+        "hi": "ٱهْدِنَا — 'ہمیں ہدایت دے'۔ هَدَى سے۔ آپ یہ اللہ سے دن میں 17 بار کہتے ہیں۔ تاریخ کی سب سے زیادہ دہرائی جانے والی درخواست۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ — guide us to the straight path. You ask for هِدَايَة 17 times a day. Are you actively watching for the guidance when it comes? What does هِدَايَة look like in your daily life — not just in prayer, but in decisions, relationships, choices?",
+      "ur": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ — ہمیں سیدھے راستے کی ہدایت دے۔ آپ روزانہ ۱۷ بار هِدَايَة مانگتے ہیں۔ کیا آپ فعال طور پر دیکھتے ہیں جب ہدایت آتی ہے؟ آپ کی روزمرہ زندگی میں هِدَايَة کیسی لگتی ہے — صرف نماز میں نہیں، بلکہ فیصلوں، رشتوں، انتخاب میں؟",
+      "hi": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ — ہمیں سیدھے راستے کی ہدایت دے۔ آپ روزانہ 17 بار هِدَايَة مانگتے ہیں۔ کیا آپ فعال طور پر دیکھتے ہیں جب ہدایت آتی ہے؟ آپ کی روزمرہ زندگی میں هِدَايَة کیسی لگتی ہے — صرف نماز میں نہیں، بلکہ فیصلوں، رشتوں، انتخاب میں؟"
+    },
+    "journal_tag": "kalimaat-hada"
+  }
+}

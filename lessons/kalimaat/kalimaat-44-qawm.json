@@ -1,0 +1,96 @@
+{
+  "id": "kalimaat-44",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 44,
+  "prerequisite": "kalimaat-43",
+  "unlocks": ["kalimaat-45"],
+  "xp": 25,
+  "word": {
+    "arabic": "قَوْم",
+    "display": "قَوْم",
+    "transliteration": "Qawm",
+    "meaning": {
+      "en": "People / Nation / Community",
+      "ur": "قوم / لوگ / برادری",
+      "hi": "क़ौम / लोग / बिरादरी"
+    },
+    "frequency_rank": 44,
+    "frequency_note": {
+      "en": "Appears 383 times — every prophet addresses يَا قَوْمِ. It is the call of every messenger to their people.",
+      "ur": "۳۸۳ بار آتا ہے — ہر نبی يَا قَوْمِ کہتا ہے۔ یہ ہر رسول کی اپنی قوم کو پکار ہے۔",
+      "hi": "383 بار آتا ہے — ہر نبی يَا قَوْمِ کہتا ہے۔ یہ ہر رسول کی اپنی قوم کو پکار ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ق و م",
+    "note": {
+      "en": "The root ق-و-م means to stand, to rise. قَامَ — he stood. قِيَامَة — the Standing (resurrection). قَوْم — a people who stand together, a community bound by shared standing. يَا قَوْمِ — 'O my people!' — is how every prophet in the Qur'an addresses his community. Nuh, Ibrahim, Musa, Shu'ayb, Salih — all say يَا قَوْمِ.",
+      "ur": "جڑ ق-و-م کا مطلب ہے کھڑا ہونا، اٹھنا۔ قَامَ — وہ کھڑا ہوا۔ قِيَامَة — کھڑے ہونا (قیامت)۔ قَوْم — وہ لوگ جو مل کر کھڑے ہوں، ایک برادری جو مشترکہ قیام سے جڑی ہو۔ يَا قَوْمِ — 'اے میری قوم!' — قرآن میں ہر نبی اپنی برادری کو اسی طرح مخاطب کرتا ہے۔ نوح، ابراہیم، موسیٰ، شعیب، صالح — سب يَا قَوْمِ کہتے ہیں۔",
+      "hi": "جڑ ق-و-م کا مطلب ہے کھڑا ہونا، اٹھنا۔ قَامَ — وہ کھڑا ہوا۔ قِيَامَة — کھڑے ہونا (قیامت)۔ قَوْم — وہ لوگ جو مل کر کھڑے ہوں، ایک برادری جو مشترکہ قیام سے جڑی ہو۔ يَا قَوْمِ — 'اے میری قوم!' — قرآن میں ہر نبی اپنی برادری کو اسی طرح مخاطب کرتا ہے۔ نوح، ابراہیم، موسیٰ، شعیب، صالح — سب يَا قَوْمِ کہتے ہیں۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَيَـٰقَوْمِ إِنِّى أَخَافُ عَلَيْكُمْ يَوْمَ ٱلتَّنَادِ",
+    "surah": { "en": "Ghafir 40:32 — the believer of Pharaoh's court", "ur": "غافر ۴۰:۳۲ — فرعون کے دربار کا مؤمن", "hi": "ग़ाफ़िर 40:32 — फ़िरऔन के दरबार का मोमिन" },
+    "translation": {
+      "en": "And O my people — I fear for you the Day of Crying Out.",
+      "ur": "اور اے میری قوم — مجھے تمہارے لیے پکار کے دن کا ڈر ہے۔",
+      "hi": "और ऐ मेरी क़ौम — मुझे तुम्हारे लिए पुकार के दिन का डर है।"
+    },
+    "hook_explanation": {
+      "en": "يَـٰقَوْمِ — 'O my قَوْم'. See يَوْمَ (lesson 19) — the Day. A lone believer in Pharaoh's court risking his life to warn his قَوْم. يَا قَوْمِ — the most loving way to address those you want to save. Every prophet used these exact words.",
+      "ur": "يَـٰقَوْمِ — 'اے میری قَوْم'۔ يَوْمَ (سبق ۱۹) دیکھیں — وہ دن۔ فرعون کے دربار میں ایک تنہا مؤمن اپنی قَوْم کو خبردار کرنے کے لیے جان خطرے میں ڈال رہا ہے۔ يَا قَوْمِ — ان لوگوں کو مخاطب کرنے کا سب سے محبت بھرا طریقہ جنہیں آپ بچانا چاہتے ہیں۔ ہر نبی نے یہی الفاظ استعمال کیے۔",
+      "hi": "يَـٰقَوْمِ — 'اے میری قَوْم'۔ يَوْمَ (سبق 19) دیکھیں — وہ دن۔ فرعون کے دربار میں ایک تنہا مؤمن اپنی قَوْم کو خبردار کرنے کے لیے جان خطرے میں ڈال رہا ہے۔ يَا قَوْمِ — ان لوگوں کو مخاطب کرنے کا سب سے محبت بھرا طریقہ جنہیں آپ بچانا چاہتے ہیں۔ ہر نبی نے یہی الفاظ استعمال کیے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does قَوْم mean?",
+        "ur": "قَوْم کا مطلب کیا ہے؟",
+        "hi": "قَوْم का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "People / Nation / Community", "ur": "قوم / لوگ / برادری", "hi": "क़ौम / लोग / बिरादरी" }, "value": "correct" },
+        { "label": { "en": "Family / Household", "ur": "خاندان / گھرانہ", "hi": "ख़ानदान / घराना" }, "value": "wrong" },
+        { "label": { "en": "Tribe / Clan", "ur": "قبیلہ / خاندان", "hi": "क़बीला / ख़ानदान" }, "value": "wrong" }
+        ,
+        { "label": { "en": "Army / Group", "ur": "فوج / گروہ", "hi": "फ़ौज / गुरोह" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — قَوْم means a people or community. يَا قَوْمِ — 'O my people!' Every prophet's call.",
+        "ur": "ہاں — قَوْم قوم یا برادری کا مطلب ہے۔ يَا قَوْمِ — 'اے میری قوم!' ہر نبی کی پکار۔",
+        "hi": "هاँ — قَوْم قوم یا برادری کا مطلب ہے۔ يَا قَوْمِ — 'اے میری قوم!' ہر نبی کی پکار۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap يَـٰقَوْمِ in this ayah:",
+        "ur": "اس آیت میں يَـٰقَوْمِ کو چھوئیں:",
+        "hi": "इस आयत में يَـٰقَوْمِ को छुएं:"
+      },
+      "ayah": "وَيَـٰقَوْمِ إِنِّى أَخَافُ عَلَيْكُمْ يَوْمَ ٱلتَّنَادِ",
+      "target_word": "وَيَـٰقَوْمِ",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "يَـٰقَوْمِ — 'O my people'. The cry of every prophet, every sincere caller to truth. Who is your قَوْم?",
+        "ur": "يَـٰقَوْمِ — 'اے میری قوم'۔ ہر نبی کی، سچ کی طرف بلانے والے ہر مخلص کی پکار۔ آپ کی قَوْم کون ہے؟",
+        "hi": "يَـٰقَوْمِ — 'اے میری قوم'۔ ہر نبی کی، سچ کی طرف بلانے والے ہر مخلص کی پکار۔ آپ کی قَوْم کون ہے؟"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "يَـٰقَوْمِ — every prophet said these words with love and urgency. They weren't calling strangers. They were calling their own people — people they grew up with, shared meals with, loved. Who is your قَوْم? Who do you feel responsible for, the way a prophet feels responsible for his people?",
+      "ur": "يَـٰقَوْمِ — ہر نبی نے یہ الفاظ محبت اور اضطراب کے ساتھ کہے۔ وہ اجنبیوں کو نہیں پکار رہے تھے۔ وہ اپنے لوگوں کو پکار رہے تھے — جن کے ساتھ پلے بڑھے، کھانا کھایا، محبت کی۔ آپ کی قَوْم کون ہے؟ آپ کسے ایسے محسوس کرتے ہیں جیسے ایک نبی اپنی قوم کے لیے ذمہ دار ہو؟",
+      "hi": "يَـٰقَوْمِ — ہر نبی نے یہ الفاظ محبت اور اضطراب کے ساتھ کہے۔ وہ اجنبیوں کو نہیں پکار رہے تھے۔ وہ اپنے لوگوں کو پکار رہے تھے — جن کے ساتھ پلے بڑھے، کھانا کھایا، محبت کی۔ آپ کی قَوْم کون ہے؟ آپ کسے ایسے محسوس کرتے ہیں جیسے ایک نبی اپنی قوم کے لیے ذمہ دار ہو؟"
+    },
+    "journal_tag": "kalimaat-qawm"
+  }
+}

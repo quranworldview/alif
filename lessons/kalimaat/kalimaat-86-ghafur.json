@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-86",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 86,
+  "prerequisite": "kalimaat-85",
+  "unlocks": ["kalimaat-87"],
+  "xp": 28,
+  "word": {
+    "arabic": "غَفُور",
+    "display": "غَفُورٌ",
+    "transliteration": "Ghafoor",
+    "meaning": {
+      "en": "Most Forgiving / Oft-Forgiving",
+      "ur": "بہت معاف کرنے والا / غفور",
+      "hi": "بہت معاف کرنے والا / غفور"
+    },
+    "frequency_rank": 86,
+    "frequency_note": {
+      "en": "Appears 91 times — almost always paired with رَحِيم (lesson 22). غَفُور is not just 'forgiving' — the root غَفَرَ means to cover over completely, like covering a wound so it heals unseen. Allah does not just pardon — He covers.",
+      "ur": "۹۱ بار آیا ہے — تقریباً ہمیشہ رَحِيم (سبق ۲۲) کے ساتھ جوڑا۔ غَفُور صرف 'معاف کرنے والا' نہیں — جڑ غَفَرَ کا مطلب ہے مکمل ڈھانپنا، جیسے زخم کو ڈھانپنا تاکہ نظروں سے اوجھل ہو کر ٹھیک ہو جائے۔ اللہ صرف معاف نہیں کرتا — وہ چھپا دیتا ہے۔",
+      "hi": "91 بار آیا ہے — تقریباً ہمیشہ رَحِيم (سبک़ 22) کے ساتھ جوڑا۔ غَفُور صرف 'معاف کرنے والا' نہیں — جڑ غَفَرَ کا متلب ہے مکمل ڈھانپنا، جیسے زخم کو ڈھانپنا تاکہ نظروں سے اوجھل ہو کر ٹھیک ہو جائے۔ اللہ صرف معاف نہیں کرتا — وه چھپا دیتا ہے۔"
+    }
+  },
+  "root": {
+    "letters": "غ ف ر",
+    "note": {
+      "en": "Root: غ-ف-ر (gh-f-r) — to cover, to conceal, to protect. مِغْفَر is a helmet — what covers the head in battle. مَغْفِرَة is forgiveness — the covering of sin. When Allah forgives, He covers the sin so completely it no longer shows, no longer counts, no longer exists in the record. غَفُور is the intensive form — He does this constantly, thoroughly, for everyone who turns.",
+      "ur": "جڑ: غ-ف-ر — ڈھانپنا، چھپانا، حفاظت کرنا۔ مِغْفَر خود ہے — لڑائی میں سر کو ڈھانپنے والا۔ مَغْفِرَة معافی ہے — گناہ کو ڈھانپنا۔ جب اللہ معاف کرتا ہے، وہ گناہ کو اتنا مکمل ڈھانپتا ہے کہ وہ نہ دکھے، نہ شمار ہو، نہ ریکارڈ میں رہے۔ غَفُور مبالغے کی صیغہ ہے — وہ یہ مسلسل، مکمل طور پر، ہر اس شخص کے لیے کرتا ہے جو پلٹے۔",
+      "hi": "جड़: غ-ف-ر — ڈھانپنا، چھپانا، حفاظت کرنا۔ مِغْفَر خود ہے — لڑائی میں سر کو ڈھانپنے والا۔ مَغْفِرَة معافی ہے — گناہ کو ڈھانپنا۔ جب اللہ معاف کرتا ہے، وه گناہ کو اتنا مکمل ڈھانپتا ہے کہ وه نہ دکھے، نہ شمار ہو۔ غَفُور مبالغے کی صیغہ ہے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+    "surah": { "en": "Al-Baqarah 2:173", "ur": "البقرہ ۲:۱۷۳", "hi": "अल-बक़रह 2:173" },
+    "translation": {
+      "en": "Indeed, Allah is Most Forgiving, Most Merciful.",
+      "ur": "بے شک اللہ بہت معاف کرنے والا، بہت رحم کرنے والا ہے۔",
+      "hi": "بے شک اللہ بہت معاف کرنے والا، بہت رحم کرنے والا ہے۔"
+    },
+    "hook_explanation": {
+      "en": "إِنَّ (lesson 6) ٱللَّهَ (lesson 1) غَفُورٌ رَّحِيمٌ (lesson 22) — you now know every single word in this ayah. This formula appears over 70 times in the Qur'an — it closes rulings about sin, hardship, mistakes, necessity. After every hard command, after every human failing, this seal: غَفُور رَّحِيم. Forgiveness covering the sin. Mercy warming what remains.",
+      "ur": "إِنَّ (سبق ۶) ٱللَّهَ (سبق ۱) غَفُورٌ رَّحِيمٌ (سبق ۲۲) — آپ اب اس آیت کا ہر ایک لفظ جانتے ہیں۔ یہ فارمولہ قرآن میں ۷۰ سے زیادہ بار آتا ہے — گناہ، مشکل، غلطی، ضرورت کے احکام بند کرتا ہے۔ ہر مشکل حکم کے بعد، ہر انسانی کوتاہی کے بعد، یہ مہر: غَفُور رَّحِيم۔ معافی گناہ کو ڈھانپتی ہے۔ رحمت جو بچتا ہے اسے گرم کرتی ہے۔",
+      "hi": "إِنَّ (سبک़ 6) ٱللَّهَ (سبک़ 1) غَفُورٌ رَّحِيمٌ (سبک़ 22) — آپ اب اس آیت کا ہر ایک لفظ جانتے ہیں۔ یہ فارمولہ قرآن میں 70 سے ز़یادہ بار آتا ہے — ہر مشکل حکم کے بعد، ہر انسانی کوتاہی کے بعد، یہ مہر: غَفُور رَّحِيم۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does غَفُور mean?", "ur": "غَفُور کا مطلب کیا ہے؟", "hi": "غَفُور کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Most Forgiving / One who covers sins", "ur": "بہت معاف کرنے والا / گناہ ڈھانپنے والا", "hi": "بہت معاف کرنے والا / گناہ ڈھانپنے والا" }, "value": "correct" },
+        { "label": { "en": "Most Merciful", "ur": "بہت رحم والا", "hi": "बهت رحم والا" }, "value": "wrong" },
+        { "label": { "en": "Most Generous", "ur": "بہت سخی", "hi": "بهت سخی" }, "value": "wrong" },
+        { "label": { "en": "Most Patient", "ur": "بہت صبر والا", "hi": "بهت صبر والا" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! غَفُور — Most Forgiving, the One who covers sins completely. From the root meaning 'to cover'.", "ur": "ہاں! غَفُور — بہت معاف کرنے والا، گناہ مکمل ڈھانپنے والا۔ 'ڈھانپنا' کے معنی کی جڑ سے۔", "hi": "هاँ! غَفُور — بہت معاف کرنے والا، گناہ مکمل ڈھانپنے والا۔ 'ڈھانپنا' کے معنی کی جڑ سے۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap غَفُور in this ayah:", "ur": "اس آیت میں غَفُور کو چھوئیں:", "hi": "इस آयت میں غَفُور کو چھوئیں:" },
+      "ayah": "إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "target_word": "غَفُورٌ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! غَفُورٌ — Most Forgiving, with tanween. And رَّحِيمٌ right after — the inseparable pair.", "ur": "درست! غَفُورٌ — بہت معاف کرنے والا، تنوین کے ساتھ۔ اور فوراً بعد رَّحِيمٌ — ناقابل جدا جوڑا۔", "hi": "سہی! غَفُورٌ — بہت معاف کرنے والا، تنوین کے ساتھ۔ اور فوراً بعد رَّحِيمٌ — ناقابل جدا جوڑا۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "غَفُور — the One who covers. Not just pardons, but covers so completely the sin disappears from the record. Is there a sin you've repented from but still carry? The name غَفُور says: if you've turned back, it's covered. Not visible. Not counted. Do you believe that?",
+      "ur": "غَفُور — وہ جو ڈھانپتا ہے۔ صرف معاف نہیں کرتا، بلکہ اتنا مکمل ڈھانپتا ہے کہ گناہ ریکارڈ سے غائب ہو جاتا ہے۔ کوئی گناہ ہے جس سے آپ توبہ کر چکے ہیں لیکن اب بھی اٹھائے ہوئے ہیں؟ غَفُور کا نام کہتا ہے: اگر آپ پلٹ آئے ہیں تو وہ ڈھکا ہے۔ نظر نہیں آتا۔ شمار نہیں ہوتا۔ کیا آپ اس پر یقین رکھتے ہیں؟",
+      "hi": "غَفُور — وه جو ڈھانپتا ہے۔ صرف معاف نہیں کرتا، بلکہ اتنا مکمل ڈھانپتا ہے کہ گناہ ریکارڈ سے غائب ہو جاتا ہے۔ کوئی گناہ ہے جس سے آپ توبہ کر چکے ہیں لیکن اب بھی اٹھائے ہوئے ہیں؟ غَفُور کا نام کہتا ہے: اگر آپ پلٹ آئے ہیں تو وه ڈھکا ہے۔ کیا آپ اس پر یقین رکھتے ہیں؟"
+    },
+    "journal_tag": "kalimaat-ghafur"
+  }
+}

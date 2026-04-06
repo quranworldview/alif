@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-67",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 67,
+  "prerequisite": "kalimaat-66",
+  "unlocks": ["kalimaat-68"],
+  "xp": 28,
+  "word": {
+    "arabic": "مَاء",
+    "display": "مَاءٌ",
+    "transliteration": "Maa'",
+    "meaning": {
+      "en": "Water",
+      "ur": "پانی",
+      "hi": "پانی / आब"
+    },
+    "frequency_rank": 67,
+    "frequency_note": {
+      "en": "Appears 63 times. Water is one of the Qur'an's most repeated signs — it is the origin of life, the source of provision, and a symbol of divine mercy descending from the sky.",
+      "ur": "۶۳ بار آیا ہے۔ پانی قرآن کی سب سے زیادہ دہرائی جانے والی نشانیوں میں سے ایک ہے — یہ زندگی کی اصل، رزق کا ذریعہ، اور آسمان سے اترنے والی رحمت کی علامت ہے۔",
+      "hi": "63 بار آیا ہے۔ पानी क़ुरआन की सबसे ज़्यादा दोहराई जाने वाली निशानियों में से एक है — यह ज़िंदगी की असल, रिज़्क़ का ज़रिया, और آسमान سے اترने वाली रहमत की अلामत है।"
+    }
+  },
+  "root": {
+    "letters": "م و ه",
+    "note": {
+      "en": "Root: م-و-ه (m-w-h) — water, fluidity. مَاء is the base form. The hamza at the end is part of the root. In the Qur'an, مَاء almost always comes with a purpose attached — وَأَنزَلْنَا مِنَ السَّمَاءِ مَاءً (We sent down from the sky water). Water never falls randomly in the Qur'anic worldview.",
+      "ur": "جڑ: م-و-ه — پانی، روانی۔ مَاء بنیادی شکل ہے۔ آخر میں ہمزہ جڑ کا حصہ ہے۔ قرآن میں مَاء تقریباً ہمیشہ کسی مقصد کے ساتھ آتا ہے — وَأَنزَلْنَا مِنَ السَّمَاءِ مَاءً (ہم نے آسمان سے پانی اتارا)۔ قرآن کے نقطہ نظر میں پانی کبھی بے مقصد نہیں گرتا۔",
+      "hi": "جड़: م-و-ه — पानी, रवानी। مَاء بुनियादी شکल है। آख़िर में हम्ज़ا जड़ का हिस्सा है। क़ुरआन में مَاء تक़रीबन हमेशा किसी मक़सद के साथ आता है — وَأَنزَلْنَا مِنَ السَّمَاءِ مَاءً (हमने آसमान से पानी उतारा)। क़ुरआन के नुक़्ता-ए-नज़र में पानी कभी बेमक़सद नहीं गिरता।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَجَعَلْنَا مِنَ ٱلْمَآءِ كُلَّ شَىْءٍ حَىٍّ",
+    "surah": { "en": "Al-Anbiya 21:30", "ur": "الانبیاء ۲۱:۳۰", "hi": "अल-अंबिया 21:30" },
+    "translation": {
+      "en": "And We made from water every living thing.",
+      "ur": "اور ہم نے پانی سے ہر زندہ چیز بنائی۔",
+      "hi": "और हमने पانی سے हर ज़िंदा چیज़ बनाई।"
+    },
+    "hook_explanation": {
+      "en": "جَعَلْنَا — 'We made' (from جَعَلَ — to make/place, one of the most frequent verbs in the Qur'an). مِنَ — 'from' (lesson 3). ٱلْمَآءِ — water in jar status. كُلَّ شَىْءٍ — every thing (كُلّ lesson 17 + شَيْء lesson 60). حَىٍّ — living, alive (from the same root as حَيَاة lesson 63). Science confirmed this ayah 1400 years later. The Qur'an said it first.",
+      "ur": "جَعَلْنَا — 'ہم نے بنایا' (جَعَلَ سے — بنانا/رکھنا، قرآن کے سب سے زیادہ آنے والے فعلوں میں سے ایک)۔ مِنَ — 'سے' (سبق ۳)۔ ٱلْمَآءِ — پانی جر کی حالت میں۔ كُلَّ شَىْءٍ — ہر چیز (كُلّ سبق ۱۷ + شَيْء سبق ۶۰)۔ حَىٍّ — زندہ (حَيَاة سبق ۶۳ جیسی جڑ)۔ سائنس نے یہ آیت ۱۴۰۰ سال بعد ثابت کی۔ قرآن نے پہلے کہا۔",
+      "hi": "جَعَلْنَا — 'हمने بنाया' (جَعَلَ سے — बनाना/رکھنا, क़ुरआन के सबसे ज़्यادा आने वाले अफ़आल में से एक)۔ مِنَ — 'سے' (سبك़ 3)۔ ٱلْمَآءِ — पानी جर کی حालت میں۔ كُلَّ شَىْءٍ — हर چीज़ (كُلّ سबक़ 17 + شَيْء سبك़ 60)۔ حَىٍّ — ज़िंदा (حَيَاة سबक़ 63 جیسی جड़)۔ साइंस ने यह آयत 1400 साल बाद साबित की। क़ुरआन ने पहले कहा।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does مَاء mean?", "ur": "مَاء کا مطلب کیا ہے؟", "hi": "مَاء کا مतलब क्या है?" },
+      "choices": [
+        { "label": { "en": "Water", "ur": "پانی", "hi": "पانी" }, "value": "correct" },
+        { "label": { "en": "Air / Wind", "ur": "ہوا", "hi": "हवा" }, "value": "wrong" },
+        { "label": { "en": "Earth / Soil", "ur": "مٹی / زمین", "hi": "मिट्टी / ज़मीन" }, "value": "wrong" },
+        { "label": { "en": "Fire / Heat", "ur": "آگ / گرمی", "hi": "آग / گرمی" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! مَاء — water. And the Qur'an says everything living was made from it.", "ur": "ہاں! مَاء — پانی۔ اور قرآن کہتا ہے ہر زندہ چیز اسی سے بنائی گئی۔", "hi": "हाँ! مَاء — पانی۔ اور क़ुरआन कहता है हर ज़िंदा چیज़ इसी से بनाई गई।" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap مَاء in this ayah:", "ur": "اس آیت میں مَاء کو چھوئیں:", "hi": "इस آयत में مَاء को छुएँ:" },
+      "ayah": "وَجَعَلْنَا مِنَ ٱلْمَآءِ كُلَّ شَىْءٍ حَىٍّ",
+      "target_word": "ٱلْمَآءِ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! ٱلْمَآءِ — water in jar status, after مِنَ. From water — every living thing.", "ur": "درست! ٱلْمَآءِ — پانی جر میں، مِنَ کے بعد۔ پانی سے — ہر زندہ چیز۔", "hi": "सही! ٱلْمَآءِ — پانی جر میں, مِنَ کے बाद۔ पانी से — हर ज़िंदा چीज़।" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ — We made every living thing from water. Every cell in your body, every plant you eat, every creature you see — all from مَاء. The next time you drink water, or see rain, or wash for wudu — what might you feel differently?",
+      "ur": "وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ — ہم نے پانی سے ہر زندہ چیز بنائی۔ آپ کے جسم کا ہر خلیہ، ہر پودا جو آپ کھاتے ہیں، ہر مخلوق جو آپ دیکھتے ہیں — سب مَاء سے۔ اگلی بار جب پانی پئیں، بارش دیکھیں، یا وضو کے لیے دھوئیں — آپ کیا مختلف محسوس کر سکتے ہیں؟",
+      "hi": "وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ — हमने पानी से हر ज़िंदा چीज़ बنाई। आपके جिस्म का हर ख़लिया, हर پودا जो आप खाते हैं, हर مख़लूक़ जो آप देखते हैं — سब مَاء سے۔ अगली बार जब पानी पिएँ, बारिश देखें, या وضو के लिए धोएँ — आप क्या मुख़्तलिफ़ महसूस कर सकते हैं?"
+    },
+    "journal_tag": "kalimaat-maa"
+  }
+}

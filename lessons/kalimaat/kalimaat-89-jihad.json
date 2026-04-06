@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-89",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 89,
+  "prerequisite": "kalimaat-88",
+  "unlocks": ["kalimaat-90"],
+  "xp": 30,
+  "word": {
+    "arabic": "جِهَاد",
+    "display": "جِهَادٌ",
+    "transliteration": "Jihaad",
+    "meaning": {
+      "en": "Striving / Struggle / Exertion",
+      "ur": "جہاد / کوشش / جدوجہد",
+      "hi": "जिहाद / کوشش / جدوجہد"
+    },
+    "frequency_rank": 89,
+    "frequency_note": {
+      "en": "Appears 31 times. جِهَاد literally means striving and exerting oneself to the utmost. The Qur'an uses it for struggling against one's own ego, struggling with wealth and person in the way of Allah, and calling others to good. The Prophet ﷺ called striving against one's own نَفْس the 'greater jihad'.",
+      "ur": "۳۱ بار آیا ہے۔ جِهَاد کا لفظی مطلب انتہائی کوشش کرنا اور جان لگانا ہے۔ قرآن اسے اپنے نفس کے خلاف جدوجہد، اللہ کی راہ میں مال اور جان سے کوشش، اور دوسروں کو خیر کی طرف بلانے کے لیے استعمال کرتا ہے۔ نبی ﷺ نے اپنے نفس کے خلاف جدوجہد کو 'جہاد اکبر' کہا۔",
+      "hi": "31 بار آیا ہے۔ جِهَاد کا لفظی متلب انتہائی کوشش کرنا اور جان لگانا ہے۔ قرآن اسے اپنے نفس کے خلاف جدوجہد، اللہ کی راہ میں مال اور جان سے کوشش کے لیے استعمال کرتا ہے۔ نبی ﷺ نے اپنے نفس کے خلاف جدوجہد کو 'جہاد اکبر' کہا۔"
+    }
+  },
+  "root": {
+    "letters": "ج ه د",
+    "note": {
+      "en": "Root: ج-ه-د (j-h-d) — effort, exertion, to strain. جُهْد means effort or capacity — giving your utmost. جِهَاد is the noun of striving. مُجَاهِد is one who strives. اجْتِهَاد is independent legal reasoning — also from this root, the scholar straining their intellect. The root is about pushing yourself to your limit for something that matters.",
+      "ur": "جڑ: ج-ه-د — کوشش، محنت، تان دینا۔ جُهْد کا مطلب کوشش یا صلاحیت — اپنی پوری طاقت لگانا۔ جِهَاد کوشش کا اسم ہے۔ مُجَاهِد وہ ہے جو کوشش کرے۔ اجْتِهَاد آزادانہ قانونی استدلال ہے — اسی جڑ سے، عالم اپنی عقل کو تان رہا ہے۔ جڑ اہم چیز کے لیے اپنی حد تک دھکیلنے کے بارے میں ہے۔",
+      "hi": "جڑ: ج-ه-د — کوشش، محنت، تان دینا۔ جُهْد کا متلب کوشش یا صلاحیت — اپنی پوری طاقت لگانا۔ جِهَاد کوشش کا اسم ہے۔ مُجَاهِد وه ہے جو کوشش کرے۔ اجْتِهَاد آزادانہ قانونی استدلال ہے — اسی جڑ سے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ",
+    "surah": { "en": "Al-Hajj 22:78", "ur": "الحج ۲۲:۷۸", "hi": "अल-हज 22:78" },
+    "translation": {
+      "en": "And strive for Allah with the striving due to Him.",
+      "ur": "اور اللہ کی راہ میں جہاد کرو جیسا کہ اس کا حق ہے۔",
+      "hi": "اور اللہ کی راہ میں جہاد کرو جیسا کہ اس کا حق ہے۔"
+    },
+    "hook_explanation": {
+      "en": "وَجَٰهِدُوا۟ — 'and strive' (plural command, from جَاهَدَ). فِى (lesson 4) ٱللَّهِ — 'for/in Allah'. حَقَّ جِهَادِهِۦ — 'the true striving due to Him' — an إضافة chain: حَقَّ (the right/due) + جِهَادِهِۦ (of His striving — جِهَاد + هِ). The standard is set by the One being striven for. Your جِهَاد should match the greatness of الله.",
+      "ur": "وَجَٰهِدُوا۟ — 'اور جہاد کرو' (جمع امر)۔ فِى (سبق ۴) ٱللَّهِ — 'اللہ کی راہ میں'۔ حَقَّ جِهَادِهِۦ — 'اس کے جہاد کا حق' — اضافہ زنجیر: حَقَّ (حق) + جِهَادِهِۦ (اس کے جہاد کا — جِهَاد + هِ)۔ معیار اس ذات سے طے ہوتا ہے جس کے لیے کوشش ہو رہی ہے۔ آپ کا جِهَاد اللہ کی عظمت کے مطابق ہونا چاہیے۔",
+      "hi": "وَجَٰهِدُوا۟ — 'اور جہاد کرو' (جمع امر)۔ فِى (سبک़ 4) ٱللَّهِ — 'اللہ کی راہ میں'۔ حَقَّ جِهَادِهِۦ — 'اس کے جہاد کا حق' — إضافة زنجیر۔ معیار اس ذات سے طے ہوتا ہے جس کے لیے کوشش ہو رہی ہے۔ آپ کا جِهَاد اللہ کی عظمت کے مطابق ہونا چاہیے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does جِهَاد literally mean?", "ur": "جِهَاد کا لفظی مطلب کیا ہے؟", "hi": "جِهَاد کا لفظی متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Striving / Exerting one's utmost effort", "ur": "جدوجہد / پوری کوشش لگانا", "hi": "جدوجہد / پوری کوشش لگانا" }, "value": "correct" },
+        { "label": { "en": "War / Battle", "ur": "جنگ / لڑائی", "hi": "جنگ / لڑائی" }, "value": "wrong" },
+        { "label": { "en": "Punishment / Revenge", "ur": "سزا / انتقام", "hi": "سزا / انتقام" }, "value": "wrong" },
+        { "label": { "en": "Worship / Prayer", "ur": "عبادت / نماز", "hi": "عبادت / نماز" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! جِهَاد — striving, exerting maximum effort. The greater jihad is against one's own نَفْس.", "ur": "ہاں! جِهَاد — جدوجہد، انتہائی کوشش۔ بڑا جہاد اپنے نفس کے خلاف ہے۔", "hi": "هاँ! جِهَاد — جدوجہد، انتہائی کوشش۔ بڑا جہاد اپنے نفس کے خلاف ہے۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap جِهَاد in this ayah:", "ur": "اس آیت میں جِهَاد کو چھوئیں:", "hi": "इस आयत में جِهَاد کو چھوئیں:" },
+      "ayah": "وَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ",
+      "target_word": "جِهَادِهِۦ",
+      "target_position": 3,
+      "feedback_correct": { "en": "Right! جِهَادِهِۦ — 'His striving' — جِهَاد in jar + هِ (His). The standard of striving is set by Allah's greatness.", "ur": "درست! جِهَادِهِۦ — 'اس کا جہاد' — جِهَاد جر میں + هِ (اس کا)۔ کوشش کا معیار اللہ کی عظمت سے طے ہوتا ہے۔", "hi": "سہی! جِهَادِهِۦ — 'اس کا جہاد' — جِهَاد جر میں + هِ (اس کا)۔ کوشش کا معیار اللہ کی عظمت سے طے ہوتا ہے۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "جَاهِدُوا فِي اللَّهِ حَقَّ جِهَادِهِ — strive for Allah with the striving truly due to Him. What is your personal جِهَاد right now? Not armchair thinking — real, daily effort. Against which habit, which weakness, which shortcoming are you truly striving?",
+      "ur": "جَاهِدُوا فِي اللَّهِ حَقَّ جِهَادِهِ — اللہ کی راہ میں ویسا جہاد کرو جیسا اس کا حق ہے۔ ابھی آپ کا ذاتی جِهَاد کیا ہے؟ آرام دہ سوچ نہیں — حقیقی، روزانہ کی کوشش۔ کس عادت، کس کمزوری، کس کوتاہی کے خلاف آپ واقعی کوشش کر رہے ہیں؟",
+      "hi": "جَاهِدُوا فِي اللَّهِ حَقَّ جِهَادِهِ — اللہ کی راہ میں ویسا جہاد کرو جیسا اس کا حق ہے۔ ابھی آپ کا ذاتی جِهَاد کیا ہے؟ آرام دہ سوچ نہیں — حقیقی، روزانہ کی کوشش۔ کس عادت، کس کمزوری کے خلاف آپ واقعی کوشش کر رہے ہیں؟"
+    },
+    "journal_tag": "kalimaat-jihad"
+  }
+}

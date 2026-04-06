@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-25",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 25,
+  "prerequisite": "kalimaat-24",
+  "unlocks": ["kalimaat-26"],
+  "xp": 35,
+  "word": {
+    "arabic": "إِيمَان",
+    "display": "إِيمَان",
+    "transliteration": "Īmān",
+    "meaning": {
+      "en": "Faith / Belief",
+      "ur": "ایمان / یقین",
+      "hi": "ईमान / यक़ीन"
+    },
+    "frequency_rank": 25,
+    "frequency_note": {
+      "en": "Appears 45 times as a noun — but its verb form آمَنَ appears 537 times. Faith is not passive.",
+      "ur": "اسم کے طور پر ۴۵ بار — لیکن اس کا فعل آمَنَ ۵۳۷ بار آتا ہے۔ ایمان غیر فعال نہیں ہے۔",
+      "hi": "इस्म के तौर पर 45 بار — لेकिन इसका फ़ेल آمَنَ 537 بار آتا ہے۔ ईमान ग़ैर-फ़आल नहीं है।"
+    }
+  },
+  "root": {
+    "letters": "أ م ن",
+    "note": {
+      "en": "The root أ-م-ن means security, trust, peace. أَمَان — safety. أَمِين — trustworthy (a title of the Prophet ﷺ). إِيمَان — faith. To have إِيمَان is to find your security in Allah. The believer (مُؤْمِن) is one who has placed their trust fully. Faith and safety come from the same root.",
+      "ur": "جڑ أ-م-ن کا مطلب سلامتی، اعتماد، سکون ہے۔ أَمَان — حفاظت۔ أَمِين — امانتدار (نبی ﷺ کا لقب)۔ إِيمَان — ایمان۔ إِيمَان رکھنا اللہ میں اپنی سلامتی پانا ہے۔ مؤمن وہ ہے جس نے اپنا اعتماد مکمل طور پر رکھا ہو۔ ایمان اور سلامتی ایک ہی جڑ سے آتے ہیں۔",
+      "hi": "जड़ أ-م-ن का मतलब सलामती, एतिमाद, सुकून है। أَمَان — हिफ़ाज़त। أَمِين — अमानतदार (नबी ﷺ का لقب)۔ إِيمَان — ईमान। إِيمَان रखना अल्लाह में अपनी सलामती पाना है। मोमिन वह है जिसने अपना एतिमाद मुकम्मल तौर पर रखा हो। ईमान और सलामती एक ही जड़ से आते हैं।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ",
+    "surah": { "en": "At-Taghabun 64:11", "ur": "التغابن ۶۴:۱۱", "hi": "अत-तग़ाबुन 64:11" },
+    "translation": {
+      "en": "And whoever believes in Allah — He guides their heart.",
+      "ur": "اور جو اللہ پر ایمان رکھتا ہے، وہ اس کے دل کو ہدایت دیتا ہے۔",
+      "hi": "और जो अल्लाह पर ईमान रखता है, वह उसके दिल को हिदायत देता है।"
+    },
+    "hook_explanation": {
+      "en": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ — 'whoever believes in Allah, He guides their heart.' The reward of إِيمَان is not just paradise later — it is a guided قَلْب now. A heart that knows which way to go. That is the gift of faith in this life.",
+      "ur": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ — 'جو اللہ پر ایمان رکھتا ہے، اللہ اس کے دل کو ہدایت دیتا ہے'۔ إِيمَان کا اجر صرف بعد میں جنت نہیں — یہ ابھی ایک ہدایت یافتہ قَلْب ہے۔ ایک دل جو جانتا ہو کہ کس طرف جانا ہے۔ یہ اس زندگی میں ایمان کا تحفہ ہے۔",
+      "hi": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ — 'جو اللہ پر ईमान रखता है, अल्लाह उसके दिल को हिदायत देता है'۔ إِيمَان का अज्र सिर्फ़ बाद में जन्नत नहीं — यह अभी एक هिदायत یافتہ قَلْب है। एक दिल जो जानता हो کि किस तरफ़ जाना है। यह इस ज़िंदगी में ईमान का तोहफ़ा है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "The root of إِيمَان means security and trust. So إِيمَان is best understood as:",
+        "ur": "إِيمَان کی جڑ کا مطلب سلامتی اور اعتماد ہے۔ تو إِيمَان کو بہترین طور پر سمجھا جا سکتا ہے:",
+        "hi": "إِيمَان की जड़ का मतलب सلامती और एتिमाद है। तो إِيمَان کو بेहतरीन तौर پर समझا जा सकता है:"
+      },
+      "choices": [
+        { "label": { "en": "Placing your security and trust in Allah", "ur": "اللہ میں اپنی سلامتی اور اعتماد رکھنا", "hi": "अल्लाह में अपनी सलामती और एतिमाद رखना" }, "value": "correct" },
+        { "label": { "en": "Following religious rules correctly", "ur": "مذہبی اصولوں کو صحیح طریقے سے ماننا", "hi": "मज़हबी उसूलों को सही तरीक़े से मानना" }, "value": "wrong" },
+        { "label": { "en": "Knowing about Allah intellectually", "ur": "عقلی طور پر اللہ کے بارے میں جاننا", "hi": "अक़्ली तौर पर अल्लाह के बारे में जानना" }, "value": "wrong" },
+        { "label": { "en": "Feeling happiness and peace always", "ur": "ہمیشہ خوشی اور سکون محسوس کرنا", "hi": "हमेشा ख़ुशी और سکون محسوس करना" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Exactly — إِيمَان is trust and security placed in Allah. The believer finds their safety in Him.",
+        "ur": "بالکل — إِيمَان اللہ میں رکھا ہوا اعتماد اور سلامتی ہے۔ مؤمن اپنی حفاظت اسی میں پاتا ہے۔",
+        "hi": "بالکل — إِيمَان अल्लाह में रखा हुआ एतिमाद और सلامती है। मोमिन अपनी हिफ़ाज़त उसी में پاता ہے۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap the word meaning 'believes' (يُؤْمِنۢ) in this ayah:",
+        "ur": "اس آیت میں 'ایمان رکھتا ہے' (يُؤْمِنۢ) کو چھوئیں:",
+        "hi": "इस آयत में 'ईمان रखता है' (يُؤْمِنۢ) को छुएं:"
+      },
+      "ayah": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ",
+      "target_word": "يُؤْمِنۢ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "يُؤْمِنۢ — 'believes / has faith'. Same root as إِيمَان. Whoever يُؤْمِن — their قَلْب is guided.",
+        "ur": "يُؤْمِنۢ — 'ایمان رکھتا ہے'۔ إِيمَان جیسی ہی جڑ۔ جو يُؤْمِن کرے — اس کا قَلْب ہدایت پاتا ہے۔",
+        "hi": "يُؤْمِنۢ — 'ईمان رखता ہے'۔ إِيمَان جیسی ہی جڑ۔ جو يُؤْمِن کرے — اس کا قَلْب ہدایت پاتا ہے۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ — whoever has إِيمَان, Allah guides their قَلْب. Has there been a moment when your heart was guided — when you somehow knew the right direction even when it was unclear? Can you connect that to your إِيمَان?",
+      "ur": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ — جس کے پاس إِيمَان ہے، اللہ اس کے قَلْب کو ہدایت دیتا ہے۔ کوئی ایسا لمحہ ہوا ہے جب آپ کا دل ہدایت پایا ہو — جب آپ کو کسی طرح صحیح سمت معلوم ہو گئی، چاہے سب کچھ غیر واضح تھا؟ کیا آپ اسے اپنے إِيمَان سے جوڑ سکتے ہیں؟",
+      "hi": "وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ — जिसके پاس إِيمَان ہے, अल्लाह उसके قَلْب को हिदायत देता है। कोई ऐसा लम्हा हुआ है जب आपका دिل هिدायت पाया हो — जब आपको किसी तरह सही समत मालूम हो گئی, چाहे سब کچھ ग़ैर-वाज़ेह था? क्या आप इसे अपने إِيمَان से जोड़ सकते हैं?"
+    },
+    "journal_tag": "kalimaat-iman"
+  }
+}

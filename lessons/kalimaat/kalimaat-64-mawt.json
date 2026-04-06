@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-64",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 64,
+  "prerequisite": "kalimaat-63",
+  "unlocks": ["kalimaat-65"],
+  "xp": 30,
+  "word": {
+    "arabic": "مَوْت",
+    "display": "مَوْتٌ",
+    "transliteration": "Mawt",
+    "meaning": {
+      "en": "Death",
+      "ur": "موت",
+      "hi": "मौत"
+    },
+    "frequency_rank": 64,
+    "frequency_note": {
+      "en": "Appears 89 times in various forms. The Qur'an pairs مَوْت with حَيَاة (lesson 63) constantly — and pairs both with purpose. Death in the Qur'an is never an end; it is always a transition.",
+      "ur": "مختلف شکلوں میں ۸۹ بار آیا ہے۔ قرآن مَوْت اور حَيَاة (سبق ۶۳) کو مسلسل جوڑتا ہے — اور دونوں کو مقصد کے ساتھ جوڑتا ہے۔ قرآن میں موت کبھی انجام نہیں؛ یہ ہمیشہ ایک منتقلی ہے۔",
+      "hi": "मुख़्तलिफ़ शकलों में 89 بार آیا ہے۔ क़ुरआन مَوْت اور حَيَاة (سبق़ 63) को मुसलसल जोड़ता है — और दोनों को मक़सद के साथ जोड़ता है। क़ुरआन में मौत कभी अंजाम नहीं; यह हमेशा एक मुंतक़िली है।"
+    }
+  },
+  "root": {
+    "letters": "م و ت",
+    "note": {
+      "en": "Root: م-و-ت (m-w-t) — death, dying. مَاتَ means 'he died' (you learned this verb pattern in UQA). مَيِّت means 'dead'. مُمِيت is one of Allah's names — الْمُمِيتُ, The Giver of Death, paired always with الْمُحْيِي, The Giver of Life. Same root, two sides of the same reality.",
+      "ur": "جڑ: م-و-ت — موت، مرنا۔ مَاتَ کا مطلب 'وہ مر گیا'۔ مَيِّت کا مطلب 'مردہ'۔ مُمِيت اللہ کے ناموں میں سے ہے — الْمُمِيتُ، موت دینے والا، ہمیشہ الْمُحْيِي کے ساتھ جوڑا جاتا ہے، زندگی دینے والا۔ ایک جڑ، ایک حقیقت کے دو رخ۔",
+      "hi": "जड़: م-و-ت — मौत, मरना। مَاتَ का मतलब 'वह मर गया'। مَيِّت का मतलब 'मुर्दा'। مُمِيت अल्लाह के नामों में से है — الْمُمِيتُ, मौत देने वाला, हमेशा الْمُحْيِي के साथ जोड़ा जाता है, ज़िंदगी देने वाला। एक जड़, एक हक़ीक़त के दो रुख़।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+    "surah": { "en": "Al-Mulk 67:2", "ur": "الملک ۶۷:۲", "hi": "अल-मुल्क 67:2" },
+    "translation": {
+      "en": "The One who created death and life to test you — which of you is best in deed.",
+      "ur": "جس نے موت اور زندگی کو اس لیے پیدا کیا تاکہ تمہیں آزمائے — تم میں سے کون عمل میں بہتر ہے۔",
+      "hi": "जिसने मौत और ज़िंदगी को इसलिए पैदा किया ताकि तुम्हें आज़माए — तुममें से कौन अमल में बेहतर है।"
+    },
+    "hook_explanation": {
+      "en": "خَلَقَ — 'He created' (lesson 31). ٱلْمَوْتَ — death with ال, in nasb (object). وَٱلْحَيَوٰةَ — 'and life' (lesson 63), also nasb. أَحْسَنُ عَمَلًا — 'best in deed'. أَحْسَنُ you know from Qawaid (better/best). عَمَلًا from lesson 29. The Qur'an says: death was CREATED — it is not the absence of life. It was made, intentionally, as a test. Look at how many words from your lessons are in this ayah.",
+      "ur": "خَلَقَ — 'اس نے پیدا کیا' (سبق ۳۱)۔ ٱلْمَوْتَ — موت ال کے ساتھ، نصب میں (مفعول)۔ وَٱلْحَيَوٰةَ — 'اور زندگی' (سبق ۶۳)، بھی نصب۔ أَحْسَنُ عَمَلًا — 'عمل میں بہتر'۔ أَحْسَنُ آپ قواعد سے جانتے ہیں۔ عَمَلًا سبق ۲۹ سے۔ قرآن کہتا ہے: موت پیدا کی گئی — یہ زندگی کی غیر موجودگی نہیں۔ اسے بنایا گیا، ارادے سے، ایک آزمائش کے طور پر۔ دیکھیں اس آیت میں آپ کے سبقوں سے کتنے الفاظ ہیں۔",
+      "hi": "خَلَقَ — 'उसने पैदा किया' (सबक़ 31)। ٱلْمَوْتَ — مौت ال के साथ, नसब में (मफ़ऊल)। وَٱلْحَيَوٰةَ — 'और ज़िंदगी' (सबक़ 63), भी नसब। أَحْسَنُ عَمَلًا — 'अमल में बेहतर'। أَحْسَنُ آप क़वाइद से जानते हैं। عَمَلًا سबक़ 29 से। क़ुरआन कहता है: मौत पैदा की गई — यह ज़िंदगी की ग़ैर-मौजूदगी नहीं। इसे बनाया गया, इरादे से, एक आज़माइश के तौर पर। देखें इस आयत में आपके सबक़ों से कितने लफ़्ज़ हैं।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does مَوْت mean?", "ur": "مَوْت کا مطلب کیا ہے؟", "hi": "مَوْت کا متلब क्या है?" },
+      "choices": [
+        { "label": { "en": "Death", "ur": "موت", "hi": "मौत" }, "value": "correct" },
+        { "label": { "en": "Life", "ur": "زندگی", "hi": "ज़िंदگी" }, "value": "wrong" },
+        { "label": { "en": "Sleep / Rest", "ur": "نیند / آرام", "hi": "नींद / आराम" }, "value": "wrong" },
+        { "label": { "en": "Resurrection", "ur": "قیامت", "hi": "क़ियामत" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! مَوْت — death. Always paired with حَيَاة in the Qur'an — two sides of the same creation.", "ur": "ہاں! مَوْت — موت۔ قرآن میں ہمیشہ حَيَاة کے ساتھ — ایک ہی تخلیق کے دو رخ۔", "hi": "हाँ! مَوْت — मौत। क़ुरआन में हमेशा حَيَاة के साथ — एक ही तख़लीक़ के दो रुख़।" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap مَوْت in this ayah:", "ur": "اس آیت میں مَوْت کو چھوئیں:", "hi": "इस आयत में مَوْت को छुएँ:" },
+      "ayah": "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+      "target_word": "ٱلْمَوْتَ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! ٱلْمَوْتَ — death in nasb. And وَٱلْحَيَوٰةَ right after — life. Created together, for a purpose.", "ur": "درست! ٱلْمَوْتَ — موت نصب میں۔ اور فوراً بعد وَٱلْحَيَوٰةَ — زندگی۔ ایک ساتھ پیدا، ایک مقصد کے لیے۔", "hi": "सही! ٱلْمَوْتَ — مौत नसब में। और फ़ौरन बाद وَٱلْحَيَوٰةَ — ज़िंदगी। साथ पैदा, एक मक़सद के लिए।" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ — He created death and life to test you. Death was created first in this ayah. The scholars say: remember death first, then life becomes purposeful. How often do you think about مَوْت? Does this ayah change that?",
+      "ur": "خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ — اس نے موت اور زندگی کو تمہاری آزمائش کے لیے پیدا کیا۔ اس آیت میں موت پہلے آئی۔ علماء کہتے ہیں: پہلے موت یاد کرو، پھر زندگی بامقصد ہو جاتی ہے۔ آپ کتنی بار مَوْت کے بارے میں سوچتے ہیں؟ کیا یہ آیت اسے بدلتی ہے؟",
+      "hi": "خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ — उसने مौत और ज़िंदगी को तुम्हारी आज़माइश के लिए पैदा किया। इस आयत में मौत पहले आई। उलमा कहते हैं: पहले मौत याद करो, फिर ज़िंदगी बामक़सद हो जाती है। आप कितनी बार مَوْت के बारे में सोचते हैं? क्या यह आयत इसे बदलती है?"
+    },
+    "journal_tag": "kalimaat-mawt"
+  }
+}

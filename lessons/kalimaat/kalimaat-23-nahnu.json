@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-23",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 23,
+  "prerequisite": "kalimaat-22",
+  "unlocks": ["kalimaat-24"],
+  "xp": 30,
+  "word": {
+    "arabic": "نَحْنُ",
+    "display": "نَحْنُ",
+    "transliteration": "Naḥnu",
+    "meaning": {
+      "en": "We",
+      "ur": "ہم",
+      "hi": "हम"
+    },
+    "frequency_rank": 23,
+    "frequency_note": {
+      "en": "Appears 101 times. When Allah says نَحْنُ — 'We' — it is the royal We of majesty, not plurality.",
+      "ur": "۱۰۱ بار آتا ہے۔ جب اللہ نَحْنُ کہتا ہے — 'ہم' — یہ تکثیر نہیں، عظمت کی بات ہے۔",
+      "hi": "101 بار آتا ہے۔ جب اللہ نَحْنُ کہتا ہے — 'ہم' — یہ تعداد کی 'ہم' نہیں، عظمت کی 'ہم' ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ن ح ن",
+    "note": {
+      "en": "نَحْنُ means 'We'. In Arabic, a king or leader uses 'We' to express majesty — not because he is multiple, but because his authority is absolute. When Allah says إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ — 'Indeed, We sent down the Reminder' — He is expressing the full weight of divine authority. One God, infinite majesty.",
+      "ur": "نَحْنُ کا مطلب 'ہم' ہے۔ عربی میں، ایک بادشاہ یا سربراہ عظمت ظاہر کرنے کے لیے 'ہم' استعمال کرتا ہے — اس لیے نہیں کہ وہ متعدد ہے، بلکہ اس لیے کہ اس کا اقتدار مطلق ہے۔ جب اللہ کہتا ہے إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ — 'ہم نے ہی نصیحت نازل کی' — وہ الٰہی اقتدار کا پورا وزن ظاہر کر رہا ہے۔ ایک خدا، لامحدود عظمت۔",
+      "hi": "نَحْنُ کا مطلب 'ہم' ہے۔ عربی میں، ایک بادشاہ یا سربراہ عظمت ظاہر کرنے کے لیے 'ہم' استعمال کرتا ہے — اس لیے نہیں کہ وہ متعدد ہے، بلکہ اس لیے کہ اس کا اقتدار مطلق ہے۔ جب اللہ کہتا ہے إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ — 'ہم نے ہی نصیحت نازل کی' — وہ الٰہی اقتدار کا پورا وزن ظاہر کر رہا ہے۔ ایک خدا، لامحدود عظمت۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ",
+    "surah": { "en": "Al-Hijr 15:9", "ur": "الحجر ۱۵:۹", "hi": "अल-हिज्र 15:9" },
+    "translation": {
+      "en": "Indeed, it is We who sent down the Reminder, and indeed, We will be its guardian.",
+      "ur": "بے شک ہم نے ہی یہ نصیحت نازل کی، اور بے شک ہم ہی اس کے محافظ ہیں۔",
+      "hi": "बेशक हम ہی نے यह नसीहत नाज़िल کی, और बेशक हम ہی इसके محافظ हैں۔"
+    },
+    "hook_explanation": {
+      "en": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ — 'Indeed, We sent down the Reminder.' This is Allah's personal guarantee for the Qur'an's preservation. نَحْنُ carries the full weight of that promise. Fourteen centuries later, not one letter has changed. نَحْنُ means He meant it.",
+      "ur": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ — 'بے شک، ہم نے نصیحت نازل کی'۔ یہ قرآن کی حفاظت کے لیے اللہ کی ذاتی ضمانت ہے۔ نَحْنُ اس وعدے کا پورا وزن اٹھائے ہوئے ہے۔ چودہ صدیاں بعد، ایک حرف بھی نہیں بدلا۔ نَحْنُ کا مطلب ہے اس نے یہ سچ مچ کہا تھا۔",
+      "hi": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ — 'بے شک، ہم نے نصیحت نازل کی'۔ یہ قرآن کی حفاظت کے لیے اللہ کی ذاتی ضمانت ہے۔ نَحْنُ اس وعدے کا پورا وزن اٹھائے ہوئے ہے۔ چودہ صدیاں بعد، ایک حرف بھی نہیں بدلا۔ نَحْنُ کا مطلب ہے اس نے یہ سچ مچ کہا تھا۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does نَحْنُ mean?",
+        "ur": "نَحْنُ کا مطلب کیا ہے؟",
+        "hi": "نَحْنُ का متलب کیا ہے؟"
+      },
+      "choices": [
+        { "label": { "en": "We", "ur": "ہم", "hi": "हम" }, "value": "correct" },
+        { "label": { "en": "They", "ur": "وہ (جمع)", "hi": "وہ (جمع)" }, "value": "wrong" },
+        { "label": { "en": "You all", "ur": "تم سب", "hi": "تم سب" }, "value": "wrong" },
+        { "label": { "en": "I", "ur": "میں", "hi": "مैں" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — نَحْنُ means 'We'. When Allah says it, it is the We of infinite majesty.",
+        "ur": "ہاں — نَحْنُ کا مطلب 'ہم' ہے۔ جب اللہ یہ کہتا ہے تو یہ لامحدود عظمت کی 'ہم' ہے۔",
+        "hi": "هاں — نَحْنُ کا مطلب 'ہم' ہے۔ جب اللہ یہ کہتا ہے تو یہ لامحدود عظمت کی 'ہم' ہے۔"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap نَحْنُ in this ayah:",
+        "ur": "اس آیت میں نَحْنُ کو چھوئیں:",
+        "hi": "इस आयत में نَحْنُ کو چھوئیں:"
+      },
+      "ayah": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ",
+      "target_word": "نَحْنُ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "نَحْنُ — 'We'. Allah's personal guarantee. Fourteen centuries of fulfillment.",
+        "ur": "نَحْنُ — 'ہم'۔ اللہ کی ذاتی ضمانت۔ چودہ صدیوں کی تکمیل۔",
+        "hi": "نَحْنُ — 'ہم'۔ اللہ کی ذاتی ضمانت۔ چودہ صدیوں کی تکمیل۔"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ — Allah personally guaranteed the Qur'an's preservation. Every attempt to corrupt it has failed. نَحْنُ made a promise. Do you find comfort or responsibility — or both — in knowing that this book has been personally protected by its Author?",
+      "ur": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ — اللہ نے قرآن کی حفاظت کی ذاتی ضمانت دی۔ اسے خراب کرنے کی ہر کوشش ناکام رہی۔ نَحْنُ نے ایک وعدہ کیا۔ کیا آپ کو اس بات میں سکون ملتا ہے یا ذمہ داری — یا دونوں — یہ جان کر کہ اس کتاب کی حفاظت خود اس کے مصنف نے کی ہے؟",
+      "hi": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ — اللہ نے قرآن کی حفاظت کی ذاتی ضمانت دی۔ اسے خراب کرنے کی ہر کوشش ناکام رہی۔ نَحْنُ نے ایک وعدہ کیا۔ کیا آپ کو اس بات میں سکون ملتا ہے یا ذمہ داری — یا دونوں — یہ جان کر کہ اس کتاب کی حفاظت خود اس کے مصنف نے کی ہے؟"
+    },
+    "journal_tag": "kalimaat-nahnu"
+  }
+}

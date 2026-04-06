@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-15",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 15,
+  "prerequisite": "kalimaat-14",
+  "unlocks": ["kalimaat-16"],
+  "xp": 30,
+  "word": {
+    "arabic": "كَانَ",
+    "display": "كَانَ",
+    "transliteration": "Kāna",
+    "meaning": {
+      "en": "He was / It was",
+      "ur": "وہ تھا / یہ تھا",
+      "hi": "वह था / यह था"
+    },
+    "frequency_rank": 15,
+    "frequency_note": {
+      "en": "Appears 1,358 times — the second most common verb. كَانَ ٱللَّهُ appears alone over 100 times.",
+      "ur": "۱۳۵۸ بار آتا ہے — دوسرا سب سے زیادہ آنے والا فعل۔ كَانَ ٱللَّهُ اکیلے ۱۰۰ سے زیادہ بار آتا ہے۔",
+      "hi": "1,358 बार आता है — दूसरा सबसे ज़्यादा आने वाला फ़ेल। كَانَ ٱللَّهُ अकेले 100 से ज़्यादा बार आता है।"
+    }
+  },
+  "root": {
+    "letters": "ك و ن",
+    "note": {
+      "en": "The root ك-و-ن means 'to be, to exist'. كَانَ is past tense — 'he was'. كُنْ — 'Be!' (Allah's command of creation). يَكُون — 'it will be'. كَانَ ٱللَّهُ عَلِيمًا — 'Allah has always been All-Knowing'. This root holds all of existence.",
+      "ur": "جڑ ك-و-ن کا مطلب ہے 'ہونا، وجود میں ہونا'۔ كَانَ ماضی کا صیغہ ہے — 'وہ تھا'۔ كُنْ — 'ہو جا!' (اللہ کا تخلیق کا حکم)۔ يَكُون — 'ہو گا'۔ كَانَ ٱللَّهُ عَلِيمًا — 'اللہ ہمیشہ سے جاننے والا ہے'۔ یہ جڑ تمام وجود کو تھامے ہوئے ہے۔",
+      "hi": "जड़ ك-و-ن का मतलब है 'होना, वजूद में होना'। كَانَ माज़ी का सीग़ा है — 'वह था'। كُنْ — 'हो जा!' (अल्लाह का तख़लीक़ का हुक्म)। يَكُون — 'होगा'। كَانَ ٱللَّهُ عَلِيمًا — 'अल्लाह हमेशा से जानने वाला है'। यह जड़ तमाम वजूद को थामे हुए है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+    "surah": { "en": "An-Nisa 4:96", "ur": "النساء ۴:۹۶", "hi": "अन-निसा 4:96" },
+    "translation": {
+      "en": "Allah has always been Most Forgiving, Most Merciful.",
+      "ur": "اللہ ہمیشہ سے بخشنے والا، رحم کرنے والا ہے۔",
+      "hi": "अल्लाह हमेशा से बख़्शने वाला, रहम करने वाला है।"
+    },
+    "hook_explanation": {
+      "en": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا — 'Allah has always been Most Forgiving.' In Arabic, كَانَ here doesn't just mean 'was' — it means 'has always been and continues to be'. His forgiveness is not new. It has no beginning. كَانَ carries eternity.",
+      "ur": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا — 'اللہ ہمیشہ سے بخشنے والا ہے'۔ عربی میں، كَانَ یہاں صرف 'تھا' نہیں کہتا — اس کا مطلب ہے 'ہمیشہ سے ہے اور ابھی بھی ہے'۔ اس کی بخشش نئی نہیں ہے۔ اس کی کوئی ابتداء نہیں۔ كَانَ ابدیت کو اٹھائے ہوئے ہے۔",
+      "hi": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا — 'अल्लाह हमेशा से बख़्शने वाला है'। अरबी में, كَانَ यहाँ सिर्फ़ 'था' नहीं कहता — इसका मतलब है 'हमेशा से है और अभी भी है'। उसकी बख़्शिश नई नहीं है। इसकी कोई इब्तिदा नहीं। كَانَ अबदीयत को उठाए हुए है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does كَانَ mean?",
+        "ur": "كَانَ کا مطلب کیا ہے؟",
+        "hi": "كَانَ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "He was / It was", "ur": "وہ تھا", "hi": "वह था" }, "value": "correct" },
+        { "label": { "en": "He said", "ur": "اس نے کہا", "hi": "उसने कहा" }, "value": "wrong" },
+        { "label": { "en": "He created", "ur": "اس نے بنایا", "hi": "उसने बनाया" }, "value": "wrong" },
+        { "label": { "en": "He knows", "ur": "وہ جانتا ہے", "hi": "वह जानता है" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — كَانَ means 'he was' or 'it was'. كَانَ ٱللَّهُ — 'Allah has always been'.",
+        "ur": "ہاں — كَانَ کا مطلب 'وہ تھا' ہے۔ كَانَ ٱللَّهُ — 'اللہ ہمیشہ سے ہے'۔",
+        "hi": "हाँ — كَانَ का मतलब 'वह था' है। كَانَ ٱللَّهُ — 'अल्लाह हमेशा से है'।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap كَانَ in this ayah:",
+        "ur": "اس آیت میں كَانَ کو چھوئیں:",
+        "hi": "इस आयत में كَانَ को छुएं:"
+      },
+      "ayah": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "target_word": "كَانَ",
+      "target_position": 0,
+      "feedback_correct": {
+        "en": "كَانَ ٱللَّهُ — 'Allah has always been.' His mercy has no beginning and no end.",
+        "ur": "كَانَ ٱللَّهُ — 'اللہ ہمیشہ سے ہے'۔ اس کی رحمت کی کوئی ابتداء نہیں اور کوئی انتہاء نہیں۔",
+        "hi": "كَانَ ٱللَّهُ — 'अल्लاह हमेशा से है'। उसकी रहमत की कोई इब्तिदा नहीं और कोई इंतिहा नहीں।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا — Allah has always been forgiving and merciful. Not just today. Not just when you are good. Always. Is there something you haven't yet brought to Allah, thinking He might not forgive? كَانَ says: He has always been غَفُور.",
+      "ur": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا — اللہ ہمیشہ سے معاف کرنے والا اور رحم والا ہے۔ صرف آج نہیں۔ صرف اس وقت نہیں جب آپ اچھے ہوں۔ ہمیشہ۔ کیا کچھ ایسا ہے جو آپ نے ابھی تک اللہ کے سامنے نہیں لایا، یہ سوچ کر کہ شاید وہ معاف نہ کرے؟ كَانَ کہتا ہے: وہ ہمیشہ سے غَفُور ہے۔",
+      "hi": "كَانَ ٱللَّهُ غَفُورًا رَّحِيمًا — अल्लाह हमेशा से माफ़ करने वाला और रहम वाला है। सिर्फ़ आज नहीं। सिर्फ़ तब नहीं जब आप अच्छे हों। हमेशा। क्या कुछ ऐसा है जो आपने अभी तक अल्लाह के सामने नहीं लाया, यह सोचकर कि शायद वह माफ़ न करे? كَانَ कहता है: वह हमेशा से غَفُور है।"
+    },
+    "journal_tag": "kalimaat-kana"
+  }
+}

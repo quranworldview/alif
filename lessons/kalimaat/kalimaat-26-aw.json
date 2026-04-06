@@ -1,0 +1,42 @@
+{
+  "id": "kalimaat-26", "type": "kalimaat", "track": "kalimaat",
+  "order": 26, "prerequisite": "kalimaat-25", "unlocks": ["kalimaat-27"], "xp": 20,
+  "word": {
+    "arabic": "أَوْ", "display": "أَوْ", "transliteration": "Aw",
+    "meaning": { "en": "Or", "ur": "یا", "hi": "या" },
+    "frequency_rank": 26,
+    "frequency_note": { "en": "Appears 294 times — gives choice, presents alternatives.", "ur": "۲۹۴ بار — انتخاب دیتا ہے، متبادل پیش کرتا ہے۔", "hi": "294 बار — انتخاب دیتا ہے، متبادل پیش کرتا ہے۔" }
+  },
+  "root": { "letters": "أ و", "note": { "en": "أَوْ means 'or' — it presents a choice or alternative. وَرَبُّكَ يَخْلُقُ مَا يَشَآءُ وَيَخْتَارُ — but when Allah uses أَوْ with His servants, it is often mercy: you may do this OR that. He gives options. He doesn't trap.", "ur": "أَوْ کا مطلب 'یا' ہے — یہ انتخاب یا متبادل پیش کرتا ہے۔ جب اللہ اپنے بندوں کے ساتھ أَوْ استعمال کرتا ہے تو اکثر رحمت ہوتی ہے: آپ یہ کر سکتے ہیں یا وہ۔ وہ اختیار دیتا ہے۔ پھنساتا نہیں۔", "hi": "أَوْ کا مطلب 'یا' ہے۔ جب اللہ اپنے بندوں کے ساتھ أَوْ استعمال کرتا ہے تو اکثر رحمت ہوتی ہے: آپ یہ کر سکتے ہیں یا وہ۔ وہ اختیار دیتا ہے۔" } },
+  "quranic_hook": {
+    "ayah": "فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ",
+    "surah": { "en": "Al-Baqarah 2:196", "ur": "البقرہ ۲:۱۹۶", "hi": "अल-बक़रह 2:196" },
+    "translation": { "en": "Then a ransom of fasting or charity or sacrifice.", "ur": "تو روزے یا صدقے یا قربانی کا فدیہ ہے۔", "hi": "تو روزے یا صدقے یا قربانی کا فدیہ ہے۔" },
+    "hook_explanation": { "en": "Allah gives three options with أَوْ — fasting OR charity OR sacrifice. He knows that people are in different situations. One person can fast. Another cannot but can give. A third can sacrifice. أَوْ is Allah's mercy built into the grammar.", "ur": "اللہ أَوْ کے ساتھ تین اختیار دیتا ہے — روزہ یا صدقہ یا قربانی۔ وہ جانتا ہے کہ لوگ مختلف حالات میں ہیں۔ ایک روزہ رکھ سکتا ہے۔ دوسرا نہیں لیکن دے سکتا ہے۔ تیسرا قربانی دے سکتا ہے۔ أَوْ قواعد میں اللہ کی رحمت ہے۔", "hi": "اللہ أَوْ کے ساتھ تین اختیار دیتا ہے۔ وہ جانتا ہے کہ لوگ مختلف حالات میں ہیں۔ أَوْ قواعد میں اللہ کی رحمت ہے۔" }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning", "order": 1,
+      "prompt": { "en": "What does أَوْ mean?", "ur": "أَوْ کا مطلب کیا ہے؟", "hi": "أَوْ का मतलब क्या है?" },
+      "choices": [
+        { "label": { "en": "Or", "ur": "یا", "hi": "या" }, "value": "correct" },
+        { "label": { "en": "And", "ur": "اور", "hi": "और" }, "value": "wrong" },
+        { "label": { "en": "But", "ur": "لیکن", "hi": "लेकिन" }, "value": "wrong" },
+        { "label": { "en": "So / Then", "ur": "پس", "hi": "তو / فر" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes — أَوْ means 'or'. صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ — fasting or charity or sacrifice. Three options, one أَوْ.", "ur": "ہاں — أَوْ کا مطلب 'یا' ہے۔ صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ — روزہ یا صدقہ یا قربانی۔ تین اختیار، ایک أَوْ۔", "hi": "هاں — أَوْ کا مطلب 'یا' ہے۔" }
+    },
+    {
+      "type": "spot_in_ayah", "order": 2,
+      "prompt": { "en": "Tap the first أَوْ in this ayah:", "ur": "اس آیت میں پہلے أَوْ کو چھوئیں:", "hi": "इस आयत में पहले أَوْ کو چھوئیں:" },
+      "ayah": "فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ",
+      "target_word": "أَوْ", "target_position": 3,
+      "feedback_correct": { "en": "أَوْ — 'or'. Allah's mercy in one small word. You have options.", "ur": "أَوْ — 'یا'۔ ایک چھوٹے سے لفظ میں اللہ کی رحمت۔ آپ کے پاس اختیار ہے۔", "hi": "أَوْ — 'یا'۔ ایک چھوٹے سے لفظ میں اللہ کی رحمت۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": { "en": "Fasting OR charity OR sacrifice — Allah gives three paths because He knows not everyone can walk the same road. This is أَوْ as mercy. Think of a time when you felt you couldn't fulfil a religious obligation the 'standard' way. Did you know Allah may have built another option into the very grammar of His book?", "ur": "روزہ یا صدقہ یا قربانی — اللہ تین راستے دیتا ہے کیونکہ وہ جانتا ہے کہ ہر کوئی ایک ہی راستہ نہیں چل سکتا۔ یہ رحمت کا أَوْ ہے۔ کوئی ایسا وقت سوچیں جب آپ کو لگا کہ آپ کسی دینی فریضے کو 'معیاری' طریقے سے ادا نہیں کر سکتے۔ کیا آپ جانتے تھے کہ اللہ نے اپنی کتاب کے قواعد میں ہی دوسرا اختیار رکھا ہوگا؟", "hi": "روزہ یا صدقہ یا قربانی — اللہ تین راستے دیتا ہے کیونکہ وہ جانتا ہے کہ ہر کوئی ایک ہی راستہ نہیں چل سکتا۔ یہ رحمت کا أَوْ ہے۔" },
+    "journal_tag": "kalimaat-aw"
+  }
+}

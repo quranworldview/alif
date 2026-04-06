@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-77",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 77,
+  "prerequisite": "kalimaat-76",
+  "unlocks": ["kalimaat-78"],
+  "xp": 30,
+  "word": {
+    "arabic": "سَمَاء",
+    "display": "سَمَاءٌ",
+    "transliteration": "Samaa'",
+    "meaning": {
+      "en": "Sky / Heaven",
+      "ur": "آسمان / فضا",
+      "hi": "آسمان / फ़ज़ा"
+    },
+    "frequency_rank": 77,
+    "frequency_note": {
+      "en": "Appears 310 times — one of the most frequent nouns in the Qur'an. سَمَاء is feminine (the Arabs declared it so). Its plural is سَمَاوَات — the heavens. ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ (the heavens and the earth) appears dozens of times — the complete creation, from sky to ground.",
+      "ur": "۳۱۰ بار آیا ہے — قرآن کے سب سے زیادہ آنے والے اسموں میں سے ایک۔ سَمَاء مؤنث ہے (عربوں نے ایسا قرار دیا)۔ اس کی جمع سَمَاوَات — آسمان (جمع)۔ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ (آسمان اور زمین) درجنوں بار آتا ہے — اوپر سے نیچے تک مکمل تخلیق۔",
+      "hi": "310 بار آیا ہے — قرآن کے سب سے ز़یادہ آنے والے اسموں میں سے ایک۔ سَمَاء مؤنث ہے (عربوں نے ایسا قرار دیا)۔ اس کی جمع سَمَاوَات — آسمان (جمع)۔ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ (آسمان اور ز़مین) دर्जनوں بار آتا ہے — اوپر سے نیچے تک مکمل تخلیق۔"
+    }
+  },
+  "root": {
+    "letters": "س م و",
+    "note": {
+      "en": "Root: س-م-و (s-m-w) — height, elevation, to be high. سَمَاء is what is elevated — the sky. اسْم (name) comes from the same root — a name is what elevates and distinguishes something. سَمِيّ means 'namesake'. The sky and the name share a root: both point upward.",
+      "ur": "جڑ: س-م-و — اونچائی، بلندی، اوپر ہونا۔ سَمَاء وہ ہے جو بلند ہو — آسمان۔ اسْم (نام) اسی جڑ سے — نام وہ ہے جو اونچا کرے اور پہچانے۔ سَمِيّ کا مطلب 'ہم نام'۔ آسمان اور نام ایک جڑ سے: دونوں اوپر کی طرف اشارہ کرتے ہیں۔",
+      "hi": "جड़: س-م-و — اونچائی، بلندی، اوپر ہونا۔ سَمَاء وه ہے جو بلند ہو — آسمان۔ اسْم (نام) اسی جड़ سے — نام وه ہے جو اونچا کرے اور پہچانے۔ آسمان اور نام ایک جड़ سے: دونوں اوپر کی طرف إشارہ کرتے ہیں۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+    "surah": { "en": "An-Nur 24:35", "ur": "النور ۲۴:۳۵", "hi": "अन-नूर 24:35" },
+    "translation": {
+      "en": "Allah is the Light of the heavens and the earth.",
+      "ur": "اللہ آسمانوں اور زمین کا نور ہے۔",
+      "hi": "اللہ آسمانوں اور زمین کا نور ہے۔"
+    },
+    "hook_explanation": {
+      "en": "You've seen this ayah before — it was the hook for Qawaid lesson 1. Now look at what you know: ٱللَّهُ (lesson 1). نُورُ (lesson 24). ٱلسَّمَٰوَٰتِ — plural of سَمَاء, in jar. وَٱلْأَرْضِ — 'and the earth' (lesson 27), in jar. Five lessons in four words. The more you learn, the more you see how densely the Qur'an rewards you.",
+      "ur": "آپ نے یہ آیت پہلے دیکھی ہے — یہ قواعد سبق ۱ کا ہُک تھا۔ اب دیکھیں آپ کیا جانتے ہیں: ٱللَّهُ (سبق ۱)۔ نُورُ (سبق ۲۴)۔ ٱلسَّمَٰوَٰتِ — سَمَاء کی جمع، جر میں۔ وَٱلْأَرْضِ — 'اور زمین' (سبق ۲۷)، جر میں۔ چار الفاظ میں پانچ سبق۔ جتنا سیکھتے ہیں، اتنا زیادہ دیکھتے ہیں کہ قرآن آپ کو کتنا گہرا انعام دیتا ہے۔",
+      "hi": "آپ نے یہ آیت پہلے دیکھی ہے — یہ قواعد سبک़ 1 کا هُک تھا۔ اب دیکھیں آپ کیا جانتے ہیں: ٱللَّهُ (سبك़ 1)۔ نُورُ (سبك़ 24)۔ ٱلسَّمَٰوَٰتِ — سَمَاء کی جمع، جر میں۔ وَٱلْأَرْضِ — 'اور ز़مین' (سبك़ 27)، جر میں۔ چار لفظوں میں پانچ سبک۔ جتنا سیکھتے ہیں، اتنا ز़یادہ دیکھتے ہیں کہ قرآن آپ کو کتنا گہرا انعام دیتا ہے۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does سَمَاء mean?", "ur": "سَمَاء کا مطلب کیا ہے؟", "hi": "سَمَاء کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "Sky / Heaven", "ur": "آسمان / فضا", "hi": "آسमان / फ़ज़ा" }, "value": "correct" },
+        { "label": { "en": "Earth / Land", "ur": "زمین / زمیں", "hi": "ज़مین / ज़मीं" }, "value": "wrong" },
+        { "label": { "en": "Sea / Ocean", "ur": "سمندر / دریا", "hi": "समندर / دریا" }, "value": "wrong" },
+        { "label": { "en": "Mountain / Hill", "ur": "پہاڑ / ٹیلہ", "hi": "پهاڑ / ٹیلہ" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! سَمَاء — sky, heaven. 310 occurrences — from the root meaning 'what is elevated'.", "ur": "ہاں! سَمَاء — آسمان۔ ۳۱۰ بار — اس جڑ سے جس کا مطلب 'جو بلند ہو'۔", "hi": "हाँ! سَمَاء — آسمان۔ 310 بار — اس جड़ سے جس کا متلب 'جو بلند ہو'۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap سَمَاء (in its plural form) in this ayah:", "ur": "اس آیت میں سَمَاء (جمع کی شکل میں) کو چھوئیں:", "hi": "इस आयत में سَمَاء (जमा की शकल में) کو چھوئیں:" },
+      "ayah": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+      "target_word": "ٱلسَّمَٰوَٰتِ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! ٱلسَّمَٰوَٰتِ — the heavens, plural of سَمَاء, in jar. ال + سَمَاوَات. The complete heavens.", "ur": "درست! ٱلسَّمَٰوَٰتِ — آسمان، سَمَاء کی جمع، جر میں۔ ال + سَمَاوَات۔ مکمل آسمان۔", "hi": "سही! ٱلسَّمَٰوَٰتِ — آسمان، سَمَاء کی جمع، جر میں۔ ال + سَمَاوَات۔ مکمل آسمان۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ — Allah is the Light of the heavens and the earth. Not just of one sky, not just of our visible world — of everything from the highest سَمَاء to the lowest أَرْض. The next time you look up at the sky, what do you see now that you didn't before?",
+      "ur": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ — اللہ آسمانوں اور زمین کا نور ہے۔ صرف ایک آسمان کا نہیں، صرف ہماری نظر کی دنیا کا نہیں — سب سے اونچے سَمَاء سے سب سے نیچے أَرْض تک ہر چیز کا۔ اگلی بار جب آسمان کی طرف دیکھیں، آپ کیا دیکھتے ہیں جو پہلے نہیں دیکھتے تھے؟",
+      "hi": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ — اللہ آسمانوں اور ز़مین کا نور ہے۔ صرف ایک آسمان کا نہیں، صرف ہماری نظر کی دنیا کا نہیں — سب سے اونچے سَمَاء سے سب سے نیچے أَرْض تک ہر چیز کا۔ اگلی بار جب آسمان کی طرف دیکھیں، آپ کیا دیکھتے ہیں جو پہلے نہیں دیکھتے تھے؟"
+    },
+    "journal_tag": "kalimaat-sama"
+  }
+}

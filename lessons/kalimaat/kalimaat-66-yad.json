@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-66",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 66,
+  "prerequisite": "kalimaat-65",
+  "unlocks": ["kalimaat-67"],
+  "xp": 28,
+  "word": {
+    "arabic": "يَد",
+    "display": "يَدٌ",
+    "transliteration": "Yad",
+    "meaning": {
+      "en": "Hand / Power / Control",
+      "ur": "ہاتھ / قدرت / اختیار",
+      "hi": "हाथ / क़ुदरत / इख़्तियार"
+    },
+    "frequency_rank": 66,
+    "frequency_note": {
+      "en": "Appears 120 times in various forms. يَد is feminine (a paired body part — remember Qawaid lesson 2). Its plural is أَيْدِي. In the Qur'an, يَد Allah means His power and authority — not a literal hand.",
+      "ur": "مختلف شکلوں میں ۱۲۰ بار آیا ہے۔ يَد مؤنث ہے (جوڑے والا عضو — قواعد سبق ۲ یاد ہے)۔ اس کی جمع أَيْدِي ہے۔ قرآن میں يَد الله کا مطلب اس کی قدرت اور اختیار ہے — لفظی ہاتھ نہیں۔",
+      "hi": "مुख़्तलिफ़ شकلों में 120 بار آیا ہے۔ يَد مुअन्नस है (जोड़े वाला अंग — क़वाइद سبक़ 2 याद है)। इसकी जमा أَيْدِي है। क़ुरआन में يَد الله का मतलब उसकी क़ुदरत और इख़्तियार है — लफ़ज़ी हाथ नहीं।"
+    }
+  },
+  "root": {
+    "letters": "ي د ي",
+    "note": {
+      "en": "Root: ي-د-ي (y-d-y) — hand, to hand over, to give. يَد is the hand itself. أَيَّدَ means 'to support, to strengthen' — to give someone a hand. In Arabic idiom, بِيَدِهِ means 'in his hand' = in his control. When the Qur'an says بِيَدِهِ الْمُلْكُ — in His hand is the dominion — it means total control.",
+      "ur": "جڑ: ي-د-ي — ہاتھ، حوالہ کرنا، دینا۔ يَد ہاتھ ہے۔ أَيَّدَ کا مطلب 'مدد کرنا، مضبوط کرنا' — کسی کو ہاتھ دینا۔ عربی محاورے میں بِيَدِهِ کا مطلب 'اس کے ہاتھ میں' = اس کے اختیار میں۔ جب قرآن کہتا ہے بِيَدِهِ الْمُلْكُ — اس کے ہاتھ میں بادشاہت ہے — اس کا مطلب مکمل کنٹرول ہے۔",
+      "hi": "جड़: ي-د-ي — हाथ, حوالہ کرنا, देना। يَد हाथ है। أَيَّدَ का मतलب 'مدद کرنا, मज़बूत करना' — किसी को हाथ देना। अरबी मुहावरे में بِيَدِهِ का मतलब 'उसके हाथ में' = उसके इख़्तियार में। जब क़ुरआन कहता है بِيَدِهِ الْمُلْكُ — उसके हाथ में बादशाहत है — इसका मतलब मुकम्मल कंट्रोल है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "تَبَارَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ",
+    "surah": { "en": "Al-Mulk 67:1", "ur": "الملک ۶۷:۱", "hi": "अल-मुल्क 67:1" },
+    "translation": {
+      "en": "Blessed is the One in Whose hand is all dominion.",
+      "ur": "بہت بابرکت ہے وہ جس کے ہاتھ میں سب بادشاہت ہے۔",
+      "hi": "बहुत मुबारक है वह जिसके हाथ में सब बादशाहत है।"
+    },
+    "hook_explanation": {
+      "en": "بِيَدِهِ — 'in His hand'. بِ (lesson 11) + يَد (hand) + هِ (his). ٱلْمُلْكُ — 'the dominion/kingdom'. ٱلَّذِى — 'The One Who' (lesson 18). This is Surah Al-Mulk — one of the most memorised surahs. Its very first ayah contains يَد. And you learned this surah before you understood a single word. Now word by word, it opens.",
+      "ur": "بِيَدِهِ — 'اس کے ہاتھ میں'۔ بِ (سبق ۱۱) + يَد (ہاتھ) + هِ (اس کا)۔ ٱلْمُلْكُ — 'بادشاہت'۔ ٱلَّذِى — 'جو' (سبق ۱۸)۔ یہ سورة الملک ہے — سب سے زیادہ یاد کی جانے والی سورتوں میں سے ایک۔ اس کی پہلی آیت میں يَد ہے۔ اور آپ نے یہ سورت ایک لفظ سمجھے بغیر یاد کی تھی۔ اب لفظ لفظ، یہ کھلتی ہے۔",
+      "hi": "بِيَدِهِ — 'उसके हाथ में'۔ بِ (سبك़ 11) + يَد (हाथ) + هِ (उसका)۔ ٱلْمُلْكُ — 'बादशाहत'۔ ٱلَّذِى — 'जो' (سبك़ 18)۔ यह सूरह अल-मुल्क है — सबसे ज़्यादा याद की जाने वाली सूरतों में से एक। उसकी पहली آयत में يَد है। और आपने यह सूरत एक لफ़्ज़ समझे बिना याद की थी। अब लफ़्ज़-ब-लफ़्ज़, यह खुलती है।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does يَد mean?", "ur": "يَد کا مطلب کیا ہے؟", "hi": "يَد کا मतलब क्या है?" },
+      "choices": [
+        { "label": { "en": "Hand / Power", "ur": "ہاتھ / قدرت", "hi": "हाथ / क़ुदरत" }, "value": "correct" },
+        { "label": { "en": "Foot / Step", "ur": "پاؤں / قدم", "hi": "पाँव / क़दम" }, "value": "wrong" },
+        { "label": { "en": "Eye / Vision", "ur": "آنکھ / نظر", "hi": "आँख / नज़र" }, "value": "wrong" },
+        { "label": { "en": "Tongue / Speech", "ur": "زبان / کلام", "hi": "ज़बान / कलाम" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! يَد — hand, and in Qur'anic usage, power and control. بِيَدِهِ الْمُلْكُ — in His hand is all dominion.", "ur": "ہاں! يَد — ہاتھ، اور قرآنی استعمال میں قدرت اور اختیار۔ بِيَدِهِ الْمُلْكُ — اس کے ہاتھ میں سب بادشاہت ہے۔", "hi": "हाँ! يَد — हाथ, और क़ुरआनी इस्तेमाल में क़ुदरत और इख़्तियार। بِيَدِهِ الْمُلْكُ — उसके हाथ में سब بादशाहत है।" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap يَد in this ayah from Surah Al-Mulk:", "ur": "سورة الملک کی اس آیت میں يَد کو چھوئیں:", "hi": "सूरह अल-मुल्क की इस آयत में يَد को छुएँ:" },
+      "ayah": "تَبَارَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ",
+      "target_word": "بِيَدِهِ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! بِيَدِهِ — 'in His hand'. بِ + يَد + هِ. Three morphemes, one powerful phrase.", "ur": "درست! بِيَدِهِ — 'اس کے ہاتھ میں'۔ بِ + يَد + هِ۔ تین حصے، ایک طاقتور جملہ۔", "hi": "सही! بِيَدِهِ — 'उसके हाथ में'۔ بِ + يَد + هِ۔ تین حصے، एक ताक़तवर جुमला।" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "بِيَدِهِ الْمُلْكُ — in His hand is all dominion. Every time you feel control slipping — at work, in health, in relationships — this ayah is the answer. Not a comfort, an anchor. What situation in your life right now needs you to remember that الْمُلْك is بِيَدِهِ?",
+      "ur": "بِيَدِهِ الْمُلْكُ — اس کے ہاتھ میں سب بادشاہت ہے۔ جب بھی آپ کنٹرول جاتا محسوس کریں — کام میں، صحت میں، رشتوں میں — یہ آیت جواب ہے۔ تسلی نہیں، لنگر ہے۔ آپ کی زندگی میں ابھی کون سی صورتحال ہے جس میں آپ کو یاد کرنا ہے کہ الْمُلْك بِيَدِهِ ہے؟",
+      "hi": "بِيَدِهِ الْمُلْكُ — उसके हاथ में سب बادشاहत है। जब भी आप कंट्रोल جाता महसूस करें — काम में, सेहत में, रिश्तों में — यह آयत जवाब है। تسल्ली نहीं, लंगर है। आपकी ज़िंदगी में अभी कौन सी सूरत-ए-हाल है जिसमें आपको याद करना है कि الْمُلْك بِيَدِهِ है?"
+    },
+    "journal_tag": "kalimaat-yad"
+  }
+}

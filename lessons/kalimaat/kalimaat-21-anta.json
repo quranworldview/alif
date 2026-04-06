@@ -1,0 +1,95 @@
+{
+  "id": "kalimaat-21",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 21,
+  "prerequisite": "kalimaat-20",
+  "unlocks": ["kalimaat-22"],
+  "xp": 25,
+  "word": {
+    "arabic": "أَنتَ",
+    "display": "أَنتَ",
+    "transliteration": "Anta",
+    "meaning": {
+      "en": "You (singular, masculine)",
+      "ur": "تم / آپ (واحد، مذکر)",
+      "hi": "तुम / आप (एकवचन, मुज़क्कर)"
+    },
+    "frequency_rank": 21,
+    "frequency_note": {
+      "en": "Appears 127 times. Allah addresses His prophets — and through them, every believer — with أَنتَ.",
+      "ur": "۱۲۷ بار آتا ہے۔ اللہ اپنے انبیاء کو — اور ان کے ذریعے ہر مومن کو — أَنتَ سے مخاطب کرتا ہے۔",
+      "hi": "127 بار آتا ہے۔ اللہ अपने नबियों को — और उनके ज़रिए हर मोमिन को — أَنتَ से मुख़ातब करता है।"
+    }
+  },
+  "root": {
+    "letters": "أ ن ت",
+    "note": {
+      "en": "أَنتَ is a pronoun — 'you', masculine singular. أَنتِ is feminine. When Allah says إِنَّكَ أَنتَ ٱلْعَلِيمُ — 'You are the All-Knowing' — the angels are speaking directly to Him. The Qur'an is full of direct address. Allah speaks to His prophets. Prophets speak to their people. People speak to Allah. أَنتَ is how that conversation happens.",
+      "ur": "أَنتَ ایک ضمیر ہے — 'تم'، مذکر واحد۔ أَنتِ مؤنث ہے۔ جب اللہ کہتا ہے إِنَّكَ أَنتَ ٱلْعَلِيمُ — 'بے شک آپ ہی جاننے والے ہیں' — فرشتے براہ راست اس سے بات کر رہے ہیں۔ قرآن براہ راست خطاب سے بھرا ہے۔ اللہ اپنے انبیاء سے بات کرتا ہے۔ انبیاء اپنی قوموں سے۔ قومیں اللہ سے۔ أَنتَ اسی گفتگو کا ذریعہ ہے۔",
+      "hi": "أَنتَ एक ज़मीर है — 'तुम', मुज़क्कर वाहिद। أَنتِ मुअन्नस है। जब अल्लाह कहता है إِنَّكَ أَنتَ ٱلْعَلِيمُ — 'बेशक आप ही जानने वाले हैं' — फ़रिश्ते सीधे उससे बात कर रहे हैं। क़ुरआन सीधे ख़िताब से भरा है। अल्लाह अपने नबियों से बात करता है। नबी अपनी क़ौमों से। क़ौमें अल्लाह से। أَنتَ इसी गुफ़्तगू का ज़रिया है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+    "surah": { "en": "Al-Baqarah 2:128", "ur": "البقرہ ۲:۱۲۸", "hi": "अल-बक़रह 2:128" },
+    "translation": {
+      "en": "Indeed, You are the Accepting of repentance, the Merciful.",
+      "ur": "بے شک آپ ہی توبہ قبول کرنے والے، رحم والے ہیں۔",
+      "hi": "बेशक आप ही तौबा क़बूल करने वाले, रहम वाले हैं।"
+    },
+    "hook_explanation": {
+      "en": "Ibrahim ﷺ and his son Ismail ﷺ, building the Kaaba, make this dua. إِنَّكَ أَنتَ — 'Indeed, You are.' أَنتَ is how they address Allah directly. The same word you say when you make dua. أَنتَ. You. The intimacy of direct address.",
+      "ur": "ابراہیم ﷺ اور ان کے بیٹے اسماعیل ﷺ، کعبہ تعمیر کرتے ہوئے، یہ دعا کرتے ہیں۔ إِنَّكَ أَنتَ — 'بے شک آپ ہی'۔ أَنتَ وہ طریقہ ہے جس سے وہ اللہ سے براہ راست مخاطب ہوتے ہیں۔ وہی لفظ جو آپ دعا میں کہتے ہیں۔ أَنتَ۔ آپ۔ براہ راست خطاب کی قربت۔",
+      "hi": "इब्राहीम ﷺ और उनके बेटे इस्माईल ﷺ, काबा तामीर करते हुए, यह दुआ करते हैं। إِنَّكَ أَنتَ — 'बेशक आप ही'। أَنتَ वह तरीक़ा है जिससे वे अल्लाह से सीधे मुख़ातब होते हैं। वही लफ़्ज़ जो आप दुआ में कहते हैं। أَنتَ۔ آप۔ सीधे ख़िताब की क़ुर्बत।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": {
+        "en": "What does أَنتَ mean?",
+        "ur": "أَنتَ کا مطلب کیا ہے؟",
+        "hi": "أَنتَ का मतलब क्या है?"
+      },
+      "choices": [
+        { "label": { "en": "You", "ur": "تم / آپ", "hi": "تم / آپ" }, "value": "correct" },
+        { "label": { "en": "He / Him", "ur": "وہ / اسے", "hi": "वह / उसे" }, "value": "wrong" },
+        { "label": { "en": "I / Me", "ur": "میں / مجھے", "hi": "मैं / मुझे" }, "value": "wrong" },
+        { "label": { "en": "We / Us", "ur": "ہم / ہمیں", "hi": "हम / हमें" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes — أَنتَ means 'you'. إِنَّكَ أَنتَ — 'Indeed, You are.' Ibrahim ﷺ addressing Allah.",
+        "ur": "ہاں — أَنتَ کا مطلب 'تم / آپ' ہے۔ إِنَّكَ أَنتَ — 'بے شک آپ ہی ہیں'۔ ابراہیم ﷺ اللہ سے مخاطب۔",
+        "hi": "हाँ — أَنتَ का मतلब 'तुم / آप' ہے۔ إِنَّكَ أَنتَ — 'بے شک آپ ہی ہیں'۔ इब्राहीम ﷺ अल्लाह से मुख़ातब।"
+      }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": {
+        "en": "Tap أَنتَ in this ayah:",
+        "ur": "اس آیت میں أَنتَ کو چھوئیں:",
+        "hi": "इस आयत में أَنتَ को छुएं:"
+      },
+      "ayah": "إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "target_word": "أَنتَ",
+      "target_position": 1,
+      "feedback_correct": {
+        "en": "أَنتَ — 'You'. Ibrahim ﷺ looks up from building the Kaaba and says: You are the Accepter of repentance.",
+        "ur": "أَنتَ — 'آپ'۔ ابراہیم ﷺ کعبہ بناتے ہوئے اوپر دیکھتے ہیں اور کہتے ہیں: آپ ہی توبہ قبول کرنے والے ہیں۔",
+        "hi": "أَنتَ — 'آپ'۔ इब्राहीम ﷺ काबा बनाते हुए ऊपर देखते हैं और कहते हैं: آप ہی توبہ क़बूل करने والے हैں।"
+      }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ — Ibrahim and Ismail ﷺ said this while their hands were still covered in the dust of building the Kaaba. They weren't waiting to be clean. They addressed Allah directly: أَنتَ. When did you last speak to Allah in the second person — directly, as 'You'?",
+      "ur": "إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ — ابراہیم اور اسماعیل ﷺ نے یہ اس وقت کہا جب ان کے ہاتھ ابھی کعبے کی تعمیر کی مٹی سے ڈھکے ہوئے تھے۔ وہ صاف ہونے کا انتظار نہیں کر رہے تھے۔ انہوں نے اللہ سے براہ راست مخاطب کیا: أَنتَ۔ آپ نے آخری بار اللہ سے دوسرے شخص میں — براہ راست، 'آپ' کہہ کر — کب بات کی؟",
+      "hi": "إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ — इब्राहीम और इस्माईल ﷺ ने यह उस वक़्त कहा जब उनके हाथ अभी काबे की तामीर की मिट्टी से ढके हुए थे। वे साफ़ होने का इंतिज़ार नहीं कर रहे थे। उन्होंने अल्लाह से सीधे मुख़ातब किया: أَنتَ۔ आपने आख़िरी बार अल्लाह से दूसरे शख़्स में — सीधे, 'آپ' कहकर — कब बात की?"
+    },
+    "journal_tag": "kalimaat-anta"
+  }
+}

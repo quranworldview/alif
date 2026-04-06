@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-62",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 62,
+  "prerequisite": "kalimaat-61",
+  "unlocks": ["kalimaat-63"],
+  "xp": 35,
+  "word": {
+    "arabic": "قُرْآن",
+    "display": "قُرْآنٌ",
+    "transliteration": "Qur'an",
+    "meaning": {
+      "en": "The Qur'an / Recitation / Reading",
+      "ur": "قرآن / تلاوت / پڑھنا",
+      "hi": "क़ुरआन / तिलावत / पढ़ना"
+    },
+    "frequency_rank": 62,
+    "frequency_note": {
+      "en": "Appears 70 times. The Book names itself — and its name tells you what it is: something to be recited, read aloud, returned to again and again. You have been doing this your whole life.",
+      "ur": "۷۰ بار آیا ہے۔ کتاب اپنا نام خود رکھتی ہے — اور اس کا نام بتاتا ہے کہ یہ کیا ہے: کچھ جو پڑھا جائے، بلند آواز سے پڑھا جائے، بار بار پلٹا جائے۔ آپ پوری زندگی یہ کرتے آئے ہیں۔",
+      "hi": "70 بار آیا ہے। किताब अपना नाम ख़ुद रखती है — और उसका नाम बताता है कि यह क्या है: कुछ जो पढ़ा जाए, बुलंद आवाज़ से पढ़ा जाए, बार-बार पलटा जाए। आप पूरी ज़िंदगी यह करते आए हैं।"
+    }
+  },
+  "root": {
+    "letters": "ق ر أ",
+    "note": {
+      "en": "Root: ق-ر-أ (q-r-') — to read, to recite. قَرَأَ means 'he read/recited'. قُرْآن is the مَصْدَر (verbal noun) — the act of recitation made into a name. The very first word revealed was اقْرَأْ — Read! The Book's name and its first command share the same root.",
+      "ur": "جڑ: ق-ر-أ — پڑھنا، تلاوت کرنا۔ قَرَأَ کا مطلب 'اس نے پڑھا'۔ قُرْآن مصدر ہے — تلاوت کا عمل نام بن گیا۔ نازل ہونے والا پہلا لفظ تھا اقْرَأْ — پڑھو! کتاب کا نام اور اس کا پہلا حکم ایک ہی جڑ سے۔",
+      "hi": "जड़: ق-ر-أ — पढ़ना, तिलावत करना। قَرَأَ का मतलब 'उसने पढ़ा'। قُرْآن मसदर है — तिलावत का अमल नाम बन गया। नाज़िल होने वाला पहला लफ़्ज़ था اقْرَأْ — पढ़ो! किताब का नाम और उसका पहला हुक्म एक ही जड़ से।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ",
+    "surah": { "en": "Al-Baqarah 2:185", "ur": "البقرہ ۲:۱۸۵", "hi": "अल-बक़रह 2:185" },
+    "translation": {
+      "en": "The month of Ramadan in which the Qur'an was revealed.",
+      "ur": "رمضان کا مہینہ جس میں قرآن نازل کیا گیا۔",
+      "hi": "रमज़ान का महीना जिसमें क़ुरआन नाज़िल किया गया।"
+    },
+    "hook_explanation": {
+      "en": "شَهْرُ رَمَضَانَ — 'the month of Ramadan'. An إضافة chain — شَهْرُ is مُضَاف, رَمَضَانَ is مُضَاف إِلَيْهِ. ٱلَّذِىٓ — 'which/that' (relative pronoun, lesson 18). أُنزِلَ — 'was revealed' (passive, from أَنزَلَ). فِيهِ — 'in it' (فِي from lesson 4 + هِ). ٱلْقُرْءَانُ — with ال, definite. THE Qur'an. Every word here you now know.",
+      "ur": "شَهْرُ رَمَضَانَ — 'رمضان کا مہینہ'۔ اضافہ زنجیر — شَهْرُ مضاف ہے، رَمَضَانَ مضاف إلیہ۔ ٱلَّذِىٓ — 'جو' (موصول، سبق ۱۸)۔ أُنزِلَ — 'نازل کیا گیا' (مجہول، أَنزَلَ سے)۔ فِيهِ — 'اس میں' (فِي سبق ۴ + هِ)۔ ٱلْقُرْءَانُ — ال کے ساتھ، معرفہ۔ وہ قرآن۔ یہاں ہر لفظ آپ اب جانتے ہیں۔",
+      "hi": "شَهْرُ رَمَضَانَ — 'रमज़ान का महीना'। इज़ाफ़ा ज़ंजीर — شَهْرُ مुज़ाफ़ है, رَمَضَانَ مुज़ाफ़ इलैह। ٱلَّذِىٓ — 'जो' (मौसूल, सबक़ 18)। أُنزِلَ — 'नाज़िल किया गया' (मजहूल, أَنزَلَ से)। فِيهِ — 'इसमें' (فِي सबक़ 4 + هِ)। ٱلْقُرْءَانُ — ال के साथ, मारिफ़ा। वह क़ुरआन। यहाँ हर लफ़्ज़ आप अब जानते हैं।"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does قُرْآن literally mean?", "ur": "قُرْآن کا لفظی مطلب کیا ہے؟", "hi": "قُرْآن کا लफ़ज़ी मतलब क्या है?" },
+      "choices": [
+        { "label": { "en": "Recitation / That which is recited", "ur": "تلاوت / جو پڑھا جائے", "hi": "तिलावत / जो पढ़ा जाए" }, "value": "correct" },
+        { "label": { "en": "Light / Illumination", "ur": "روشنی / نور", "hi": "रोशनी / नूर" }, "value": "wrong" },
+        { "label": { "en": "Guidance / Direction", "ur": "ہدایت / راہنمائی", "hi": "हिदायत / रहनुमाई" }, "value": "wrong" },
+        { "label": { "en": "Revelation / News", "ur": "وحی / خبر", "hi": "वह्य / ख़बर" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! From ق-ر-أ — to recite. The Qur'an is literally 'The Recitation'.", "ur": "ہاں! جڑ ق-ر-أ سے — پڑھنا۔ قرآن لفظی طور پر 'تلاوت' ہے۔", "hi": "हाँ! जड़ ق-ر-أ سے — पढ़ना। क़ुरआन लफ़ज़ी तौर पर 'तिलावत' है।" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap قُرْآن in this ayah:", "ur": "اس آیت میں قُرْآن کو چھوئیں:", "hi": "इस आयत में قُرْآن को छुएँ:" },
+      "ayah": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ",
+      "target_word": "ٱلْقُرْءَانُ",
+      "target_position": 4,
+      "feedback_correct": { "en": "Right! ٱلْقُرْءَانُ — with ال, rafa' status. THE Qur'an — the subject of the sentence.", "ur": "درست! ٱلْقُرْءَانُ — ال کے ساتھ، رفع کی حالت۔ وہ قرآن — جملے کا موضوع۔", "hi": "सही! ٱلْقُرْءَانُ — ال के साथ, رفع की हालत। वह क़ुरआन — जुमले का मौज़ू।" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "The name قُرْآن means 'that which is recited' — it is defined by the act of being read aloud. This is a Book that was meant to be heard, felt, embodied — not just studied. You are learning this language so that when you recite it, you feel every word. How close are you getting?",
+      "ur": "قُرْآن کا نام 'جو پڑھا جائے' ہے — یہ بلند آواز سے پڑھنے کے عمل سے تعریف پاتی ہے۔ یہ ایک کتاب ہے جو سنی جانی، محسوس کی جانی، اور اپنائی جانی تھی — صرف پڑھی نہیں۔ آپ یہ زبان اس لیے سیکھ رہے ہیں کہ جب تلاوت کریں تو ہر لفظ محسوس کریں۔ کتنے قریب آ رہے ہیں؟",
+      "hi": "قُرْآن کا नाम 'جो पढ़ा जाए' है — यह बुलंद आवाज़ से पढ़ने के अमल से तारीफ़ पाती है। यह एक किताब है जो सुनी जानी, महसूस की जानी, और अपनाई जानी थी — सिर्फ़ पढ़ी नहीं। आप यह ज़बान इसलिए सीख रहे हैं कि जब तिलावत करें तो हर लफ़्ज़ महसूस करें। कितने क़रीब आ रहे हैं?"
+    },
+    "journal_tag": "kalimaat-quran"
+  }
+}

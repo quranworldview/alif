@@ -1,0 +1,79 @@
+{
+  "id": "kalimaat-85",
+  "type": "kalimaat",
+  "track": "kalimaat",
+  "order": 85,
+  "prerequisite": "kalimaat-84",
+  "unlocks": ["kalimaat-86"],
+  "xp": 28,
+  "word": {
+    "arabic": "حَكِيم",
+    "display": "حَكِيمٌ",
+    "transliteration": "Hakeem",
+    "meaning": {
+      "en": "All-Wise / The Perfectly Wise",
+      "ur": "حکیم / بڑا حکمت والا",
+      "hi": "हकीम / बड़ी हिकमत वाला"
+    },
+    "frequency_rank": 85,
+    "frequency_note": {
+      "en": "Appears 97 times — almost always as a name of Allah, almost always paired with عَلِيم (All-Knowing). The pairing is deliberate: Allah's knowledge is perfect AND His wisdom in applying it is perfect. He never acts on information incorrectly.",
+      "ur": "۹۷ بار آیا ہے — تقریباً ہمیشہ اللہ کے نام کے طور پر، تقریباً ہمیشہ عَلِيم (سب جاننے والا) کے ساتھ جوڑا۔ یہ جوڑا جان بوجھ کر ہے: اللہ کا علم کامل ہے اور اسے لگانے میں اس کی حکمت بھی کامل ہے۔ وہ معلومات پر کبھی غلط نہیں کرتا۔",
+      "hi": "97 بار آیا ہے — تقریباً ہمیشہ اللہ کے نام کے طور پر، تقریباً ہمیشہ عَلِيم (سب جاننے والا) کے ساتھ جوڑا۔ یہ جوڑا جان بوجھ کر ہے: اللہ کا علم کامل ہے اور اسے لگانے میں اس کی حکمت بھی کامل ہے۔"
+    }
+  },
+  "root": {
+    "letters": "ح ك م",
+    "note": {
+      "en": "Root: ح-ك-م (h-k-m) — wisdom, judgement, to rule. حَكِيم is the All-Wise. حُكْم means ruling or judgement. حِكْمَة means wisdom (as a quality). حَاكِم means ruler or judge. الْحَكَمُ is another name of Allah — the Supreme Judge. The root encompasses wisdom, authority, and right judgement all at once.",
+      "ur": "جڑ: ح-ك-م — حکمت، فیصلہ، حکومت کرنا۔ حَكِيم بہت حکمت والا ہے۔ حُكْم فیصلہ یا حکم ہے۔ حِكْمَة حکمت ہے (ایک خوبی)۔ حَاكِم حاکم یا قاضی ہے۔ الْحَكَمُ اللہ کا ایک اور نام ہے — سب سے بڑا جج۔ جڑ ایک ساتھ حکمت، اختیار، اور صحیح فیصلے کو شامل کرتی ہے۔",
+      "hi": "جड़: ح-ك-م — حکمت، فیصلہ، حکومت کرنا۔ حَكِيم بہت حکمت والا ہے۔ حُكْم فیصلہ یا حکم ہے۔ حِكْمَة حکمت ہے۔ حَاكِم حاکم یا قاضی ہے۔ الْحَكَمُ اللہ کا ایک اور نام ہے۔"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+    "surah": { "en": "Ibrahim 14:4", "ur": "ابراهیم ۱۴:۴", "hi": "इब्राहीम 14:4" },
+    "translation": {
+      "en": "And He is the All-Mighty, the All-Wise.",
+      "ur": "اور وہ غالب، بڑا حکمت والا ہے۔",
+      "hi": "اور وه غالب، بڑا حکمت والا ہے۔"
+    },
+    "hook_explanation": {
+      "en": "وَهُوَ — 'and He' (lesson 2). ٱلْعَزِيزُ — 'the All-Mighty' (with ال, definite). ٱلْحَكِيمُ — 'the All-Wise' (with ال). This closing formula ends dozens of ayat in the Qur'an. When Allah decrees something — a ruling, a test, a command — this seal follows: I am not just powerful enough to enforce it (عَزِيز), I am wise enough to have decreed it correctly (حَكِيم). Nothing Allah does is arbitrary.",
+      "ur": "وَهُوَ — 'اور وہ' (سبق ۲)۔ ٱلْعَزِيزُ — 'غالب' (ال کے ساتھ)۔ ٱلْحَكِيمُ — 'بڑا حکمت والا' (ال کے ساتھ)۔ یہ اختتامی فارمولہ قرآن کی درجنوں آیات کو ختم کرتا ہے۔ جب اللہ کچھ فیصلہ کرتا ہے — کوئی حکم، کوئی آزمائش، کوئی امر — یہ مہر لگتی ہے: میں اسے نافذ کرنے کے لیے کافی طاقتور ہوں (عَزِيز)، اور میں نے اسے صحیح فیصلہ کیا ہے (حَكِيم)۔ اللہ کا کوئی کام من مانا نہیں۔",
+      "hi": "وَهُوَ — 'اور وه' (سبک़ 2)۔ ٱلْعَزِيزُ — 'غالب' (ال کے ساتھ)۔ ٱلْحَكِيمُ — 'بڑا حکمت والا' (ال کے ساتھ)۔ یہ اختتامی فارمولہ قرآن کی درجنوں آیات کو ختم کرتا ہے۔ جب اللہ کچھ فیصلہ کرتا ہے — یہ مہر لگتی ہے: میں طاقتور ہوں (عَزِيز) اور حکمت والا (حَكِيم)۔ اللہ کا کوئی کام من مانا نہیں۔"
+    }
+  },
+  "exercises": [
+    {
+      "type": "mcq_meaning",
+      "order": 1,
+      "prompt": { "en": "What does حَكِيم mean?", "ur": "حَكِيم کا مطلب کیا ہے؟", "hi": "حَكِيم کا متلب क्या है?" },
+      "choices": [
+        { "label": { "en": "All-Wise / Perfectly Wise", "ur": "حکیم / بڑا حکمت والا", "hi": "हकीम / बड़ी हिकमत वाला" }, "value": "correct" },
+        { "label": { "en": "All-Knowing", "ur": "سب جاننے والا", "hi": "سب جاننے والا" }, "value": "wrong" },
+        { "label": { "en": "All-Powerful", "ur": "قادرِ مطلق", "hi": "قادرِ مطلق" }, "value": "wrong" },
+        { "label": { "en": "Most Merciful", "ur": "بہت رحم کرنے والا", "hi": "बهت रहम करने والا" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": { "en": "Yes! حَكِيم — All-Wise. From حِكْمَة — wisdom. Almost always paired with عَلِيم in the Qur'an.", "ur": "ہاں! حَكِيم — بڑا حکمت والا۔ حِكْمَة سے — حکمت۔ قرآن میں تقریباً ہمیشہ عَلِيم کے ساتھ جوڑا۔", "hi": "هاँ! حَكِيم — بڑا حکمت والا۔ حِكْمَة سے۔ قرآن میں تقریباً ہمیشہ عَلِيم کے ساتھ جوڑا۔" }
+    },
+    {
+      "type": "spot_in_ayah",
+      "order": 2,
+      "prompt": { "en": "Tap حَكِيم in this ayah:", "ur": "اس آیت میں حَكِيم کو چھوئیں:", "hi": "इस آयت میں حَكِيم کو چھوئیں:" },
+      "ayah": "وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "target_word": "ٱلْحَكِيمُ",
+      "target_position": 2,
+      "feedback_correct": { "en": "Right! ٱلْحَكِيمُ — the All-Wise, with ال. The seal on every divine decree: powerful AND wise.", "ur": "درست! ٱلْحَكِيمُ — بڑا حکمت والا، ال کے ساتھ۔ ہر الٰہی فیصلے پر مہر: طاقتور اور حکمت والا۔", "hi": "سہی! ٱلْحَكِيمُ — بڑا حکمت والا، ال کے ساتھ۔ ہر الٰہی فیصلے پر مہر: طاقتور اور حکمت والا۔" }
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "وَهُوَ الْعَزِيزُ الْحَكِيمُ — He is the All-Mighty, the All-Wise. Think of something in your life that felt painful, unfair, or confusing — a loss, a door that closed, a prayer unanswered. Can you hold it next to الْحَكِيمُ and trust that it was decreed with perfect wisdom?",
+      "ur": "وَهُوَ الْعَزِيزُ الْحَكِيمُ — وہ غالب، بڑا حکمت والا ہے۔ اپنی زندگی میں کوئی ایسی بات سوچیں جو تکلیف دہ، ناانصاف، یا الجھن والی لگی — کوئی نقصان، کوئی بند دروازہ، کوئی بے جواب دُعَاء۔ کیا آپ اسے الْحَكِيمُ کے ساتھ رکھ کر اعتماد کر سکتے ہیں کہ یہ کامل حکمت سے فیصلہ ہوا؟",
+      "hi": "وَهُوَ الْعَزِيزُ الْحَكِيمُ — وه غالب، بڑا حکمت والا ہے۔ اپنی زندگی میں کوئی ایسی بات سوچیں جو تکلیف دہ، ناانصاف، یا الجھن والی لگی۔ کیا آپ اسے الْحَكِيمُ کے ساتھ رکھ کر اعتماد کر سکتے ہیں کہ یہ کامل حکمت سے فیصلہ ہوا؟"
+    },
+    "journal_tag": "kalimaat-hakim"
+  }
+}
