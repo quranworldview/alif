@@ -1,0 +1,156 @@
+{
+  "id": "qawaid-03",
+  "type": "qawaid",
+  "track": "qawaid",
+  "order": 3,
+  "prerequisite": "qawaid-02",
+  "unlocks": ["qawaid-04"],
+  "xp": 30,
+  "concept": {
+    "name": { "en": "Singular, Dual & Plural", "ur": "واحد، تثنیہ اور جمع", "hi": "वाहिद, मुसन्ना और जमा" },
+    "arabic_terms": ["مُفْرَد", "مُثَنَّى", "جَمْع"],
+    "subtitle": {
+      "en": "Arabic counts in three — one, two, and many. Each has its own form.",
+      "ur": "عربی تین میں گنتی کرتی ہے — ایک، دو، اور بہت۔ ہر ایک کی الگ شکل ہے۔",
+      "hi": "अरबी तीन में गिनती करती है — एक, दो, और बहुत। हर एक की अलग शकल है।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "رَبِّ الْعَالَمِينَ",
+    "surah": { "en": "Al-Fatiha 1:2", "ur": "الفاتحہ ۱:۲", "hi": "अल-फ़ातिहा 1:2" },
+    "translation": {
+      "en": "Lord of all the worlds.",
+      "ur": "تمام جہانوں کے رب۔",
+      "hi": "तमाम जहानों के रब।"
+    },
+    "hook_explanation": {
+      "en": "الْعَالَمِينَ — you've said this thousands of times. The ـِينَ ending is the plural masculine sound form. One world = عَالَم. Two worlds = عَالَمَان. All the worlds = الْعَالَمِينَ. You've been saying plural Arabic your whole life.",
+      "ur": "الْعَالَمِينَ — آپ نے یہ ہزاروں بار کہا ہے۔ ـِينَ کا آخری حصہ جمع مذکر سالم ہے۔ ایک عالم = عَالَم۔ دو عالم = عَالَمَان۔ سب عالم = الْعَالَمِينَ۔ آپ پوری زندگی عربی جمع بولتے آئے ہیں۔",
+      "hi": "الْعَالَمِينَ — آप ने यह हज़ारों बार कहा है। ـِينَ का आख़िरी हिस्सा जमा मुज़क्कर सालिम है। एक आलम = عَالَم। दो आलम = عَالَمَان। सब आलम = الْعَالَمِينَ। आप पूरी ज़िंदगी अरबी जमा बोलते आए हैं।"
+    }
+  },
+  "explanation_blocks": [
+    {
+      "term": { "arabic": "مُفْرَد", "en": "Mufrad", "ur": "واحد", "hi": "वाहिद" },
+      "definition": {
+        "en": "Singular — one. The base form of the word. Everything else is built from it.",
+        "ur": "واحد — ایک۔ لفظ کی بنیادی شکل۔ باقی سب اسی سے بنتا ہے۔",
+        "hi": "वाहिद — एक। लफ़्ज़ की बुनियादी शकल। बाक़ी सब इसी से बनता है।"
+      },
+      "examples": [
+        { "arabic": "مُسْلِم", "meaning": { "en": "a Muslim (one)", "ur": "ایک مسلمان", "hi": "एक मुसलमान" } },
+        { "arabic": "كِتَاب", "meaning": { "en": "a book (one)", "ur": "ایک کتاب", "hi": "एक किताब" } }
+      ]
+    },
+    {
+      "term": { "arabic": "مُثَنَّى", "en": "Muthanna", "ur": "تثنیہ", "hi": "मुसन्ना" },
+      "definition": {
+        "en": "Dual — exactly two. Add ـَانِ or ـَيْنِ to the singular. Arabic has a special form just for pairs — something English doesn't have.",
+        "ur": "تثنیہ — ٹھیک دو۔ واحد کے آخر میں ـَانِ یا ـَيْنِ لگائیں۔ عربی میں صرف جوڑوں کے لیے ایک خاص شکل ہے — انگریزی میں ایسا نہیں ہے۔",
+        "hi": "मुसन्ना — बिल्कुल दो। वाहिद के आख़िर में ـَانِ या ـَيْنِ लगाएँ। अरबी में सिर्फ़ जोड़ों के लिए एक ख़ास शकल है — अंग्रेज़ी में ऐसा नहीं है।"
+      },
+      "examples": [
+        { "arabic": "مُسْلِمَانِ", "meaning": { "en": "two Muslims", "ur": "دو مسلمان", "hi": "दो मुसलमान" } },
+        { "arabic": "كِتَابَانِ", "meaning": { "en": "two books", "ur": "دو کتابیں", "hi": "दो किताबें" } }
+      ]
+    },
+    {
+      "term": { "arabic": "جَمْع", "en": "Jama'", "ur": "جمع", "hi": "जमा" },
+      "definition": {
+        "en": "Plural — three or more. There are four types: (1) Sound masculine plural — add ـُونَ/ـِينَ, used for humans and mixed groups; (2) Sound feminine plural — add ـَات, used for females and objects; (3) Broken plural — the word itself changes shape, like كِتَاب becoming كُتُب; (4) Plural by meaning — words like نَاس (people) and قَوْم (nation) that look singular but mean a crowd.",
+        "ur": "جمع — تین یا زیادہ۔ چار قسمیں ہیں: (۱) جمع مذکر سالم — ـُونَ/ـِينَ لگائیں، انسانوں اور مخلوط گروہوں کے لیے؛ (۲) جمع مؤنث سالم — ـَات لگائیں، عورتوں اور چیزوں کے لیے؛ (۳) جمع تکسیر — لفظ کی خود شکل بدل جاتی ہے، جیسے كِتَاب بن جاتا ہے كُتُب؛ (۴) اسم جمع — جیسے نَاس اور قَوْم جو دیکھنے میں واحد ہیں مگر بھیڑ کا مطلب رکھتے ہیں۔",
+        "hi": "जमा — तीन या ज़्यादा। चार क़िस्में हैं: (१) जमा मुज़क्कर सालिम — ـُونَ/ـِينَ लगाएँ, इंसानों और मिले-जुले गुरोहों के लिए; (२) जमा मुअन्नस सालिम — ـَات लगाएँ, औरतों और चीज़ों के लिए; (३) जमा तकसीर — लफ़्ज़ की ख़ुद शकल बदल जाती है, जैसे كِتَاب बन जाता है كُتُب; (४) इसम जमा — जैसे نَاس और قَوْم जो देखने में वाहिद हैं मगर भीड़ का मतलब रखते हैं।"
+      },
+      "quick_test": {
+        "en": "Key rule: all non-human plurals — books, masjids, trees — are treated as SINGULAR FEMININE in grammar. Don't forget this!",
+        "ur": "اہم اصول: تمام غیر انسانی جمع — کتابیں، مسجدیں، درخت — گرامر میں واحد مؤنث مانی جاتی ہیں۔ یہ مت بھولیں!",
+        "hi": "ज़रूरी उसूल: तमाम ग़ैर-इंसानी जमा — किताबें, मस्जिदें, दरख़्त — व्याकरण में वाहिद मुअन्नस मानी जाती हैं। यह मत भूलें!"
+      },
+      "examples": [
+        { "arabic": "مُسْلِمُونَ", "meaning": { "en": "Muslims — sound masc. plural (ـُونَ)", "ur": "مسلمان — جمع مذکر سالم", "hi": "मुसलमान — जमा मुज़क्कर सालिम" } },
+        { "arabic": "مُسْلِمَات", "meaning": { "en": "Muslim women — sound fem. plural (ـَات)", "ur": "مسلمان عورتیں — جمع مؤنث سالم", "hi": "मुसलमान औरतें — जमा मुअन्नस सालिम" } },
+        { "arabic": "كُتُب", "meaning": { "en": "books — broken plural of كِتَاب", "ur": "کتابیں — كِتَاب کی جمع تکسیر", "hi": "किताबें — كِتَاب की जमा तकसीर" } }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "classify",
+      "order": 1,
+      "prompt": {
+        "en": "الْعَالَمِينَ (the worlds) — is this singular, dual, or plural?",
+        "ur": "الْعَالَمِينَ (جہان) — یہ واحد ہے، تثنیہ ہے، یا جمع؟",
+        "hi": "الْعَالَمِينَ (जहान) — यह वाहिद है, मुसन्ना है, या जमा?"
+      },
+      "choices": [
+        { "label": { "en": "Singular (واحد)", "ur": "واحد", "hi": "वाहिद" }, "value": "wrong" },
+        { "label": { "en": "Dual (تثنیہ)", "ur": "تثنیہ", "hi": "मुसन्ना" }, "value": "wrong" },
+        { "label": { "en": "Plural (جمع)", "ur": "جمع", "hi": "जमा" }, "value": "correct" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes! The ـِينَ ending is the sound masculine plural. رَبِّ الْعَالَمِينَ — Lord of ALL the worlds.",
+        "ur": "بالکل! ـِينَ کا آخر جمع مذکر سالم ہے۔ رَبِّ الْعَالَمِينَ — تمام جہانوں کا رب۔",
+        "hi": "बिल्कुल! ـِينَ का आख़िर जमा मुज़क्कर सालिम है। رَبِّ الْعَالَمِينَ — तमाम जहानों का रब।"
+      }
+    },
+    {
+      "type": "classify",
+      "order": 2,
+      "prompt": {
+        "en": "مُسْلِمَانِ — singular, dual, or plural?",
+        "ur": "مُسْلِمَانِ — واحد، تثنیہ، یا جمع؟",
+        "hi": "مُسْلِمَانِ — वाहिद, मुसन्ना, या जमा?"
+      },
+      "choices": [
+        { "label": { "en": "Singular (واحد)", "ur": "واحد", "hi": "वाहिद" }, "value": "wrong" },
+        { "label": { "en": "Dual (تثنیہ)", "ur": "تثنیہ", "hi": "मुसन्ना" }, "value": "correct" },
+        { "label": { "en": "Plural (جمع)", "ur": "جمع", "hi": "जमा" }, "value": "wrong" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Exactly! The ـَانِ ending means exactly two. Arabic is precise — two has its own word!",
+        "ur": "بالکل! ـَانِ کا آخر ٹھیک دو کے لیے ہے۔ عربی درست ہے — دو کا اپنا لفظ ہے!",
+        "hi": "बिल्कुल! ـَانِ का آख़िर बिल्कुल दो के लिए है। अरबी पक्की है — दो का अपना लफ़्ज़ है!"
+      }
+    },
+    {
+      "type": "mcq_concept",
+      "order": 3,
+      "prompt": {
+        "en": "كُتُب (books) is the plural of كِتَاب. Grammatically, كُتُب is treated as…",
+        "ur": "كُتُب (کتابیں) كِتَاب کی جمع ہے۔ گرامر میں كُتُب کو کیا مانا جاتا ہے؟",
+        "hi": "كُتُب (किताबें) كِتَاب की जमा है। व्याकरण में كُتُب को क्या माना जाता है?"
+      },
+      "choices": [
+        { "label": { "en": "Singular feminine — because it's a non-human plural", "ur": "واحد مؤنث — کیونکہ یہ غیر انسانی جمع ہے", "hi": "वाहिद मुअन्नस — क्योंकि यह ग़ैर-इंसानी जमा है" }, "value": "correct" },
+        { "label": { "en": "Plural masculine — because كِتَاب is masculine", "ur": "جمع مذکر — کیونکہ كِتَاب مذکر ہے", "hi": "जमा मुज़क्कर — क्योंकि كِتَاب मुज़क्कर है" }, "value": "wrong" },
+        { "label": { "en": "Plural feminine — because it ends in a different sound", "ur": "جمع مؤنث — کیونکہ اس کا آخر مختلف آواز پر ہے", "hi": "जमा मुअन्नस — क्योंकि इसका आख़िर अलग आवाज़ पर है" }, "value": "wrong" }
+      ],
+      "correct": "correct"
+    },
+    {
+      "type": "mcq_concept",
+      "order": 4,
+      "prompt": {
+        "en": "What is special about نَاس (people) — is it singular, dual, or plural?",
+        "ur": "نَاس (لوگ) کے بارے میں کیا خاص بات ہے — یہ واحد ہے، تثنیہ ہے، یا جمع؟",
+        "hi": "نَاس (लोग) के बारे में क्या ख़ास बात है — यह वाहिद है, मुसन्ना है, या जमा?"
+      },
+      "choices": [
+        { "label": { "en": "It looks singular but carries a plural meaning (اسم جمع)", "ur": "دیکھنے میں واحد ہے لیکن جمع کا مطلب رکھتا ہے (اسم جمع)", "hi": "देखने में वाहिद है लेकिन जमा का मतलब रखता है (इसम जमा)" }, "value": "correct" },
+        { "label": { "en": "It is a dual — referring to two groups of people", "ur": "یہ تثنیہ ہے — لوگوں کے دو گروہوں کا ذکر کرتا ہے", "hi": "यह मुसन्ना है — लोगों के दो गुरोहों का ज़िक्र करता है" }, "value": "wrong" },
+        { "label": { "en": "It is a broken plural like كُتُب", "ur": "یہ كُتُب جیسی جمع تکسیر ہے", "hi": "यह كُتُب जैसी जमा तकसीर है" }, "value": "wrong" }
+      ],
+      "correct": "correct"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "Arabic has a special form just for exactly two — the dual (مُثَنَّى). English lost this long ago. The Qur'an uses it beautifully — like the two eyes, the two hands, the two gardens. When you read الْجَنَّتَانِ (the two gardens) next time, you'll know exactly what you're hearing. How does it feel to be unlocking these details?",
+      "ur": "عربی میں ٹھیک دو کے لیے ایک خاص شکل ہے — تثنیہ (مُثَنَّى)۔ انگریزی نے یہ بہت پہلے کھو دیا۔ قرآن اسے خوبصورتی سے استعمال کرتا ہے — جیسے دو آنکھیں، دو ہاتھ، دو باغ۔ جب آپ اگلی بار الْجَنَّتَانِ (دو باغ) سنیں گے، آپ کو بالکل معلوم ہوگا کہ آپ کیا سن رہے ہیں۔ ان باریکیوں کو کھولنا کیسا لگتا ہے؟",
+      "hi": "अरबी में बिल्कुल दो के लिए एक ख़ास शकल है — मुसन्ना (مُثَنَّى)। अंग्रेज़ी ने यह बहुत पहले खो दिया। क़ुरआन इसे ख़ूबसूरती से इस्तेमाल करता है — जैसे दो आँखें, दो हाथ, दो बाग़। जब आप अगली बार الْجَنَّتَانِ (दो बाग़) सुनें, आपको बिल्कुल पता होगा कि आप क्या सुन रहे हैं। इन बारीकियों को खोलना कैसा लगता है?"
+    },
+    "journal_tag": "qawaid-mufrad-muthanna-jama"
+  }
+}

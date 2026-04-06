@@ -1,0 +1,143 @@
+{
+  "id": "qawaid-02",
+  "type": "qawaid",
+  "track": "qawaid",
+  "order": 2,
+  "prerequisite": "qawaid-01",
+  "unlocks": ["qawaid-03"],
+  "xp": 30,
+  "concept": {
+    "name": { "en": "Masculine & Feminine", "ur": "مذکر اور مؤنث", "hi": "मुज़क्कर और मुअन्नस" },
+    "arabic_terms": ["مُذَكَّر", "مُؤَنَّث"],
+    "subtitle": {
+      "en": "Every Arabic word has a gender — masculine or feminine. No exceptions.",
+      "ur": "عربی کا ہر لفظ مذکر یا مؤنث ہوتا ہے — کوئی استثناء نہیں۔",
+      "hi": "अरबी का हर लफ़्ज़ मुज़क्कर या मुअन्नस होता है — कोई अपवाद नहीं।"
+    }
+  },
+  "quranic_hook": {
+    "ayah": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+    "surah": { "en": "An-Nur 24:35", "ur": "النور ۲۴:۳۵", "hi": "अन-नूर 24:35" },
+    "translation": {
+      "en": "Allah is the Light of the heavens and the earth.",
+      "ur": "اللہ آسمانوں اور زمین کا نور ہے۔",
+      "hi": "अल्लाह आसमानों और ज़मीन का नूर है।"
+    },
+    "hook_explanation": {
+      "en": "Notice: ٱلسَّمَٰوَٰت (the heavens) — masculine plural. ٱلْأَرْض (the earth) — feminine, even though it has no ة. Some words are feminine just because the Arabs said so. This is the heart of today's lesson.",
+      "ur": "غور کریں: ٱلسَّمَٰوَٰت (آسمان) — مذکر جمع۔ ٱلْأَرْض (زمین) — مؤنث، حالانکہ اس پر ة نہیں۔ کچھ الفاظ صرف اس لیے مؤنث ہیں کہ عربوں نے انہیں مؤنث مانا۔ یہی آج کا سبق ہے۔",
+      "hi": "ध्यान दें: ٱلسَّمَٰوَٰت (आसमान) — मुज़क्कर जमा। ٱلْأَرْض (ज़मीन) — मुअन्नस, हालाँकि इस पर ة नहीं है। कुछ लफ़्ज़ सिर्फ़ इसलिए मुअन्नस हैं क्योंकि अरबों ने उन्हें मुअन्नस माना। यही आज का सबक़ है।"
+    }
+  },
+  "explanation_blocks": [
+    {
+      "term": { "arabic": "مُذَكَّر", "en": "Mudhakkar", "ur": "مذکر", "hi": "मुज़क्कर" },
+      "definition": {
+        "en": "Masculine. This is the DEFAULT in Arabic. If a word doesn't fall into the feminine categories, it is masculine.",
+        "ur": "مذکر۔ عربی میں یہ اصل ہے۔ اگر کوئی لفظ مؤنث کی کسی قسم میں نہیں آتا، تو وہ مذکر ہے۔",
+        "hi": "मुज़क्कर। अरबी में यही डिफ़ॉल्ट है। अगर कोई लफ़्ज़ मुअन्नस की किसी क़िस्म में नहीं आता, तो वह मुज़क्कर है।"
+      },
+      "examples": [
+        { "arabic": "رَجُل", "meaning": { "en": "man", "ur": "آدمی", "hi": "मर्द" } },
+        { "arabic": "كِتَاب", "meaning": { "en": "book", "ur": "کتاب", "hi": "किताब" } },
+        { "arabic": "قَلْب", "meaning": { "en": "heart", "ur": "دل", "hi": "दिल" } }
+      ]
+    },
+    {
+      "term": { "arabic": "مُؤَنَّث", "en": "Mu'annath", "ur": "مؤنث", "hi": "मुअन्नस" },
+      "definition": {
+        "en": "Feminine. A word is feminine if it falls into one of these categories: (1) biologically female — like أُم (mother); (2) ends in ة — like رَحْمَة (mercy); (3) body parts in pairs — like يَد (hand), عَيْن (eye); (4) specific names of places — like مَكَّة (Makkah); (5) non-human plurals — treated as singular feminine; (6) words the Arabs simply declared feminine — like أَرْض (earth), سَمَاء (sky), شَمْس (sun), نَفْس (soul), نَار (fire).",
+        "ur": "مؤنث۔ کوئی لفظ مؤنث ہوتا ہے اگر وہ ان میں سے کسی قسم میں آئے: (۱) فطری طور پر مؤنث — جیسے أُم (ماں)؛ (۲) ة پر ختم ہو — جیسے رَحْمَة (رحمت)؛ (۳) جوڑے میں آنے والے اعضاء — جیسے يَد (ہاتھ)، عَيْن (آنکھ)؛ (۴) مخصوص جگہوں کے نام — جیسے مَكَّة؛ (۵) غیر انسانی جمع — واحد مؤنث کی طرح؛ (۶) وہ الفاظ جنہیں عربوں نے مؤنث کہا — جیسے أَرْض، سَمَاء، شَمْس، نَفْس، نَار۔",
+        "hi": "मुअन्नस। कोई लफ़्ज़ मुअन्नस होता है अगर वह इन क़िस्मों में से किसी में आए: (१) फ़ितरी तौर पर मुअन्नस — जैसे أُم (माँ); (२) ة पर ख़त्म हो — जैसे رَحْمَة (रहमत); (३) जोड़े में आने वाले अंग — जैसे يَد (हाथ), عَيْن (आँख); (४) जगहों के ख़ास नाम — जैसे مَكَّة; (५) ग़ैर-इंसानी जमा — वाहिद मुअन्नस की तरह; (६) वह लफ़्ज़ जिन्हें अरबों ने मुअन्नस कहा — जैसे أَرْض, سَمَاء, شَمْس, نَفْس, نَار।"
+      },
+      "quick_test": {
+        "en": "Look for ة at the end — almost always feminine. No ة? Check the six categories above.",
+        "ur": "آخر میں ة دیکھیں — تقریباً ہمیشہ مؤنث۔ ة نہیں؟ اوپر دی گئی چھ قسموں کو دیکھیں۔",
+        "hi": "आख़िर में ة देखें — लगभग हमेशा मुअन्नस। ة नहीं? ऊपर दी गई छह क़िस्मों को देखें।"
+      },
+      "examples": [
+        { "arabic": "رَحْمَة", "meaning": { "en": "mercy (ends in ة)", "ur": "رحمت (ة پر ختم)", "hi": "रहमत (ة पर ख़त्म)" } },
+        { "arabic": "أَرْض", "meaning": { "en": "earth (Arabs said so)", "ur": "زمین (عربوں نے کہا)", "hi": "ज़मीन (अरबों ने कहा)" } },
+        { "arabic": "شَمْس", "meaning": { "en": "sun (Arabs said so)", "ur": "سورج (عربوں نے کہا)", "hi": "सूरज (अरबों ने कहा)" } }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "classify",
+      "order": 1,
+      "prompt": {
+        "en": "رَحْمَة (mercy) — masculine or feminine?",
+        "ur": "رَحْمَة (رحمت) — مذکر ہے یا مؤنث؟",
+        "hi": "رَحْمَة (रहमत) — मुज़क्कर है या मुअन्नस?"
+      },
+      "choices": [
+        { "label": { "en": "Masculine (مذکر)", "ur": "مذکر", "hi": "मुज़क्कर" }, "value": "wrong" },
+        { "label": { "en": "Feminine (مؤنث)", "ur": "مؤنث", "hi": "मुअन्नस" }, "value": "correct" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Yes! It ends in ة — almost always feminine.",
+        "ur": "بالکل! یہ ة پر ختم ہوتا ہے — تقریباً ہمیشہ مؤنث۔",
+        "hi": "बिल्कुल! यह ة पर ख़त्म होता है — लगभग हमेशा मुअन्नस।"
+      }
+    },
+    {
+      "type": "classify",
+      "order": 2,
+      "prompt": {
+        "en": "أَرْض (earth) — masculine or feminine? Careful — there's no ة!",
+        "ur": "أَرْض (زمین) — مذکر ہے یا مؤنث؟ دھیان دیں — یہاں ة نہیں ہے!",
+        "hi": "أَرْض (ज़मीन) — मुज़क्कर है या मुअन्नस? ध्यान दें — यहाँ ة नहीं है!"
+      },
+      "choices": [
+        { "label": { "en": "Masculine (مذکر)", "ur": "مذکر", "hi": "मुज़क्कर" }, "value": "wrong" },
+        { "label": { "en": "Feminine (مؤنث)", "ur": "مؤنث", "hi": "मुअन्नस" }, "value": "correct" }
+      ],
+      "correct": "correct",
+      "feedback_correct": {
+        "en": "Right! The Arabs declared أَرْض feminine — no ة needed. This is one you memorize.",
+        "ur": "صحیح! عربوں نے أَرْض کو مؤنث قرار دیا — ة کی ضرورت نہیں۔ یہ یاد رکھنا ہے۔",
+        "hi": "सही! अरबों ने أَرْض को मुअन्नस क़रार दिया — ة की ज़रूरत नहीं। यह याद रखना है।"
+      }
+    },
+    {
+      "type": "mcq_concept",
+      "order": 3,
+      "prompt": {
+        "en": "What is the DEFAULT gender in Arabic?",
+        "ur": "عربی میں اصل جنس کون سی ہے؟",
+        "hi": "अरबी में डिफ़ॉल्ट जेंडर कौन सा है?"
+      },
+      "choices": [
+        { "label": { "en": "Masculine — unless a word falls into a feminine category", "ur": "مذکر — جب تک لفظ مؤنث کی کسی قسم میں نہ آئے", "hi": "मुज़क्कर — जब तक लफ़्ज़ मुअन्नस की किसी क़िस्म में न आए" }, "value": "correct" },
+        { "label": { "en": "Feminine — because Arabic is a soft language", "ur": "مؤنث — کیونکہ عربی نرم زبان ہے", "hi": "मुअन्नस — क्योंकि अरबी नरम ज़बान है" }, "value": "wrong" },
+        { "label": { "en": "Neither — it depends on the vowels", "ur": "کوئی نہیں — یہ حرکات پر منحصر ہے", "hi": "कोई नहीं — यह हरकात पर निर्भर है" }, "value": "wrong" }
+      ],
+      "correct": "correct"
+    },
+    {
+      "type": "mcq_concept",
+      "order": 4,
+      "prompt": {
+        "en": "Non-human plurals — like كُتُب (books) or مَسَاجِد (masjids) — are treated grammatically as…",
+        "ur": "غیر انسانی جمع — جیسے كُتُب (کتابیں) یا مَسَاجِد (مسجدیں) — گرامر میں کیا مانی جاتی ہیں؟",
+        "hi": "ग़ैर-इंसानी जमा — जैसे كُتُب (किताबें) या مَسَاجِد (मस्जिदें) — व्याकरण में क्या मानी जाती हैं?"
+      },
+      "choices": [
+        { "label": { "en": "Singular feminine", "ur": "واحد مؤنث", "hi": "वाहिद मुअन्नस" }, "value": "correct" },
+        { "label": { "en": "Plural masculine", "ur": "جمع مذکر", "hi": "जमा मुज़क्कर" }, "value": "wrong" },
+        { "label": { "en": "Singular masculine", "ur": "واحد مذکر", "hi": "वाहिद मुज़क्कर" }, "value": "wrong" }
+      ],
+      "correct": "correct"
+    }
+  ],
+  "reflection": {
+    "prompt": {
+      "en": "In Arabic, even the sun (شَمْس) is feminine and the moon (قَمَر) is masculine — the opposite of what many cultures assume. Does knowing that gender in Arabic is a grammatical property — not always a biological one — change how you relate to the language?",
+      "ur": "عربی میں سورج (شَمْس) مؤنث ہے اور چاند (قَمَر) مذکر — بہت سی ثقافتوں کے خیال کے الٹ۔ کیا یہ جاننا کہ عربی میں جنس ایک گرامر کی خصوصیت ہے — ہمیشہ حیاتیاتی نہیں — اس زبان سے آپ کے تعلق کو بدلتا ہے؟",
+      "hi": "अरबी में सूरज (شَمْس) मुअन्नस है और चाँद (قَمَر) मुज़क्कर — बहुत सी संस्कृतियों के ख़याल के उलट। क्या यह जानना कि अरबी में जेंडर एक व्याकरण की ख़ूसूसियत है — हमेशा जैविक नहीं — इस ज़बान से आपके रिश्ते को बदलता है?"
+    },
+    "journal_tag": "qawaid-mudhakkar-muannath"
+  }
+}
