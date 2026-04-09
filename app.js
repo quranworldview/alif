@@ -24,7 +24,7 @@ import {
 } from './components/LessonRenderer.js';
 import {
   isComplete, isPlacementDone, setPlacementDone, setLevel, getLevel,
-  getProgress, isUnlocked, setLastLesson, getLastLesson
+  getProgress, isUnlocked, setLastLesson, getLastLesson, markComplete
 } from './components/ProgressTracker.js';
 
 // ── GLOBAL STATE ──
@@ -39,141 +39,28 @@ document.documentElement.setAttribute('data-lang', window.APP_STATE.lang);
 
 // ── LESSON REGISTRY ──
 // Lessons are loaded lazily. Add new lessons here as they're authored.
-const LESSON_FILES = [
-  // Huroof — all 28 letters
-  './lessons/huroof/huroof-01-alif.json',
-  './lessons/huroof/huroof-02-ba.json',
-  './lessons/huroof/huroof-03-ta.json',
-  './lessons/huroof/huroof-04-tha.json',
-  './lessons/huroof/huroof-05-jeem.json',
-  './lessons/huroof/huroof-06-ha.json',
-  './lessons/huroof/huroof-07-kha.json',
-  './lessons/huroof/huroof-08-dal.json',
-  './lessons/huroof/huroof-09-dhal.json',
-  './lessons/huroof/huroof-10-ra.json',
-  './lessons/huroof/huroof-11-zay.json',
-  './lessons/huroof/huroof-12-sin.json',
-  './lessons/huroof/huroof-13-shin.json',
-  './lessons/huroof/huroof-14-sad.json',
-  './lessons/huroof/huroof-15-dad.json',
-  './lessons/huroof/huroof-16-taa.json',
-  './lessons/huroof/huroof-17-dhaa.json',
-  './lessons/huroof/huroof-18-ayn.json',
-  './lessons/huroof/huroof-19-ghayn.json',
-  './lessons/huroof/huroof-20-fa.json',
-  './lessons/huroof/huroof-21-qaf.json',
-  './lessons/huroof/huroof-22-kaf.json',
-  './lessons/huroof/huroof-23-lam.json',
-  './lessons/huroof/huroof-24-meem.json',
-  './lessons/huroof/huroof-25-nun.json',
-  './lessons/huroof/huroof-26-halight.json',
-  './lessons/huroof/huroof-27-waw.json',
-  './lessons/huroof/huroof-28-ya.json',
-  // Kalimaat — top words
-  './lessons/kalimaat/kalimaat-01-allah.json',
-  './lessons/kalimaat/kalimaat-02-huwa.json',
-  './lessons/kalimaat/kalimaat-03-min.json',
-  './lessons/kalimaat/kalimaat-04-fi.json',
-  './lessons/kalimaat/kalimaat-05-ala.json',
-  './lessons/kalimaat/kalimaat-06-inna.json',
-  './lessons/kalimaat/kalimaat-07-wa.json',
-  './lessons/kalimaat/kalimaat-08-ila.json',
-  './lessons/kalimaat/kalimaat-09-an.json',
-  './lessons/kalimaat/kalimaat-10-la.json',
-  './lessons/kalimaat/kalimaat-11-bi.json',
-  './lessons/kalimaat/kalimaat-12-li.json',
-  './lessons/kalimaat/kalimaat-13-ma.json',
-  './lessons/kalimaat/kalimaat-14-qala.json',
-  './lessons/kalimaat/kalimaat-15-kana.json',
-  './lessons/kalimaat/kalimaat-16-rabb.json',
-  './lessons/kalimaat/kalimaat-17-kull.json',
-  './lessons/kalimaat/kalimaat-18-alladhi.json',
-  './lessons/kalimaat/kalimaat-19-yawm.json',
-  './lessons/kalimaat/kalimaat-20-nafs.json',
-  './lessons/kalimaat/kalimaat-21-rahman.json',
-  './lessons/kalimaat/kalimaat-22-rahim.json',
-  './lessons/kalimaat/kalimaat-23-alim.json',
-  './lessons/kalimaat/kalimaat-24-nur.json',
-  './lessons/kalimaat/kalimaat-25-iman.json',
-  './lessons/kalimaat/kalimaat-26-qalb.json',
-  './lessons/kalimaat/kalimaat-27-ard.json',
-  './lessons/kalimaat/kalimaat-28-nas.json',
-  './lessons/kalimaat/kalimaat-29-amal.json',
-  './lessons/kalimaat/kalimaat-30-sabr.json',
-  './lessons/kalimaat/kalimaat-31-khalaqa.json',
-  './lessons/kalimaat/kalimaat-32-abada.json',
-  './lessons/kalimaat/kalimaat-33-amana.json',
-  './lessons/kalimaat/kalimaat-34-arsala.json',
-  './lessons/kalimaat/kalimaat-35-hada.json',
-  './lessons/kalimaat/kalimaat-36-taba.json',
-  './lessons/kalimaat/kalimaat-37-daa.json',
-  './lessons/kalimaat/kalimaat-38-alima.json',
-  './lessons/kalimaat/kalimaat-39-razaqa.json',
-  './lessons/kalimaat/kalimaat-40-shakara.json',
-  './lessons/kalimaat/kalimaat-41-haqq.json',
-  './lessons/kalimaat/kalimaat-42-kitab.json',
-  './lessons/kalimaat/kalimaat-43-amr.json',
-  './lessons/kalimaat/kalimaat-44-qawm.json',
-  './lessons/kalimaat/kalimaat-45-sabil.json',
-  './lessons/kalimaat/kalimaat-46-aya.json',
-  './lessons/kalimaat/kalimaat-47-dhikr.json',
-  './lessons/kalimaat/kalimaat-48-hamd.json',
-  './lessons/kalimaat/kalimaat-49-dunya.json',
-  './lessons/kalimaat/kalimaat-50-akhira.json',
-  './lessons/kalimaat/kalimaat-51-rasul.json',
-  './lessons/kalimaat/kalimaat-52-adhab.json',
-  './lessons/kalimaat/kalimaat-53-rahma.json',
-  './lessons/kalimaat/kalimaat-54-janna.json',
-  './lessons/kalimaat/kalimaat-55-naar.json',
-  './lessons/kalimaat/kalimaat-56-salat.json',
-  './lessons/kalimaat/kalimaat-57-din.json',
-  './lessons/kalimaat/kalimaat-58-malak.json',
-  './lessons/kalimaat/kalimaat-59-khayr.json',
-  './lessons/kalimaat/kalimaat-60-shay.json',
-  './lessons/kalimaat/kalimaat-61-nabi.json',
-  './lessons/kalimaat/kalimaat-62-quran.json',
-  './lessons/kalimaat/kalimaat-63-hayat.json',
-  './lessons/kalimaat/kalimaat-64-mawt.json',
-  './lessons/kalimaat/kalimaat-65-wajh.json',
-  './lessons/kalimaat/kalimaat-66-yad.json',
-  './lessons/kalimaat/kalimaat-67-maa.json',
-  './lessons/kalimaat/kalimaat-68-umma.json',
-  './lessons/kalimaat/kalimaat-69-ab.json',
-  './lessons/kalimaat/kalimaat-70-ruh.json',
-  './lessons/kalimaat/kalimaat-71-ilm.json',
-  './lessons/kalimaat/kalimaat-72-nima.json',
-  './lessons/kalimaat/kalimaat-73-umm.json',
-  './lessons/kalimaat/kalimaat-74-akh.json',
-  './lessons/kalimaat/kalimaat-75-ayn.json',
-  './lessons/kalimaat/kalimaat-76-lisan.json',
-  './lessons/kalimaat/kalimaat-77-sama.json',
-  './lessons/kalimaat/kalimaat-78-shams.json',
-  './lessons/kalimaat/kalimaat-79-qamar.json',
-  './lessons/kalimaat/kalimaat-80-layl.json',
-  './lessons/kalimaat/kalimaat-81-nahar.json',
-  './lessons/kalimaat/kalimaat-82-qarya.json',
-  './lessons/kalimaat/kalimaat-83-insan.json',
-  './lessons/kalimaat/kalimaat-84-sirat.json',
-  './lessons/kalimaat/kalimaat-85-hakim.json',
-  './lessons/kalimaat/kalimaat-86-ghafur.json',
-  './lessons/kalimaat/kalimaat-87-tawba.json',
-  './lessons/kalimaat/kalimaat-88-dua.json',
-  './lessons/kalimaat/kalimaat-89-jihad.json',
-  './lessons/kalimaat/kalimaat-90-fitna.json',
-  // Qawaid — grammar
-  './lessons/qawaid/qawaid-01-ism-fil-harf.json',
-  './lessons/qawaid/qawaid-02-mudhakkar-muannath.json',
-  './lessons/qawaid/qawaid-03-mufrad-muthanna-jama.json',
-  './lessons/qawaid/qawaid-04-marifah-nakirah.json',
-  './lessons/qawaid/qawaid-05-idafa.json',
+// ── LESSON BUNDLES ──
+// Each bundle is a single JSON file containing { lessons: [...] }.
+// Add new bundles here as new tracks/levels are created.
+// Individual lesson files no longer exist — everything lives in bundles.
+const LESSON_BUNDLES = [
+  './lessons/bundles/huroof.json',       // 28 lessons
+  './lessons/bundles/kalimaat-l1.json',  // words 1–50
+  './lessons/bundles/kalimaat-l2.json',  // words 51–100
+  './lessons/bundles/qawaid.json',       // 5 grammar lessons
+  // Future: kalimaat-l3.json … kalimaat-l6.json, sarf.json, etc.
 ];
 
 async function loadAllLessons() {
-  const lessons = await Promise.all(
-    LESSON_FILES.map(f => fetch(f).then(r => r.json()).catch(() => null))
+  const bundles = await Promise.all(
+    LESSON_BUNDLES.map(f => fetch(f).then(r => r.json()).catch(() => null))
   );
-  window.APP_STATE.allLessons = lessons.filter(Boolean);
-  return window.APP_STATE.allLessons;
+  // Flatten bundle arrays, filter null (failed fetches), sort by track+order
+  const lessons = bundles
+    .filter(Boolean)
+    .flatMap(b => b.lessons || []);
+  window.APP_STATE.allLessons = lessons;
+  return lessons;
 }
 
 // ── SCREEN ROUTER ──
@@ -333,9 +220,42 @@ window.skipPlacement = function() {
   setPlacementDone(0, 'zero', 'zero');
   showScreen('home');
 };
-window.confirmPlacement = function(level, startLessonId) {
-  setLevel(level);
-  setPlacementDone(0, level, level);
+window.confirmPlacement = function(placement, startLessonId, creditHuroof, creditL1) {
+  setLevel(placement);
+  setPlacementDone(0, placement, placement);
+
+  // ── Credit huroof lessons silently ──
+  // Marks all 28 huroof complete so the unlock chain works.
+  // XP is 0 (placement credit, not earned).
+  if (creditHuroof) {
+    const huroof = window.APP_STATE.allLessons.filter(l => l.track === 'huroof');
+    huroof.forEach(l => markComplete(l.id, 0));
+  }
+
+  // ── Credit kalimaat L1 lessons silently ──
+  // If full pass (intermediate): credit all 50 L1 words.
+  // If partial pass (beginner with firstWrongLessonId): credit all L1 words
+  //   up to (but not including) the startLessonId, so the student
+  //   starts exactly at their first gap.
+  if (creditL1) {
+    // Full L1 credit — intermediate placement
+    const l1 = window.APP_STATE.allLessons.filter(l => l.track === 'kalimaat' && l.order <= 50);
+    l1.forEach(l => markComplete(l.id, 0));
+  } else if (creditHuroof && startLessonId && startLessonId.startsWith('kalimaat-')) {
+    // Partial L1 credit — beginner placement with firstWrongLessonId
+    // Find the order of the start lesson and credit everything before it
+    const startLesson = window.APP_STATE.allLessons.find(l => l.id === startLessonId);
+    if (startLesson && startLesson.order > 1) {
+      const toCredit = window.APP_STATE.allLessons.filter(
+        l => l.track === 'kalimaat' && l.order < startLesson.order
+      );
+      toCredit.forEach(l => markComplete(l.id, 0));
+    }
+  }
+
+  // Set the start lesson as the last touched so Track screen opens there
+  if (startLessonId) setLastLesson(startLessonId);
+
   showScreen('home');
 };
 window.chooseLevelManually = function() {
@@ -510,6 +430,25 @@ window.dismissL1Celebration = function(goToL2) {
     localStorage.setItem(bonusKey, '1');
   }
   if (goToL2) showScreen('track'); // re-render with L2 unlocked at top
+};
+
+// ── LEVEL 2 CELEBRATION ──
+window.dismissL2Celebration = function(keepGoing) {
+  localStorage.setItem('alif_kalimaat_l2_celebrated', '1');
+  const modal = document.getElementById('l2-celebration-modal');
+  if (modal) {
+    modal.style.opacity = '0';
+    modal.style.transition = 'opacity 0.3s ease';
+    setTimeout(() => modal.remove(), 300);
+  }
+  // Award the 750 bonus XP once
+  const bonusKey = 'alif_kalimaat_l2_bonus_xp';
+  if (!localStorage.getItem(bonusKey)) {
+    const xp = parseInt(localStorage.getItem('alif_xp') || '0') + 750;
+    localStorage.setItem('alif_xp', xp);
+    localStorage.setItem(bonusKey, '1');
+  }
+  if (keepGoing) showScreen('track'); // re-render track screen
 };
 
 // ── SCROLL TRACK TO ACTIVE LESSON ──

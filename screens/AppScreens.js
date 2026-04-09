@@ -143,6 +143,13 @@ export function renderTrack(lang, allLessons) {
   const celebrationShown   = localStorage.getItem('alif_kalimaat_l1_celebrated');
   const showCelebration    = kalimaatL1Complete && !celebrationShown;
 
+  // ── Detect Level 2 completion for celebration modal ──
+  const kalimaatL2 = allLessons.filter(l => l.track === 'kalimaat' && l.order >= 51 && l.order <= 100);
+  const kalimaatL2Complete = kalimaatL2.length >= 50 && kalimaatL2.every(l => isComplete(l.id));
+  const l2CelebrationShown = localStorage.getItem('alif_kalimaat_l2_celebrated');
+  // L2 modal only fires after L1 modal has already been dismissed
+  const showL2Celebration  = kalimaatL2Complete && !l2CelebrationShown && !!celebrationShown;
+
   // ── Find the active track ──
   // Source of truth: the last lesson the student actually touched (persisted in localStorage).
   // This is set in app.js every time loadAndStartLesson() is called.
@@ -165,7 +172,8 @@ export function renderTrack(lang, allLessons) {
   return `
     <div id="track-screen" class="screen active" style="display:flex; flex-direction:column; min-height:100vh;">
 
-      ${showCelebration ? renderKalimaatL1Modal(lang) : ''}
+      ${showCelebration    ? renderKalimaatL1Modal(lang) : ''}
+      ${showL2Celebration  ? renderKalimaatL2Modal(lang) : ''}
 
       <div class="topbar">
         <span style="font-family:'Cormorant Garamond',serif; font-size:1.25em; font-weight:600; color:var(--crimson);">${t('trackTitle', lang)}</span>
@@ -316,6 +324,83 @@ function renderKalimaatL1Modal(lang) {
       </div>
     </div>`;
 }
+
+function renderKalimaatL2Modal(lang) {
+  const lines = {
+    title:   { en: 'Level 2 Complete',         ur: 'لیول ۲ مکمل',          hi: 'لیول 2 مکممل' },
+    sub:     { en: "100 Words of the Qur'an",  ur: 'قرآن کے ۱۰۰ الفاظ',  hi: 'قرآن کے 100 لفظ़' },
+    stat:    {
+      en: "These 100 words account for over 65% of everything written in the Qur'an. You have built the foundation. The Book is opening.",
+      ur: 'یہ ۱۰۰ الفاظ قرآن میں لکھی گئی ہر چیز کا ۶۵٪ سے زیادہ ہیں۔ آپ نے بنیاد بنا لی ہے۔ کتاب کھل رہی ہے۔',
+      hi: 'یہ 100 لفظ़ قرآن میں لکھی ہر چیز کا 65% سے زیادہ ہیں۔ آپ نے بنیاد بنا لی ہے۔ کتاب کھل رہی ہے۔',
+    },
+    body:    {
+      en: 'You carried the أَمَانَة. From اللَّه to أَمَانَة — 100 words, 100 windows into a Book you have been reciting your whole life. The mountains refused this responsibility. You accepted it. Alhamdulillah.',
+      ur: 'آپ نے أَمَانَة اٹھائی۔ اللَّه سے أَمَانَة تک — ۱۰۰ الفاظ، ۱۰۰ کھڑکیاں اس کتاب میں جسے آپ پوری زندگی پڑھتے آئے ہیں۔ پہاڑوں نے یہ ذمے داری اٹھانے سے انکار کیا۔ آپ نے قبول کیا۔ الحمد للہ۔',
+      hi: 'آپ نے أَمَانَة اٹھائی۔ اللَّه سے أَمَانَة تک — 100 الفاظ، 100 کھڑکیاں اس کتاب میں۔ پہاڑوں نے یہ ذمے داری اٹھانے سے انکار کیا۔ آپ نے قبول کیا۔ الحمد للہ۔',
+    },
+    words:   { en: 'Words learned',    ur: 'الفاظ سیکھے', hi: 'لفظ़ سیکھے' },
+    xp:      { en: '+750 XP · Level 2 Complete', ur: '‏+۷۵۰ XP · لیول ۲ مکمل', hi: '+750 XP · लेवल 2 مुكممل' },
+    cta:     { en: 'Keep Going',       ur: 'آگے بڑھیں',    hi: 'آگے بڑھیں' },
+    dismiss: { en: 'Review Level 2',   ur: 'لیول ۲ دوبارہ دیکھیں', hi: 'لیول 2 دوبارہ دیکھیں' },
+  };
+  const L = (key) => lines[key][lang] || lines[key].en;
+
+  return `
+    <!-- L2 Celebration overlay -->
+    <div id="l2-celebration-modal"
+      style="position:fixed; inset:0; z-index:1000; background:rgba(7,9,15,0.94); display:flex; align-items:center; justify-content:center; padding:20px;">
+      <div style="background:var(--bg-card); border:1px solid var(--border-gold); border-radius:24px; max-width:380px; width:100%; padding:32px 28px; text-align:center; box-shadow:0 24px 64px rgba(0,0,0,0.5);">
+
+        <!-- Stars -->
+        <div style="font-size:2.2em; margin-bottom:10px; letter-spacing:4px;">⭐⭐⭐⭐⭐</div>
+
+        <!-- Arabic milestone -->
+        <div style="font-family:'Amiri',serif; font-size:2em; color:var(--crimson); margin-bottom:4px; direction:rtl; line-height:1.4;">
+          مِئَةُ كَلِمَة
+        </div>
+        <div style="font-size:0.75em; color:var(--text-muted); margin-bottom:16px; font-style:italic;">one hundred words</div>
+
+        <!-- Title -->
+        <div style="font-family:'Cormorant Garamond',serif; font-size:1.625em; font-weight:600; color:var(--text-primary); margin-bottom:4px;">\${L('title')}</div>
+        <div style="font-size:0.8125em; color:var(--gold); font-weight:600; letter-spacing:0.04em; margin-bottom:20px;">\${L('sub')}</div>
+
+        <!-- Word counter pill -->
+        <div style="display:flex; align-items:center; justify-content:center; gap:12px; margin-bottom:16px;">
+          <div style="background:var(--crimson); border-radius:50px; padding:10px 22px; display:inline-flex; align-items:center; gap:8px;">
+            <span style="font-family:'Cormorant Garamond',serif; font-size:2em; font-weight:700; color:#fff; line-height:1;">100</span>
+            <span style="font-size:0.75em; color:rgba(255,255,255,0.8); text-align:left; line-height:1.3;">\${L('words')}</span>
+          </div>
+        </div>
+
+        <!-- Stat card -->
+        <div style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:14px; padding:14px 16px; margin-bottom:16px;">
+          <div style="font-size:0.8125em; color:var(--text-muted); line-height:1.6;">\${L('stat')}</div>
+        </div>
+
+        <!-- Amana ayah hook -->
+        <div style="font-family:'Amiri',serif; font-size:1.2em; color:var(--text-secondary); direction:rtl; margin-bottom:8px; line-height:1.8; padding:0 8px;">
+          وَحَمَلَهَا ٱلْإِنسَـٰنُ
+        </div>
+
+        <!-- Message -->
+        <div style="font-size:0.875em; color:var(--text-primary); line-height:1.65; margin-bottom:24px;">\${L('body')}</div>
+
+        <!-- XP badge -->
+        <div class="xp-badge xp-pop" style="font-size:1em; padding:8px 24px; margin:0 auto 24px; display:inline-flex;">
+          ✶ \${L('xp')}
+        </div>
+
+        <!-- CTAs -->
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <button class="btn btn-primary"   onclick="dismissL2Celebration(true)">\${L('cta')}</button>
+          <button class="btn btn-secondary" onclick="dismissL2Celebration(false)">\${L('dismiss')}</button>
+        </div>
+
+      </div>
+    </div>`;
+}
+
 
 // ── JOURNAL SCREEN ──
 export function renderJournal(lang) {
