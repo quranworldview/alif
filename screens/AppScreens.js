@@ -279,128 +279,261 @@ export function renderTrack(lang, allLessons) {
 function renderKalimaatL1Modal(lang) {
   const lines = {
     title:   { en: 'Level 1 Complete', ur: 'لیول ۱ مکمل', hi: 'लेवल 1 मुकम्मल' },
-    sub:     { en: '50 Words of the Qur\'an', ur: 'قرآن کے ۵۰ الفاظ', hi: 'क़ुरआन के 50 लफ़्ज़' },
-    stat:    { en: 'These 50 words appear over 30,000 times in the Qur\'an — covering roughly 50% of everything you will ever read.', ur: 'یہ ۵۰ الفاظ قرآن میں ۳۰,۰۰۰ سے زیادہ بار آئے ہیں — تقریباً ۵۰٪ جو آپ کبھی پڑھیں گے۔', hi: 'ये 50 लफ़्ज़ क़ुरआन में 30,000 से ज़्यादा बार आए हैं — तक़रीबन 50% जो आप कभी पढ़ेंगे।' },
-    body:    { en: 'You started with اللَّه and ended with آخِرَة. Between them: the language of your prayer, your faith, your Book. Alhamdulillah.', ur: 'آپ نے اللَّه سے شروع کیا اور آخِرَة پر ختم کیا۔ درمیان میں: آپ کی نماز، آپ کے ایمان، آپ کی کتاب کی زبان۔ الحمد للہ۔', hi: 'आपने اللَّه से शुरू किया और آخِرَة पर ख़त्म किया। दरमियान में: आपकी नमाज़, आपके ईमान, आपकी किताब की ज़बान। अलहमदुलिल्लाह।' },
+    sub:     { en: "50 Words of the Qur'an", ur: 'قرآن کے ۵۰ الفاظ', hi: 'क़ुरआन के 50 लफ़्ज़' },
+    stat:    { en: "These 50 words appear over 30,000 times in the Qur'an — covering roughly 50% of everything you will ever read.", ur: 'یہ ۵۰ الفاظ قرآن میں ۳۰,۰۰۰ سے زیادہ بار آئے ہیں — تقریباً ۵۰٪ جو آپ کبھی پڑھیں گے۔', hi: 'ये 50 लफ़्ज़ क़ुरआन में 30,000 से ज़्यादा बार आए हैं — तक़रीबन 50% जो आप कभी पढ़ेंगे।' },
+    body:    { en: 'You started with اللَّه and ended with آخِرَة. Between them: the language of your prayer, your faith, your Book. Alhamdulillah.', ur: 'آپ نے اللَّه سے شروع کیا اور آخِرَة پر ختم کیا۔ درمیان میں: آپ کی نماز، آپ کے ایمان، آپ کی کتاب کی زبان۔ الحمد للہ۔', hi: 'आपने اللَّه से शुरू किया और आखِرَة पर ख़त्म किया। दरमियान में: आपकी नमाज़, आपके ईमान, आपकी किताब की ज़बान। अलहमदुलिल्लाह।' },
     cta:     { en: 'Continue to Level 2', ur: 'لیول ۲ کی طرف جائیں', hi: 'लेवल 2 की तरफ़ जाएँ' },
     dismiss: { en: 'Stay in Level 1', ur: 'لیول ۱ میں رہیں', hi: 'लेवल 1 में रहें' },
   };
   const L = (key) => lines[key][lang] || lines[key].en;
 
   return `
-    <!-- Celebration overlay -->
+    <!-- L1 Celebration overlay -->
     <div id="l1-celebration-modal"
-      style="position:fixed; inset:0; z-index:1000; background:rgba(7,9,15,0.92); display:flex; align-items:center; justify-content:center; padding:20px;">
-      <div style="background:var(--bg-card); border:1px solid var(--border-gold); border-radius:24px; max-width:380px; width:100%; padding:32px 28px; text-align:center; box-shadow:0 24px 64px rgba(0,0,0,0.5);">
+      style="position:fixed; inset:0; z-index:1000; background:rgba(7,9,15,0.92); display:flex; align-items:center; justify-content:center; padding:16px;">
 
-        <!-- Stars -->
-        <div style="font-size:2.5em; margin-bottom:8px; letter-spacing:6px;">⭐⭐⭐</div>
+      <!-- Confetti canvas sits behind modal card -->
+      <canvas id="celebration-canvas-l1"
+        style="position:fixed; inset:0; pointer-events:none; z-index:999;"></canvas>
 
-        <!-- Arabic -->
-        <div style="font-family:'Amiri',serif; font-size:2em; color:var(--crimson); margin-bottom:4px; direction:rtl;">الحمد للہ</div>
+      <!-- Scrollable card — max-height so it never gets clipped -->
+      <div style="position:relative; z-index:1001; width:100%; max-width:400px; max-height:90vh; overflow-y:auto; border-radius:24px; background:var(--bg-card); border:1px solid var(--border-gold); box-shadow:0 24px 64px rgba(0,0,0,0.6); scrollbar-width:none;">
+        <div style="padding:28px 24px 24px; text-align:center;">
 
-        <!-- Title -->
-        <div style="font-family:'Cormorant Garamond',serif; font-size:1.625em; font-weight:600; color:var(--text-primary); margin-bottom:4px;">${L('title')}</div>
-        <div style="font-size:0.8125em; color:var(--gold); font-weight:600; letter-spacing:0.04em; margin-bottom:20px;">${L('sub')}</div>
+          <div style="font-size:2.2em; margin-bottom:6px; letter-spacing:6px;">⭐⭐⭐</div>
+          <div style="font-family:'Amiri',serif; font-size:2em; color:var(--crimson); margin-bottom:4px; direction:rtl;">الحمد للہ</div>
+          <div style="font-family:'Cormorant Garamond',serif; font-size:1.625em; font-weight:600; color:var(--text-primary); margin-bottom:4px;">${L('title')}</div>
+          <div style="font-size:0.8125em; color:var(--gold); font-weight:600; letter-spacing:0.04em; margin-bottom:18px;">${L('sub')}</div>
 
-        <!-- Stat card -->
-        <div style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:14px; padding:14px 16px; margin-bottom:16px;">
-          <div style="font-size:0.8125em; color:var(--text-muted); line-height:1.6;">${L('stat')}</div>
-        </div>
+          <div style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:14px; padding:14px 16px; margin-bottom:14px;">
+            <div style="font-size:0.8125em; color:var(--text-muted); line-height:1.6;">${L('stat')}</div>
+          </div>
 
-        <!-- Message -->
-        <div style="font-size:0.875em; color:var(--text-primary); line-height:1.65; margin-bottom:28px;">${L('body')}</div>
+          <div style="font-size:0.875em; color:var(--text-primary); line-height:1.65; margin-bottom:20px;">${L('body')}</div>
 
-        <!-- XP badge -->
-        <div class="xp-badge xp-pop" style="font-size:1em; padding:8px 24px; margin:0 auto 24px; display:inline-flex;">
-          ✦ +500 XP · Level 1 Complete
-        </div>
+          <div class="xp-badge xp-pop" style="font-size:1em; padding:8px 24px; margin:0 auto 20px; display:inline-flex;">
+            ✦ +500 XP · Level 1 Complete
+          </div>
 
-        <!-- CTAs -->
-        <div style="display:flex; flex-direction:column; gap:10px;">
-          <button class="btn btn-primary" onclick="dismissL1Celebration(true)">${L('cta')}</button>
-          <button class="btn btn-secondary" onclick="dismissL1Celebration(false)">${L('dismiss')}</button>
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <button class="btn btn-primary" onclick="dismissL1Celebration(true)">${L('cta')}</button>
+            <button class="btn btn-secondary" onclick="dismissL1Celebration(false)">${L('dismiss')}</button>
+          </div>
+
         </div>
       </div>
-    </div>`;
+    </div>
+    <script>
+    (function() {
+      var canvas = document.getElementById('celebration-canvas-l1');
+      if (!canvas) return;
+      var ctx = canvas.getContext('2d');
+      canvas.width  = window.innerWidth;
+      canvas.height = window.innerHeight;
+      var COLORS = ['#C9A84C','#DFC06A','#780F00','#ffffff','#F5D98B','#b8972e'];
+      var SHAPES = ['rect','circle','star'];
+      var N = 130;
+      var particles = [];
+      for (var i = 0; i < N; i++) {
+        particles.push({
+          x:     Math.random() * canvas.width,
+          y:     -(Math.random() * canvas.height * 0.5 + 20),
+          r:     Math.random() * 5 + 3,
+          color: COLORS[Math.floor(Math.random() * COLORS.length)],
+          shape: SHAPES[Math.floor(Math.random() * SHAPES.length)],
+          vx:    (Math.random() - 0.5) * 2.5,
+          vy:    Math.random() * 3 + 1.5,
+          spin:  (Math.random() - 0.5) * 0.18,
+          angle: Math.random() * Math.PI * 2,
+          alpha: 1,
+        });
+      }
+      var frame;
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        var alive = false;
+        for (var i = 0; i < particles.length; i++) {
+          var p = particles[i];
+          p.x += p.vx; p.y += p.vy; p.angle += p.spin;
+          if (p.y > canvas.height * 0.65) p.alpha -= 0.014;
+          if (p.alpha <= 0 || p.y > canvas.height + 20) continue;
+          alive = true;
+          ctx.save();
+          ctx.globalAlpha = Math.max(0, p.alpha);
+          ctx.fillStyle = p.color;
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.angle);
+          if (p.shape === 'rect') {
+            ctx.fillRect(-p.r, -p.r * 0.4, p.r * 2, p.r * 0.8);
+          } else if (p.shape === 'circle') {
+            ctx.beginPath(); ctx.arc(0, 0, p.r, 0, Math.PI * 2); ctx.fill();
+          } else {
+            ctx.beginPath();
+            for (var s = 0; s < 5; s++) {
+              var a = (s * 4 * Math.PI) / 5 - Math.PI / 2;
+              if (s === 0) ctx.moveTo(Math.cos(a)*p.r, Math.sin(a)*p.r);
+              else ctx.lineTo(Math.cos(a)*p.r, Math.sin(a)*p.r);
+            }
+            ctx.closePath(); ctx.fill();
+          }
+          ctx.restore();
+        }
+        if (alive) { frame = requestAnimationFrame(draw); }
+        else { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+      }
+      draw();
+      var obs = new MutationObserver(function() {
+        if (!document.getElementById('l1-celebration-modal')) {
+          cancelAnimationFrame(frame);
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          obs.disconnect();
+        }
+      });
+      obs.observe(document.body, { childList: true, subtree: true });
+    })();
+    <\/script>`;
 }
-
 function renderKalimaatL2Modal(lang) {
   const lines = {
-    title:   { en: 'Level 2 Complete',         ur: 'لیول ۲ مکمل',          hi: 'لیول 2 مکممل' },
-    sub:     { en: "100 Words of the Qur'an",  ur: 'قرآن کے ۱۰۰ الفاظ',  hi: 'قرآن کے 100 لفظ़' },
+    title:   { en: 'Level 2 Complete',        ur: 'لیول ۲ مکمل',         hi: 'लेवल 2 मुकम्मल' },
+    sub:     { en: "100 Words of the Qur'an", ur: 'قرآن کے ۱۰۰ الفاظ', hi: 'क़ुरआन के 100 लफ़्ज़' },
     stat:    {
       en: "These 100 words account for over 65% of everything written in the Qur'an. You have built the foundation. The Book is opening.",
       ur: 'یہ ۱۰۰ الفاظ قرآن میں لکھی گئی ہر چیز کا ۶۵٪ سے زیادہ ہیں۔ آپ نے بنیاد بنا لی ہے۔ کتاب کھل رہی ہے۔',
-      hi: 'یہ 100 لفظ़ قرآن میں لکھی ہر چیز کا 65% سے زیادہ ہیں۔ آپ نے بنیاد بنا لی ہے۔ کتاب کھل رہی ہے۔',
+      hi: 'ये 100 लफ़्ज़ क़ुरआन में लिखी हर चीज़ का 65% से ज़्यादा हैं। आपने बुनियाद बना ली है। किताब खुल रही है।',
     },
     body:    {
-      en: 'You carried the أَمَانَة. From اللَّه to أَمَانَة — 100 words, 100 windows into a Book you have been reciting your whole life. The mountains refused this responsibility. You accepted it. Alhamdulillah.',
-      ur: 'آپ نے أَمَانَة اٹھائی۔ اللَّه سے أَمَانَة تک — ۱۰۰ الفاظ، ۱۰۰ کھڑکیاں اس کتاب میں جسے آپ پوری زندگی پڑھتے آئے ہیں۔ پہاڑوں نے یہ ذمے داری اٹھانے سے انکار کیا۔ آپ نے قبول کیا۔ الحمد للہ۔',
-      hi: 'آپ نے أَمَانَة اٹھائی۔ اللَّه سے أَمَانَة تک — 100 الفاظ، 100 کھڑکیاں اس کتاب میں۔ پہاڑوں نے یہ ذمے داری اٹھانے سے انکار کیا۔ آپ نے قبول کیا۔ الحمد للہ۔',
+      en: 'You carried the أَمَانَة. From اللَّه to أَمَانَة — 100 words, 100 windows into a Book you have been reciting your whole life. The mountains refused this responsibility. You accepted it. Alhamdulillah.',
+      ur: 'آپ نے أَمَانَة اٹھائی۔ اللَّه سے أَمَانَة تک — ۱۰۰ الفاظ، ۱۰۰ کھڑکیاں اس کتاب میں جسے آپ پوری زندگی پڑھتے آئے ہیں۔ پہاڑوں نے یہ ذمے داری اٹھانے سے انکار کیا۔ آپ نے قبول کیا۔ الحمد للہ۔',
+      hi: 'आपने أَمَانَة उठाई। اللَّه से أَمَانَة तक — 100 लफ़्ज़, 100 खिड़कियाँ उस किताब में जिसे आप पूरी ज़िंदगी पढ़ते आए हैं। पहाड़ों ने यह ज़िम्मेदारी उठाने से इनकार किया। आपने क़बूल किया। अलहमदुलिल्लाह।',
     },
-    words:   { en: 'Words learned',    ur: 'الفاظ سیکھے', hi: 'لفظ़ سیکھے' },
-    xp:      { en: '+750 XP · Level 2 Complete', ur: '‏+۷۵۰ XP · لیول ۲ مکمل', hi: '+750 XP · लेवल 2 مुكممل' },
-    cta:     { en: 'Keep Going',       ur: 'آگے بڑھیں',    hi: 'آگے بڑھیں' },
-    dismiss: { en: 'Review Level 2',   ur: 'لیول ۲ دوبارہ دیکھیں', hi: 'لیول 2 دوبارہ دیکھیں' },
+    words:   { en: 'Words learned', ur: 'الفاظ سیکھے', hi: 'लफ़्ज़ सीखे' },
+    xp:      { en: '+750 XP · Level 2 Complete', ur: '‏+۷۵۰ XP · لیول ۲ مکمل', hi: '+750 XP · लेवल 2 मुकम्मल' },
+    cta:     { en: 'Keep Going',     ur: 'آگے بڑھیں',              hi: 'आगे बढ़ें' },
+    dismiss: { en: 'Review Level 2', ur: 'لیول ۲ دوبارہ دیکھیں', hi: 'लेवल 2 दोबारा देखें' },
   };
   const L = (key) => lines[key][lang] || lines[key].en;
 
   return `
     <!-- L2 Celebration overlay -->
     <div id="l2-celebration-modal"
-      style="position:fixed; inset:0; z-index:1000; background:rgba(7,9,15,0.94); display:flex; align-items:center; justify-content:center; padding:20px;">
-      <div style="background:var(--bg-card); border:1px solid var(--border-gold); border-radius:24px; max-width:380px; width:100%; padding:32px 28px; text-align:center; box-shadow:0 24px 64px rgba(0,0,0,0.5);">
+      style="position:fixed; inset:0; z-index:1000; background:rgba(7,9,15,0.94); display:flex; align-items:center; justify-content:center; padding:16px;">
 
-        <!-- Stars -->
-        <div style="font-size:2.2em; margin-bottom:10px; letter-spacing:4px;">⭐⭐⭐⭐⭐</div>
+      <canvas id="celebration-canvas-l2"
+        style="position:fixed; inset:0; pointer-events:none; z-index:999;"></canvas>
 
-        <!-- Arabic milestone -->
-        <div style="font-family:'Amiri',serif; font-size:2em; color:var(--crimson); margin-bottom:4px; direction:rtl; line-height:1.4;">
-          مِئَةُ كَلِمَة
-        </div>
-        <div style="font-size:0.75em; color:var(--text-muted); margin-bottom:16px; font-style:italic;">one hundred words</div>
+      <div style="position:relative; z-index:1001; width:100%; max-width:400px; max-height:90vh; overflow-y:auto; border-radius:24px; background:var(--bg-card); border:1px solid var(--border-gold); box-shadow:0 24px 64px rgba(0,0,0,0.6); scrollbar-width:none;">
+        <div style="padding:28px 24px 24px; text-align:center;">
 
-        <!-- Title -->
-        <div style="font-family:'Cormorant Garamond',serif; font-size:1.625em; font-weight:600; color:var(--text-primary); margin-bottom:4px;">\${L('title')}</div>
-        <div style="font-size:0.8125em; color:var(--gold); font-weight:600; letter-spacing:0.04em; margin-bottom:20px;">\${L('sub')}</div>
+          <div style="font-size:2em; margin-bottom:8px; letter-spacing:4px;">⭐⭐⭐⭐⭐</div>
 
-        <!-- Word counter pill -->
-        <div style="display:flex; align-items:center; justify-content:center; gap:12px; margin-bottom:16px;">
-          <div style="background:var(--crimson); border-radius:50px; padding:10px 22px; display:inline-flex; align-items:center; gap:8px;">
-            <span style="font-family:'Cormorant Garamond',serif; font-size:2em; font-weight:700; color:#fff; line-height:1;">100</span>
-            <span style="font-size:0.75em; color:rgba(255,255,255,0.8); text-align:left; line-height:1.3;">\${L('words')}</span>
+          <div style="font-family:'Amiri',serif; font-size:2em; color:var(--crimson); margin-bottom:4px; direction:rtl; line-height:1.4;">
+            مِئَةُ كَلِمَة
           </div>
+          <div style="font-size:0.75em; color:var(--text-muted); margin-bottom:14px; font-style:italic;">one hundred words</div>
+
+          <div style="font-family:'Cormorant Garamond',serif; font-size:1.625em; font-weight:600; color:var(--text-primary); margin-bottom:4px;">${L('title')}</div>
+          <div style="font-size:0.8125em; color:var(--gold); font-weight:600; letter-spacing:0.04em; margin-bottom:16px;">${L('sub')}</div>
+
+          <div style="margin-bottom:14px;">
+            <div style="background:var(--crimson); border-radius:50px; padding:10px 22px; display:inline-flex; align-items:center; gap:8px;">
+              <span style="font-family:'Cormorant Garamond',serif; font-size:2em; font-weight:700; color:#fff; line-height:1;">100</span>
+              <span style="font-size:0.75em; color:rgba(255,255,255,0.85); line-height:1.3;">${L('words')}</span>
+            </div>
+          </div>
+
+          <div style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:14px; padding:14px 16px; margin-bottom:14px;">
+            <div style="font-size:0.8125em; color:var(--text-muted); line-height:1.6;">${L('stat')}</div>
+          </div>
+
+          <div style="font-family:'Amiri',serif; font-size:1.15em; color:var(--text-secondary); direction:rtl; margin-bottom:8px; line-height:1.8;">
+            وَحَمَلَهَا ٱلْإِنسَـٰنُ
+          </div>
+
+          <div style="font-size:0.875em; color:var(--text-primary); line-height:1.65; margin-bottom:20px;">${L('body')}</div>
+
+          <div class="xp-badge xp-pop" style="font-size:1em; padding:8px 24px; margin:0 auto 20px; display:inline-flex;">
+            ✦ ${L('xp')}
+          </div>
+
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <button class="btn btn-primary"   onclick="dismissL2Celebration(true)">${L('cta')}</button>
+            <button class="btn btn-secondary" onclick="dismissL2Celebration(false)">${L('dismiss')}</button>
+          </div>
+
         </div>
-
-        <!-- Stat card -->
-        <div style="background:var(--accent-bg); border:1px solid var(--border-gold); border-radius:14px; padding:14px 16px; margin-bottom:16px;">
-          <div style="font-size:0.8125em; color:var(--text-muted); line-height:1.6;">\${L('stat')}</div>
-        </div>
-
-        <!-- Amana ayah hook -->
-        <div style="font-family:'Amiri',serif; font-size:1.2em; color:var(--text-secondary); direction:rtl; margin-bottom:8px; line-height:1.8; padding:0 8px;">
-          وَحَمَلَهَا ٱلْإِنسَـٰنُ
-        </div>
-
-        <!-- Message -->
-        <div style="font-size:0.875em; color:var(--text-primary); line-height:1.65; margin-bottom:24px;">\${L('body')}</div>
-
-        <!-- XP badge -->
-        <div class="xp-badge xp-pop" style="font-size:1em; padding:8px 24px; margin:0 auto 24px; display:inline-flex;">
-          ✶ \${L('xp')}
-        </div>
-
-        <!-- CTAs -->
-        <div style="display:flex; flex-direction:column; gap:10px;">
-          <button class="btn btn-primary"   onclick="dismissL2Celebration(true)">\${L('cta')}</button>
-          <button class="btn btn-secondary" onclick="dismissL2Celebration(false)">\${L('dismiss')}</button>
-        </div>
-
       </div>
-    </div>`;
+    </div>
+    <script>
+    (function() {
+      var canvas = document.getElementById('celebration-canvas-l2');
+      if (!canvas) return;
+      var ctx = canvas.getContext('2d');
+      canvas.width  = window.innerWidth;
+      canvas.height = window.innerHeight;
+      var COLORS = ['#C9A84C','#DFC06A','#780F00','#ffffff','#F5D98B','#b8972e','#e8c96a'];
+      var SHAPES = ['rect','circle','star'];
+      var N = 160;
+      var particles = [];
+      for (var i = 0; i < N; i++) {
+        particles.push({
+          x:     Math.random() * canvas.width,
+          y:     -(Math.random() * canvas.height * 0.5 + 20),
+          r:     Math.random() * 5 + 3,
+          color: COLORS[Math.floor(Math.random() * COLORS.length)],
+          shape: SHAPES[Math.floor(Math.random() * SHAPES.length)],
+          vx:    (Math.random() - 0.5) * 2.5,
+          vy:    Math.random() * 3 + 1.5,
+          spin:  (Math.random() - 0.5) * 0.18,
+          angle: Math.random() * Math.PI * 2,
+          alpha: 1,
+        });
+      }
+      var frame;
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        var alive = false;
+        for (var i = 0; i < particles.length; i++) {
+          var p = particles[i];
+          p.x += p.vx; p.y += p.vy; p.angle += p.spin;
+          if (p.y > canvas.height * 0.65) p.alpha -= 0.012;
+          if (p.alpha <= 0 || p.y > canvas.height + 20) continue;
+          alive = true;
+          ctx.save();
+          ctx.globalAlpha = Math.max(0, p.alpha);
+          ctx.fillStyle = p.color;
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.angle);
+          if (p.shape === 'rect') {
+            ctx.fillRect(-p.r, -p.r * 0.4, p.r * 2, p.r * 0.8);
+          } else if (p.shape === 'circle') {
+            ctx.beginPath(); ctx.arc(0, 0, p.r, 0, Math.PI * 2); ctx.fill();
+          } else {
+            ctx.beginPath();
+            for (var s = 0; s < 5; s++) {
+              var a = (s * 4 * Math.PI) / 5 - Math.PI / 2;
+              if (s === 0) ctx.moveTo(Math.cos(a)*p.r, Math.sin(a)*p.r);
+              else ctx.lineTo(Math.cos(a)*p.r, Math.sin(a)*p.r);
+            }
+            ctx.closePath(); ctx.fill();
+          }
+          ctx.restore();
+        }
+        if (alive) { frame = requestAnimationFrame(draw); }
+        else { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+      }
+      draw();
+      var obs = new MutationObserver(function() {
+        if (!document.getElementById('l2-celebration-modal')) {
+          cancelAnimationFrame(frame);
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          obs.disconnect();
+        }
+      });
+      obs.observe(document.body, { childList: true, subtree: true });
+    })();
+    <\/script>`;
 }
-
 
 // ── JOURNAL SCREEN ──
 export function renderJournal(lang) {

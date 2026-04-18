@@ -1,0 +1,1165 @@
+{
+  "lessons": [
+    {
+      "id": "kalimaat-151",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 151,
+      "prerequisite": "kalimaat-150",
+      "unlocks": [
+        "kalimaat-152"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "عَلِمَ",
+        "display": "عَلِمَ",
+        "transliteration": "'alima",
+        "meaning": {
+          "en": "he knew / to know",
+          "ur": "اس نے جانا / جاننا",
+          "hi": "उसने जाना / जानना"
+        },
+        "frequency_rank": 151,
+        "frequency_note": {
+          "en": "Appears 518 times across all forms — knowledge is the most repeated divine attribute in the Qur'an. عَلِيم (the All-Knowing) is one of Allah's most frequent names, appearing 157 times alone.",
+          "ur": "اپنی تمام صورتوں میں ۵۱۸ بار آیا ہے — علم قرآن میں اللہ کی سب سے زیادہ دہرائی جانے والی صفت ہے۔ عَلِيم (سب کچھ جاننے والا) اللہ کے سب سے زیادہ آنے والے اسماء میں سے ایک ہے، جو اکیلے ۱۵۷ بار آتا ہے۔",
+          "hi": "अपने सभी रूपों में ५१८ बार आया है — ज्ञान क़ुरआन में अल्लाह का सबसे अधिक दोहराया जाने वाला दिव्य गुण है। عَلِيم (सर्वज्ञ) अल्लाह के सबसे अधिक आने वाले नामों में से एक है, जो अकेले १५७ बार आता है।"
+        }
+      },
+      "root": {
+        "letters": "ع ل م",
+        "note": {
+          "en": "Root A-L-M is one of the most productive in Arabic. عِلْم is knowledge. عَالِم is a knower or scholar. عَالَم is the world (the known realm). مَعْلُوم is the known thing. اقْرَأْ — the first word of revelation — was itself a command to acquire عِلْم.",
+          "ur": "جذر ع-ل-م عربی کے سب سے زیادہ پیداواری جذروں میں سے ایک ہے۔ عِلْم علم ہے۔ عَالِم جاننے والا یا عالم ہے۔ عَالَم دنیا ہے (جانی پہچانی کائنات)۔ مَعْلُوم جانی ہوئی چیز ہے۔ اقْرَأْ — وحی کا پہلا لفظ — خود عِلْم حاصل کرنے کا حکم تھا۔",
+          "hi": "मूल ع-ل-م अरबी के सबसे अधिक उत्पादक मूलों में से एक है। عِلْم ज्ञान है। عَالِم जानने वाला या विद्वान है। عَالَم संसार है (ज्ञात क्षेत्र)। مَعْلُوم जानी हुई चीज़ है। اقْرَأْ — वह्य का पहला शब्द — स्वयं عِلْم प्राप्त करने का आदेश था।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا",
+        "surah": "Surah Al-Baqarah 2:31",
+        "translation": {
+          "en": "And He taught Adam the names of all things.",
+          "ur": "اور اس نے آدم کو تمام چیزوں کے نام سکھائے۔",
+          "hi": "और उसने आदम को सभी चीज़ों के नाम सिखाए।"
+        },
+        "hook_explanation": {
+          "en": "وَعَلَّمَ — 'He taught'. The very first gift Allah gave to humanity was not food, not shelter, not power — it was عِلْم. Teaching Adam the names of all things was the act that distinguished humans from the angels. Every word you learn in this app is an echo of that original divine gift.",
+          "ur": "وَعَلَّمَ — 'اس نے سکھایا'۔ اللہ نے انسانیت کو سب سے پہلا تحفہ خوراک نہیں، آسرا نہیں، طاقت نہیں — بلکہ عِلْم دیا۔ آدم کو تمام چیزوں کے نام سکھانا وہ عمل تھا جس نے انسانوں کو فرشتوں سے ممتاز کیا۔ اس ایپ میں آپ جو ہر لفظ سیکھتے ہیں وہ اس اصل الٰہی تحفے کی گونج ہے۔",
+          "hi": "وَعَلَّمَ — 'उसने सिखाया'। अल्लाह ने मानवता को सबसे पहला तोहफ़ा खाना नहीं, आश्रय नहीं, शक्ति नहीं — बल्कि عِلْم दिया। आदम को सभी चीज़ों के नाम सिखाना वह कार्य था जिसने इंसानों को फ़रिश्तों से अलग किया। इस ऐप में आप जो हर शब्द सीखते हैं वह उस मूल ईश्वरीय तोहफ़े की गूँज है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does عَلِمَ mean?",
+            "ur": "عَلِمَ کا مطلب کیا ہے؟",
+            "hi": "عَلِمَ का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "he knew",
+                "ur": "اس نے جانا",
+                "hi": "उसने जाना"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "he heard",
+                "ur": "اس نے سنا",
+                "hi": "उसने सुना"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he taught",
+                "ur": "اس نے سکھایا",
+                "hi": "उसने सिखाया"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he saw",
+                "ur": "اس نے دیکھا",
+                "hi": "उसने देखा"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'He taught' in this ayah:",
+            "ur": "اس آیت میں 'اس نے سکھایا' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'उसने सिखाया' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "وَعَلَّمَ",
+            "آدَمَ",
+            "الْأَسْمَاءَ",
+            "كُلَّهَا"
+          ],
+          "correct_index": 0
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "Allah's first gift to Adam was عِلْم — the knowledge of names. Learning the names and meanings of the Qur'an's words is itself an act of gratitude for that original gift. What draws you personally to learning Qur'anic Arabic — what do you hope to find when you understand the words directly?",
+          "ur": "اللہ نے آدم کو پہلا تحفہ عِلْم دیا — ناموں کا علم۔ قرآن کے الفاظ کے نام اور معانی سیکھنا اس اصل تحفے کا شکر بھی ہے۔ قرآنی عربی سیکھنے کی طرف آپ کو ذاتی طور پر کیا کھینچتا ہے — جب آپ الفاظ کو براہ راست سمجھیں گے تو آپ کیا پانے کی امید رکھتے ہیں؟",
+          "hi": "अल्लाह ने आदम को पहला तोहफ़ा عِلْم दिया — नामों का ज्ञान। क़ुरआन के शब्दों के नाम और अर्थ सीखना उस मूल तोहफ़े का शुक्र भी है। क़ुरआनी अरबी सीखने की ओर आपको निजी तौर पर क्या खींचता है — जब आप शब्दों को सीधे समझेंगे तो आप क्या पाने की उम्मीद रखते हैं?"
+        },
+        "journal_tag": "knowledge_intention"
+      }
+    },
+    {
+      "id": "kalimaat-152",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 152,
+      "prerequisite": "kalimaat-151",
+      "unlocks": [
+        "kalimaat-153"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "سَمَاء",
+        "display": "سَمَاء",
+        "transliteration": "samāʾ",
+        "meaning": {
+          "en": "sky / heaven",
+          "ur": "آسمان",
+          "hi": "आसमान / स्वर्ग"
+        },
+        "frequency_rank": 152,
+        "frequency_note": {
+          "en": "Appears 310 times — almost always paired with الْأَرْض (earth, #134). The Qur'an constantly draws the eye upward as evidence: look at the sky and know who made it.",
+          "ur": "۳۱۰ بار آیا ہے — تقریباً ہمیشہ الْأَرْض (زمین، #۱۳۴) کے ساتھ آتا ہے۔ قرآن مسلسل آنکھ کو ثبوت کے طور پر اوپر کی طرف کھینچتا ہے: آسمان کو دیکھو اور جانو کہ اسے کس نے بنایا۔",
+          "hi": "३१० बार आया है — लगभग हमेशा الْأَرْض (धरती, #१३४) के साथ आता है। क़ुरआन लगातार आँख को प्रमाण के रूप में ऊपर की ओर खींचता है: आसमान को देखो और जानो कि इसे किसने बनाया।"
+        }
+      },
+      "root": {
+        "letters": "س م و",
+        "note": {
+          "en": "Root S-M-W means height, elevation, and loftiness. اِسْم (name) shares this root — a name elevates and identifies. سَامٍ means elevated. The plural سَمَاوَات (heavens) appears 190 times. Allah is الْعَلِيُّ الْعَظِيم — both attributes echo this root of height.",
+          "ur": "جذر س-م-و بلندی، اوپر اٹھنے اور رفعت کے معنی رکھتا ہے۔ اِسْم (نام) اسی جذر سے ہے — نام بلند کرتا اور پہچان دیتا ہے۔ سَامٍ یعنی بلند۔ جمع سَمَاوَات (آسمانوں) ۱۹۰ بار آتی ہے۔ اللہ الْعَلِيُّ الْعَظِيم ہے — دونوں صفات بلندی کے اس جذر کی گونج ہیں۔",
+          "hi": "मूल س-م-و ऊँचाई, उत्थान और श्रेष्ठता के अर्थ रखता है। اِسْم (नाम) इसी मूल से है — नाम ऊँचा करता और पहचान देता है। سَامٍ यानी उच्च। बहुवचन سَمَاوَات (आसमानों) १९० बार आता है। अल्लाह الْعَلِيُّ الْعَظِيم है — दोनों विशेषताएँ ऊँचाई के इस मूल की गूँज हैं।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "أَفَلَمْ يَنظُرُوا إِلَى السَّمَاءِ فَوْقَهُمْ كَيْفَ بَنَيْنَاهَا",
+        "surah": "Surah Qaf 50:6",
+        "translation": {
+          "en": "Have they not looked at the sky above them — how We have built it?",
+          "ur": "کیا انہوں نے اپنے اوپر آسمان کی طرف نہیں دیکھا — کہ ہم نے اسے کیسے بنایا ہے؟",
+          "hi": "क्या उन्होंने अपने ऊपर आसمान की ओर नہیں देखा — कि हमने उसे कैसे बनाया है?"
+        },
+        "hook_explanation": {
+          "en": "أَفَلَمْ يَنظُرُوا إِلَى السَّمَاءِ — 'Have they not looked at the sky?' The Qur'an is constantly frustrated with people who have eyes but don't truly see. سَمَاء is the Qur'an's most immediate proof of Allah — it is above every human who has ever lived, always available, always pointing upward to its Maker.",
+          "ur": "أَفَلَمْ يَنظُرُوا إِلَى السَّمَاءِ — 'کیا انہوں نے آسمان کی طرف نہیں دیکھا؟' قرآن ان لوگوں سے مسلسل پریشان ہے جن کے پاس آنکھیں ہیں لیکن وہ واقعی دیکھتے نہیں۔ سَمَاء قرآن کا اللہ کا سب سے فوری ثبوت ہے — یہ ہر اس انسان کے اوپر ہے جو کبھی زندہ رہا، ہمیشہ دستیاب، ہمیشہ اپنے بنانے والے کی طرف اشارہ کرتا ہوا۔",
+          "hi": "أَفَلَمْ يَنظُرُوا إِلَى السَّمَاءِ — 'क्या उन्होंने आसमान की ओर नहीं देखा?' क़ुरआन उन लोगों से लगातार परेशान है जिनके पास आँखें हैं लेकिन वे वास्तव में देखते नहीं। سَمَاء क़ुरआन का अल्लाह का सबसे तत्काल प्रमाण है — यह हर उस इंसान के ऊपर है जो कभी जीया, हमेशा उपलब्ध, हमेशा अपने बनाने वाले की ओर इशारा करता हुआ।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does سَمَاء mean?",
+            "ur": "سَمَاء کا مطلب کیا ہے؟",
+            "hi": "سَمَاء का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "sky / heaven",
+                "ur": "آسمان",
+                "hi": "आसमान / स्वर्ग"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "earth",
+                "ur": "زمین",
+                "hi": "धरती"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "sea",
+                "ur": "سمندر",
+                "hi": "समुद्र"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "mountain",
+                "ur": "پہاڑ",
+                "hi": "पहाड़"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'the sky' in this ayah:",
+            "ur": "اس آیت میں 'آسمان' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'आसमान' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "أَفَلَمْ",
+            "يَنظُرُوا",
+            "إِلَى",
+            "السَّمَاءِ",
+            "فَوْقَهُمْ"
+          ],
+          "correct_index": 3
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "أَفَلَمْ يَنظُرُوا إِلَى السَّمَاءِ — 'have they not looked at the sky?' When did you last stop and genuinely look at the sky — not glance, but truly look — and feel the weight of who made it? Make a commitment to do that today.",
+          "ur": "أَفَلَمْ يَنظُرُوا إِلَى السَّمَاءِ — 'کیا انہوں نے آسمان کی طرف نہیں دیکھا؟' آخری بار کب آپ نے رک کر واقعی آسمان کو دیکھا — جھانکا نہیں، بلکہ سچ میں دیکھا — اور محسوس کیا کہ اسے کس نے بنایا؟ آج یہ کرنے کا عہد کریں۔",
+          "hi": "أَفَلَمْ يَنظُرُوا إِلَى السَّمَاءِ — 'क्या उन्होंने आसमान की ओर नहीं देखा?' आखिरी बार कब आपने रुककर वास्तव में आसमान को देखा — झाँका नहीं, बल्कि सच में देखा — और महसूस किया कि इसे किसने बनाया? आज यह करने का अहद करें।"
+        },
+        "journal_tag": "sky_contemplation"
+      }
+    },
+    {
+      "id": "kalimaat-153",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 153,
+      "prerequisite": "kalimaat-152",
+      "unlocks": [
+        "kalimaat-154"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "كِتَاب",
+        "display": "كِتَاب",
+        "transliteration": "kitāb",
+        "meaning": {
+          "en": "book / scripture / record",
+          "ur": "کتاب / صحیفہ / نامۂ اعمال",
+          "hi": "किताब / धर्मग्रंथ / आमालनामा"
+        },
+        "frequency_rank": 153,
+        "frequency_note": {
+          "en": "Appears 261 times — referring to the Qur'an itself, earlier scriptures, the record of deeds, and the preserved tablet. كِتَاب is the Qur'an's most central self-description.",
+          "ur": "۲۶۱ بار آیا ہے — خود قرآن، پہلے صحائف، اعمالنامہ اور لوحِ محفوظ کے لیے استعمال ہوتا ہے۔ كِتَاب قرآن کی اپنی سب سے مرکزی خود-وصف ہے۔",
+          "hi": "२६१ बार आया है — ख़ुद क़ुरआन, पहले धर्मग्रंथों, आमालनामे और लौह-ए-महफ़ूज़ के लिए प्रयुक्त। كِتَاب क़ुरआन का अपना सबसे केंद्रीय स्व-वर्णन है।"
+        }
+      },
+      "root": {
+        "letters": "ك ت ب",
+        "note": {
+          "en": "Root K-T-B means to write and to prescribe. كَتَبَ means he wrote. كَاتِب is a writer or scribe. مَكْتُوب is something written. كُتِبَ عَلَيْكُمْ means 'it has been prescribed for you' — writing as divine decree.",
+          "ur": "جذر ك-ت-ب لکھنے اور فرض کرنے کے معنی رکھتا ہے۔ كَتَبَ یعنی اس نے لکھا۔ كَاتِب لکھنے والا یا کاتب ہے۔ مَكْتُوب لکھی ہوئی چیز ہے۔ كُتِبَ عَلَيْكُمْ یعنی 'تم پر فرض کیا گیا ہے' — الٰہی حکم کے طور پر لکھنا۔",
+          "hi": "मूल ك-ت-ب लिखने और अनिवार्य करने के अर्थ रखता है। كَتَبَ यानी उसने लिखा। كَاتِب लिखने वाला या लिपिक है। مَكْتُوب लिखी हुई चीज़ है। كُتِبَ عَلَيْكُمْ यानी 'तुम पर फ़र्ज़ किया गया है' — ईश्वरीय आदेश के रूप में लिखना।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+        "surah": "Surah Al-Baqarah 2:2",
+        "translation": {
+          "en": "That is the Book — no doubt in it — a guidance for the God-fearing.",
+          "ur": "یہ وہ کتاب ہے جس میں کوئی شک نہیں، متقیوں کے لیے ہدایت ہے۔",
+          "hi": "यह वह किताब है — जिसमें कोई शक नहीं — परहेज़गारों के लिए हिदायत।"
+        },
+        "hook_explanation": {
+          "en": "الْكِتَابُ — 'the Book'. Not 'a book'. The definite article الـ makes it THE كِتَاب. The second ayah of the Qur'an introduces itself with absolute confidence: لَا رَيْبَ فِيهِ — no doubt whatsoever. The كِتَاب does not hedge. Every time you open the Qur'an, you are opening the one book that begins with that declaration.",
+          "ur": "الْكِتَابُ — 'وہ کتاب'۔ 'ایک کتاب' نہیں۔ ال تعریف اسے وہ كِتَاب بناتا ہے۔ قرآن کی دوسری آیت خود کو مکمل اعتماد کے ساتھ متعارف کراتی ہے: لَا رَيْبَ فِيهِ — ذرا بھی شک نہیں۔ كِتَاب کوئی تحفظات نہیں رکھتی۔ جب بھی آپ قرآن کھولتے ہیں، آپ وہ ایک کتاب کھول رہے ہیں جو اس اعلان کے ساتھ شروع ہوتی ہے۔",
+          "hi": "الْكِتَابُ — 'वह किताब'। 'एक किताब' नहीं। ال (अलिफ़-लाम) इसे वह كِتَاب बनाता है। क़ुरआन की दूसरी आयत ख़ुद को पूर्ण आत्मविश्वास के साथ परिचित कराती है: لَا رَيْبَ فِيهِ — ज़रा भी शक नहीं। كِتَاب कोई आरक्षण नहीं रखती। जब भी आप क़ुरआन खोलते हैं, आप वह एक किताब खोल रहे हैं जो उस घोषणा के साथ शुरू होती है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does كِتَاب mean?",
+            "ur": "كِتَاب کا مطلب کیا ہے؟",
+            "hi": "كِتَاب का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "book / scripture",
+                "ur": "کتاب / صحیفہ",
+                "hi": "किताब / धर्मग्रंथ"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "word",
+                "ur": "لفظ",
+                "hi": "शब्द"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "verse",
+                "ur": "آیت",
+                "hi": "आयत"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "message",
+                "ur": "پیغام",
+                "hi": "संदेश"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'the Book' in this ayah:",
+            "ur": "اس آیت میں 'کتاب' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'किताब' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "ذَٰلِكَ",
+            "الْكِتَابُ",
+            "لَا",
+            "رَيْبَ",
+            "فِيهِ"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "لَا رَيْبَ فِيهِ — no doubt in it. The Qur'an begins with a declaration of certainty. Is there any aspect of the Qur'an that you personally find difficult to accept or understand? Bring that question honestly — the كِتَاب can hold it.",
+          "ur": "لَا رَيْبَ فِيهِ — اس میں کوئی شک نہیں۔ قرآن یقین کے اعلان کے ساتھ شروع ہوتا ہے۔ کیا قرآن کا کوئی پہلو ہے جسے آپ ذاتی طور پر قبول کرنا یا سمجھنا مشکل پاتے ہیں؟ وہ سوال ایمانداری کے ساتھ لائیں — كِتَاب اسے تھام سکتی ہے۔",
+          "hi": "لَا رَيْبَ فِيهِ — इसमें कोई शक नहीं। क़ुरआन यक़ीन की घोषणा के साथ शुरू होता है। क्या क़ुरआन का कोई पहलू है जिसे आप निजी तौर पर स्वीकार करना या समझना कठिन पाते हैं? वह सवाल ईमानदारी से लाएँ — كِتَاب उसे थाम सकती है।"
+        },
+        "journal_tag": "quran_relationship"
+      }
+    },
+    {
+      "id": "kalimaat-154",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 154,
+      "prerequisite": "kalimaat-153",
+      "unlocks": [
+        "kalimaat-155"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "ظَلَمَ",
+        "display": "ظَلَمَ",
+        "transliteration": "ẓalama",
+        "meaning": {
+          "en": "he wronged / he oppressed / he was unjust",
+          "ur": "اس نے ظلم کیا / اس نے نا انصافی کی",
+          "hi": "उसने ज़ुल्म किया / उसने अन्याय किया"
+        },
+        "frequency_rank": 154,
+        "frequency_note": {
+          "en": "Appears 266 times — injustice and wrongdoing are among the Qur'an's most condemned acts. Crucially, ظُلْم includes wronging oneself — the Qur'an's most frequent use of this word.",
+          "ur": "۲۶۶ بار آیا ہے — ناانصافی اور ظلم قرآن کی سب سے مذمت کی جانے والی حرکات میں سے ہیں۔ اہم بات یہ ہے کہ ظُلْم میں اپنے آپ پر ظلم بھی شامل ہے — قرآن میں اس لفظ کا سب سے زیادہ استعمال یہی ہے۔",
+          "hi": "२६६ बार आया है — अन्याय और ज़ुल्म क़ुरआन के सबसे निंदित कार्यों में से हैं। महत्वपूर्ण बात यह है कि ظُلْم में ख़ुद पर ज़ुल्म भी शामिल है — क़ुरआन में इस शब्द का सबसे अधिक उपयोग यही है।"
+        }
+      },
+      "root": {
+        "letters": "ظ ل م",
+        "note": {
+          "en": "Root ZH-L-M originally means darkness. ظُلْمَة is darkness. ظُلْم (injustice) is literally 'putting something in the wrong place' — like darkness where there should be light. ظَالِم is the oppressor. The Qur'an says Allah never does ظُلْم — He is الْعَادِل, the Just.",
+          "ur": "جذر ظ-ل-م اصل میں اندھیرے کے معنی رکھتا ہے۔ ظُلْمَة اندھیرا ہے۔ ظُلْم (ناانصافی) لغوی طور پر 'کسی چیز کو غلط جگہ رکھنا' ہے — جیسے جہاں روشنی ہونی چاہیے وہاں اندھیرا۔ ظَالِم ظالم ہے۔ قرآن کہتا ہے اللہ کبھی ظُلْم نہیں کرتا — وہ الْعَادِل، عادل ہے۔",
+          "hi": "मूल ظ-ل-م मूलतः अंधेरे के अर्थ रखता है। ظُلْمَة अंधेरा है। ظُلْم (अन्याय) शाब्दिक रूप से 'किसी चीज़ को ग़लत जगह रखना' है — जैसे जहाँ रोशनी होनी चाहिए वहाँ अंधेरा। ظَالِم अत्याचारी है। क़ुरआन कहता है अल्लाह कभी ظُلْم नहीं करता — वह الْعَادِل, न्यायी है।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+        "surah": "Surah Luqman 31:13",
+        "translation": {
+          "en": "Indeed, associating partners with Allah is a great injustice.",
+          "ur": "بیشک شرک بہت بڑا ظلم ہے۔",
+          "hi": "बेशक शिर्क बहुत बड़ा ज़ुल्म है।"
+        },
+        "hook_explanation": {
+          "en": "لَظُلْمٌ عَظِيمٌ — 'a great injustice'. Luqman says this to his own son. The Qur'an frames شِرْك (associating partners with Allah) not as a religious infraction but as ظُلْم — the deepest injustice, a putting of creation in the place of the Creator. Understanding ظَلَمَ reshapes how you understand the gravity of tawhid.",
+          "ur": "لَظُلْمٌ عَظِيمٌ — 'بہت بڑا ظلم'۔ لقمان یہ اپنے بیٹے سے کہتا ہے۔ قرآن شِرْك (اللہ کے ساتھ شریک ٹھہرانا) کو مذہبی خلاف ورزی کے طور پر نہیں بلکہ ظُلْم کے طور پر پیش کرتا ہے — گہری ترین ناانصافی، مخلوق کو خالق کی جگہ رکھنا۔ ظَلَمَ کو سمجھنا توحید کی سنگینی کو سمجھنے کا طریقہ بدل دیتا ہے۔",
+          "hi": "لَظُلْمٌ عَظِيمٌ — 'बहुत बड़ा ज़ुल्म'। लुक़मान यह अपने बेटे से कहता है। क़ुरआन شِرْك (अल्लाह के साथ साझीदार ठहराना) को धार्मिक उल्लंघन के रूप में नहीं बल्कि ظُلْم के रूप में प्रस्तुत करता है — गहरतम अन्याय, सृष्टि को सृष्टिकर्ता की जगह रखना। ظَلَمَ को समझना तौहीद की गंभीरता को समझने का तरीक़ा बदल देता है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does ظَلَمَ mean?",
+            "ur": "ظَلَمَ کا مطلب کیا ہے؟",
+            "hi": "ظَلَمَ का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "he wronged / oppressed",
+                "ur": "اس نے ظلم کیا",
+                "hi": "उसने ज़ुल्म किया"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "he helped",
+                "ur": "اس نے مدد کی",
+                "hi": "उसने मदद की"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he judged",
+                "ur": "اس نے فیصلہ کیا",
+                "hi": "उसने फ़ैसला किया"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he forgave",
+                "ur": "اس نے معاف کیا",
+                "hi": "उसने माफ़ किया"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'injustice' in this ayah:",
+            "ur": "اس آیت میں 'ظلم' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'ज़ुल्म' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "إِنَّ",
+            "الشِّرْكَ",
+            "لَظُلْمٌ",
+            "عَظِيمٌ"
+          ],
+          "correct_index": 2
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "The Qur'an's most frequent use of ظَلَمَ is about wronging oneself — ظَلَمَ نَفْسَهُ. Are there ways you are currently committing ظُلْم against your own نَفْس — your own soul — through neglect, harmful habits, or self-deception?",
+          "ur": "قرآن میں ظَلَمَ کا سب سے زیادہ استعمال اپنے آپ پر ظلم کرنے کے بارے میں ہے — ظَلَمَ نَفْسَهُ۔ کیا ایسے طریقے ہیں جن سے آپ اس وقت غفلت، نقصاندہ عادات، یا خود کو دھوکہ دینے کے ذریعے اپنی نَفْس — اپنی روح — پر ظُلْم کر رہے ہیں؟",
+          "hi": "क़ुरआन में ظَلَمَ का सबसे अधिक उपयोग ख़ुद पर ज़ुल्म करने के बारे में है — ظَلَمَ نَفْسَهُ। क्या ऐसे तरीक़े हैं जिनसे आप इस समय लापरवाही, हानिकारक आदतों, या आत्म-धोखे के ज़रिए अपनी نَفْس — अपनी आत्मा — पर ظُلْم कर रहे हैं?"
+        },
+        "journal_tag": "self_accountability"
+      }
+    },
+    {
+      "id": "kalimaat-155",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 155,
+      "prerequisite": "kalimaat-154",
+      "unlocks": [
+        "kalimaat-156"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "دَعَا",
+        "display": "دَعَا",
+        "transliteration": "daʿā",
+        "meaning": {
+          "en": "he called / he prayed / he invoked",
+          "ur": "اس نے پکارا / اس نے دعا کی",
+          "hi": "उसने पुकारा / उसने दुआ की"
+        },
+        "frequency_rank": 155,
+        "frequency_note": {
+          "en": "Appears 199 times — دُعَاء (supplication) is called the marrow of worship in the hadith. Every call to Allah in the Qur'an — from prophets, from believers, even from non-believers in desperation — uses this root.",
+          "ur": "۱۹۹ بار آیا ہے — دُعَاء (مناجات) کو حدیث میں عبادت کا مغز کہا گیا ہے۔ قرآن میں اللہ کو ہر پکار — انبیاء کی، مومنوں کی، حتیٰ کہ مصیبت میں غیر مسلموں کی — اسی جذر سے ہے۔",
+          "hi": "१९९ बार आया है — دُعَاء (मुनाजात) को हदीस में इबादत की मज्ज़ कहा गया है। क़ुरआन में अल्लाह को हर पुकार — नबियों की, मोमिनों की, यहाँ तक कि मुसीबत में ग़ैर-मुस्लिमों की — इसी मूल से है।"
+        }
+      },
+      "root": {
+        "letters": "د ع و",
+        "note": {
+          "en": "Root D-A-W means to call, to invite, to pray. دُعَاء is the prayer or supplication. دَاعِي is the one who calls. دَعْوَة is an invitation or the call to Islam. All three meanings — personal prayer, divine invitation, and prophetic mission — live in this one root.",
+          "ur": "جذر د-ع-و پکارنے، دعوت دینے اور دعا کرنے کے معنی رکھتا ہے۔ دُعَاء دعا یا مناجات ہے۔ دَاعِي پکارنے والا ہے۔ دَعْوَة دعوت یا اسلام کی دعوت ہے۔ تینوں معنی — ذاتی دعا، الٰہی دعوت، اور نبوی مشن — ایک ہی جذر میں بستے ہیں۔",
+          "hi": "मूल د-ع-و पुकारने, आमंत्रित करने और दुआ करने के अर्थ रखता है। دُعَاء दुआ या मुनाजात है। دَاعِي पुकारने वाला है। دَعْوَة निमंत्रण या इस्लाम की दावत है। तीनों अर्थ — व्यक्तिगत दुआ, ईश्वरीय आमंत्रण, और नबूवत मिशन — एक ही मूल में बसते हैं।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ",
+        "surah": "Surah Al-Baqarah 2:186",
+        "translation": {
+          "en": "And when My servants ask you about Me — I am near. I respond to the call of the caller when he calls upon Me.",
+          "ur": "اور جب میرے بندے آپ سے میرے بارے میں پوچھیں — تو میں قریب ہوں۔ میں پکارنے والے کی دعا قبول کرتا ہوں جب وہ مجھے پکارے۔",
+          "hi": "और जब मेरे बंदे आपसे मेरे बारे में पूछें — तो मैं क़रीब हूँ। मैं पुकारने वाले की दुआ क़बूल करता हूँ जब वह मुझे पुकारे।"
+        },
+        "hook_explanation": {
+          "en": "دَعَانِ — 'when he calls upon Me.' Notice: Allah does not say 'I will consider it' or 'I may respond.' He says أُجِيبُ — I respond. Present tense, active, certain. This ayah sits inside the Ramadan verses of Al-Baqarah — even its placement teaches us that دُعَاء and fasting belong together.",
+          "ur": "دَعَانِ — 'جب وہ مجھے پکارے۔' غور کریں: اللہ نہیں کہتا 'میں سوچوں گا' یا 'شاید جواب دوں'۔ وہ کہتا ہے أُجِيبُ — میں جواب دیتا ہوں۔ حال، فاعل، یقینی۔ یہ آیت البقرہ کی رمضان کی آیات کے اندر ہے — یہاں تک کہ اس کی جگہ ہمیں سکھاتی ہے کہ دُعَاء اور روزہ ساتھ ہیں۔",
+          "hi": "دَعَانِ — 'जब वह मुझे पुकारे।' ध्यान दें: अल्लाह नहीं कहता 'मैं सोचूँगा' या 'शायद जवाब दूँ।' वह कहता है أُجِيبُ — मैं जवाब देता हूँ। वर्तमान काल, सक्रिय, निश्चित। यह आयत अल-बक़रह की रमज़ान की आयतों के भीतर है — यहाँ तक कि इसकी जगह हमें सिखाती है कि دُعَاء और रोज़ा साथ हैं।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does دَعَا mean?",
+            "ur": "دَعَا کا مطلب کیا ہے؟",
+            "hi": "دَعَا का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "he called / prayed",
+                "ur": "اس نے پکارا / دعا کی",
+                "hi": "उसने पुकारा / दुआ की"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "he heard",
+                "ur": "اس نے سنا",
+                "hi": "उसने सुना"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he left",
+                "ur": "وہ چلا گیا",
+                "hi": "वह चला गया"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he bowed",
+                "ur": "اس نے جھکا",
+                "hi": "उसने झुका"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'when he calls upon Me' in this ayah:",
+            "ur": "اس آیت میں 'جب وہ مجھے پکارے' کا لفظ چھوئیں:",
+            "hi": "इस आयت में 'जब वह मुझे पुकारे' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "أُجِيبُ",
+            "دَعْوَةَ",
+            "الدَّاعِ",
+            "إِذَا",
+            "دَعَانِ"
+          ],
+          "correct_index": 4
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "فَإِنِّي قَرِيبٌ — 'I am near.' Allah's response to the question 'where is He?' is simply: near. When did you last make a دُعَاء from a place of genuine need and closeness, not just routine? What is the دُعَاء your heart most needs to make right now?",
+          "ur": "فَإِنِّي قَرِيبٌ — 'میں قریب ہوں۔' 'وہ کہاں ہے؟' کے سوال کا اللہ کا جواب بس یہ ہے: قریب۔ آخری بار کب آپ نے حقیقی ضرورت اور قربت کی جگہ سے دُعَاء کی، نہ کہ محض معمول کے طور پر؟ ابھی آپ کے دل کو سب سے زیادہ کس دُعَاء کی ضرورت ہے؟",
+          "hi": "فَإِنِّي قَرِيبٌ — 'मैं क़रीब हूँ।' 'वह कहाँ है?' के सवाल का अल्लाह का जवाब बस यह है: क़रीब। आखिरी बार कब आपने असली ज़रूरत और क़ुर्बत की जगह से دُعَاء की, न कि महज़ रूटीन के तौर पर? अभी आपके दिल को सबसे ज़्यादा किस دُعَاء की ज़रूरत है?"
+        },
+        "journal_tag": "personal_dua"
+      }
+    },
+    {
+      "id": "kalimaat-156",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 156,
+      "prerequisite": "kalimaat-155",
+      "unlocks": [
+        "kalimaat-157"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "هَدَى",
+        "display": "هَدَى",
+        "transliteration": "hadā",
+        "meaning": {
+          "en": "he guided / to guide",
+          "ur": "اس نے ہدایت دی / رہنمائی کرنا",
+          "hi": "उसने मार्गदर्शन किया / हिदायत देना"
+        },
+        "frequency_rank": 156,
+        "frequency_note": {
+          "en": "Appears 161 times — guidance is the Qur'an's central promise. اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (guide us to the straight path) is repeated by every Muslim in every rakah of every prayer — the most repeated dua in human history.",
+          "ur": "۱۶۱ بار آیا ہے — ہدایت قرآن کا مرکزی وعدہ ہے۔ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (ہمیں سیدھے راستے کی ہدایت دے) ہر مسلمان کی ہر نماز کی ہر رکعت میں دہرائی جاتی ہے — انسانی تاریخ کی سب سے زیادہ دہرائی جانے والی دعا۔",
+          "hi": "१६१ बार आया है — हिदायत क़ुरआन का केंद्रीय वादा है। اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (हमें सीधे रास्ते की हिदायत दे) हर मुसलमान की हर नमाज़ की हर रकअत में दोहराई जाती है — मानव इतिहास की सबसे अधिक दोहराई जाने वाली दुआ।"
+        }
+      },
+      "root": {
+        "letters": "ه د ي",
+        "note": {
+          "en": "Root H-D-Y means to guide, to lead, to present a gift. هَدِيَّة is a gift — because guidance is the greatest gift. هَادٍ is the guide. الْهُدَى is guidance itself, often used as a name for the Qur'an. مَهْدِيّ is the guided one.",
+          "ur": "جذر ه-د-ي رہنمائی کرنے، لے جانے اور تحفہ دینے کے معنی رکھتا ہے۔ هَدِيَّة تحفہ ہے — کیونکہ ہدایت سب سے بڑا تحفہ ہے۔ هَادٍ رہنما ہے۔ الْهُدَى خود ہدایت ہے، اکثر قرآن کے نام کے طور پر استعمال ہوتا ہے۔ مَهْدِيّ ہدایت یافتہ ہے۔",
+          "hi": "मूल ه-د-ي मार्गदर्शन करने, ले जाने और उपहार देने के अर्थ रखता है। هَدِيَّة उपहार है — क्योंकि हिदायत सबसे बड़ा उपहार है। هَادٍ मार्गदर्शक है। الْهُدَى स्वयं हिदायत है, अक्सर क़ुरआन के नाम के रूप में प्रयुक्त। مَهْدِيّ हिदायत प्राप्त व्यक्ति है।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+        "surah": "Surah Al-Fatihah 1:6",
+        "translation": {
+          "en": "Guide us to the straight path.",
+          "ur": "ہمیں سیدھے راستے کی ہدایت دے۔",
+          "hi": "हमें सीधे रास्ते की हिदायत दे।"
+        },
+        "hook_explanation": {
+          "en": "اهْدِنَا — 'guide us'. This is the heart of Al-Fatihah — the most recited prayer in existence. You ask for هِدَايَة (guidance) at minimum 17 times a day in your obligatory prayers, more with nafl. The fact that even a Muslim who already has guidance asks for more هِدَايَة teaches us: guidance is not a one-time event. It is a daily need.",
+          "ur": "اهْدِنَا — 'ہمیں ہدایت دے'۔ یہ الفاتحہ کا مرکز ہے — موجود سب سے زیادہ پڑھی جانے والی دعا۔ آپ فرض نمازوں میں کم از کم دن میں ۱۷ بار هِدَايَة (ہدایت) مانگتے ہیں، نفل کے ساتھ اس سے زیادہ۔ یہ حقیقت کہ پہلے سے ہدایت پانے والا مسلمان بھی مزید هِدَايَة مانگتا ہے، سکھاتی ہے: ہدایت ایک بار کا واقعہ نہیں۔ یہ روزانہ کی ضرورت ہے۔",
+          "hi": "اهْدِنَا — 'हमें हिदायत दे'। यह अल-फ़ातिहा का केंद्र है — अस्तित्व में सबसे अधिक पढ़ी जाने वाली दुआ। आप फ़र्ज़ नमाज़ों में कम से कम दिन में १७ बार هِدَايَة (हिदायत) माँगते हैं, नफ़्ल के साथ इससे अधिक। यह तथ्य कि पहले से हिदायत पाया हुआ मुसलमान भी और هِدَايَة माँगता है, सिखाता है: हिदायत एक बार की घटना नहीं। यह रोज़ाना की ज़रूरत है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does هَدَى mean?",
+            "ur": "هَدَى کا مطلب کیا ہے؟",
+            "hi": "هَدَى का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "he guided",
+                "ur": "اس نے ہدایت دی",
+                "hi": "उसने हिदायत दी"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "he misled",
+                "ur": "اس نے گمراہ کیا",
+                "hi": "उसने गुमराह किया"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he created",
+                "ur": "اس نے پیدا کیا",
+                "hi": "उसने बनाया"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he saved",
+                "ur": "اس نے بچایا",
+                "hi": "उसने बचाया"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'guide us' in this ayah:",
+            "ur": "اس آیت میں 'ہمیں ہدایت دے' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'हमें हिदायत दे' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "اهْدِنَا",
+            "الصِّرَاطَ",
+            "الْمُسْتَقِيمَ"
+          ],
+          "correct_index": 0
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "You ask اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ at least 17 times a day, yet perhaps recite it without feeling it. Today, in your next prayer, pause on this ayah. What specific aspect of your life are you most in need of هِدَايَة in right now?",
+          "ur": "آپ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ دن میں کم از کم ۱۷ بار مانگتے ہیں، پھر بھی شاید اسے محسوس کیے بغیر پڑھتے ہیں۔ آج اپنی اگلی نماز میں اس آیت پر رکیں۔ آپ کی زندگی کا کون سا مخصوص پہلو ہے جس میں آپ کو ابھی سب سے زیادہ هِدَايَة کی ضرورت ہے؟",
+          "hi": "आप اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ दिन में कम से कम १७ बार माँगते हैं, फिर भी शायद इसे महसूस किए बिना पढ़ते हैं। आज अपनी अगली नमाज़ में इस आयत पर रुकें। आपकी ज़िंदगी का कौन सा विशेष पहलू है जिसमें आपको अभी सबसे ज़्यादा هِدَايَة की ज़रूरत है?"
+        },
+        "journal_tag": "guidance_intention"
+      }
+    },
+    {
+      "id": "kalimaat-157",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 157,
+      "prerequisite": "kalimaat-156",
+      "unlocks": [
+        "kalimaat-158"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "رَحْمَة",
+        "display": "رَحْمَة",
+        "transliteration": "raḥma",
+        "meaning": {
+          "en": "mercy / compassion",
+          "ur": "رحمت / مہربانی",
+          "hi": "रहमत / दया / करुणा"
+        },
+        "frequency_rank": 157,
+        "frequency_note": {
+          "en": "Appears 148 times — and the Basmala (بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ) begins 113 surahs with two names derived from this root. The Qur'an opens every surah with mercy before anything else.",
+          "ur": "۱۴۸ بار آیا ہے — اور بسم اللہ (بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ) ۱۱۳ سورتیں اس جذر سے نکلے دو ناموں کے ساتھ شروع ہوتی ہیں۔ قرآن ہر سورت کو کسی بھی چیز سے پہلے رحمت کے ساتھ کھولتا ہے۔",
+          "hi": "१४८ बार आया है — और बिस्मिल्लाह (بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ) ११३ सूरतें इस मूल से निकले दो नामों के साथ शुरू होती हैं। क़ुरआन हर सूरत को किसी भी चीज़ से पहले रहमत के साथ खोलता है।"
+        }
+      },
+      "root": {
+        "letters": "ر ح م",
+        "note": {
+          "en": "Root R-H-M is built on رَحِم — the womb. Mercy in Arabic is linguistically rooted in the love a mother has for her child in the womb: total, unconditional, protective. الرَّحْمَٰن is the vast mercy; الرَّحِيم is the specific mercy directed at the believers.",
+          "ur": "جذر ر-ح-م رَحِم — رحم مادر — پر مبنی ہے۔ عربی میں رحمت لسانی طور پر اس محبت میں جڑی ہے جو ایک ماں اپنے بچے کے لیے رحم میں رکھتی ہے: مکمل، غیر مشروط، حفاظتی۔ الرَّحْمَٰن وسیع رحمت ہے؛ الرَّحِيم وہ مخصوص رحمت ہے جو مومنوں کی طرف متوجہ ہے۔",
+          "hi": "मूल ر-ح-م رَحِم — गर्भ — पर आधारित है। अरबी में रहमत भाषाई रूप से उस प्रेम में निहित है जो एक माँ अपने बच्चे के लिए गर्भ में रखती है: पूर्ण, बिना शर्त, सुरक्षात्मक। الرَّحْمَٰن विशाल दया है; الرَّحِيم वह विशेष दया है जो मोमिनों की ओर निर्देशित है।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ",
+        "surah": "Surah Al-A'raf 7:156",
+        "translation": {
+          "en": "And My mercy encompasses all things.",
+          "ur": "اور میری رحمت ہر چیز کو محیط ہے۔",
+          "hi": "और मेरी रहمत हर चीज़ को घेरे हुए है।"
+        },
+        "hook_explanation": {
+          "en": "وَسِعَتْ كُلَّ شَيْءٍ — 'encompasses all things'. Not most things. Not believers only. كُلَّ شَيْءٍ — every single thing. Allah's رَحْمَة is wider than any theology, wider than any human imagination of it. This ayah is the Qur'an's definitive statement on the scope of divine mercy.",
+          "ur": "وَسِعَتْ كُلَّ شَيْءٍ — 'ہر چیز کو محیط ہے'۔ اکثر چیزوں کو نہیں۔ صرف مومنوں کو نہیں۔ كُلَّ شَيْءٍ — ہر ایک چیز۔ اللہ کی رَحْمَة کسی بھی عقیدے سے، اس کے کسی بھی انسانی تصور سے وسیع تر ہے۔ یہ آیت الٰہی رحمت کے دائرے پر قرآن کا قطعی بیان ہے۔",
+          "hi": "وَسِعَتْ كُلَّ شَيْءٍ — 'हर चीज़ को घेरे हुए है'। अधिकांश चीज़ों को नहीं। केवल मोमिनों को नहीं। كُلَّ شَيْءٍ — हर एक चीज़। अल्लाह की رَحْمَة किसी भी धर्मशास्त्र से, उसकी किसी भी मानवीय कल्पना से विशाल है। यह आयत ईश्वरीय दया के दायरे पर क़ुरआन का निश्चित वक्तव्य है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does رَحْمَة mean?",
+            "ur": "رَحْمَة کا مطلب کیا ہے؟",
+            "hi": "رَحْمَة का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "mercy / compassion",
+                "ur": "رحمت / مہربانی",
+                "hi": "रहमत / दया"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "punishment",
+                "ur": "عذاب",
+                "hi": "अज़ाब"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "blessing",
+                "ur": "نعمت",
+                "hi": "नेमत"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "knowledge",
+                "ur": "علم",
+                "hi": "ज्ञान"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'My mercy' in this ayah:",
+            "ur": "اس آیت میں 'میری رحمت' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'मेरी रहमत' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "وَرَحْمَتِي",
+            "وَسِعَتْ",
+            "كُلَّ",
+            "شَيْءٍ"
+          ],
+          "correct_index": 0
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ — My mercy encompasses all things. Is there someone in your life — or even yourself — whom you have mentally placed outside the reach of Allah's رَحْمَة? How does this ayah challenge that?",
+          "ur": "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ — میری رحمت ہر چیز کو محیط ہے۔ کیا آپ کی زندگی میں کوئی شخص ہے — یا خود آپ بھی — جسے آپ نے ذہنی طور پر اللہ کی رَحْمَة کی پہنچ سے باہر رکھا ہے؟ یہ آیت اسے کیسے چیلنج کرتی ہے؟",
+          "hi": "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ — मेरी रहमत हर चीज़ को घेरे हुए है। क्या आपकी ज़िंदगी में कोई शख़्स है — या ख़ुद आप भी — जिसे आपने मानसिक रूप से अल्लाह की رَحْمَة की पहुँच से बाहर रखा है? यह आयत उसे कैसे चुनौती देती है?"
+        },
+        "journal_tag": "mercy_scope"
+      }
+    },
+    {
+      "id": "kalimaat-158",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 158,
+      "prerequisite": "kalimaat-157",
+      "unlocks": [
+        "kalimaat-159"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "عَبَدَ",
+        "display": "عَبَدَ",
+        "transliteration": "'abada",
+        "meaning": {
+          "en": "he worshipped / he served",
+          "ur": "اس نے عبادت کی / اس نے بندگی کی",
+          "hi": "उसने इबादत की / उसने बंदगी की"
+        },
+        "frequency_rank": 158,
+        "frequency_note": {
+          "en": "Appears 143 times — and the Qur'an declares the entire purpose of creation in one ayah using this verb. عِبَادَة (worship) and عَبْد (servant/slave) come from this root, the two most defining words of the human relationship to Allah.",
+          "ur": "۱۴۳ بار آیا ہے — اور قرآن اس فعل کا استعمال کرتے ہوئے ایک آیت میں تخلیق کا پورا مقصد بیان کرتا ہے۔ عِبَادَة (عبادت) اور عَبْد (بندہ/غلام) اسی جذر سے ہیں، اللہ کے ساتھ انسانی تعلق کے دو سب سے بنیادی الفاظ۔",
+          "hi": "१४३ बार आया है — और क़ुरआन इस क्रिया का उपयोग करते हुए एक आयत में सृष्टि का पूरा उद्देश्य बयान करता है। عِبَادَة (इबादत) और عَبْد (बंदा/गुलाम) इसी मूल से हैं, अल्लाह के साथ मानवीय संबंध के दो सबसे परिभाषित शब्द।"
+        }
+      },
+      "root": {
+        "letters": "ع ب د",
+        "note": {
+          "en": "Root A-B-D means to worship and to serve. عَبْد is a slave or servant. عِبَادَة is worship/servitude. عَابِد is a worshipper. The Qur'an's highest description of the Prophet ﷺ is simply عَبْدُهُ — His servant. Not his prophet, not his messenger — his servant.",
+          "ur": "جذر ع-ب-د عبادت کرنے اور خدمت کرنے کے معنی رکھتا ہے۔ عَبْد بندہ یا خادم ہے۔ عِبَادَة عبادت/بندگی ہے۔ عَابِد عبادت کرنے والا ہے۔ قرآن میں نبیﷺ کا سب سے اعلیٰ وصف صرف عَبْدُهُ — اس کا بندہ — ہے۔ اس کا نبی نہیں، اس کا رسول نہیں — اس کا بندہ۔",
+          "hi": "मूल ع-ب-د इबादत करने और सेवा करने के अर्थ रखता है। عَبْد बंदा या सेवक है। عِبَادَة इबादत/बंदगी है। عَابِد इबादत करने वाला है। क़ुरआन में नबी ﷺ का सबसे उच्च वर्णन केवल عَبْدُهُ — उसका बंदा — है। उसका नबी नहीं, उसका रसूल नहीं — उसका बंदा।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ",
+        "surah": "Surah Adh-Dhariyat 51:56",
+        "translation": {
+          "en": "And I did not create the jinn and mankind except to worship Me.",
+          "ur": "اور میں نے جنوں اور انسانوں کو صرف اس لیے پیدا کیا کہ وہ میری عبادت کریں۔",
+          "hi": "और मैंने जिन्नों और इंसानों को केवल इसलिए पैدा किया कि वे मेरी इबادत करें।"
+        },
+        "hook_explanation": {
+          "en": "لِيَعْبُدُونِ — 'to worship Me'. This is the Qur'an's single definitive answer to 'why do I exist?' Six words. No ambiguity. عَبَدَ is not just ritual worship — the scholars explain it as living your entire life in awareness of and alignment with Allah. Every act, when done with that awareness, becomes عِبَادَة.",
+          "ur": "لِيَعْبُدُونِ — 'تاکہ وہ میری عبادت کریں'۔ یہ 'میں کیوں موجود ہوں؟' کے سوال کا قرآن کا واحد قطعی جواب ہے۔ چھ الفاظ۔ کوئی ابہام نہیں۔ عَبَدَ صرف رسمی عبادت نہیں — علماء اسے اللہ کی آگاہی اور ہم آہنگی میں اپنی پوری زندگی گزارنے کے طور پر بیان کرتے ہیں۔ ہر عمل، جب اس آگاہی کے ساتھ کیا جائے، عِبَادَة بن جاتا ہے۔",
+          "hi": "لِيَعْبُدُونِ — 'ताकि वे मेरी इबादत करें'। यह 'मैं क्यों मौजूद हूँ?' के सवाल का क़ुरआन का एकमात्र निश्चित जवाब है। छह शब्द। कोई अस्पष्टता नहीं। عَبَدَ केवल रस्मी इबादत नहीं — उलमा इसे अल्लाह की जागरूकता और संरेखण में अपनी पूरी ज़िंदगी गुज़ारने के रूप में बयान करते हैं। हर कार्य, जब उस जागरूकता के साथ किया जाए, عِبَادَة बन जाता है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does عَبَدَ mean?",
+            "ur": "عَبَدَ کا مطلب کیا ہے؟",
+            "hi": "عَبَدَ का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "he worshipped / served",
+                "ur": "اس نے عبادت کی",
+                "hi": "उसने इबादत की"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "he believed",
+                "ur": "وہ ایمان لایا",
+                "hi": "वह ईमान लाया"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he prayed",
+                "ur": "اس نے نماز پڑھی",
+                "hi": "उसने नमाज़ पढ़ी"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "he obeyed",
+                "ur": "اس نے اطاعت کی",
+                "hi": "उसने आज्ञा मानी"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'to worship Me' in this ayah:",
+            "ur": "اس آیت میں 'میری عبادت کریں' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'मेरी इबादत करें' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "إِلَّا",
+            "لِيَعْبُدُونِ"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "مَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ — you were created for عِبَادَة. Beyond the five pillars, what activities in your daily life could become عِبَادَة if you approached them with consciousness of Allah? Name three specific ones.",
+          "ur": "مَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ — آپ عِبَادَة کے لیے پیدا کیے گئے ہیں۔ پانچ ارکان سے آگے، آپ کی روزمرہ زندگی کی کون سی سرگرمیاں عِبَادَة بن سکتی ہیں اگر آپ انہیں اللہ کی آگاہی کے ساتھ کریں؟ تین مخصوص چیزیں بتائیں۔",
+          "hi": "مَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ — आप عِبَادَة के लिए पैदा किए गए हैं। पाँच स्तंभों से आगे, आपकी रोज़मर्रा की ज़िंदगी की कौन सी गतिविधियाँ عِبَادَة बन सकती हैं अगर आप उन्हें अल्लाह की जागरूकता के साथ करें? तीन विशेष चीज़ें बताएँ।"
+        },
+        "journal_tag": "purpose_of_creation"
+      }
+    },
+    {
+      "id": "kalimaat-159",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 159,
+      "prerequisite": "kalimaat-158",
+      "unlocks": [
+        "kalimaat-160"
+      ],
+      "xp": 10,
+      "word": {
+        "arabic": "قَلْب",
+        "display": "قَلْب",
+        "transliteration": "qalb",
+        "meaning": {
+          "en": "heart",
+          "ur": "دل / قلب",
+          "hi": "दिल / क़ल्ब"
+        },
+        "frequency_rank": 159,
+        "frequency_note": {
+          "en": "Appears 132 times — the Qur'an's psychology centers on the قَلْب. It is the organ of faith, understanding, and spiritual sight. The Prophet ﷺ said: 'In the body there is a piece of flesh; if it is sound, the whole body is sound.'",
+          "ur": "۱۳۲ بار آیا ہے — قرآن کی نفسیات قَلْب کے گرد مرکوز ہے۔ یہ ایمان، فہم اور روحانی بصیرت کا عضو ہے۔ نبیﷺ نے فرمایا: 'جسم میں گوشت کا ایک ٹکڑا ہے؛ اگر وہ ٹھیک ہو تو پورا جسم ٹھیک ہے۔'",
+          "hi": "१३२ बार आया है — क़ुरआन की मनोविज्ञान قَلْب के इर्द-गिर्द केंद्रित है। यह ईमान, समझ और आध्यात्मिक दृष्टि का अंग है। नबी ﷺ ने फ़रमाया: 'शरीर में गोश्त का एक टुकड़ा है; अगर वह ठीक हो तो पूरा शरीर ठीक है।'"
+        }
+      },
+      "root": {
+        "letters": "ق ل ب",
+        "note": {
+          "en": "Root Q-L-B means to turn, to flip, to transform. قَلْب (heart) is named for its constant turning — it is the organ that can turn toward Allah or away. تَقَلَّبَ means to turn repeatedly. قَلَبَ means to overturn. The heart's nature is movement — it was never meant to be still.",
+          "ur": "جذر ق-ل-ب پلٹنے، اُلٹنے اور تبدیل کرنے کے معنی رکھتا ہے۔ قَلْب (دل) اپنے مسلسل پلٹتے رہنے کی وجہ سے یہ نام رکھتا ہے — یہ وہ عضو ہے جو اللہ کی طرف یا اس سے دور مڑ سکتا ہے۔ تَقَلَّبَ یعنی بار بار مڑنا۔ قَلَبَ یعنی اُلٹنا۔ دل کی فطرت حرکت ہے — یہ کبھی ساکت رہنے کے لیے بنا ہی نہیں۔",
+          "hi": "मूल ق-ل-ب पलटने, उल्टने और बदलने के अर्थ रखता है। قَلْب (दिल) अपने निरंतर पलटते रहने के कारण यह नाम रखता है — यह वह अंग है जो अल्लाह की ओर या उससे दूर मुड़ सकता है। تَقَلَّبَ यानी बार-बार मुड़ना। قَلَبَ यानी उलटना। दिल की प्रकृति गति है — यह कभी स्थिर रहने के लिए बना ही नहीं।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "يَوْمَ لَا يَنفَعُ مَالٌ وَلَا بَنُونَ إِلَّا مَنْ أَتَى اللَّهَ بِقَلْبٍ سَلِيمٍ",
+        "surah": "Surah Ash-Shu'ara 26:88-89",
+        "translation": {
+          "en": "The Day when neither wealth nor children will benefit — except one who comes to Allah with a sound heart.",
+          "ur": "وہ دن جب نہ مال کام آئے گا نہ اولاد — سوائے اس کے جو اللہ کے پاس سلیم دل لے کر آئے۔",
+          "hi": "वह दिन जब न माल काम आएगा न औलाद — सिवाय उसके जो अल्लाह के पास سلीم दिल लेकर आए।"
+        },
+        "hook_explanation": {
+          "en": "بِقَلْبٍ سَلِيمٍ — 'with a sound heart.' On the Day of Judgment, the currency is not deeds listed, not wealth stacked, not lineage traced — it is the state of the قَلْب. سَلِيم means whole, free from disease, free from deceit. The entire project of Islamic spirituality is making the قَلْب سَلِيم.",
+          "ur": "بِقَلْبٍ سَلِيمٍ — 'سلیم دل کے ساتھ'۔ قیامت کے دن کرنسی گنے ہوئے اعمال نہیں، جمع کی ہوئی دولت نہیں، نسب نہیں — یہ قَلْب کی حالت ہے۔ سَلِيم یعنی سالم، بیماری سے پاک، دھوکے سے پاک۔ اسلامی روحانیت کا پورا منصوبہ قَلْب کو سَلِيم بنانا ہے۔",
+          "hi": "بِقَلْبٍ سَلِيمٍ — 'सलीम दिल के साथ'। क़यामत के दिन मुद्रा गिने हुए आमाल नहीं, जमा की हुई दौलत नहीं, नसब नहीं — यह قَلْب की हालत है। سَلِيم यानी साबुत, बीमारी से पाक, धोखे से पाक। इस्लामी आध्यात्मिकता का पूरा प्रोजेक्ट قَلْب को سَلِيم बनाना है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does قَلْب mean?",
+            "ur": "قَلْب کا مطلب کیا ہے؟",
+            "hi": "قَلْب का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "heart",
+                "ur": "دل / قلب",
+                "hi": "दिल / क़ल्ब"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "mind",
+                "ur": "ذہن",
+                "hi": "मन / दिमाग़"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "soul",
+                "ur": "روح",
+                "hi": "रूह / आत्मा"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "chest",
+                "ur": "سینہ",
+                "hi": "सीना"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'with a sound heart' in this ayah:",
+            "ur": "اس آیت میں 'سلیم دل کے ساتھ' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'सलीम दिल के साथ' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "إِلَّا",
+            "مَنْ",
+            "أَتَى",
+            "اللَّهَ",
+            "بِقَلْبٍ",
+            "سَلِيمٍ"
+          ],
+          "correct_index": 4
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "The root of قَلْب means 'to turn' — the heart is always turning. What is your قَلْب turning toward most these days? Is it turning toward Allah or is something else claiming its attention? What is one daily practice you can add to keep your قَلْب turned in the right direction?",
+          "ur": "قَلْب کا جذر 'مڑنے' کے معنی رکھتا ہے — دل ہمیشہ مڑتا رہتا ہے۔ ان دنوں آپ کا قَلْب سب سے زیادہ کس طرف مڑ رہا ہے؟ کیا یہ اللہ کی طرف مڑ رہا ہے یا کوئی اور چیز اس کی توجہ پر قبضہ کر رہی ہے؟ ایک روزانہ کی مشق کیا ہے جو آپ اپنے قَلْب کو صحیح سمت میں رکھنے کے لیے شامل کر سکتے ہیں؟",
+          "hi": "قَلْب की मूल 'मुड़ने' के अर्थ रखती है — दिल हमेशा मुड़ता रहता है। इन दिनों आपका قَلْب सबसे ज़्यादा किस ओर मुड़ रहा है? क्या यह अल्लाह की ओर मुड़ रहा है या कोई और चीज़ उसका ध्यान क़ब्ज़ा कर रही है? एक रोज़ाना की आदत क्या है जो आप अपने قَلْب को सही दिशा में रखने के लिए जोड़ सकते हैं?"
+        },
+        "journal_tag": "heart_direction"
+      }
+    },
+    {
+      "id": "kalimaat-160",
+      "type": "kalimaat",
+      "track": "kalimaat",
+      "order": 160,
+      "prerequisite": "kalimaat-159",
+      "unlocks": [],
+      "xp": 10,
+      "word": {
+        "arabic": "صَلَاة",
+        "display": "صَلَاة",
+        "transliteration": "ṣalāh",
+        "meaning": {
+          "en": "prayer / connection",
+          "ur": "نماز / صلوٰۃ / دعا",
+          "hi": "नमाज़ / सलात / दुआ"
+        },
+        "frequency_rank": 160,
+        "frequency_note": {
+          "en": "Appears 83 times — and is the second pillar of Islam, the first act every Muslim will be asked about on the Day of Judgment. The Qur'an commands صَلَاة more than almost any other single act.",
+          "ur": "۸۳ بار آیا ہے — اور یہ اسلام کا دوسرا رکن ہے، پہلا عمل جس کے بارے میں ہر مسلمان سے قیامت کے دن پوچھا جائے گا۔ قرآن تقریباً کسی بھی دوسرے واحد عمل سے زیادہ صَلَاة کا حکم دیتا ہے۔",
+          "hi": "८३ बार आया है — और यह इस्लाम का दूसरा स्तंभ है, पहला कार्य जिसके बारे में हर मुसलमान से क़यामत के दिन पूछा जाएगा। क़ुरआन लगभग किसी भी दूसरे एकल कार्य से अधिक صَلَاة का आदेश देता है।"
+        }
+      },
+      "root": {
+        "letters": "ص ل و",
+        "note": {
+          "en": "Root S-L-W means to connect and to pray. صَلَّى means he prayed or he sent blessings. When we say اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ, we use this same root — the prayer upon the Prophet ﷺ and the prayer to Allah are linguistically one act of connection.",
+          "ur": "جذر ص-ل-و جوڑنے اور نماز پڑھنے کے معنی رکھتا ہے۔ صَلَّى یعنی اس نے نماز پڑھی یا اس نے درود بھیجا۔ جب ہم اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ کہتے ہیں، ہم اسی جذر کا استعمال کرتے ہیں — نبیﷺ پر درود اور اللہ سے نماز لسانی طور پر ایک ہی جوڑنے کا عمل ہے۔",
+          "hi": "मूल ص-ل-و जोड़ने और नमाज़ पढ़ने के अर्थ रखता है। صَلَّى यानी उसने नमाज़ पढ़ी या उसने दरूद भेजा। जब हम اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ कहते हैं, हम इसी मूल का उपयोग करते हैं — नबी ﷺ पर दरूद और अल्लाह से नमाज़ भाषाई रूप से एक ही जोड़ने की क्रिया है।"
+        }
+      },
+      "quranic_hook": {
+        "ayah": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
+        "surah": "Surah An-Nisa 4:103",
+        "translation": {
+          "en": "Indeed, prayer has been decreed upon the believers as a obligation at specified times.",
+          "ur": "بیشک نماز مومنوں پر مقررہ اوقات میں فرض ہے۔",
+          "hi": "बेशक नमाज़ मोमिनों पर निर्धारित समयों में फ़र्ज़ की गई है।"
+        },
+        "hook_explanation": {
+          "en": "كِتَابًا مَّوْقُوتًا — 'a timed obligation'. صَلَاة is not just recommended — it is كِتَاب (written, prescribed) and مَوْقُوت (timed). The timing is intentional: five daily anchors that pull your قَلْب back to Allah no matter what the day holds. Each صَلَاة is a reset of the heart.",
+          "ur": "كِتَابًا مَّوْقُوتًا — 'وقت پر مقرر فرض'۔ صَلَاة صرف مستحب نہیں — یہ كِتَاب (لکھی ہوئی، مقرر) اور مَوْقُوت (وقت پر) ہے۔ وقت کا تعین جان بوجھ کر ہے: پانچ روزانہ لنگر جو آپ کے قَلْب کو اللہ کی طرف کھینچتے ہیں چاہے دن میں کچھ بھی ہو۔ ہر صَلَاة دل کی ری سیٹ ہے۔",
+          "hi": "كِتَابًا مَّوْقُوتًا — 'समय पर निर्धारित फ़र्ज़'। صَلَاة केवल मुस्तहब नहीं — यह كِتَاب (लिखा हुआ, निर्धारित) और مَوْقُوت (समयबद्ध) है। समय का निर्धारण जान-बूझकर है: पाँच रोज़ाना लंगर जो आपके قَلْب को अल्लाह की ओर खींचते हैं चाहे दिन में कुछ भी हो। हर صَلَاة दिल की रि-सेट है।"
+        }
+      },
+      "exercises": [
+        {
+          "type": "mcq_meaning",
+          "prompt": {
+            "en": "What does صَلَاة mean?",
+            "ur": "صَلَاة کا مطلب کیا ہے؟",
+            "hi": "صَلَاة का अर्थ क्या है?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "prayer / connection",
+                "ur": "نماز / تعلق",
+                "hi": "नमाज़ / संपर्क"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "fasting",
+                "ur": "روزہ",
+                "hi": "रोज़ा"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "charity",
+                "ur": "صدقہ",
+                "hi": "सदक़ा"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "pilgrimage",
+                "ur": "حج",
+                "hi": "हज"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "spot_in_ayah",
+          "prompt": {
+            "en": "Tap the word that means 'the prayer' in this ayah:",
+            "ur": "اس آیت میں 'نماز' کا لفظ چھوئیں:",
+            "hi": "इस आयत में 'नमाज़' वाले शब्द को छुएं:"
+          },
+          "ayah_words": [
+            "إِنَّ",
+            "الصَّلَاةَ",
+            "كَانَتْ",
+            "عَلَى",
+            "الْمُؤْمِنِينَ"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "reflection": {
+        "prompt": {
+          "en": "صَلَاة is كِتَابًا مَّوْقُوتًا — a timed obligation. The timing is a mercy: five built-in returns to Allah throughout the day. Honestly, which of your five daily prayers is most likely to be rushed, delayed, or missed? What is one concrete step you can take to protect that prayer?",
+          "ur": "صَلَاة كِتَابًا مَّوْقُوتًا ہے — وقت پر مقرر فرض۔ وقت ایک رحمت ہے: دن بھر میں اللہ کی طرف پانچ بنے بنائے لوٹنے کے مواقع۔ ایمانداری سے، آپ کی پانچ نمازوں میں سے کون سی جلدی میں پڑھی جانے، دیر سے پڑھی جانے یا چھوٹ جانے کا سب سے زیادہ امکان ہے؟ آپ اس نماز کی حفاظت کے لیے کیا ایک ٹھوس قدم اٹھا سکتے ہیں؟",
+          "hi": "صَلَاة كِتَابًا مَّوْقُوتًا है — समय पर निर्धारित फ़र्ज़। समय एक रहमत है: दिन भर में अल्लाह की ओर पाँच बने-बनाए वापसी के अवसर। ईमानदारी से, आपकी पाँच नमाज़ों में से कौन सी जल्दी में पढ़ी जाने, देर से पढ़ी जाने या छूट जाने की सबसे ज़्यादा संभावना है? आप उस नमाज़ की हिफ़ाज़त के लिए क्या एक ठोस क़दम उठा सकते हैं?"
+        },
+        "journal_tag": "salah_commitment"
+      }
+    }
+  ]
+}

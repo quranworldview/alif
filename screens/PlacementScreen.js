@@ -163,6 +163,7 @@ const TOTAL = ALL_QUESTIONS.length; // 12
 let state = {
   current: 0,
   answered: false,
+  started: false,           // true once first answer given
   huroof: { correct: 0 },
   kalimaat: { correct: 0, firstWrongLessonId: null },
 };
@@ -171,9 +172,15 @@ function resetState() {
   state = {
     current: 0,
     answered: false,
+    started: false,
     huroof: { correct: 0 },
     kalimaat: { correct: 0, firstWrongLessonId: null },
   };
+}
+
+// Exposed so app.js can guard navigation during an active quiz
+export function isQuizInProgress() {
+  return state.started && state.current < TOTAL;
 }
 
 // ─────────────────────────────────────────────
@@ -186,7 +193,7 @@ export function renderPlacement(lang) {
     <div id="placement-screen" class="screen active" style="display:flex; flex-direction:column; min-height:100vh; background:var(--bg-primary);">
 
       <div style="padding:16px 20px 12px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:14px;">
-        <button class="icon-btn" onclick="showScreen('welcome')" style="flex-shrink:0;">←</button>
+        <button class="icon-btn" onclick="exitPlacementQuiz()" style="flex-shrink:0;">←</button>
         <div style="flex:1;">
           <div style="font-size:0.6875em; font-weight:600; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:5px;" id="placement-step-label">
             ${_stepLabel(0, lang)}
@@ -280,6 +287,7 @@ function _renderQuestion(idx, lang) {
 export function handlePlacementAnswer(btn, isCorrect) {
   if (state.answered) return;
   state.answered = true;
+  state.started  = true;    // quiz is now in progress
 
   const correct = isCorrect === true || isCorrect === 'true';
   const q = ALL_QUESTIONS[state.current];
